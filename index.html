@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vestibular UDESC — plano de estudos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* Paleta calma: bege claro + verde-sálvia como cor principal.
+     Cada matéria tem um tom dessaturado só pra diferenciar visualmente. */
+  :root{
+    --tinta:#33362E;
+    --tinta-suave:#7A7D71;
+    --fundo:#F6F4EC;
+    --fundo-2:#EDEAE0;
+    --borda:#DEDACB;
+    --destaque:#5B8A72;
+    --destaque-escuro:#466E5A;
+    --alerta:#B5563C;
+    --branco:#FFFFFF;
+    --cor-pausa:#B3AF9D;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--fundo);
+    color:var(--tinta);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .conteudo{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
+
+  /* ---------- Cabeçalho ---------- */
+  header.topo{
+    display:flex;justify-content:space-between;align-items:center;
+    border-bottom:1px solid var(--borda);
+    padding-bottom:16px;margin-bottom:20px;flex-wrap:wrap;gap:10px;
+  }
+  header.topo h1{
+    font-family:'Inter',sans-serif;font-weight:700;font-size:22px;margin:0;
+    letter-spacing:-0.01em;
+  }
+  .data-prova{
+    text-align:right;font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--tinta-suave);
+  }
+
+  /* ---------- Abas ---------- */
+  nav.abas{display:flex;gap:6px;margin-bottom:22px;flex-wrap:wrap;}
+  nav.abas button{
+    font-family:'Inter',sans-serif;font-weight:600;font-size:13.5px;
+    padding:9px 16px;border-radius:100px;border:1.5px solid var(--tinta);
+    background:transparent;color:var(--tinta);cursor:pointer;
+    transition:all .15s ease;
+  }
+  nav.abas button.ativa{background:var(--tinta);color:var(--fundo);}
+  nav.abas button:not(.ativa):hover{background:var(--fundo-2);}
+
+  section.painel{display:none;}
+  section.painel.ativo{display:block;animation:aparecer .25s ease;}
+  @keyframes aparecer{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
+
+  .cartao{
+    background:var(--branco);border:1px solid var(--borda);border-radius:10px;
+    padding:22px;margin-bottom:18px;
+  }
+  .cartao h2{font-family:'Inter',sans-serif;font-size:16px;font-weight:700;margin:0 0 4px;}
+  .cartao .legenda-topo{font-size:13px;color:var(--tinta-suave);margin-bottom:16px;}
+
+  /* ---------- Aba: Sessão ---------- */
+  .layout-relogio{display:grid;grid-template-columns:260px 1fr;gap:24px;}
+  @media (max-width:640px){.layout-relogio{grid-template-columns:1fr;}}
+
+  .caixa-relogio{display:flex;flex-direction:column;align-items:center;gap:14px;}
+  .relogio{position:relative;width:230px;height:230px;}
+  .relogio.piscar{animation:pulsar 0.6s ease 3;}
+  @keyframes pulsar{0%,100%{transform:scale(1);}50%{transform:scale(1.06);}}
+  .relogio svg{transform:rotate(-90deg);}
+  .relogio-centro{
+    position:absolute;inset:0;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;text-align:center;
+  }
+  .relogio-tempo{font-family:'IBM Plex Mono',monospace;font-size:38px;font-weight:600;}
+  .relogio-rotulo{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--tinta-suave);margin-top:2px;font-weight:600;}
+  .controles-relogio{display:flex;gap:8px;}
+  .botao{
+    font-family:'Inter',sans-serif;font-weight:600;font-size:13.5px;
+    padding:10px 18px;border-radius:9px;border:none;cursor:pointer;
+    transition:transform .1s ease, opacity .15s ease;
+  }
+  .botao:active{transform:scale(.96);}
+  .botao-principal{background:var(--destaque);color:var(--branco);}
+  .botao-principal:hover{background:var(--destaque-escuro);}
+  .botao-discreto{background:transparent;color:var(--tinta);border:1.5px solid var(--tinta);}
+  .botao-discreto:hover{background:var(--fundo-2);}
+  .botao-pequeno{padding:6px 12px;font-size:12.5px;border-radius:7px;}
+  .botao:disabled{opacity:.4;cursor:not-allowed;}
+
+  .plano-do-dia{display:flex;flex-direction:column;gap:10px;}
+  .navegacao-dia{display:flex;gap:6px;flex-wrap:wrap;align-items:center;}
+  .navegacao-dia input[type=date]{
+    font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:7px 9px;border-radius:7px;
+    border:1px solid var(--borda);background:var(--branco);color:var(--tinta);
+  }
+  .rotulo-dia{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;
+    letter-spacing:.1em;color:var(--tinta-suave);font-weight:600;
+  }
+  .lista-blocos{display:flex;flex-direction:column;gap:6px;margin-top:8px;}
+  .linha-bloco{
+    display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:9px;
+    border:1px solid var(--borda);font-size:13.5px;
+  }
+  .linha-bloco.concluido{opacity:.45;text-decoration:line-through;}
+  .linha-bloco.atual{border-color:var(--tinta);background:var(--fundo-2);font-weight:600;}
+  .marcador{width:10px;height:10px;border-radius:3px;flex:none;}
+  .linha-bloco .minutos{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--tinta-suave);}
+
+  .caixa-recuperacao{
+    margin-top:14px;padding:14px;border-radius:10px;background:var(--fundo-2);
+    border:1px dashed var(--tinta);font-size:13.5px;
+  }
+  .caixa-recuperacao textarea{
+    width:100%;margin-top:8px;border:1px solid var(--borda);border-radius:8px;
+    padding:9px;font-family:'Inter',sans-serif;font-size:13.5px;resize:vertical;min-height:60px;
+    background:var(--branco);
+  }
+
+  /* ---------- Aba: Cronograma ---------- */
+  .navegacao-semana{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap;}
+  .rotulo-semana{font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;}
+  .grade-dias{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
+  @media (max-width:640px){.grade-dias{grid-template-columns:1fr;}}
+  .cartao-dia{border:1px solid var(--borda);border-radius:10px;padding:12px;background:var(--fundo-2);}
+  .cartao-dia.hoje{border-color:var(--tinta);border-width:2px;}
+  .cartao-dia.selecionado{outline:2px solid var(--destaque);outline-offset:1px;}
+  .cartao-dia .nome-dia{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--tinta);}
+  .etiqueta-materia{
+    display:flex;align-items:center;gap:6px;margin-top:8px;padding:7px 9px;
+    border-radius:8px;font-size:12.5px;font-weight:600;color:var(--branco);
+  }
+  .legenda-materias{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;font-size:12.5px;}
+  .legenda-materias span{display:flex;align-items:center;gap:6px;}
+
+  /* ---------- Aba: Revisões ---------- */
+  .item-revisao{
+    display:flex;align-items:center;gap:12px;padding:11px 14px;border:1px solid var(--borda);
+    border-radius:10px;margin-bottom:8px;background:var(--branco);
+  }
+  .item-revisao.pendente{border-color:var(--alerta);background:#FBF1EF;}
+  .item-revisao .info-topico{flex:1;}
+  .item-revisao .nome-topico{font-weight:600;font-size:14px;}
+  .item-revisao .detalhe{font-size:12px;color:var(--tinta-suave);margin-top:2px;}
+  .pontos-estagio{display:flex;gap:4px;}
+  .pontos-estagio span{width:7px;height:7px;border-radius:50%;background:var(--borda);}
+  .pontos-estagio span.preenchido{background:var(--destaque);}
+  .form-topico{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;}
+  .form-topico select, .form-topico input{
+    font-family:'Inter',sans-serif;font-size:13.5px;padding:9px 10px;border-radius:8px;
+    border:1px solid var(--borda);background:var(--branco);
+  }
+  .form-topico input[type=text]{flex:1;min-width:160px;}
+  .estado-vazio{font-size:13.5px;color:var(--tinta-suave);text-align:center;padding:20px 0;}
+
+  /* ---------- Aba: Progresso ---------- */
+  .linha-estatisticas{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px;}
+  @media (max-width:640px){.linha-estatisticas{grid-template-columns:1fr 1fr;}}
+  .caixa-estatistica{border:1px solid var(--borda);border-radius:11px;padding:14px;background:var(--fundo);}
+  .caixa-estatistica .numero{font-family:'Inter',sans-serif;font-size:24px;font-weight:700;}
+  .caixa-estatistica .descricao{font-size:12px;color:var(--tinta-suave);margin-top:2px;}
+  .linha-barra{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+  .linha-barra .nome-materia{width:150px;font-size:13px;font-weight:600;flex:none;}
+  .trilho-barra{flex:1;height:12px;background:var(--fundo-2);border-radius:6px;overflow:hidden;}
+  .preenchimento-barra{height:100%;border-radius:6px;transition:width .3s ease;}
+  .linha-barra .valor-barra{width:70px;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--tinta-suave);}
+
+  /* ---------- Avisos no canto da tela ---------- */
+  #avisos-container{
+    position:fixed;top:20px;right:20px;z-index:999;display:flex;flex-direction:column;gap:10px;
+    pointer-events:none;
+  }
+  .aviso{
+    pointer-events:auto;
+    width:280px;background:var(--tinta);color:var(--fundo);border-radius:10px;
+    padding:14px 16px;box-shadow:0 4px 16px rgba(0,0,0,0.15);
+    font-family:'Inter',sans-serif;
+    animation:entrarAviso .25s ease;
+    border-left:4px solid var(--cor-pausa);
+  }
+  .aviso.estudo{border-left-color:var(--destaque);}
+  .aviso.concluido{border-left-color:var(--alerta);}
+  @keyframes entrarAviso{from{opacity:0;transform:translateX(20px);}to{opacity:1;transform:none;}}
+  .aviso .aviso-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;opacity:.7;}
+  .aviso .aviso-titulo{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;margin-top:2px;}
+  .aviso .aviso-texto{font-size:12.5px;opacity:.85;margin-top:3px;}
+</style>
+</head>
+<body>
+<div id="avisos-container"></div>
+<div class="conteudo">
+
+  <header class="topo">
+    <h1>Vestibular UDESC</h1>
+    <div class="data-prova">Prova em 29/11</div>
+  </header>
+
+  <nav class="abas">
+    <button data-aba="sessao" class="ativa">Sessão de hoje</button>
+    <button data-aba="cronograma">Cronograma</button>
+    <button data-aba="revisoes">Revisões</button>
+    <button data-aba="progresso">Progresso</button>
+  </nav>
+
+  <!-- ABA: SESSÃO DE HOJE -->
+  <section class="painel ativo" id="painel-sessao">
+    <div class="cartao">
+      <h2>Sessão de estudo</h2>
+      <div class="legenda-topo">4 blocos de 25 min (Pomodoro), com pausas — 2h no total, duas matérias por dia.</div>
+      <div class="layout-relogio">
+        <div class="caixa-relogio">
+          <div class="relogio">
+            <svg width="230" height="230" viewBox="0 0 230 230">
+              <circle cx="115" cy="115" r="100" fill="none" stroke="#DEDACB" stroke-width="14"/>
+              <circle id="progressoRelogio" cx="115" cy="115" r="100" fill="none" stroke="#5B8A72" stroke-width="14"
+                stroke-linecap="round" stroke-dasharray="628.3" stroke-dashoffset="628.3"/>
+            </svg>
+            <div class="relogio-centro">
+              <div class="relogio-tempo" id="relogioTempo">25:00</div>
+              <div class="relogio-rotulo" id="relogioRotulo">bloco 1 de 7</div>
+            </div>
+          </div>
+          <div class="controles-relogio">
+            <button class="botao botao-principal" id="btnIniciarPausar">Iniciar</button>
+            <button class="botao botao-discreto" id="btnPular">Pular</button>
+            <button class="botao botao-discreto" id="btnReiniciar">Reiniciar</button>
+          </div>
+        </div>
+        <div class="plano-do-dia">
+          <div class="navegacao-dia">
+            <button class="botao botao-discreto botao-pequeno" id="btnDiaAnterior">← Dia anterior</button>
+            <button class="botao botao-discreto botao-pequeno" id="btnHoje">Hoje</button>
+            <button class="botao botao-discreto botao-pequeno" id="btnProximoDia">Próximo dia →</button>
+            <input type="date" id="seletorData">
+          </div>
+          <div class="rotulo-dia" id="rotuloDia">Carregando…</div>
+          <div class="lista-blocos" id="listaBlocos"></div>
+          <div class="caixa-recuperacao" id="caixaRecuperacao" style="display:none;">
+            <strong>Recuperação ativa</strong> — sem consultar o material, escreva de cabeça o que você lembra do que estudou hoje.
+            <textarea id="textoRecuperacao" placeholder="O que eu lembro sobre..."></textarea>
+            <div style="margin-top:8px;display:flex;gap:8px;">
+              <button class="botao botao-principal botao-pequeno" id="btnConcluirDia">Concluir o dia e avançar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABA: CRONOGRAMA -->
+  <section class="painel" id="painel-cronograma">
+    <div class="cartao">
+      <h2>Cronograma até o vestibular</h2>
+      <div class="legenda-topo">Matemática, Biologia, Português, Física e Química se revezam em pares — todas pesam igual na prova (14 questões cada). Redação entra uma vez por semana. Clique num dia para abrir a sessão dele.</div>
+      <div class="navegacao-semana">
+        <button class="botao botao-discreto botao-pequeno" id="btnSemanaAnterior">← Semana anterior</button>
+        <span id="rotuloSemana" class="rotulo-semana"></span>
+        <button class="botao botao-discreto botao-pequeno" id="btnSemanaSeguinte">Semana seguinte →</button>
+      </div>
+      <div class="grade-dias" id="gradeDias"></div>
+      <div class="legenda-materias" id="legendaMaterias"></div>
+      <div style="margin-top:16px;">
+        <button class="botao botao-discreto botao-pequeno" id="btnRedistribuir">Redistribuir matérias</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABA: REVISÕES -->
+  <section class="painel" id="painel-revisoes">
+    <div class="cartao">
+      <h2>Fila de revisão espaçada</h2>
+      <div class="legenda-topo">Cada tópico volta em 1, 3, 7 e 30 dias depois de estudado. Registre o que você estudou hoje para entrar na fila.</div>
+      <div class="form-topico">
+        <select id="selecaoMateria"></select>
+        <input type="text" id="nomeTopico" placeholder="Nome do tópico (ex: Funções do 2º grau)">
+        <button class="botao botao-principal botao-pequeno" id="btnAdicionarTopico">Adicionar</button>
+      </div>
+    </div>
+    <div class="cartao">
+      <h2>Revisar hoje</h2>
+      <div id="listaRevisarHoje"></div>
+    </div>
+    <div class="cartao">
+      <h2>Próximas revisões</h2>
+      <div id="listaProximasRevisoes"></div>
+    </div>
+  </section>
+
+  <!-- ABA: PROGRESSO -->
+  <section class="painel" id="painel-progresso">
+    <div class="cartao">
+      <div class="linha-estatisticas">
+        <div class="caixa-estatistica"><div class="numero" id="statDias">0</div><div class="descricao">dias de estudo concluídos</div></div>
+        <div class="caixa-estatistica"><div class="numero" id="statHoras">0h</div><div class="descricao">tempo total estudado</div></div>
+        <div class="caixa-estatistica"><div class="numero" id="statTopicos">0</div><div class="descricao">tópicos na fila de revisão</div></div>
+      </div>
+      <h2>Blocos concluídos por matéria</h2>
+      <div id="barrasProgresso"></div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(function(){
+
+  // =========================================================
+  // DADOS FIXOS: matérias, dias da semana e data do vestibular
+  // =========================================================
+  const MATERIAS = [
+    {id:'mat', nome:'Matemática', cor:'#5C7FA6'},
+    {id:'bio', nome:'Biologia', cor:'#5B8C6E'},
+    {id:'por', nome:'Português e Literatura', cor:'#6B5B8E'},
+    {id:'fis', nome:'Física', cor:'#4C8C87'},
+    {id:'qui', nome:'Química', cor:'#9C7A4A'},
+    {id:'red', nome:'Redação', cor:'#8A8574'},
+  ];
+  const materiaPorId = Object.fromEntries(MATERIAS.map(m=>[m.id,m]));
+  const NOMES_DIAS = ['Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira'];
+  const DATA_VESTIBULAR = '2026-11-29';
+  const INTERVALOS_REVISAO = [1,3,7,30]; // dias após o estudo: 1º, 2º, 3º e 4º ciclo de revisão
+  const CHAVE_ARMAZENAMENTO = 'vestibular-udesc-dados';
+
+  // =========================================================
+  // FUNÇÕES DE DATA — todo o cronograma trabalha com strings
+  // no formato "AAAA-MM-DD" pra facilitar comparação e salvamento
+  // =========================================================
+  function hojeISO(){ return new Date().toISOString().slice(0,10); }
+
+  function somarDias(dataISO, quantidade){
+    const data = new Date(dataISO+'T00:00:00');
+    data.setDate(data.getDate()+quantidade);
+    return data.toISOString().slice(0,10);
+  }
+
+  function nomeDiaSemana(dataISO){
+    return NOMES_DIAS[new Date(dataISO+'T00:00:00').getDay()-1];
+  }
+
+  function formatarData(dataISO){
+    const [, mes, dia] = dataISO.split('-');
+    return dia+'/'+mes;
+  }
+
+  // retorna a segunda-feira da semana em que a data cai — usado pra
+  // agrupar os dias do cronograma em semanas de verdade
+  function chaveDaSemana(dataISO){
+    const data = new Date(dataISO+'T00:00:00');
+    const deslocamento = (data.getDay()+6)%7; // segunda-feira = 0
+    data.setDate(data.getDate()-deslocamento);
+    return data.toISOString().slice(0,10);
+  }
+
+  // lista todos os dias úteis (segunda a sexta) entre duas datas, incluindo as pontas
+  function diasUteisEntre(dataInicial, dataFinal){
+    const dias = [];
+    let atual = new Date(dataInicial+'T00:00:00');
+    const fim = new Date(dataFinal+'T00:00:00');
+    while(atual <= fim){
+      const diaSemana = atual.getDay();
+      if(diaSemana >= 1 && diaSemana <= 5) dias.push(atual.toISOString().slice(0,10));
+      atual.setDate(atual.getDate()+1);
+    }
+    return dias;
+  }
+
+  // garante que uma data escolhida (ex: pelo seletor de data) caia dentro
+  // do cronograma — se cair num fim de semana ou fora do intervalo,
+  // avança pro próximo dia útil válido mais próximo
+  function ajustarParaDiaValido(dataISO, diasValidos){
+    if(!diasValidos || diasValidos.length===0) return dataISO;
+    if(diasValidos.includes(dataISO)) return dataISO;
+    for(const dia of diasValidos){ if(dia >= dataISO) return dia; }
+    return diasValidos[diasValidos.length-1];
+  }
+
+  function embaralhar(lista){
+    const copia = lista.slice();
+    for(let i=copia.length-1; i>0; i--){
+      const j = Math.floor(Math.random()*(i+1));
+      [copia[i],copia[j]] = [copia[j],copia[i]];
+    }
+    return copia;
+  }
+
+  // =========================================================
+  // MONTAGEM DO CRONOGRAMA
+  // Distribui as matérias pelos dias úteis até o vestibular:
+  // Matemática, Biologia, Português, Física e Química dividem
+  // a maior parte das vagas igualmente; Redação entra ~1x por semana.
+  // =========================================================
+  function montarCronograma(dias){
+    const totalDias = dias.length;
+    if(totalDias===0) return {};
+
+    const vagas = totalDias*2; // 2 matérias por dia
+    const vagasRedacao = Math.max(1, Math.round(totalDias/5));
+    const vagasRestantes = vagas - vagasRedacao;
+    const idsPrincipais = ['mat','bio','por','fis','qui'];
+    const vagasPorMateria = Math.floor(vagasRestantes/idsPrincipais.length);
+    let sobra = vagasRestantes - vagasPorMateria*idsPrincipais.length;
+
+    const quantidades = {mat:vagasPorMateria, bio:vagasPorMateria, por:vagasPorMateria, fis:vagasPorMateria, qui:vagasPorMateria, red:vagasRedacao};
+    for(let i=0; i<sobra; i++) quantidades[idsPrincipais[i%idsPrincipais.length]]++;
+
+    let vagasEmbaralhadas = [];
+    Object.entries(quantidades).forEach(([id,qtd])=>{
+      for(let i=0; i<qtd; i++) vagasEmbaralhadas.push(id);
+    });
+    vagasEmbaralhadas = embaralhar(vagasEmbaralhadas);
+    while(vagasEmbaralhadas.length < vagas) vagasEmbaralhadas.push('red');
+    vagasEmbaralhadas = vagasEmbaralhadas.slice(0, vagas);
+
+    const metade = vagas/2;
+    const cronograma = {};
+    dias.forEach((dia,i)=>{ cronograma[dia] = [vagasEmbaralhadas[i], vagasEmbaralhadas[metade+i]]; });
+
+    // corrige o caso raro de a mesma matéria cair duas vezes no mesmo dia,
+    // trocando com outro dia que não tenha conflito
+    dias.forEach((dia,i)=>{
+      if(cronograma[dia][0] === cronograma[dia][1]){
+        for(let j=0; j<dias.length; j++){
+          if(j===i) continue;
+          const outroDia = dias[j];
+          if(cronograma[outroDia][0]!==cronograma[dia][0] && cronograma[outroDia][1]!==cronograma[dia][0]){
+            const temp = cronograma[dia][1];
+            cronograma[dia][1] = cronograma[outroDia][0];
+            cronograma[outroDia][0] = temp;
+            if(cronograma[dia][0]!==cronograma[dia][1]) break;
+          }
+        }
+      }
+    });
+
+    return cronograma;
+  }
+
+  // monta a sequência de blocos Pomodoro do dia: 25min estudo, 5min pausa,
+  // 25min estudo, 10min pausa longa, 25min estudo, 5min pausa, 25min estudo
+  // (total: 120 minutos = 2h)
+  function obterBlocosDoDia(materiasDoDia){
+    const [materiaA, materiaB] = materiasDoDia;
+    return [
+      {tipo:'estudo', materia:materiaA, minutos:25},
+      {tipo:'pausa', rotulo:'Pausa curta', minutos:5},
+      {tipo:'estudo', materia:materiaA, minutos:25},
+      {tipo:'pausa', rotulo:'Pausa longa', minutos:10},
+      {tipo:'estudo', materia:materiaB, minutos:25},
+      {tipo:'pausa', rotulo:'Pausa curta', minutos:5},
+      {tipo:'estudo', materia:materiaB, minutos:25},
+    ];
+  }
+
+  // =========================================================
+  // ESTADO DA APLICAÇÃO E ARMAZENAMENTO
+  // Tudo fica salvo no localStorage do navegador — funciona em
+  // qualquer site hospedado normalmente, sem precisar de servidor.
+  // =========================================================
+  function criarEstadoInicial(){
+    const inicio = hojeISO();
+    const dias = diasUteisEntre(inicio, DATA_VESTIBULAR);
+    return {
+      dataInicio: inicio,
+      diasDoCronograma: dias,
+      cronograma: montarCronograma(dias),
+      dataSelecionada: ajustarParaDiaValido(inicio, dias),
+      blocosConcluidosPorMateria: {},   // materiaId -> quantidade de blocos concluídos
+      diasConcluidos: 0,
+      minutosTotaisEstudados: 0,
+      progressoPorDia: {},              // dataISO -> {indiceBloco, blocosFeitos:[bool]}
+      topicos: [],                      // {id, materia, nome, dataEstudo, estagio, dataRevisao}
+      registroRecuperacaoAtiva: {}      // dataISO -> texto escrito na recuperação ativa
+    };
+  }
+
+  function salvarEstado(){
+    try{
+      localStorage.setItem(CHAVE_ARMAZENAMENTO, JSON.stringify(estado));
+    }catch(erro){
+      console.error('Não foi possível salvar os dados no navegador:', erro);
+    }
+  }
+
+  function carregarEstado(){
+    try{
+      const dadosSalvos = localStorage.getItem(CHAVE_ARMAZENAMENTO);
+      if(!dadosSalvos) return criarEstadoInicial();
+
+      const salvos = JSON.parse(dadosSalvos);
+      const estadoCarregado = Object.assign(criarEstadoInicial(), salvos);
+
+      // se o cronograma salvo estiver corrompido ou vazio, gera um novo
+      if(!estadoCarregado.diasDoCronograma || !estadoCarregado.diasDoCronograma.length || !estadoCarregado.cronograma){
+        const novo = criarEstadoInicial();
+        estadoCarregado.diasDoCronograma = novo.diasDoCronograma;
+        estadoCarregado.cronograma = novo.cronograma;
+      }
+      estadoCarregado.dataSelecionada = ajustarParaDiaValido(
+        estadoCarregado.dataSelecionada || hojeISO(),
+        estadoCarregado.diasDoCronograma
+      );
+      return estadoCarregado;
+    }catch(erro){
+      console.error('Não foi possível carregar os dados salvos, começando do zero:', erro);
+      return criarEstadoInicial();
+    }
+  }
+
+  let estado = carregarEstado();
+
+  // =========================================================
+  // NAVEGAÇÃO ENTRE ABAS
+  // =========================================================
+  document.querySelectorAll('nav.abas button').forEach(botao=>{
+    botao.addEventListener('click', ()=>{
+      document.querySelectorAll('nav.abas button').forEach(b=>b.classList.remove('ativa'));
+      document.querySelectorAll('section.painel').forEach(p=>p.classList.remove('ativo'));
+      botao.classList.add('ativa');
+      document.getElementById('painel-'+botao.dataset.aba).classList.add('ativo');
+      if(botao.dataset.aba==='cronograma') renderizarCronograma();
+      if(botao.dataset.aba==='revisoes') renderizarRevisoes();
+      if(botao.dataset.aba==='progresso') renderizarProgresso();
+    });
+  });
+
+  // =========================================================
+  // TIMER POMODORO (aba "Sessão de hoje")
+  // =========================================================
+  let cronometro = { indiceBloco:0, segundosRestantes:0, rodando:false, idIntervalo:null, blocosFeitos:[] };
+
+  function materiasDoDiaSelecionado(){
+    return estado.cronograma[estado.dataSelecionada] || ['mat','bio'];
+  }
+  function blocosDoDiaSelecionado(){
+    return obterBlocosDoDia(materiasDoDiaSelecionado());
+  }
+  function diaDeEstudoAnterior(dataISO){
+    const indice = estado.diasDoCronograma.indexOf(dataISO);
+    return indice > 0 ? estado.diasDoCronograma[indice-1] : dataISO;
+  }
+  function diaDeEstudoSeguinte(dataISO){
+    const indice = estado.diasDoCronograma.indexOf(dataISO);
+    return (indice >= 0 && indice < estado.diasDoCronograma.length-1) ? estado.diasDoCronograma[indice+1] : dataISO;
+  }
+  function irParaData(dataISO){
+    estado.dataSelecionada = ajustarParaDiaValido(dataISO, estado.diasDoCronograma);
+    iniciarProgressoDoDia();
+    renderizarSessao();
+    salvarEstado();
+  }
+
+  // carrega (ou cria) o progresso salvo do dia selecionado no cronômetro
+  function iniciarProgressoDoDia(){
+    const chave = estado.dataSelecionada;
+    if(!estado.progressoPorDia[chave]){
+      estado.progressoPorDia[chave] = {
+        indiceBloco: 0,
+        blocosFeitos: new Array(blocosDoDiaSelecionado().length).fill(false)
+      };
+    }
+    const progressoSalvo = estado.progressoPorDia[chave];
+    cronometro.indiceBloco = progressoSalvo.indiceBloco;
+    cronometro.blocosFeitos = progressoSalvo.blocosFeitos;
+    const blocos = blocosDoDiaSelecionado();
+    cronometro.segundosRestantes = blocos[cronometro.indiceBloco] ? blocos[cronometro.indiceBloco].minutos*60 : 0;
+  }
+
+  function formatarTempo(segundos){
+    const minutos = Math.floor(segundos/60).toString().padStart(2,'0');
+    const seg = (segundos%60).toString().padStart(2,'0');
+    return minutos+':'+seg;
+  }
+
+  // redesenha toda a aba "Sessão de hoje": relógio, lista de blocos,
+  // navegação de data e o formulário de recuperação ativa
+  function renderizarSessao(){
+    const seletorData = document.getElementById('seletorData');
+    if(estado.diasDoCronograma.length){
+      seletorData.min = estado.diasDoCronograma[0];
+      seletorData.max = estado.diasDoCronograma[estado.diasDoCronograma.length-1];
+    }
+    seletorData.value = estado.dataSelecionada;
+    document.getElementById('btnDiaAnterior').disabled = estado.dataSelecionada === estado.diasDoCronograma[0];
+    document.getElementById('btnProximoDia').disabled = estado.dataSelecionada === estado.diasDoCronograma[estado.diasDoCronograma.length-1];
+
+    const blocos = blocosDoDiaSelecionado();
+    const blocoAtual = blocos[cronometro.indiceBloco];
+    document.getElementById('relogioTempo').textContent = formatarTempo(cronometro.segundosRestantes);
+
+    if(blocoAtual){
+      const rotulo = blocoAtual.tipo==='estudo' ? materiaPorId[blocoAtual.materia].nome : blocoAtual.rotulo;
+      document.getElementById('relogioRotulo').textContent = rotulo + ' · bloco '+(cronometro.indiceBloco+1)+'/'+blocos.length;
+      const cor = blocoAtual.tipo==='estudo' ? materiaPorId[blocoAtual.materia].cor : '#B3AF9D';
+      document.getElementById('progressoRelogio').setAttribute('stroke', cor);
+    } else {
+      document.getElementById('relogioRotulo').textContent = 'Dia concluído';
+    }
+
+    const totalSegundosBloco = blocoAtual ? blocoAtual.minutos*60 : 1;
+    const fracaoRestante = blocoAtual ? cronometro.segundosRestantes/totalSegundosBloco : 0;
+    const circunferencia = 628.3;
+    document.getElementById('progressoRelogio').setAttribute('stroke-dashoffset', circunferencia*fracaoRestante);
+
+    const ehHoje = estado.dataSelecionada === hojeISO();
+    document.getElementById('rotuloDia').textContent =
+      nomeDiaSemana(estado.dataSelecionada) + ', ' + formatarData(estado.dataSelecionada) + (ehHoje ? ' · hoje' : '') +
+      ' — ' + materiasDoDiaSelecionado().map(id=>materiaPorId[id].nome).join(' + ');
+
+    const listaBlocos = document.getElementById('listaBlocos');
+    listaBlocos.innerHTML = '';
+    blocos.forEach((bloco,i)=>{
+      const linha = document.createElement('div');
+      linha.className = 'linha-bloco'
+        + (cronometro.blocosFeitos[i] ? ' concluido' : '')
+        + (i===cronometro.indiceBloco && !cronometro.blocosFeitos[i] ? ' atual' : '');
+
+      const marcador = document.createElement('div');
+      marcador.className = 'marcador';
+      marcador.style.background = bloco.tipo==='estudo' ? materiaPorId[bloco.materia].cor : '#B3AF9D';
+      linha.appendChild(marcador);
+
+      const texto = document.createElement('span');
+      texto.textContent = bloco.tipo==='estudo' ? materiaPorId[bloco.materia].nome : bloco.rotulo;
+      linha.appendChild(texto);
+
+      const minutos = document.createElement('span');
+      minutos.className = 'minutos';
+      minutos.textContent = bloco.minutos+' min';
+      linha.appendChild(minutos);
+
+      listaBlocos.appendChild(linha);
+    });
+
+    const diaTotalmenteConcluido = cronometro.blocosFeitos.every(Boolean);
+    document.getElementById('caixaRecuperacao').style.display = diaTotalmenteConcluido ? 'block' : 'none';
+    document.getElementById('btnIniciarPausar').disabled = diaTotalmenteConcluido;
+    document.getElementById('btnPular').disabled = diaTotalmenteConcluido;
+  }
+
+  function salvarProgressoDoDia(){
+    estado.progressoPorDia[estado.dataSelecionada] = {
+      indiceBloco: cronometro.indiceBloco,
+      blocosFeitos: cronometro.blocosFeitos
+    };
+    salvarEstado();
+  }
+
+  // roda a cada segundo enquanto o cronômetro está ativo
+  function avancarUmSegundo(){
+    if(cronometro.segundosRestantes > 0){
+      cronometro.segundosRestantes--;
+      document.getElementById('relogioTempo').textContent = formatarTempo(cronometro.segundosRestantes);
+      const blocos = blocosDoDiaSelecionado();
+      const blocoAtual = blocos[cronometro.indiceBloco];
+      const totalSegundos = blocoAtual.minutos*60;
+      const circunferencia = 628.3;
+      document.getElementById('progressoRelogio').setAttribute('stroke-dashoffset', circunferencia*(cronometro.segundosRestantes/totalSegundos));
+    } else {
+      concluirBlocoAtual();
+    }
+  }
+
+  function rotuloDoBloco(bloco){
+    if(!bloco) return null;
+    return bloco.tipo==='estudo' ? materiaPorId[bloco.materia].nome : bloco.rotulo;
+  }
+
+  // mostra um card de aviso no canto da tela quando um bloco termina
+  function mostrarAviso(tipo, titulo, texto){
+    const container = document.getElementById('avisos-container');
+    const cartaoAviso = document.createElement('div');
+    cartaoAviso.className = 'aviso ' + tipo;
+    cartaoAviso.innerHTML = `
+      <div class="aviso-eyebrow">Vestibular UDESC</div>
+      <div class="aviso-titulo">${titulo}</div>
+      <div class="aviso-texto">${texto}</div>
+    `;
+    container.appendChild(cartaoAviso);
+    setTimeout(()=>{
+      cartaoAviso.style.transition = 'opacity .3s ease';
+      cartaoAviso.style.opacity = '0';
+      setTimeout(()=>cartaoAviso.remove(), 300);
+    }, 8000);
+  }
+
+  function pedirPermissaoDeNotificacao(){
+    if('Notification' in window && Notification.permission === 'default'){
+      Notification.requestPermission();
+    }
+  }
+
+  // dispara o aviso visual (card na tela) e, se autorizado, também a
+  // notificação nativa do sistema operacional
+  function avisarFimDeBloco(blocoQueTerminou, proximoBloco){
+    const proximo = rotuloDoBloco(proximoBloco);
+    let titulo, texto, tipo;
+
+    if(!proximoBloco){
+      titulo = 'Dia concluído! 🎉';
+      texto = 'As 2h de hoje acabaram. Hora da recuperação ativa.';
+      tipo = 'concluido';
+    } else if(blocoQueTerminou.tipo==='estudo'){
+      titulo = 'Bloco de estudo terminou';
+      texto = 'Agora: ' + proximo;
+      tipo = 'pausa';
+    } else {
+      titulo = 'Pausa terminou';
+      texto = 'Agora: ' + proximo;
+      tipo = 'estudo';
+    }
+
+    mostrarAviso(tipo, titulo, texto);
+
+    if('Notification' in window && Notification.permission === 'granted'){
+      try{
+        new Notification('Vestibular UDESC — ' + titulo, { body: texto });
+      }catch(erro){ /* segue só com o aviso na página */ }
+    }
+  }
+
+  function piscarRelogio(){
+    const relogio = document.querySelector('.relogio');
+    relogio.classList.remove('piscar');
+    void relogio.offsetWidth; // força o navegador a reiniciar a animação
+    relogio.classList.add('piscar');
+  }
+
+  // chamado quando o tempo de um bloco chega a zero (ou o usuário pula)
+  function concluirBlocoAtual(){
+    const blocos = blocosDoDiaSelecionado();
+    const blocoAtual = blocos[cronometro.indiceBloco];
+    const proximoBloco = blocos[cronometro.indiceBloco+1];
+
+    avisarFimDeBloco(blocoAtual, proximoBloco);
+    piscarRelogio();
+
+    if(blocoAtual){
+      cronometro.blocosFeitos[cronometro.indiceBloco] = true;
+      estado.minutosTotaisEstudados += blocoAtual.minutos;
+      if(blocoAtual.tipo==='estudo'){
+        estado.blocosConcluidosPorMateria[blocoAtual.materia] = (estado.blocosConcluidosPorMateria[blocoAtual.materia]||0)+1;
+      }
+    }
+
+    cronometro.indiceBloco++;
+    if(cronometro.indiceBloco < blocos.length){
+      cronometro.segundosRestantes = blocos[cronometro.indiceBloco].minutos*60;
+    } else {
+      cronometro.segundosRestantes = 0;
+      pausarCronometro();
+    }
+
+    salvarProgressoDoDia();
+    renderizarSessao();
+  }
+
+  function iniciarCronometro(){
+    if(cronometro.rodando) return;
+    cronometro.rodando = true;
+    document.getElementById('btnIniciarPausar').textContent = 'Pausar';
+    cronometro.idIntervalo = setInterval(avancarUmSegundo, 1000);
+  }
+  function pausarCronometro(){
+    cronometro.rodando = false;
+    document.getElementById('btnIniciarPausar').textContent = 'Iniciar';
+    clearInterval(cronometro.idIntervalo);
+  }
+
+  document.getElementById('btnIniciarPausar').addEventListener('click', ()=>{
+    pedirPermissaoDeNotificacao();
+    if(cronometro.rodando) pausarCronometro(); else iniciarCronometro();
+  });
+  document.getElementById('btnPular').addEventListener('click', ()=>{
+    pausarCronometro();
+    concluirBlocoAtual();
+  });
+  document.getElementById('btnReiniciar').addEventListener('click', ()=>{
+    pausarCronometro();
+    delete estado.progressoPorDia[estado.dataSelecionada];
+    iniciarProgressoDoDia();
+    renderizarSessao();
+    salvarEstado();
+  });
+  document.getElementById('btnConcluirDia').addEventListener('click', ()=>{
+    const textoEscrito = document.getElementById('textoRecuperacao').value.trim();
+    if(textoEscrito){
+      estado.registroRecuperacaoAtiva[estado.dataSelecionada] = textoEscrito;
+    }
+    estado.diasConcluidos++;
+    document.getElementById('textoRecuperacao').value = '';
+    irParaData(diaDeEstudoSeguinte(estado.dataSelecionada));
+  });
+  document.getElementById('btnDiaAnterior').addEventListener('click', ()=>{
+    pausarCronometro();
+    irParaData(diaDeEstudoAnterior(estado.dataSelecionada));
+  });
+  document.getElementById('btnProximoDia').addEventListener('click', ()=>{
+    pausarCronometro();
+    irParaData(diaDeEstudoSeguinte(estado.dataSelecionada));
+  });
+  document.getElementById('btnHoje').addEventListener('click', ()=>{
+    pausarCronometro();
+    irParaData(hojeISO());
+  });
+  document.getElementById('seletorData').addEventListener('change', (evento)=>{
+    pausarCronometro();
+    irParaData(evento.target.value);
+  });
+
+  // =========================================================
+  // ABA "CRONOGRAMA"
+  // =========================================================
+  function agruparDiasPorSemana(dias){
+    const grupos = {};
+    dias.forEach(dia=>{
+      const chave = chaveDaSemana(dia);
+      (grupos[chave] = grupos[chave] || []).push(dia);
+    });
+    return Object.keys(grupos).sort().map(chave=>({inicioSemana:chave, dias:grupos[chave]}));
+  }
+
+  let indiceSemanaAtual = null; // null = ainda não definido; será calculado na primeira renderização
+
+  function renderizarCronograma(){
+    const semanas = agruparDiasPorSemana(estado.diasDoCronograma);
+    if(semanas.length===0) return;
+
+    if(indiceSemanaAtual===null){
+      indiceSemanaAtual = semanas.findIndex(semana=>semana.dias.includes(estado.dataSelecionada));
+      if(indiceSemanaAtual<0) indiceSemanaAtual = 0;
+    }
+    indiceSemanaAtual = Math.max(0, Math.min(indiceSemanaAtual, semanas.length-1));
+    const semana = semanas[indiceSemanaAtual];
+
+    document.getElementById('rotuloSemana').textContent =
+      'Semana de ' + formatarData(semana.dias[0]) + ' a ' + formatarData(semana.dias[semana.dias.length-1]);
+    document.getElementById('btnSemanaAnterior').disabled = indiceSemanaAtual===0;
+    document.getElementById('btnSemanaSeguinte').disabled = indiceSemanaAtual===semanas.length-1;
+
+    const grade = document.getElementById('gradeDias');
+    grade.innerHTML = '';
+    semana.dias.forEach(dia=>{
+      const cartaoDia = document.createElement('div');
+      cartaoDia.className = 'cartao-dia'
+        + (dia===hojeISO() ? ' hoje' : '')
+        + (dia===estado.dataSelecionada ? ' selecionado' : '');
+      cartaoDia.style.cursor = 'pointer';
+
+      const nomeDia = document.createElement('div');
+      nomeDia.className = 'nome-dia';
+      nomeDia.textContent = nomeDiaSemana(dia).replace('-feira','') + ' ' + formatarData(dia) + (dia===hojeISO() ? ' · hoje' : '');
+      cartaoDia.appendChild(nomeDia);
+
+      estado.cronograma[dia].forEach(materiaId=>{
+        const etiqueta = document.createElement('div');
+        etiqueta.className = 'etiqueta-materia';
+        etiqueta.style.background = materiaPorId[materiaId].cor;
+        etiqueta.textContent = materiaPorId[materiaId].nome;
+        cartaoDia.appendChild(etiqueta);
+      });
+
+      cartaoDia.addEventListener('click', ()=>{
+        irParaData(dia);
+        document.querySelector('nav.abas button[data-aba="sessao"]').click();
+      });
+      grade.appendChild(cartaoDia);
+    });
+
+    const legenda = document.getElementById('legendaMaterias');
+    legenda.innerHTML = '';
+    MATERIAS.forEach(materia=>{
+      const item = document.createElement('span');
+      const marcador = document.createElement('span');
+      marcador.style.width='10px'; marcador.style.height='10px'; marcador.style.borderRadius='3px';
+      marcador.style.background = materia.cor; marcador.style.display='inline-block';
+      item.appendChild(marcador);
+      item.appendChild(document.createTextNode(materia.nome));
+      legenda.appendChild(item);
+    });
+  }
+
+  document.getElementById('btnSemanaAnterior').addEventListener('click', ()=>{ indiceSemanaAtual--; renderizarCronograma(); });
+  document.getElementById('btnSemanaSeguinte').addEventListener('click', ()=>{ indiceSemanaAtual++; renderizarCronograma(); });
+  document.getElementById('btnRedistribuir').addEventListener('click', ()=>{
+    estado.cronograma = montarCronograma(estado.diasDoCronograma);
+    renderizarCronograma();
+    salvarEstado();
+  });
+
+  // =========================================================
+  // ABA "REVISÕES" — repetição espaçada (1, 3, 7 e 30 dias)
+  // =========================================================
+  function preencherSelecaoDeMaterias(){
+    const selecao = document.getElementById('selecaoMateria');
+    selecao.innerHTML = '';
+    MATERIAS.filter(m=>m.id!=='red').forEach(materia=>{
+      const opcao = document.createElement('option');
+      opcao.value = materia.id;
+      opcao.textContent = materia.nome;
+      selecao.appendChild(opcao);
+    });
+  }
+
+  document.getElementById('btnAdicionarTopico').addEventListener('click', ()=>{
+    const materiaId = document.getElementById('selecaoMateria').value;
+    const nomeTopico = document.getElementById('nomeTopico').value.trim();
+    if(!nomeTopico) return;
+
+    const hoje = hojeISO();
+    estado.topicos.push({
+      id: Date.now().toString(36),
+      materia: materiaId,
+      nome: nomeTopico,
+      dataEstudo: hoje,
+      estagio: 0,
+      dataRevisao: somarDias(hoje, INTERVALOS_REVISAO[0])
+    });
+    document.getElementById('nomeTopico').value = '';
+    renderizarRevisoes();
+    salvarEstado();
+  });
+
+  // avança o tópico pro próximo estágio da repetição espaçada
+  function marcarComoRevisado(topicoId){
+    const topico = estado.topicos.find(t=>t.id===topicoId);
+    if(!topico) return;
+
+    topico.estagio++;
+    if(topico.estagio < INTERVALOS_REVISAO.length){
+      topico.dataRevisao = somarDias(hojeISO(), INTERVALOS_REVISAO[topico.estagio]);
+    } else {
+      topico.dataRevisao = null; // tópico dominado — sai da fila
+    }
+    renderizarRevisoes();
+    renderizarProgresso();
+    salvarEstado();
+  }
+
+  function renderizarRevisoes(){
+    preencherSelecaoDeMaterias();
+    const hoje = hojeISO();
+    const pendentes = estado.topicos.filter(t=>t.dataRevisao && t.dataRevisao <= hoje);
+    const futuras = estado.topicos
+      .filter(t=>t.dataRevisao && t.dataRevisao > hoje)
+      .sort((a,b)=> a.dataRevisao.localeCompare(b.dataRevisao));
+
+    const listaPendentes = document.getElementById('listaRevisarHoje');
+    listaPendentes.innerHTML = '';
+    if(pendentes.length===0){
+      listaPendentes.innerHTML = '<div class="estado-vazio">Nada para revisar hoje.</div>';
+    }
+    pendentes.forEach(topico=>{
+      const linha = document.createElement('div');
+      linha.className = 'item-revisao pendente';
+      linha.innerHTML = `
+        <div class="info-topico">
+          <div class="nome-topico">${escaparHtml(topico.nome)}</div>
+          <div class="detalhe">${materiaPorId[topico.materia].nome} · estudado em ${formatarData(topico.dataEstudo)}</div>
+        </div>
+        <div class="pontos-estagio">${pontosDoEstagio(topico.estagio)}</div>
+      `;
+      const botaoRevisado = document.createElement('button');
+      botaoRevisado.className = 'botao botao-principal botao-pequeno';
+      botaoRevisado.textContent = 'Revisado';
+      botaoRevisado.addEventListener('click', ()=>marcarComoRevisado(topico.id));
+      linha.appendChild(botaoRevisado);
+      listaPendentes.appendChild(linha);
+    });
+
+    const listaFuturas = document.getElementById('listaProximasRevisoes');
+    listaFuturas.innerHTML = '';
+    if(futuras.length===0){
+      listaFuturas.innerHTML = '<div class="estado-vazio">Nenhum tópico agendado ainda.</div>';
+    }
+    futuras.slice(0,15).forEach(topico=>{
+      const linha = document.createElement('div');
+      linha.className = 'item-revisao';
+      linha.innerHTML = `
+        <div class="info-topico">
+          <div class="nome-topico">${escaparHtml(topico.nome)}</div>
+          <div class="detalhe">${materiaPorId[topico.materia].nome} · revisa em ${formatarData(topico.dataRevisao)}</div>
+        </div>
+        <div class="pontos-estagio">${pontosDoEstagio(topico.estagio)}</div>
+      `;
+      listaFuturas.appendChild(linha);
+    });
+  }
+
+  function pontosDoEstagio(estagio){
+    let html = '';
+    for(let i=0; i<INTERVALOS_REVISAO.length; i++){
+      html += `<span class="${i<estagio ? 'preenchido' : ''}"></span>`;
+    }
+    return html;
+  }
+
+  function escaparHtml(texto){
+    return texto.replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  // =========================================================
+  // ABA "PROGRESSO"
+  // =========================================================
+  function renderizarProgresso(){
+    document.getElementById('statDias').textContent = estado.diasConcluidos;
+    document.getElementById('statHoras').textContent = Math.round(estado.minutosTotaisEstudados/60*10)/10 + 'h';
+    const topicosAtivos = estado.topicos.filter(t=>t.dataRevisao).length;
+    document.getElementById('statTopicos').textContent = topicosAtivos;
+
+    const barras = document.getElementById('barrasProgresso');
+    barras.innerHTML = '';
+    const maiorValor = Math.max(1, ...MATERIAS.map(m=>estado.blocosConcluidosPorMateria[m.id]||0));
+    MATERIAS.filter(m=>m.id!=='red').forEach(materia=>{
+      const valor = estado.blocosConcluidosPorMateria[materia.id]||0;
+      const linha = document.createElement('div');
+      linha.className = 'linha-barra';
+      linha.innerHTML = `
+        <div class="nome-materia">${materia.nome}</div>
+        <div class="trilho-barra"><div class="preenchimento-barra" style="width:${(valor/maiorValor*100)}%;background:${materia.cor}"></div></div>
+        <div class="valor-barra">${valor} blocos</div>
+      `;
+      barras.appendChild(linha);
+    });
+  }
+
+  // =========================================================
+  // INICIALIZAÇÃO
+  // =========================================================
+  function iniciarAplicacao(){
+    iniciarProgressoDoDia();
+    renderizarSessao();
+    renderizarCronograma();
+    renderizarRevisoes();
+    renderizarProgresso();
+  }
+  iniciarAplicacao();
+
+})();
+</script>
+</body>
+</html>
