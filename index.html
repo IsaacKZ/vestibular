@@ -83,6 +83,15 @@
   .relogio-tempo{font-family:'IBM Plex Mono',monospace;font-size:38px;font-weight:600;}
   .relogio-rotulo{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--tinta-suave);margin-top:2px;font-weight:600;}
   .controles-relogio{display:flex;gap:8px;}
+  .dica-atalhos{
+    display:flex;flex-wrap:wrap;gap:10px;justify-content:center;
+    font-size:11px;color:var(--tinta-suave);
+  }
+  .dica-atalhos kbd{
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+    border:1px solid var(--borda);border-bottom-width:2px;border-radius:4px;
+    padding:1px 5px;background:var(--fundo-2);color:var(--tinta);
+  }
   .botao{
     font-family:'Inter',sans-serif;font-weight:600;font-size:13.5px;
     padding:10px 18px;border-radius:9px;border:none;cursor:pointer;
@@ -233,6 +242,12 @@
             <button class="botao botao-principal" id="btnIniciarPausar">Iniciar</button>
             <button class="botao botao-discreto" id="btnPular">Pular</button>
             <button class="botao botao-discreto" id="btnReiniciar">Reiniciar</button>
+          </div>
+          <div class="dica-atalhos">
+            <span><kbd>Espaço</kbd> iniciar/pausar</span>
+            <span><kbd>S</kbd> pular</span>
+            <span><kbd>R</kbd> reiniciar</span>
+            <span><kbd>←</kbd> <kbd>→</kbd> trocar de dia</span>
           </div>
         </div>
         <div class="plano-do-dia">
@@ -564,7 +579,8 @@
     if(!estado.progressoPorDia[chave]){
       estado.progressoPorDia[chave] = {
         indiceBloco: 0,
-        blocosFeitos: new Array(blocosDoDiaSelecionado().length).fill(false)
+        blocosFeitos: new Array(blocosDoDiaSelecionado().length).fill(false),
+        concluidoRegistrado: false
       };
     }
     const progressoSalvo = estado.progressoPorDia[chave];
@@ -644,6 +660,9 @@
     document.getElementById('caixaRecuperacao').style.display = diaTotalmenteConcluido ? 'block' : 'none';
     document.getElementById('btnIniciarPausar').disabled = diaTotalmenteConcluido;
     document.getElementById('btnPular').disabled = diaTotalmenteConcluido;
+    if(diaTotalmenteConcluido){
+      document.getElementById('textoRecuperacao').value = estado.registroRecuperacaoAtiva[estado.dataSelecionada] || '';
+    }
   }
 
   function salvarProgressoDoDia(){
@@ -795,7 +814,11 @@
     if(textoEscrito){
       estado.registroRecuperacaoAtiva[estado.dataSelecionada] = textoEscrito;
     }
-    estado.diasConcluidos++;
+    const progressoDoDia = estado.progressoPorDia[estado.dataSelecionada];
+    if(progressoDoDia && !progressoDoDia.concluidoRegistrado){
+      progressoDoDia.concluidoRegistrado = true;
+      estado.diasConcluidos++;
+    }
     document.getElementById('textoRecuperacao').value = '';
     irParaData(diaDeEstudoSeguinte(estado.dataSelecionada));
   });
@@ -814,6 +837,32 @@
   document.getElementById('seletorData').addEventListener('change', (evento)=>{
     pausarCronometro();
     irParaData(evento.target.value);
+  });
+
+  // atalhos de teclado — só funcionam na aba "Sessão de hoje" e quando o
+  // usuário não está digitando em algum campo de texto/data/seleção
+  document.addEventListener('keydown', (evento)=>{
+    const abaSessaoAtiva = document.getElementById('painel-sessao').classList.contains('ativo');
+    if(!abaSessaoAtiva) return;
+
+    const elementoAtivo = document.activeElement;
+    const digitandoEmCampo = elementoAtivo && ['INPUT','TEXTAREA','SELECT'].includes(elementoAtivo.tagName);
+    if(digitandoEmCampo) return;
+
+    if(evento.code === 'Space'){
+      evento.preventDefault(); // evita rolar a página
+      if(!document.getElementById('btnIniciarPausar').disabled){
+        document.getElementById('btnIniciarPausar').click();
+      }
+    } else if(evento.key === 's' || evento.key === 'S'){
+      if(!document.getElementById('btnPular').disabled) document.getElementById('btnPular').click();
+    } else if(evento.key === 'r' || evento.key === 'R'){
+      document.getElementById('btnReiniciar').click();
+    } else if(evento.key === 'ArrowLeft'){
+      document.getElementById('btnDiaAnterior').click();
+    } else if(evento.key === 'ArrowRight'){
+      document.getElementById('btnProximoDia').click();
+    }
   });
 
   // =========================================================
