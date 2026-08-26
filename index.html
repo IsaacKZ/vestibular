@@ -2,1098 +2,1654 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vestibular UDESC — plano de estudos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fila UDESC</title>
+<link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-  /* Paleta calma: bege claro + verde-sálvia como cor principal.
-     Cada matéria tem um tom dessaturado só pra diferenciar visualmente. */
-  :root{
-    --tinta:#33362E;
-    --tinta-suave:#7A7D71;
-    --fundo:#F6F4EC;
-    --fundo-2:#EDEAE0;
-    --borda:#DEDACB;
-    --destaque:#5B8A72;
-    --destaque-escuro:#466E5A;
-    --alerta:#B5563C;
-    --branco:#FFFFFF;
-    --cor-pausa:#B3AF9D;
+  :root {
+    color-scheme: light;
+    --accent: #0F5F52;
+    --accent-ink: #ffffff;
+    --accent-weak: #E2EDE9;
+    --amber: #A4530B;
+    --amber-bg: #FBEEDF;
+    --amber-border: #E8C293;
+    --bg: #F6F8F6;
+    --bg-elevated: #FFFFFF;
+    --bg-sunken: #EEF2EF;
+    --border: #DAE2DD;
+    --text: #1A211D;
+    --text-muted: #576259;
+    --text-faint: #8B968E;
+    --font-title: 'Spectral', Georgia, 'Times New Roman', serif;
+    --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+    --radius: 10px;
+    --shadow: 0 1px 2px rgba(20, 30, 25, 0.06), 0 1px 1px rgba(20, 30, 25, 0.04);
   }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    background:var(--fundo);
-    color:var(--tinta);
-    font-family:'Inter',sans-serif;
-    -webkit-font-smoothing:antialiased;
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --accent: #5FC0AC;
+      --accent-ink: #06211C;
+      --accent-weak: #17332C;
+      --amber: #DD9E4C;
+      --amber-bg: #2E230F;
+      --amber-border: #4B3717;
+      --bg: #12140F;
+      --bg-elevated: #1B1E19;
+      --bg-sunken: #0E100D;
+      --border: #2B322C;
+      --text: #E9EDE8;
+      --text-muted: #A4AEA5;
+      --text-faint: #6D766E;
+    }
   }
-  .conteudo{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
-
-  /* ---------- Cabeçalho ---------- */
-  header.topo{
-    display:flex;justify-content:space-between;align-items:center;
-    border-bottom:1px solid var(--borda);
-    padding-bottom:16px;margin-bottom:20px;flex-wrap:wrap;gap:10px;
-  }
-  header.topo h1{
-    font-family:'Inter',sans-serif;font-weight:700;font-size:22px;margin:0;
-    letter-spacing:-0.01em;
-  }
-  .data-prova{
-    text-align:right;font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--tinta-suave);
-  }
-
-  /* ---------- Abas ---------- */
-  nav.abas{display:flex;gap:6px;margin-bottom:22px;flex-wrap:wrap;}
-  nav.abas button{
-    font-family:'Inter',sans-serif;font-weight:600;font-size:13.5px;
-    padding:9px 16px;border-radius:100px;border:1.5px solid var(--tinta);
-    background:transparent;color:var(--tinta);cursor:pointer;
-    transition:all .15s ease;
-  }
-  nav.abas button.ativa{background:var(--tinta);color:var(--fundo);}
-  nav.abas button:not(.ativa):hover{background:var(--fundo-2);}
-
-  section.painel{display:none;}
-  section.painel.ativo{display:block;animation:aparecer .25s ease;}
-  @keyframes aparecer{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
-
-  .cartao{
-    background:var(--branco);border:1px solid var(--borda);border-radius:10px;
-    padding:22px;margin-bottom:18px;
-  }
-  .cartao h2{font-family:'Inter',sans-serif;font-size:16px;font-weight:700;margin:0 0 4px;}
-  .cartao .legenda-topo{font-size:13px;color:var(--tinta-suave);margin-bottom:16px;}
-
-  /* ---------- Aba: Sessão ---------- */
-  .layout-relogio{display:grid;grid-template-columns:260px 1fr;gap:24px;}
-  @media (max-width:640px){.layout-relogio{grid-template-columns:1fr;}}
-
-  .caixa-relogio{display:flex;flex-direction:column;align-items:center;gap:14px;}
-  .relogio{position:relative;width:230px;height:230px;}
-  .relogio.piscar{animation:pulsar 0.6s ease 3;}
-  @keyframes pulsar{0%,100%{transform:scale(1);}50%{transform:scale(1.06);}}
-  .relogio svg{transform:rotate(-90deg);}
-  .relogio-centro{
-    position:absolute;inset:0;display:flex;flex-direction:column;
-    align-items:center;justify-content:center;text-align:center;
-  }
-  .relogio-tempo{font-family:'IBM Plex Mono',monospace;font-size:38px;font-weight:600;}
-  .relogio-rotulo{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--tinta-suave);margin-top:2px;font-weight:600;}
-  .controles-relogio{display:flex;gap:8px;}
-  .dica-atalhos{
-    display:flex;flex-wrap:wrap;gap:10px;justify-content:center;
-    font-size:11px;color:var(--tinta-suave);
-  }
-  .dica-atalhos kbd{
-    font-family:'IBM Plex Mono',monospace;font-size:10.5px;
-    border:1px solid var(--borda);border-bottom-width:2px;border-radius:4px;
-    padding:1px 5px;background:var(--fundo-2);color:var(--tinta);
-  }
-  .botao{
-    font-family:'Inter',sans-serif;font-weight:600;font-size:13.5px;
-    padding:10px 18px;border-radius:9px;border:none;cursor:pointer;
-    transition:transform .1s ease, opacity .15s ease;
-  }
-  .botao:active{transform:scale(.96);}
-  .botao-principal{background:var(--destaque);color:var(--branco);}
-  .botao-principal:hover{background:var(--destaque-escuro);}
-  .botao-discreto{background:transparent;color:var(--tinta);border:1.5px solid var(--tinta);}
-  .botao-discreto:hover{background:var(--fundo-2);}
-  .botao-pequeno{padding:6px 12px;font-size:12.5px;border-radius:7px;}
-  .botao:disabled{opacity:.4;cursor:not-allowed;}
-
-  .plano-do-dia{display:flex;flex-direction:column;gap:10px;}
-  .navegacao-dia{display:flex;gap:6px;flex-wrap:wrap;align-items:center;}
-  .navegacao-dia input[type=date]{
-    font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:7px 9px;border-radius:7px;
-    border:1px solid var(--borda);background:var(--branco);color:var(--tinta);
-  }
-  .rotulo-dia{
-    font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;
-    letter-spacing:.1em;color:var(--tinta-suave);font-weight:600;
-  }
-  .lista-blocos{display:flex;flex-direction:column;gap:6px;margin-top:8px;}
-  .linha-bloco{
-    display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:9px;
-    border:1px solid var(--borda);font-size:13.5px;
-  }
-  .linha-bloco.concluido{opacity:.45;text-decoration:line-through;}
-  .linha-bloco.atual{border-color:var(--tinta);background:var(--fundo-2);font-weight:600;}
-  .marcador{width:10px;height:10px;border-radius:3px;flex:none;}
-  .linha-bloco .minutos{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--tinta-suave);}
-
-  .caixa-recuperacao{
-    margin-top:14px;padding:14px;border-radius:10px;background:var(--fundo-2);
-    border:1px dashed var(--tinta);font-size:13.5px;
-  }
-  .caixa-recuperacao textarea{
-    width:100%;margin-top:8px;border:1px solid var(--borda);border-radius:8px;
-    padding:9px;font-family:'Inter',sans-serif;font-size:13.5px;resize:vertical;min-height:60px;
-    background:var(--branco);
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --accent: #5FC0AC;
+    --accent-ink: #06211C;
+    --accent-weak: #17332C;
+    --amber: #DD9E4C;
+    --amber-bg: #2E230F;
+    --amber-border: #4B3717;
+    --bg: #12140F;
+    --bg-elevated: #1B1E19;
+    --bg-sunken: #0E100D;
+    --border: #2B322C;
+    --text: #E9EDE8;
+    --text-muted: #A4AEA5;
+    --text-faint: #6D766E;
   }
 
-  /* ---------- Aba: Cronograma ---------- */
-  .navegacao-semana{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap;}
-  .rotulo-semana{font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;}
-  .grade-dias{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
-  @media (max-width:640px){.grade-dias{grid-template-columns:1fr;}}
-  .cartao-dia{border:1px solid var(--borda);border-radius:10px;padding:12px;background:var(--fundo-2);}
-  .cartao-dia.hoje{border-color:var(--tinta);border-width:2px;}
-  .cartao-dia.selecionado{outline:2px solid var(--destaque);outline-offset:1px;}
-  .cartao-dia .nome-dia{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--tinta);}
-  .etiqueta-materia{
-    display:flex;align-items:center;gap:6px;margin-top:8px;padding:7px 9px;
-    border-radius:8px;font-size:12.5px;font-weight:600;color:var(--branco);
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: calc(64px + env(safe-area-inset-bottom));
   }
-  .legenda-materias{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;font-size:12.5px;}
-  .legenda-materias span{display:flex;align-items:center;gap:6px;}
+  h1, h2, h3 { font-family: var(--font-title); font-weight: 600; margin: 0 0 .4em; letter-spacing: -0.01em; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
+  h3 { font-size: 1.02rem; }
+  p { margin: 0 0 .6em; }
+  a { color: var(--accent); }
+  .num, .tabular { font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1; }
+  .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  button, select, input, textarea { font-family: inherit; font-size: 1rem; color: inherit; }
+  button { cursor: pointer; }
+  fieldset { border: none; margin: 0; padding: 0; }
+  legend { padding: 0; }
 
-  /* ---------- Aba: Revisões ---------- */
-  .item-revisao{
-    display:flex;align-items:center;gap:12px;padding:11px 14px;border:1px solid var(--borda);
-    border-radius:10px;margin-bottom:8px;background:var(--branco);
+  header.topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 16px; border-bottom: 1px solid var(--border);
+    background: var(--bg-elevated); position: sticky; top: 0; z-index: 20;
   }
-  .item-revisao.pendente{border-color:var(--alerta);background:#FBF1EF;}
-  .item-revisao .info-topico{flex:1;}
-  .item-revisao .nome-topico{font-weight:600;font-size:14px;}
-  .item-revisao .detalhe{font-size:12px;color:var(--tinta-suave);margin-top:2px;}
-  .pontos-estagio{display:flex;gap:4px;}
-  .pontos-estagio span{width:7px;height:7px;border-radius:50%;background:var(--borda);}
-  .pontos-estagio span.preenchido{background:var(--destaque);}
-  .form-topico{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;}
-  .form-topico select, .form-topico input{
-    font-family:'Inter',sans-serif;font-size:13.5px;padding:9px 10px;border-radius:8px;
-    border:1px solid var(--borda);background:var(--branco);
+  header.topbar h1 { font-size: 1.15rem; margin: 0; }
+  .icon-btn {
+    min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center;
+    background: transparent; border: 1px solid var(--border); border-radius: var(--radius);
+    color: var(--text); font-size: .82rem; font-family: var(--font-mono); padding: 0 10px;
   }
-  .form-topico input[type=text]{flex:1;min-width:160px;}
-  .estado-vazio{font-size:13.5px;color:var(--tinta-suave);text-align:center;padding:20px 0;}
+  .icon-btn:active { background: var(--bg-sunken); }
 
-  /* ---------- Aba: Progresso ---------- */
-  .linha-estatisticas{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px;}
-  @media (max-width:640px){.linha-estatisticas{grid-template-columns:1fr 1fr;}}
-  .caixa-estatistica{border:1px solid var(--borda);border-radius:11px;padding:14px;background:var(--fundo);}
-  .caixa-estatistica .numero{font-family:'Inter',sans-serif;font-size:24px;font-weight:700;}
-  .caixa-estatistica .descricao{font-size:12px;color:var(--tinta-suave);margin-top:2px;}
-  .linha-barra{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
-  .linha-barra .nome-materia{width:150px;font-size:13px;font-weight:600;flex:none;}
-  .trilho-barra{flex:1;height:12px;background:var(--fundo-2);border-radius:6px;overflow:hidden;}
-  .preenchimento-barra{height:100%;border-radius:6px;transition:width .3s ease;}
-  .linha-barra .valor-barra{width:70px;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--tinta-suave);}
+  main { max-width: 720px; margin: 0 auto; padding: 16px; }
 
-  /* ---------- Avisos no canto da tela ---------- */
-  #avisos-container{
-    position:fixed;top:20px;right:20px;z-index:999;display:flex;flex-direction:column;gap:10px;
-    pointer-events:none;
+  nav.tabs {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
+    display: flex; background: var(--bg-elevated); border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom);
   }
-  .aviso{
-    pointer-events:auto;
-    width:280px;background:var(--tinta);color:var(--fundo);border-radius:10px;
-    padding:14px 16px;box-shadow:0 4px 16px rgba(0,0,0,0.15);
-    font-family:'Inter',sans-serif;
-    animation:entrarAviso .25s ease;
-    border-left:4px solid var(--cor-pausa);
+  nav.tabs button {
+    flex: 1; background: none; border: none; padding: 10px 4px 8px; min-height: 56px;
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    color: var(--text-muted); font-size: .74rem; border-top: 2px solid transparent;
   }
-  .aviso.estudo{border-left-color:var(--destaque);}
-  .aviso.concluido{border-left-color:var(--alerta);}
-  @keyframes entrarAviso{from{opacity:0;transform:translateX(20px);}to{opacity:1;transform:none;}}
-  .aviso .aviso-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;opacity:.7;}
-  .aviso .aviso-titulo{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;margin-top:2px;}
-  .aviso .aviso-texto{font-size:12.5px;opacity:.85;margin-top:3px;}
+  nav.tabs button .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: 0; }
+  nav.tabs button[aria-current="true"] { color: var(--accent); border-top-color: var(--accent); font-weight: 600; }
+
+  .card {
+    background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 16px; margin-bottom: 14px; box-shadow: var(--shadow);
+  }
+  .card + .card { margin-top: 0; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .row.between { justify-content: space-between; }
+  .stack { display: flex; flex-direction: column; gap: 10px; }
+  .muted { color: var(--text-muted); }
+  .faint { color: var(--text-faint); font-size: .85rem; }
+  .small { font-size: .85rem; }
+
+  .kpi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .kpi { background: var(--bg-sunken); border-radius: var(--radius); padding: 10px 12px; }
+  .kpi .label { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); margin-bottom: 4px; }
+  .kpi .value { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; }
+
+  .frase-destaque {
+    border: 1px solid var(--border); background: var(--accent-weak);
+    padding: 10px 14px; border-radius: var(--radius); font-style: italic;
+    color: var(--text);
+  }
+
+  .banner {
+    border: 1px solid var(--amber-border); background: var(--amber-bg); color: var(--text);
+    border-radius: var(--radius); padding: 12px 14px; margin-bottom: 14px;
+  }
+  .banner.critico { border-width: 2px; }
+  .banner strong { color: var(--amber); }
+
+  .bloco {
+    border: 1px solid var(--border); border-radius: var(--radius); padding: 12px; margin-bottom: 10px;
+    background: var(--bg-sunken);
+  }
+  .bloco.feito { opacity: .6; }
+  .bloco-head { display: flex; align-items: flex-start; gap: 10px; }
+  .checkbox-tap {
+    width: 22px; height: 22px; accent-color: var(--accent); flex-shrink: 0;
+  }
+  .check-hit {
+    min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center;
+    flex-shrink: 0; margin: -11px 0;
+  }
+  .check-row {
+    display: flex; align-items: center; gap: 8px; min-height: 44px;
+  }
+  .bloco-info { flex: 1; }
+  .bloco-materia { font-weight: 600; }
+  .bloco-topico { color: var(--text-muted); font-size: .92rem; }
+  .bloco-modo { font-family: var(--font-mono); font-size: .74rem; color: var(--text-faint); margin-top: 2px; }
+
+  .timer-box { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); }
+  .timer-display { font-family: var(--font-mono); font-size: 1.7rem; font-weight: 600; }
+  .timer-fase { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); }
+  .timer-controls { display: flex; gap: 8px; margin-top: 8px; }
+
+  button.btn {
+    min-height: 44px; padding: 0 16px; border-radius: var(--radius); border: 1px solid var(--border);
+    background: var(--bg-elevated); font-weight: 500;
+  }
+  button.btn:disabled { opacity: .45; cursor: not-allowed; }
+  button.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+  button.btn.primary:disabled { background: var(--bg-sunken); border-color: var(--border); color: var(--text-faint); }
+  button.btn.ghost { background: transparent; }
+  button.btn.small { min-height: 44px; padding: 0 12px; font-size: .85rem; }
+  button.btn.full { width: 100%; }
+  button.btn:active:not(:disabled) { background: var(--bg-sunken); }
+  button.btn.primary:active:not(:disabled) { filter: brightness(0.95); }
+
+  label.field { display: block; margin-bottom: 12px; }
+  label.field > span { display: block; font-size: .82rem; color: var(--text-muted); margin-bottom: 5px; }
+  select, textarea, input[type="text"], input[type="date"], input[type="number"] {
+    width: 100%; min-height: 44px; padding: 8px 12px; border-radius: var(--radius);
+    border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text);
+  }
+  textarea { min-height: 76px; resize: vertical; }
+
+  .causa-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+  .causa-btn {
+    min-height: 44px; padding: 0 14px; border-radius: var(--radius); border: 1px solid var(--border);
+    background: var(--bg-elevated); flex: 1 1 auto;
+  }
+  .causa-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+
+  .fase-group { margin-bottom: 16px; }
+  .fase-header {
+    display: flex; justify-content: space-between; align-items: baseline; padding: 6px 2px;
+    border-bottom: 1px solid var(--border); margin-bottom: 8px;
+  }
+  .sessao-item {
+    display: flex; gap: 10px; align-items: baseline; padding: 8px 10px; border-radius: var(--radius);
+    border: 1px solid var(--border); margin-bottom: 6px; background: var(--bg-elevated);
+  }
+  .sessao-item.concluida { opacity: .55; }
+  .sessao-item.atual { border-color: var(--accent); background: var(--accent-weak); }
+  .sessao-idx { font-family: var(--font-mono); color: var(--text-faint); min-width: 2.4em; }
+  .sessao-blocos { flex: 1; }
+  .sessao-blocos .b { font-size: .9rem; }
+  .sessao-blocos .b + .b { color: var(--text-muted); }
+
+  .bar-row { margin-bottom: 12px; }
+  .bar-row .bar-label { display: flex; justify-content: space-between; font-size: .85rem; margin-bottom: 4px; }
+  .bar-track { height: 10px; background: var(--bg-sunken); border-radius: 6px; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--accent); border-radius: 6px; }
+  .bar-fill.amber { background: var(--amber); }
+
+  table.simples { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  table.simples th, table.simples td { text-align: left; padding: 6px 4px; border-bottom: 1px solid var(--border); }
+  table.simples th { color: var(--text-muted); font-weight: 500; font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; }
+
+  .erro-item { border: 1px solid var(--border); border-radius: var(--radius); padding: 12px; margin-bottom: 8px; background: var(--bg-elevated); }
+  .erro-top { display: flex; justify-content: space-between; gap: 8px; }
+  .tag { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-size: .72rem; padding: 2px 7px; border-radius: 999px; background: var(--bg-sunken); color: var(--text-muted); }
+  .vencida { border-color: var(--amber-border); }
+
+  .empty { color: var(--text-faint); font-style: italic; padding: 20px 0; text-align: center; }
+
+  .onboarding-wrap {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px;
+  }
+  .onboarding-card { max-width: 480px; width: 100%; }
+
+  .toggle-link {
+    background: none; border: none; color: var(--accent); text-decoration: underline; font-size: .88rem;
+    min-height: 44px; display: flex; align-items: center; width: 100%; text-align: left;
+  }
+
+  dialog#config-dialog {
+    border: none; border-radius: var(--radius); padding: 0; max-width: 480px; width: calc(100% - 32px);
+    background: var(--bg-elevated); color: var(--text);
+  }
+  dialog#config-dialog::backdrop { background: rgba(0,0,0,0.45); }
+  .dialog-inner { padding: 18px; max-height: 85vh; overflow-y: auto; }
+  .dialog-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+
+  .field-hint { font-size: .78rem; color: var(--text-faint); margin-top: 4px; }
+
+  @media (min-width: 640px) {
+    nav.tabs { position: sticky; }
+  }
 </style>
 </head>
 <body>
-<div id="avisos-container"></div>
-<div class="conteudo">
+<div id="app"></div>
 
-  <header class="topo">
-    <h1>Vestibular UDESC</h1>
-    <div class="data-prova">Prova em 29/11</div>
-  </header>
-
-  <nav class="abas">
-    <button data-aba="sessao" class="ativa">Sessão de hoje</button>
-    <button data-aba="cronograma">Cronograma</button>
-    <button data-aba="revisoes">Revisões</button>
-    <button data-aba="progresso">Progresso</button>
-  </nav>
-
-  <!-- ABA: SESSÃO DE HOJE -->
-  <section class="painel ativo" id="painel-sessao">
-    <div class="cartao">
-      <h2>Sessão de estudo</h2>
-      <div class="legenda-topo">4 blocos de 25 min (Pomodoro), com pausas — 2h no total, duas matérias por dia.</div>
-      <div class="layout-relogio">
-        <div class="caixa-relogio">
-          <div class="relogio">
-            <svg width="230" height="230" viewBox="0 0 230 230">
-              <circle cx="115" cy="115" r="100" fill="none" stroke="#DEDACB" stroke-width="14"/>
-              <circle id="progressoRelogio" cx="115" cy="115" r="100" fill="none" stroke="#5B8A72" stroke-width="14"
-                stroke-linecap="round" stroke-dasharray="628.3" stroke-dashoffset="628.3"/>
-            </svg>
-            <div class="relogio-centro">
-              <div class="relogio-tempo" id="relogioTempo">25:00</div>
-              <div class="relogio-rotulo" id="relogioRotulo">bloco 1 de 7</div>
-            </div>
-          </div>
-          <div class="controles-relogio">
-            <button class="botao botao-principal" id="btnIniciarPausar">Iniciar</button>
-            <button class="botao botao-discreto" id="btnPular">Pular</button>
-            <button class="botao botao-discreto" id="btnReiniciar">Reiniciar</button>
-          </div>
-          <div class="dica-atalhos">
-            <span><kbd>Espaço</kbd> iniciar/pausar</span>
-            <span><kbd>S</kbd> pular</span>
-            <span><kbd>R</kbd> reiniciar</span>
-            <span><kbd>←</kbd> <kbd>→</kbd> trocar de dia</span>
-          </div>
-        </div>
-        <div class="plano-do-dia">
-          <div class="navegacao-dia">
-            <button class="botao botao-discreto botao-pequeno" id="btnDiaAnterior">← Dia anterior</button>
-            <button class="botao botao-discreto botao-pequeno" id="btnHoje">Hoje</button>
-            <button class="botao botao-discreto botao-pequeno" id="btnProximoDia">Próximo dia →</button>
-            <input type="date" id="seletorData">
-          </div>
-          <div class="rotulo-dia" id="rotuloDia">Carregando…</div>
-          <div class="lista-blocos" id="listaBlocos"></div>
-          <div class="caixa-recuperacao" id="caixaRecuperacao" style="display:none;">
-            <strong>Recuperação ativa</strong> — sem consultar o material, escreva de cabeça o que você lembra do que estudou hoje.
-            <textarea id="textoRecuperacao" placeholder="O que eu lembro sobre..."></textarea>
-            <div style="margin-top:8px;display:flex;gap:8px;">
-              <button class="botao botao-principal botao-pequeno" id="btnConcluirDia">Concluir o dia e avançar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABA: CRONOGRAMA -->
-  <section class="painel" id="painel-cronograma">
-    <div class="cartao">
-      <h2>Cronograma até o vestibular</h2>
-      <div class="legenda-topo">Matemática, Biologia, Português, Física e Química se revezam em pares — todas pesam igual na prova (14 questões cada). Redação entra uma vez por semana. Clique num dia para abrir a sessão dele.</div>
-      <div class="navegacao-semana">
-        <button class="botao botao-discreto botao-pequeno" id="btnSemanaAnterior">← Semana anterior</button>
-        <span id="rotuloSemana" class="rotulo-semana"></span>
-        <button class="botao botao-discreto botao-pequeno" id="btnSemanaSeguinte">Semana seguinte →</button>
-      </div>
-      <div class="grade-dias" id="gradeDias"></div>
-      <div class="legenda-materias" id="legendaMaterias"></div>
-      <div style="margin-top:16px;">
-        <button class="botao botao-discreto botao-pequeno" id="btnRedistribuir">Redistribuir matérias</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABA: REVISÕES -->
-  <section class="painel" id="painel-revisoes">
-    <div class="cartao">
-      <h2>Fila de revisão espaçada</h2>
-      <div class="legenda-topo">Cada tópico volta em 1, 3, 7 e 30 dias depois de estudado. Registre o que você estudou hoje para entrar na fila.</div>
-      <div class="form-topico">
-        <select id="selecaoMateria"></select>
-        <input type="text" id="nomeTopico" placeholder="Nome do tópico (ex: Funções do 2º grau)">
-        <button class="botao botao-principal botao-pequeno" id="btnAdicionarTopico">Adicionar</button>
-      </div>
-    </div>
-    <div class="cartao">
-      <h2>Revisar hoje</h2>
-      <div id="listaRevisarHoje"></div>
-    </div>
-    <div class="cartao">
-      <h2>Próximas revisões</h2>
-      <div id="listaProximasRevisoes"></div>
-    </div>
-  </section>
-
-  <!-- ABA: PROGRESSO -->
-  <section class="painel" id="painel-progresso">
-    <div class="cartao">
-      <div class="linha-estatisticas">
-        <div class="caixa-estatistica"><div class="numero" id="statDias">0</div><div class="descricao">dias de estudo concluídos</div></div>
-        <div class="caixa-estatistica"><div class="numero" id="statHoras">0h</div><div class="descricao">tempo total estudado</div></div>
-        <div class="caixa-estatistica"><div class="numero" id="statTopicos">0</div><div class="descricao">tópicos na fila de revisão</div></div>
-      </div>
-      <h2>Blocos concluídos por matéria</h2>
-      <div id="barrasProgresso"></div>
-    </div>
-  </section>
-
-</div>
+<dialog id="config-dialog">
+  <div class="dialog-inner" id="config-content"></div>
+</dialog>
 
 <script>
-(function(){
+// @ts-check
+'use strict';
 
-  // =========================================================
-  // DADOS FIXOS: matérias, dias da semana e data do vestibular
-  // =========================================================
-  const MATERIAS = [
-    {id:'mat', nome:'Matemática', cor:'#5C7FA6'},
-    {id:'bio', nome:'Biologia', cor:'#5B8C6E'},
-    {id:'por', nome:'Português e Literatura', cor:'#6B5B8E'},
-    {id:'fis', nome:'Física', cor:'#4C8C87'},
-    {id:'qui', nome:'Química', cor:'#9C7A4A'},
-    {id:'red', nome:'Redação', cor:'#8A8574'},
+/* =========================================================================
+ * LÓGICA PURA (idêntica a core.js — testada em core.test.js)
+ * ========================================================================= */
+
+/** @typedef {[string, string, number, string]} ItemPlano */
+/** @typedef {{fase: string, itens: ItemPlano[]}} Fase */
+/** @typedef {{materia: string, topico: string, modo: string}} Bloco */
+/** @typedef {{index: number, fase: string, blocks: Bloco[]}} Sessao */
+
+function toDay(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return Math.floor(Date.UTC(y, m - 1, d) / 86400000);
+}
+function toISO(day) {
+  const d = new Date(day * 86400000);
+  const y = d.getUTCFullYear();
+  const m = String(d.getUTCMonth() + 1).padStart(2, '0');
+  const dd = String(d.getUTCDate()).padStart(2, '0');
+  return `${y}-${m}-${dd}`;
+}
+function addDays(iso, n) { return toISO(toDay(iso) + n); }
+function diffDays(a, b) { return toDay(b) - toDay(a); }
+
+/** @type {Fase[]} */
+const FASES = [
+  { fase: 'Fundação', itens: [
+    ['Química', 'Funções orgânicas e nomenclatura', 7, '25/5'],
+    ['Matemática', 'Probabilidade e combinatória', 5, '50/10'],
+    ['Biologia', 'Ecologia e meio ambiente (SC)', 5, '25/5'],
+    ['Biologia', 'Microbiologia, vírus e doenças', 5, '25/5'],
+    ['Matemática', 'Matrizes, determinantes e sistemas', 4, '50/10'],
+    ['Português', 'Obras obrigatórias', 4, '25/5'],
+    ['Química', 'Tabela periódica e propriedades', 3, '25/5'],
+    ['Matemática', 'Geometria plana', 3, '50/10'],
+    ['Química', 'Estrutura atômica e modelos', 2, '25/5'],
+    ['Matemática', 'Progressões e sequências', 2, '50/10'],
+    ['Redação', 'Uma redação completa, cronometrada', 5, '50/10'],
+    ['Simulado', 'Bloco de questões da UDESC, cronometrado', 5, '50/10'],
+  ]},
+  { fase: 'Volume', itens: [
+    ['Português', 'Obras obrigatórias', 8, '25/5'],
+    ['Matemática', 'Funções, logaritmo e exponencial', 5, '50/10'],
+    ['Matemática', 'Geometria analítica e cônicas', 4, '50/10'],
+    ['Química', 'Ligações e forças intermoleculares', 4, '25/5'],
+    ['Biologia', 'Fisiologia humana', 4, '25/5'],
+    ['Matemática', 'Geometria espacial', 3, '50/10'],
+    ['Biologia', 'Citologia e biologia molecular', 3, '25/5'],
+    ['Biologia', 'Botânica e fisiologia vegetal', 3, '25/5'],
+    ['Química', 'Soluções, concentração e diluição', 3, '50/10'],
+    ['Biologia', 'Genética e hereditariedade', 2, '50/10'],
+    ['Química', 'Química ambiental e cotidiano', 2, '25/5'],
+    ['Química', 'Eletroquímica e oxirredução', 1, '25/5'],
+    ['Redação', 'Uma redação completa, cronometrada', 5, '50/10'],
+    ['Simulado', 'Bloco de questões da UDESC, cronometrado', 3, '50/10'],
+  ]},
+  { fase: 'Consolidação', itens: [
+    ['Física', 'Física moderna (só conceito)', 3, '25/5'],
+    ['Física', 'Termodinâmica conceitual', 3, '25/5'],
+    ['Física', 'Óptica e ondas conceitual', 3, '25/5'],
+    ['Matemática', 'Trigonometria', 3, '50/10'],
+    ['Física', 'Gravitação', 2, '50/10'],
+    ['Biologia', 'Zoologia', 2, '25/5'],
+    ['Biologia', 'Evolução', 2, '25/5'],
+    ['Biologia', 'Taxonomia e embriologia', 2, '25/5'],
+    ['Química', 'Cinética, equilíbrio e termoquímica', 2, '50/10'],
+    ['Matemática', 'Geometria — revisão geral', 2, '50/10'],
+    ['Português', 'Obras obrigatórias', 2, '25/5'],
+    ['Física', 'Leis de Newton (só conceito)', 1, '25/5'],
+    ['Química', 'Funções inorgânicas e ácido-base', 1, '25/5'],
+    ['Química', 'Radioatividade', 1, '25/5'],
+    ['Redação', 'Uma redação completa, cronometrada', 1, '50/10'],
+  ]},
+];
+
+/** @typedef {[string, number]} ParTopicoPeso */
+/** @type {Record<string, ParTopicoPeso[]>} */
+const PESOS = {
+  'Matemática': [
+    ['Geometria plana, espacial e analítica', 4.3],
+    ['Funções, logaritmo e exponencial', 3.5],
+    ['Probabilidade, combinatória e estatística', 2.2],
+    ['Matrizes, determinantes e sistemas', 1.7],
+    ['Trigonometria', 1.5],
+    ['Progressões e sequências', 1.2],
+    ['Polinômios', 0.5],
+  ],
+  'Física': [
+    ['Mecânica', 2.7],
+    ['Eletricidade e circuitos', 2.5],
+    ['Termologia e termodinâmica', 2.3],
+    ['Energia e quantidade de movimento', 1.8],
+    ['Ondas e óptica', 1.8],
+    ['Gravitação', 1.0],
+    ['Física moderna', 1.0],
+    ['Fluidos', 0.8],
+  ],
+  'Química': [
+    ['Funções orgânicas e nomenclatura', 2.8],
+    ['Ligações e forças intermoleculares', 1.7],
+    ['Tabela periódica', 1.5],
+    ['Soluções e concentração', 1.3],
+    ['Química ambiental', 1.3],
+    ['Estrutura atômica e modelos', 1.0],
+    ['Eletroquímica e oxirredução', 1.0],
+    ['Cinética, equilíbrio e termoquímica', 1.0],
+    ['Funções inorgânicas e ácido-base', 0.8],
+    ['Radioatividade', 0.7],
+    ['Estequiometria', 0.5],
+    ['Propriedades coligativas', 0.3],
+  ],
+  'Biologia': [
+    ['Ecologia e meio ambiente', 2.7],
+    ['Microbiologia, vírus e doenças', 2.0],
+    ['Fisiologia humana', 1.8],
+    ['Citologia e biologia molecular', 1.7],
+    ['Botânica e fisiologia vegetal', 1.7],
+    ['Zoologia', 1.2],
+    ['Evolução', 1.2],
+    ['Genética', 1.0],
+    ['Taxonomia', 0.7],
+    ['Embriologia e reprodução', 0.7],
+    ['Imunologia', 0.3],
+  ],
+};
+
+/** Liga cada tópico de peso (seção 5) aos tópicos correspondentes na fila (seção 5). */
+const MAPA_COBERTURA = {
+  'Matemática': {
+    'Geometria plana, espacial e analítica': ['Geometria plana', 'Geometria analítica e cônicas', 'Geometria espacial', 'Geometria — revisão geral'],
+    'Funções, logaritmo e exponencial': ['Funções, logaritmo e exponencial'],
+    'Probabilidade, combinatória e estatística': ['Probabilidade e combinatória'],
+    'Matrizes, determinantes e sistemas': ['Matrizes, determinantes e sistemas'],
+    'Trigonometria': ['Trigonometria'],
+    'Progressões e sequências': ['Progressões e sequências'],
+    'Polinômios': [],
+  },
+  'Física': {
+    'Mecânica': ['Leis de Newton (só conceito)'],
+    'Eletricidade e circuitos': [],
+    'Termologia e termodinâmica': ['Termodinâmica conceitual'],
+    'Energia e quantidade de movimento': [],
+    'Ondas e óptica': ['Óptica e ondas conceitual'],
+    'Gravitação': ['Gravitação'],
+    'Física moderna': ['Física moderna (só conceito)'],
+    'Fluidos': [],
+  },
+  'Química': {
+    'Funções orgânicas e nomenclatura': ['Funções orgânicas e nomenclatura'],
+    'Ligações e forças intermoleculares': ['Ligações e forças intermoleculares'],
+    'Tabela periódica': ['Tabela periódica e propriedades'],
+    'Soluções e concentração': ['Soluções, concentração e diluição'],
+    'Química ambiental': ['Química ambiental e cotidiano'],
+    'Estrutura atômica e modelos': ['Estrutura atômica e modelos'],
+    'Eletroquímica e oxirredução': ['Eletroquímica e oxirredução'],
+    'Cinética, equilíbrio e termoquímica': ['Cinética, equilíbrio e termoquímica'],
+    'Funções inorgânicas e ácido-base': ['Funções inorgânicas e ácido-base'],
+    'Radioatividade': ['Radioatividade'],
+    'Estequiometria': [],
+    'Propriedades coligativas': [],
+  },
+  'Biologia': {
+    'Ecologia e meio ambiente': ['Ecologia e meio ambiente (SC)'],
+    'Microbiologia, vírus e doenças': ['Microbiologia, vírus e doenças'],
+    'Fisiologia humana': ['Fisiologia humana'],
+    'Citologia e biologia molecular': ['Citologia e biologia molecular'],
+    'Botânica e fisiologia vegetal': ['Botânica e fisiologia vegetal'],
+    'Zoologia': ['Zoologia'],
+    'Evolução': ['Evolução'],
+    'Genética': ['Genética e hereditariedade'],
+    'Taxonomia': ['Taxonomia e embriologia'],
+    'Embriologia e reprodução': ['Taxonomia e embriologia'],
+    'Imunologia': [],
+  },
+};
+
+const MATERIAS_FOCO = ['Matemática', 'Física', 'Química', 'Biologia', 'Português'];
+const TOPICOS_ERRO = {
+  'Matemática': PESOS['Matemática'].map((t) => t[0]),
+  'Física': PESOS['Física'].map((t) => t[0]),
+  'Química': PESOS['Química'].map((t) => t[0]),
+  'Biologia': PESOS['Biologia'].map((t) => t[0]),
+  'Português': ['Obras obrigatórias'],
+};
+const CAUSAS = [
+  ['nao-sabia', 'não sabia'],
+  ['errou-conta', 'sabia e errei conta'],
+  ['interpretou-mal', 'interpretei mal'],
+];
+
+/** Matérias da prova (seção 1) com o total de questões de cada uma — usadas no registro de simulados. */
+/** @type {ParTopicoPeso[]} */
+const SIMULADO_MATERIAS = [
+  ['Matemática', 14],
+  ['Física', 14],
+  ['Química', 14],
+  ['Biologia', 14],
+  ['Português e Literatura', 14],
+  ['Inglês', 8],
+  ['História e Geografia', 18],
+  ['Filosofia e Sociologia', 4],
+];
+
+function buildQueue(fases) {
+  /** @type {Sessao[]} */
+  const sessions = [];
+  let globalIndex = 0;
+
+  for (const faseObj of fases) {
+    const pools = faseObj.itens.map((item, idx) => ({
+      materia: item[0], topico: item[1], modo: item[3], remaining: item[2], order: idx,
+    }));
+
+    function pickBest(excludeMateria) {
+      let candidates = pools.filter((p) => p.remaining > 0 && (excludeMateria === null || p.materia !== excludeMateria));
+      if (candidates.length === 0 && excludeMateria !== null) {
+        candidates = pools.filter((p) => p.remaining > 0);
+      }
+      if (candidates.length === 0) return null;
+      candidates.sort((a, b) => {
+        if (b.remaining !== a.remaining) return b.remaining - a.remaining;
+        if (a.materia !== b.materia) return a.materia < b.materia ? -1 : 1;
+        return a.order - b.order;
+      });
+      return candidates[0];
+    }
+
+    while (pools.some((p) => p.remaining > 0)) {
+      const first = pickBest(null);
+      if (!first) break;
+      first.remaining--;
+      const blocks = [{ materia: first.materia, topico: first.topico, modo: first.modo }];
+      const second = pickBest(first.materia);
+      if (second) {
+        second.remaining--;
+        blocks.push({ materia: second.materia, topico: second.topico, modo: second.modo });
+      }
+      sessions.push({ index: globalIndex++, fase: faseObj.fase, blocks });
+    }
+  }
+  return sessions;
+}
+
+const INTERVALOS_REVISAO = [1, 3, 7, 30];
+
+function criarErro(dados, id, dataRegistro) {
+  return {
+    id,
+    materia: dados.materia,
+    topico: dados.topico,
+    causa: dados.causa,
+    origem: dados.origem || '',
+    anotacao: dados.anotacao || '',
+    dataRegistro,
+    nivel: 0,
+    proxima: addDays(dataRegistro, INTERVALOS_REVISAO[0]),
+    acertos: 0,
+    erros: 0,
+  };
+}
+
+function revisarErro(erro, hoje, acertou) {
+  if (acertou) {
+    if (erro.nivel >= INTERVALOS_REVISAO.length - 1) {
+      return Object.assign({}, erro, { proxima: '', acertos: erro.acertos + 1 });
+    }
+    const novoNivel = erro.nivel + 1;
+    return Object.assign({}, erro, {
+      nivel: novoNivel,
+      proxima: addDays(hoje, INTERVALOS_REVISAO[novoNivel]),
+      acertos: erro.acertos + 1,
+    });
+  }
+  return Object.assign({}, erro, {
+    nivel: 0,
+    proxima: addDays(hoje, INTERVALOS_REVISAO[0]),
+    erros: erro.erros + 1,
+  });
+}
+
+function getVencidas(erros, hoje) {
+  return erros
+    .filter((e) => e.proxima !== '' && e.proxima <= hoje)
+    .slice()
+    .sort((a, b) => (a.proxima < b.proxima ? -1 : a.proxima > b.proxima ? 1 : 0));
+}
+
+const DATA_LIMITE_FILA = '2026-11-22';
+const DATA_PROVA = '2026-11-29';
+const DATA_LIMITE_INSCRICAO = '2026-10-08';
+const TOTAL_SESSOES = 65;
+
+function calcRitmo(hoje, datasConcluidas, opts) {
+  const total = (opts && opts.total) || TOTAL_SESSOES;
+  const dataLimite = (opts && opts.dataLimite) || DATA_LIMITE_FILA;
+  const semanasRestantes = Math.max(0, diffDays(hoje, dataLimite)) / 7;
+  const concluidas = datasConcluidas.length;
+
+  let ritmo = 0;
+  if (concluidas > 0) {
+    const primeira = datasConcluidas[0];
+    const dias = Math.max(7, diffDays(primeira, hoje) + 1);
+    ritmo = (concluidas / dias) * 7;
+  }
+  const projecao = Math.min(total, Math.round(concluidas + ritmo * semanasRestantes));
+  const necessario = semanasRestantes > 0 ? (total - concluidas) / semanasRestantes : 0;
+  return { concluidas, ritmo, projecao, necessario, semanasRestantes };
+}
+
+function isVespera(hoje, dataLimite) { return toDay(hoje) >= toDay(dataLimite || DATA_LIMITE_FILA); }
+function diasRestantesProva(hoje, dataProva) { return diffDays(hoje, dataProva || DATA_PROVA); }
+function statusInscricao(hoje, inscricaoFeita, limite) {
+  if (inscricaoFeita) return 'ok';
+  return toDay(hoje) > toDay(limite || DATA_LIMITE_INSCRICAO) ? 'critico' : 'fixo';
+}
+function calcDesempenho(acertosTotal, notaRedacao) { return ((acertosTotal + notaRedacao) / 110) * 100; }
+
+function interpretarGargalo(contagens) {
+  const { naoSabia, errouConta, interpretouMal } = contagens;
+  if (naoSabia === 0 && errouConta === 0 && interpretouMal === 0) return '';
+  if (errouConta >= naoSabia && errouConta >= interpretouMal) return 'o gargalo é base algébrica';
+  if (naoSabia >= errouConta && naoSabia >= interpretouMal) return 'o gargalo é cobertura de conteúdo';
+  return 'o gargalo é leitura sob pressão — treine cronometrado';
+}
+
+function computeTimerState(iniciadoEm, modo, nowMs) {
+  const [estudoMin, pausaMin] = modo.split('/').map(Number);
+  const estudoMs = estudoMin * 60000;
+  const pausaMs = pausaMin * 60000;
+  const cicloMs = estudoMs + pausaMs;
+  const ciclos = Math.max(1, Math.round(3600000 / cicloMs));
+  const totalMs = ciclos * cicloMs;
+  const elapsed = Math.max(0, nowMs - iniciadoEm);
+  if (elapsed >= totalMs) return { concluido: true, ciclo: ciclos, totalCiclos: ciclos, fase: 'concluido', restanteMs: 0 };
+  const cicloIdx = Math.floor(elapsed / cicloMs);
+  const dentroCiclo = elapsed - cicloIdx * cicloMs;
+  if (dentroCiclo < estudoMs) return { concluido: false, ciclo: cicloIdx + 1, totalCiclos: ciclos, fase: 'estudo', restanteMs: estudoMs - dentroCiclo };
+  return { concluido: false, ciclo: cicloIdx + 1, totalCiclos: ciclos, fase: 'pausa', restanteMs: cicloMs - dentroCiclo };
+}
+
+const BLOCOS_VESPERA = [
+  'Caderno de erros — revisar tudo que venceu',
+  'Caderno de erros — só os marcados como "não sabia"',
+  'Química: orgânica e tabela periódica, releitura ativa',
+  'Biologia: ecologia SC e microbiologia, releitura ativa',
+  'Física: física moderna, releitura ativa',
+  'Português: obras obrigatórias, enredo e temas',
+  'Caderno de erros — passada final',
+  'Uma redação, cronometrada',
+];
+
+/* =========================================================================
+ * FILA FIXA (computada uma vez a partir de FASES — determinística)
+ * ========================================================================= */
+
+const FILA = buildQueue(FASES);
+
+/* =========================================================================
+ * ESTADO
+ * ========================================================================= */
+
+const STORAGE_KEY = 'filaUdescState_v1';
+
+function estadoPadrao() {
+  return {
+    v: 1,
+    onboardingCompleto: false,
+    fraseIntencao: '',
+    tema: 'auto',
+    telaAtiva: 'hoje',
+    inscricaoFeita: false,
+    ordem: FILA.map((s) => s.index),
+    status: {},
+    checks: {},
+    dataConclusao: {},
+    vesperaChecks: [false, false, false, false, false, false, false, false],
+    erros: [],
+    proximoErroId: 1,
+    filtroErroMateria: '',
+    filtroErroCausa: '',
+    revisandoErroId: null,
+    simulados: [],
+    timer: null,
+    mostrarConcluidasPorFase: {},
+  };
+}
+
+function carregar() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      const salvo = JSON.parse(raw);
+      return Object.assign(estadoPadrao(), salvo);
+    }
+  } catch (e) { /* localStorage indisponível (ex: navegação privada) */ }
+  return estadoPadrao();
+}
+
+function salvar() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE)); } catch (e) { /* ignora */ }
+}
+
+/** @type {any} */
+let STATE = carregar();
+
+function mutate(fn) {
+  fn(STATE);
+  salvar();
+  render();
+}
+
+function hojeISO() {
+  const d = new Date();
+  return toISO(Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000));
+}
+
+/* =========================================================================
+ * AUXILIARES DE ESTADO DERIVADO
+ * ========================================================================= */
+
+const FILA_POR_ID = new Map(FILA.map((s) => [s.index, s]));
+
+/** @param {number} id @returns {Sessao} */
+function sessaoPorId(id) { return /** @type {Sessao} */ (FILA_POR_ID.get(id)); }
+
+function sessaoAtualId() {
+  return STATE.ordem.find((id) => STATE.status[id] !== 'concluida');
+}
+
+function contarConcluidas() {
+  return Object.values(STATE.status).filter((v) => v === 'concluida').length;
+}
+
+function datasConclusaoOrdenadas() {
+  return Object.values(STATE.dataConclusao).filter(Boolean).sort();
+}
+
+function checksDe(id) {
+  return STATE.checks[id] || [false, false];
+}
+
+/* =========================================================================
+ * ÁUDIO — oscilador Web Audio, sem arquivo externo
+ * ========================================================================= */
+
+/** @type {AudioContext|null} */
+let audioCtx = null;
+/** @param {number} freq @param {number} durMs */
+function beep(freq, durMs) {
+  try {
+    if (!audioCtx) {
+      const AC = window.AudioContext || /** @type {any} */ (window).webkitAudioContext;
+      audioCtx = new AC();
+    }
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.frequency.value = freq;
+    osc.type = 'sine';
+    gain.gain.setValueAtTime(0.001, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.18, audioCtx.currentTime + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + durMs / 1000);
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.start();
+    osc.stop(audioCtx.currentTime + durMs / 1000 + 0.02);
+  } catch (e) { /* Web Audio indisponível */ }
+}
+
+/* =========================================================================
+ * TIMER — ticking por timestamp
+ * ========================================================================= */
+
+let tickHandle = null;
+let ultimaFaseTimer = null;
+
+function timerBlocoKey() {
+  const id = sessaoAtualId();
+  if (id == null || !STATE.timer) return null;
+  return `${id}:${STATE.timer.blocoIndex}`;
+}
+
+function garantirTick() {
+  const precisa = !!STATE.timer && STATE.telaAtiva === 'hoje' && !dialogById('config-dialog').open;
+  if (precisa && !tickHandle) {
+    tickHandle = setInterval(tick, 1000);
+  } else if (!precisa && tickHandle) {
+    clearInterval(tickHandle);
+    tickHandle = null;
+  }
+}
+
+function tick() {
+  if (!STATE.timer) { garantirTick(); return; }
+  const st = computeTimerState(STATE.timer.iniciadoEm, STATE.timer.modo, Date.now());
+  const chave = timerBlocoKey() + ':' + st.fase;
+  if (chave !== ultimaFaseTimer) {
+    ultimaFaseTimer = chave;
+    if (st.fase === 'pausa') beep(660, 220);
+    else if (st.fase === 'estudo' && st.ciclo > 1) beep(880, 220);
+    else if (st.fase === 'concluido') { beep(880, 180); setTimeout(() => beep(1046, 260), 220); }
+  }
+  renderConteudo();
+  garantirTick();
+}
+
+/* =========================================================================
+ * ESCAPE / FORMATAÇÃO
+ * ========================================================================= */
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]));
+}
+function fmtMin(ms) {
+  const total = Math.max(0, Math.ceil(ms / 1000));
+  const m = Math.floor(total / 60);
+  const s = total % 60;
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+function fmtNum(n, casas) {
+  return n.toLocaleString('pt-BR', { minimumFractionDigits: casas, maximumFractionDigits: casas });
+}
+function fmtDataBR(iso) {
+  if (!iso) return '';
+  const [y, m, d] = iso.split('-');
+  return `${d}/${m}/${y}`;
+}
+
+/* =========================================================================
+ * HELPERS DE DOM TIPADOS — evitam "possibly null" em todo o arquivo
+ * ========================================================================= */
+
+/** @param {string} id @returns {HTMLElement} */
+function byId(id) {
+  const el = document.getElementById(id);
+  if (!el) throw new Error('elemento não encontrado: ' + id);
+  return el;
+}
+/** @param {string} id @returns {HTMLInputElement} */
+function inputById(id) { return /** @type {HTMLInputElement} */ (byId(id)); }
+/** @param {string} id @returns {HTMLTextAreaElement} */
+function textareaById(id) { return /** @type {HTMLTextAreaElement} */ (byId(id)); }
+/** @param {string} id @returns {HTMLDialogElement} */
+function dialogById(id) { return /** @type {HTMLDialogElement} */ (byId(id)); }
+/** @param {EventTarget|null} target @returns {HTMLElement} */
+function asEl(target) { return /** @type {HTMLElement} */ (target); }
+/** @param {Element} el @returns {HTMLInputElement} */
+function asInput(el) { return /** @type {HTMLInputElement} */ (el); }
+
+/* =========================================================================
+ * RENDER — reconstrói a tela ativa inteira a partir de STATE
+ * ========================================================================= */
+
+function render() {
+  const app = byId('app');
+  if (!STATE.onboardingCompleto) {
+    app.innerHTML = viewOnboarding();
+    garantirTick();
+    return;
+  }
+  app.innerHTML = viewShell();
+  renderConteudo();
+  renderConfigDialog();
+  aplicarTema();
+  garantirTick();
+}
+
+function renderConteudo() {
+  const el = document.getElementById('conteudo');
+  if (!el) return;
+  const hoje = hojeISO();
+  if (STATE.telaAtiva === 'hoje') el.innerHTML = viewHoje(hoje);
+  else if (STATE.telaAtiva === 'fila') el.innerHTML = viewFila(hoje);
+  else if (STATE.telaAtiva === 'erros') el.innerHTML = viewErros(hoje);
+  else if (STATE.telaAtiva === 'progresso') el.innerHTML = viewProgresso(hoje);
+}
+
+function aplicarTema() {
+  const root = document.documentElement;
+  if (STATE.tema === 'light') root.setAttribute('data-theme', 'light');
+  else if (STATE.tema === 'dark') root.setAttribute('data-theme', 'dark');
+  else root.removeAttribute('data-theme');
+}
+
+function viewShell() {
+  const tabs = [
+    ['hoje', 'Hoje'],
+    ['fila', 'Fila'],
+    ['erros', 'Erros'],
+    ['progresso', 'Progresso'],
   ];
-  const materiaPorId = Object.fromEntries(MATERIAS.map(m=>[m.id,m]));
-  const NOMES_DIAS = ['Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira'];
-  const DATA_VESTIBULAR = '2026-11-29';
-  const INTERVALOS_REVISAO = [1,3,7,30]; // dias após o estudo: 1º, 2º, 3º e 4º ciclo de revisão
-  const CHAVE_ARMAZENAMENTO = 'vestibular-udesc-dados';
+  return `
+    <header class="topbar">
+      <h1>Fila UDESC</h1>
+      <button class="icon-btn" data-action="abrir-config" aria-label="Configurações">config</button>
+    </header>
+    <main id="conteudo"></main>
+    <nav class="tabs">
+      ${tabs.map(([key, label]) => `
+        <button data-action="ir-tela" data-tela="${key}" aria-current="${STATE.telaAtiva === key}">
+          <span>${label}</span>
+        </button>
+      `).join('')}
+    </nav>
+  `;
+}
 
-  // =========================================================
-  // FUNÇÕES DE DATA — todo o cronograma trabalha com strings
-  // no formato "AAAA-MM-DD" pra facilitar comparação e salvamento
-  // =========================================================
-  function hojeISO(){ return new Date().toISOString().slice(0,10); }
+/* ---- Onboarding ---------------------------------------------------- */
 
-  function somarDias(dataISO, quantidade){
-    const data = new Date(dataISO+'T00:00:00');
-    data.setDate(data.getDate()+quantidade);
-    return data.toISOString().slice(0,10);
-  }
+function viewOnboarding() {
+  return `
+    <div class="onboarding-wrap">
+      <div class="card onboarding-card">
+        <h2>Antes de começar</h2>
+        <p class="muted small">Escreva uma frase no formato se-então dizendo quando e onde você estuda. Por exemplo: "Se for terça às 19h, então abro a fila na escrivaninha."</p>
+        <label class="field">
+          <span>Sua frase se-então</span>
+          <textarea id="onboarding-frase" placeholder="Se for..., então..."></textarea>
+        </label>
+        <button class="btn primary full" data-action="onboarding-salvar">Começar</button>
+      </div>
+    </div>
+  `;
+}
 
-  function nomeDiaSemana(dataISO){
-    return NOMES_DIAS[new Date(dataISO+'T00:00:00').getDay()-1];
-  }
+/* ---- Tela Hoje ------------------------------------------------------- */
 
-  function formatarData(dataISO){
-    const [, mes, dia] = dataISO.split('-');
-    return dia+'/'+mes;
-  }
+function viewHoje(hoje) {
+  const vespera = isVespera(hoje);
+  const inscStatus = statusInscricao(hoje, STATE.inscricaoFeita);
+  let html = '';
 
-  // retorna a segunda-feira da semana em que a data cai — usado pra
-  // agrupar os dias do cronograma em semanas de verdade
-  function chaveDaSemana(dataISO){
-    const data = new Date(dataISO+'T00:00:00');
-    const deslocamento = (data.getDay()+6)%7; // segunda-feira = 0
-    data.setDate(data.getDate()-deslocamento);
-    return data.toISOString().slice(0,10);
-  }
-
-  // lista todos os dias úteis (segunda a sexta) entre duas datas, incluindo as pontas
-  function diasUteisEntre(dataInicial, dataFinal){
-    const dias = [];
-    let atual = new Date(dataInicial+'T00:00:00');
-    const fim = new Date(dataFinal+'T00:00:00');
-    while(atual <= fim){
-      const diaSemana = atual.getDay();
-      if(diaSemana >= 1 && diaSemana <= 5) dias.push(atual.toISOString().slice(0,10));
-      atual.setDate(atual.getDate()+1);
-    }
-    return dias;
-  }
-
-  // garante que uma data escolhida (ex: pelo seletor de data) caia dentro
-  // do cronograma — se cair num fim de semana ou fora do intervalo,
-  // avança pro próximo dia útil válido mais próximo
-  function ajustarParaDiaValido(dataISO, diasValidos){
-    if(!diasValidos || diasValidos.length===0) return dataISO;
-    if(diasValidos.includes(dataISO)) return dataISO;
-    for(const dia of diasValidos){ if(dia >= dataISO) return dia; }
-    return diasValidos[diasValidos.length-1];
-  }
-
-  function embaralhar(lista){
-    const copia = lista.slice();
-    for(let i=copia.length-1; i>0; i--){
-      const j = Math.floor(Math.random()*(i+1));
-      [copia[i],copia[j]] = [copia[j],copia[i]];
-    }
-    return copia;
-  }
-
-  // =========================================================
-  // MONTAGEM DO CRONOGRAMA
-  // Distribui as matérias pelos dias úteis até o vestibular:
-  // Matemática, Biologia, Português, Física e Química dividem
-  // a maior parte das vagas igualmente; Redação entra ~1x por semana.
-  // =========================================================
-  function montarCronograma(dias){
-    const totalDias = dias.length;
-    if(totalDias===0) return {};
-
-    const vagas = totalDias*2; // 2 matérias por dia
-    const vagasRedacao = Math.max(1, Math.round(totalDias/5));
-    const vagasRestantes = vagas - vagasRedacao;
-    const idsPrincipais = ['mat','bio','por','fis','qui'];
-    const vagasPorMateria = Math.floor(vagasRestantes/idsPrincipais.length);
-    let sobra = vagasRestantes - vagasPorMateria*idsPrincipais.length;
-
-    const quantidades = {mat:vagasPorMateria, bio:vagasPorMateria, por:vagasPorMateria, fis:vagasPorMateria, qui:vagasPorMateria, red:vagasRedacao};
-    for(let i=0; i<sobra; i++) quantidades[idsPrincipais[i%idsPrincipais.length]]++;
-
-    let vagasEmbaralhadas = [];
-    Object.entries(quantidades).forEach(([id,qtd])=>{
-      for(let i=0; i<qtd; i++) vagasEmbaralhadas.push(id);
-    });
-    vagasEmbaralhadas = embaralhar(vagasEmbaralhadas);
-    while(vagasEmbaralhadas.length < vagas) vagasEmbaralhadas.push('red');
-    vagasEmbaralhadas = vagasEmbaralhadas.slice(0, vagas);
-
-    const metade = vagas/2;
-    const cronograma = {};
-    dias.forEach((dia,i)=>{ cronograma[dia] = [vagasEmbaralhadas[i], vagasEmbaralhadas[metade+i]]; });
-
-    // corrige o caso raro de a mesma matéria cair duas vezes no mesmo dia,
-    // trocando com outro dia que não tenha conflito
-    dias.forEach((dia,i)=>{
-      if(cronograma[dia][0] === cronograma[dia][1]){
-        for(let j=0; j<dias.length; j++){
-          if(j===i) continue;
-          const outroDia = dias[j];
-          if(cronograma[outroDia][0]!==cronograma[dia][0] && cronograma[outroDia][1]!==cronograma[dia][0]){
-            const temp = cronograma[dia][1];
-            cronograma[dia][1] = cronograma[outroDia][0];
-            cronograma[outroDia][0] = temp;
-            if(cronograma[dia][0]!==cronograma[dia][1]) break;
-          }
-        }
-      }
-    });
-
-    return cronograma;
-  }
-
-  // monta a sequência de blocos Pomodoro do dia: 25min estudo, 5min pausa,
-  // 25min estudo, 10min pausa longa, 25min estudo, 5min pausa, 25min estudo
-  // (total: 120 minutos = 2h)
-  function obterBlocosDoDia(materiasDoDia){
-    const [materiaA, materiaB] = materiasDoDia;
-    return [
-      {tipo:'estudo', materia:materiaA, minutos:25},
-      {tipo:'pausa', rotulo:'Pausa curta', minutos:5},
-      {tipo:'estudo', materia:materiaA, minutos:25},
-      {tipo:'pausa', rotulo:'Pausa longa', minutos:10},
-      {tipo:'estudo', materia:materiaB, minutos:25},
-      {tipo:'pausa', rotulo:'Pausa curta', minutos:5},
-      {tipo:'estudo', materia:materiaB, minutos:25},
-    ];
-  }
-
-  // =========================================================
-  // ESTADO DA APLICAÇÃO E ARMAZENAMENTO
-  // Tudo fica salvo no localStorage do navegador — funciona em
-  // qualquer site hospedado normalmente, sem precisar de servidor.
-  // =========================================================
-  function criarEstadoInicial(){
-    const inicio = hojeISO();
-    const dias = diasUteisEntre(inicio, DATA_VESTIBULAR);
-    return {
-      dataInicio: inicio,
-      diasDoCronograma: dias,
-      cronograma: montarCronograma(dias),
-      dataSelecionada: ajustarParaDiaValido(inicio, dias),
-      blocosConcluidosPorMateria: {},   // materiaId -> quantidade de blocos concluídos
-      diasConcluidos: 0,
-      minutosTotaisEstudados: 0,
-      progressoPorDia: {},              // dataISO -> {indiceBloco, blocosFeitos:[bool]}
-      topicos: [],                      // {id, materia, nome, dataEstudo, estagio, dataRevisao}
-      registroRecuperacaoAtiva: {}      // dataISO -> texto escrito na recuperação ativa
-    };
-  }
-
-  function salvarEstado(){
-    try{
-      localStorage.setItem(CHAVE_ARMAZENAMENTO, JSON.stringify(estado));
-    }catch(erro){
-      console.error('Não foi possível salvar os dados no navegador:', erro);
-    }
-  }
-
-  function carregarEstado(){
-    try{
-      const dadosSalvos = localStorage.getItem(CHAVE_ARMAZENAMENTO);
-      if(!dadosSalvos) return criarEstadoInicial();
-
-      const salvos = JSON.parse(dadosSalvos);
-      const estadoCarregado = Object.assign(criarEstadoInicial(), salvos);
-
-      // se o cronograma salvo estiver corrompido ou vazio, gera um novo
-      if(!estadoCarregado.diasDoCronograma || !estadoCarregado.diasDoCronograma.length || !estadoCarregado.cronograma){
-        const novo = criarEstadoInicial();
-        estadoCarregado.diasDoCronograma = novo.diasDoCronograma;
-        estadoCarregado.cronograma = novo.cronograma;
-      }
-      estadoCarregado.dataSelecionada = ajustarParaDiaValido(
-        estadoCarregado.dataSelecionada || hojeISO(),
-        estadoCarregado.diasDoCronograma
-      );
-      return estadoCarregado;
-    }catch(erro){
-      console.error('Não foi possível carregar os dados salvos, começando do zero:', erro);
-      return criarEstadoInicial();
-    }
-  }
-
-  let estado = carregarEstado();
-
-  // =========================================================
-  // NAVEGAÇÃO ENTRE ABAS
-  // =========================================================
-  document.querySelectorAll('nav.abas button').forEach(botao=>{
-    botao.addEventListener('click', ()=>{
-      document.querySelectorAll('nav.abas button').forEach(b=>b.classList.remove('ativa'));
-      document.querySelectorAll('section.painel').forEach(p=>p.classList.remove('ativo'));
-      botao.classList.add('ativa');
-      document.getElementById('painel-'+botao.dataset.aba).classList.add('ativo');
-      if(botao.dataset.aba==='cronograma') renderizarCronograma();
-      if(botao.dataset.aba==='revisoes') renderizarRevisoes();
-      if(botao.dataset.aba==='progresso') renderizarProgresso();
-    });
-  });
-
-  // =========================================================
-  // TIMER POMODORO (aba "Sessão de hoje")
-  // =========================================================
-  let cronometro = { indiceBloco:0, segundosRestantes:0, rodando:false, idIntervalo:null, blocosFeitos:[] };
-
-  function materiasDoDiaSelecionado(){
-    return estado.cronograma[estado.dataSelecionada] || ['mat','bio'];
-  }
-  function blocosDoDiaSelecionado(){
-    return obterBlocosDoDia(materiasDoDiaSelecionado());
-  }
-  function diaDeEstudoAnterior(dataISO){
-    const indice = estado.diasDoCronograma.indexOf(dataISO);
-    return indice > 0 ? estado.diasDoCronograma[indice-1] : dataISO;
-  }
-  function diaDeEstudoSeguinte(dataISO){
-    const indice = estado.diasDoCronograma.indexOf(dataISO);
-    return (indice >= 0 && indice < estado.diasDoCronograma.length-1) ? estado.diasDoCronograma[indice+1] : dataISO;
-  }
-  function irParaData(dataISO){
-    estado.dataSelecionada = ajustarParaDiaValido(dataISO, estado.diasDoCronograma);
-    iniciarProgressoDoDia();
-    renderizarSessao();
-    salvarEstado();
-  }
-
-  // carrega (ou cria) o progresso salvo do dia selecionado no cronômetro
-  function iniciarProgressoDoDia(){
-    const chave = estado.dataSelecionada;
-    if(!estado.progressoPorDia[chave]){
-      estado.progressoPorDia[chave] = {
-        indiceBloco: 0,
-        blocosFeitos: new Array(blocosDoDiaSelecionado().length).fill(false),
-        concluidoRegistrado: false
-      };
-    }
-    const progressoSalvo = estado.progressoPorDia[chave];
-    cronometro.indiceBloco = progressoSalvo.indiceBloco;
-    cronometro.blocosFeitos = progressoSalvo.blocosFeitos;
-    const blocos = blocosDoDiaSelecionado();
-    cronometro.segundosRestantes = blocos[cronometro.indiceBloco] ? blocos[cronometro.indiceBloco].minutos*60 : 0;
-  }
-
-  function formatarTempo(segundos){
-    const minutos = Math.floor(segundos/60).toString().padStart(2,'0');
-    const seg = (segundos%60).toString().padStart(2,'0');
-    return minutos+':'+seg;
-  }
-
-  // redesenha toda a aba "Sessão de hoje": relógio, lista de blocos,
-  // navegação de data e o formulário de recuperação ativa
-  function renderizarSessao(){
-    const seletorData = document.getElementById('seletorData');
-    if(estado.diasDoCronograma.length){
-      seletorData.min = estado.diasDoCronograma[0];
-      seletorData.max = estado.diasDoCronograma[estado.diasDoCronograma.length-1];
-    }
-    seletorData.value = estado.dataSelecionada;
-    document.getElementById('btnDiaAnterior').disabled = estado.dataSelecionada === estado.diasDoCronograma[0];
-    document.getElementById('btnProximoDia').disabled = estado.dataSelecionada === estado.diasDoCronograma[estado.diasDoCronograma.length-1];
-
-    const blocos = blocosDoDiaSelecionado();
-    const blocoAtual = blocos[cronometro.indiceBloco];
-    document.getElementById('relogioTempo').textContent = formatarTempo(cronometro.segundosRestantes);
-
-    if(blocoAtual){
-      const rotulo = blocoAtual.tipo==='estudo' ? materiaPorId[blocoAtual.materia].nome : blocoAtual.rotulo;
-      document.getElementById('relogioRotulo').textContent = rotulo + ' · bloco '+(cronometro.indiceBloco+1)+'/'+blocos.length;
-      const cor = blocoAtual.tipo==='estudo' ? materiaPorId[blocoAtual.materia].cor : '#B3AF9D';
-      document.getElementById('progressoRelogio').setAttribute('stroke', cor);
-    } else {
-      document.getElementById('relogioRotulo').textContent = 'Dia concluído';
-    }
-
-    const totalSegundosBloco = blocoAtual ? blocoAtual.minutos*60 : 1;
-    const fracaoRestante = blocoAtual ? cronometro.segundosRestantes/totalSegundosBloco : 0;
-    const circunferencia = 628.3;
-    document.getElementById('progressoRelogio').setAttribute('stroke-dashoffset', circunferencia*fracaoRestante);
-
-    const ehHoje = estado.dataSelecionada === hojeISO();
-    document.getElementById('rotuloDia').textContent =
-      nomeDiaSemana(estado.dataSelecionada) + ', ' + formatarData(estado.dataSelecionada) + (ehHoje ? ' · hoje' : '') +
-      ' — ' + materiasDoDiaSelecionado().map(id=>materiaPorId[id].nome).join(' + ');
-
-    const listaBlocos = document.getElementById('listaBlocos');
-    listaBlocos.innerHTML = '';
-    blocos.forEach((bloco,i)=>{
-      const linha = document.createElement('div');
-      linha.className = 'linha-bloco'
-        + (cronometro.blocosFeitos[i] ? ' concluido' : '')
-        + (i===cronometro.indiceBloco && !cronometro.blocosFeitos[i] ? ' atual' : '');
-
-      const marcador = document.createElement('div');
-      marcador.className = 'marcador';
-      marcador.style.background = bloco.tipo==='estudo' ? materiaPorId[bloco.materia].cor : '#B3AF9D';
-      linha.appendChild(marcador);
-
-      const texto = document.createElement('span');
-      texto.textContent = bloco.tipo==='estudo' ? materiaPorId[bloco.materia].nome : bloco.rotulo;
-      linha.appendChild(texto);
-
-      const minutos = document.createElement('span');
-      minutos.className = 'minutos';
-      minutos.textContent = bloco.minutos+' min';
-      linha.appendChild(minutos);
-
-      listaBlocos.appendChild(linha);
-    });
-
-    const diaTotalmenteConcluido = cronometro.blocosFeitos.every(Boolean);
-    document.getElementById('caixaRecuperacao').style.display = diaTotalmenteConcluido ? 'block' : 'none';
-    document.getElementById('btnIniciarPausar').disabled = diaTotalmenteConcluido;
-    document.getElementById('btnPular').disabled = diaTotalmenteConcluido;
-    if(diaTotalmenteConcluido){
-      document.getElementById('textoRecuperacao').value = estado.registroRecuperacaoAtiva[estado.dataSelecionada] || '';
-    }
-  }
-
-  function salvarProgressoDoDia(){
-    estado.progressoPorDia[estado.dataSelecionada] = {
-      indiceBloco: cronometro.indiceBloco,
-      blocosFeitos: cronometro.blocosFeitos
-    };
-    salvarEstado();
-  }
-
-  // roda a cada segundo enquanto o cronômetro está ativo
-  function avancarUmSegundo(){
-    if(cronometro.segundosRestantes > 0){
-      cronometro.segundosRestantes--;
-      document.getElementById('relogioTempo').textContent = formatarTempo(cronometro.segundosRestantes);
-      const blocos = blocosDoDiaSelecionado();
-      const blocoAtual = blocos[cronometro.indiceBloco];
-      const totalSegundos = blocoAtual.minutos*60;
-      const circunferencia = 628.3;
-      document.getElementById('progressoRelogio').setAttribute('stroke-dashoffset', circunferencia*(cronometro.segundosRestantes/totalSegundos));
-    } else {
-      concluirBlocoAtual();
-    }
-  }
-
-  function rotuloDoBloco(bloco){
-    if(!bloco) return null;
-    return bloco.tipo==='estudo' ? materiaPorId[bloco.materia].nome : bloco.rotulo;
-  }
-
-  // mostra um card de aviso no canto da tela quando um bloco termina
-  function mostrarAviso(tipo, titulo, texto){
-    const container = document.getElementById('avisos-container');
-    const cartaoAviso = document.createElement('div');
-    cartaoAviso.className = 'aviso ' + tipo;
-    cartaoAviso.innerHTML = `
-      <div class="aviso-eyebrow">Vestibular UDESC</div>
-      <div class="aviso-titulo">${titulo}</div>
-      <div class="aviso-texto">${texto}</div>
+  if (inscStatus !== 'ok') {
+    const dias = diffDays(hoje, DATA_LIMITE_INSCRICAO);
+    html += `
+      <div class="banner ${inscStatus === 'critico' ? 'critico' : ''}">
+        <strong>${inscStatus === 'critico' ? 'Inscrição vencida' : 'Inscrição pendente'}</strong>
+        — ${inscStatus === 'critico'
+          ? `o prazo (08/10/2026) já passou e a inscrição ainda não foi marcada como feita.`
+          : `faltam ${dias} dia${dias === 1 ? '' : 's'} até o limite (08/10/2026).`}
+        <div style="margin-top:8px;">
+          <button class="btn small" data-action="marcar-inscricao">Já me inscrevi</button>
+        </div>
+      </div>
     `;
-    container.appendChild(cartaoAviso);
-    setTimeout(()=>{
-      cartaoAviso.style.transition = 'opacity .3s ease';
-      cartaoAviso.style.opacity = '0';
-      setTimeout(()=>cartaoAviso.remove(), 300);
-    }, 8000);
   }
 
-  function pedirPermissaoDeNotificacao(){
-    if('Notification' in window && Notification.permission === 'default'){
-      Notification.requestPermission();
-    }
+  const diasProva = diasRestantesProva(hoje);
+  const concluidas = contarConcluidas();
+
+  html += `
+    <div class="kpi-grid" style="margin-bottom:14px;">
+      <div class="kpi"><div class="label">Dias até a prova</div><div class="value num">${diasProva}</div></div>
+      <div class="kpi"><div class="label">Posição na fila</div><div class="value num">${vespera ? '—' : `${Math.min(concluidas + 1, TOTAL_SESSOES)} de ${TOTAL_SESSOES}`}</div></div>
+    </div>
+  `;
+
+  if (STATE.fraseIntencao) {
+    html += `<div class="frase-destaque" style="margin-bottom:14px;">${esc(STATE.fraseIntencao)}</div>`;
   }
 
-  // dispara o aviso visual (card na tela) e, se autorizado, também a
-  // notificação nativa do sistema operacional
-  function avisarFimDeBloco(blocoQueTerminou, proximoBloco){
-    const proximo = rotuloDoBloco(proximoBloco);
-    let titulo, texto, tipo;
-
-    if(!proximoBloco){
-      titulo = 'Dia concluído! 🎉';
-      texto = 'As 2h de hoje acabaram. Hora da recuperação ativa.';
-      tipo = 'concluido';
-    } else if(blocoQueTerminou.tipo==='estudo'){
-      titulo = 'Bloco de estudo terminou';
-      texto = 'Agora: ' + proximo;
-      tipo = 'pausa';
-    } else {
-      titulo = 'Pausa terminou';
-      texto = 'Agora: ' + proximo;
-      tipo = 'estudo';
-    }
-
-    mostrarAviso(tipo, titulo, texto);
-
-    if('Notification' in window && Notification.permission === 'granted'){
-      try{
-        new Notification('Vestibular UDESC — ' + titulo, { body: texto });
-      }catch(erro){ /* segue só com o aviso na página */ }
-    }
+  if (vespera) {
+    html += viewVespera();
+  } else {
+    html += viewSessaoAtual(hoje);
   }
 
-  function piscarRelogio(){
-    const relogio = document.querySelector('.relogio');
-    relogio.classList.remove('piscar');
-    void relogio.offsetWidth; // força o navegador a reiniciar a animação
-    relogio.classList.add('piscar');
+  html += viewRevisoesVencidasHoje(hoje);
+
+  return html;
+}
+
+function viewVespera() {
+  return `
+    <div class="card">
+      <h2>Modo véspera</h2>
+      <p class="small muted">Conteúdo novo na última semana é perda de tempo. A fila está travada — o que resta é consolidar o que já foi estudado.</p>
+      <div class="stack">
+        ${BLOCOS_VESPERA.map((texto, i) => `
+          <label class="check-row">
+            <input type="checkbox" class="checkbox-tap" data-action="toggle-vespera" data-i="${i}" ${STATE.vesperaChecks[i] ? 'checked' : ''}>
+            <span style="${STATE.vesperaChecks[i] ? 'text-decoration:line-through; color:var(--text-faint);' : ''}">${esc(texto)}</span>
+          </label>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function viewSessaoAtual(hoje) {
+  const id = sessaoAtualId();
+  if (id == null) {
+    return `<div class="card"><h2>Fila concluída</h2><p class="muted">As 65 sessões foram concluídas. Use o tempo restante para revisões do caderno de erros e simulados.</p></div>`;
   }
+  const sessao = sessaoPorId(id);
+  const checks = checksDe(id);
+  const ambosMarcados = checks[0] && checks[1];
+  const timer = STATE.timer;
 
-  // chamado quando o tempo de um bloco chega a zero (ou o usuário pula)
-  function concluirBlocoAtual(){
-    const blocos = blocosDoDiaSelecionado();
-    const blocoAtual = blocos[cronometro.indiceBloco];
-    const proximoBloco = blocos[cronometro.indiceBloco+1];
-
-    avisarFimDeBloco(blocoAtual, proximoBloco);
-    piscarRelogio();
-
-    if(blocoAtual){
-      cronometro.blocosFeitos[cronometro.indiceBloco] = true;
-      estado.minutosTotaisEstudados += blocoAtual.minutos;
-      if(blocoAtual.tipo==='estudo'){
-        estado.blocosConcluidosPorMateria[blocoAtual.materia] = (estado.blocosConcluidosPorMateria[blocoAtual.materia]||0)+1;
-      }
-    }
-
-    cronometro.indiceBloco++;
-    if(cronometro.indiceBloco < blocos.length){
-      cronometro.segundosRestantes = blocos[cronometro.indiceBloco].minutos*60;
-    } else {
-      cronometro.segundosRestantes = 0;
-      pausarCronometro();
-    }
-
-    salvarProgressoDoDia();
-    renderizarSessao();
-  }
-
-  function iniciarCronometro(){
-    if(cronometro.rodando) return;
-    cronometro.rodando = true;
-    document.getElementById('btnIniciarPausar').textContent = 'Pausar';
-    cronometro.idIntervalo = setInterval(avancarUmSegundo, 1000);
-  }
-  function pausarCronometro(){
-    cronometro.rodando = false;
-    document.getElementById('btnIniciarPausar').textContent = 'Iniciar';
-    clearInterval(cronometro.idIntervalo);
-  }
-
-  document.getElementById('btnIniciarPausar').addEventListener('click', ()=>{
-    pedirPermissaoDeNotificacao();
-    if(cronometro.rodando) pausarCronometro(); else iniciarCronometro();
-  });
-  document.getElementById('btnPular').addEventListener('click', ()=>{
-    pausarCronometro();
-    concluirBlocoAtual();
-  });
-  document.getElementById('btnReiniciar').addEventListener('click', ()=>{
-    pausarCronometro();
-    delete estado.progressoPorDia[estado.dataSelecionada];
-    iniciarProgressoDoDia();
-    renderizarSessao();
-    salvarEstado();
-  });
-  document.getElementById('btnConcluirDia').addEventListener('click', ()=>{
-    const textoEscrito = document.getElementById('textoRecuperacao').value.trim();
-    if(textoEscrito){
-      estado.registroRecuperacaoAtiva[estado.dataSelecionada] = textoEscrito;
-    }
-    const progressoDoDia = estado.progressoPorDia[estado.dataSelecionada];
-    if(progressoDoDia && !progressoDoDia.concluidoRegistrado){
-      progressoDoDia.concluidoRegistrado = true;
-      estado.diasConcluidos++;
-    }
-    document.getElementById('textoRecuperacao').value = '';
-    irParaData(diaDeEstudoSeguinte(estado.dataSelecionada));
-  });
-  document.getElementById('btnDiaAnterior').addEventListener('click', ()=>{
-    pausarCronometro();
-    irParaData(diaDeEstudoAnterior(estado.dataSelecionada));
-  });
-  document.getElementById('btnProximoDia').addEventListener('click', ()=>{
-    pausarCronometro();
-    irParaData(diaDeEstudoSeguinte(estado.dataSelecionada));
-  });
-  document.getElementById('btnHoje').addEventListener('click', ()=>{
-    pausarCronometro();
-    irParaData(hojeISO());
-  });
-  document.getElementById('seletorData').addEventListener('change', (evento)=>{
-    pausarCronometro();
-    irParaData(evento.target.value);
-  });
-
-  // atalhos de teclado — só funcionam na aba "Sessão de hoje" e quando o
-  // usuário não está digitando em algum campo de texto/data/seleção
-  document.addEventListener('keydown', (evento)=>{
-    const abaSessaoAtiva = document.getElementById('painel-sessao').classList.contains('ativo');
-    if(!abaSessaoAtiva) return;
-
-    const elementoAtivo = document.activeElement;
-    const digitandoEmCampo = elementoAtivo && ['INPUT','TEXTAREA','SELECT'].includes(elementoAtivo.tagName);
-    if(digitandoEmCampo) return;
-
-    if(evento.code === 'Space'){
-      evento.preventDefault(); // evita rolar a página
-      if(!document.getElementById('btnIniciarPausar').disabled){
-        document.getElementById('btnIniciarPausar').click();
-      }
-    } else if(evento.key === 's' || evento.key === 'S'){
-      if(!document.getElementById('btnPular').disabled) document.getElementById('btnPular').click();
-    } else if(evento.key === 'r' || evento.key === 'R'){
-      document.getElementById('btnReiniciar').click();
-    } else if(evento.key === 'ArrowLeft'){
-      document.getElementById('btnDiaAnterior').click();
-    } else if(evento.key === 'ArrowRight'){
-      document.getElementById('btnProximoDia').click();
-    }
-  });
-
-  // =========================================================
-  // ABA "CRONOGRAMA"
-  // =========================================================
-  function agruparDiasPorSemana(dias){
-    const grupos = {};
-    dias.forEach(dia=>{
-      const chave = chaveDaSemana(dia);
-      (grupos[chave] = grupos[chave] || []).push(dia);
-    });
-    return Object.keys(grupos).sort().map(chave=>({inicioSemana:chave, dias:grupos[chave]}));
-  }
-
-  let indiceSemanaAtual = null; // null = ainda não definido; será calculado na primeira renderização
-
-  function renderizarCronograma(){
-    const semanas = agruparDiasPorSemana(estado.diasDoCronograma);
-    if(semanas.length===0) return;
-
-    if(indiceSemanaAtual===null){
-      indiceSemanaAtual = semanas.findIndex(semana=>semana.dias.includes(estado.dataSelecionada));
-      if(indiceSemanaAtual<0) indiceSemanaAtual = 0;
-    }
-    indiceSemanaAtual = Math.max(0, Math.min(indiceSemanaAtual, semanas.length-1));
-    const semana = semanas[indiceSemanaAtual];
-
-    document.getElementById('rotuloSemana').textContent =
-      'Semana de ' + formatarData(semana.dias[0]) + ' a ' + formatarData(semana.dias[semana.dias.length-1]);
-    document.getElementById('btnSemanaAnterior').disabled = indiceSemanaAtual===0;
-    document.getElementById('btnSemanaSeguinte').disabled = indiceSemanaAtual===semanas.length-1;
-
-    const grade = document.getElementById('gradeDias');
-    grade.innerHTML = '';
-    semana.dias.forEach(dia=>{
-      const cartaoDia = document.createElement('div');
-      cartaoDia.className = 'cartao-dia'
-        + (dia===hojeISO() ? ' hoje' : '')
-        + (dia===estado.dataSelecionada ? ' selecionado' : '');
-      cartaoDia.style.cursor = 'pointer';
-
-      const nomeDia = document.createElement('div');
-      nomeDia.className = 'nome-dia';
-      nomeDia.textContent = nomeDiaSemana(dia).replace('-feira','') + ' ' + formatarData(dia) + (dia===hojeISO() ? ' · hoje' : '');
-      cartaoDia.appendChild(nomeDia);
-
-      estado.cronograma[dia].forEach(materiaId=>{
-        const etiqueta = document.createElement('div');
-        etiqueta.className = 'etiqueta-materia';
-        etiqueta.style.background = materiaPorId[materiaId].cor;
-        etiqueta.textContent = materiaPorId[materiaId].nome;
-        cartaoDia.appendChild(etiqueta);
-      });
-
-      cartaoDia.addEventListener('click', ()=>{
-        irParaData(dia);
-        document.querySelector('nav.abas button[data-aba="sessao"]').click();
-      });
-      grade.appendChild(cartaoDia);
-    });
-
-    const legenda = document.getElementById('legendaMaterias');
-    legenda.innerHTML = '';
-    MATERIAS.forEach(materia=>{
-      const item = document.createElement('span');
-      const marcador = document.createElement('span');
-      marcador.style.width='10px'; marcador.style.height='10px'; marcador.style.borderRadius='3px';
-      marcador.style.background = materia.cor; marcador.style.display='inline-block';
-      item.appendChild(marcador);
-      item.appendChild(document.createTextNode(materia.nome));
-      legenda.appendChild(item);
-    });
-  }
-
-  document.getElementById('btnSemanaAnterior').addEventListener('click', ()=>{ indiceSemanaAtual--; renderizarCronograma(); });
-  document.getElementById('btnSemanaSeguinte').addEventListener('click', ()=>{ indiceSemanaAtual++; renderizarCronograma(); });
-  document.getElementById('btnRedistribuir').addEventListener('click', ()=>{
-    estado.cronograma = montarCronograma(estado.diasDoCronograma);
-    renderizarCronograma();
-    salvarEstado();
-  });
-
-  // =========================================================
-  // ABA "REVISÕES" — repetição espaçada (1, 3, 7 e 30 dias)
-  // =========================================================
-  function preencherSelecaoDeMaterias(){
-    const selecao = document.getElementById('selecaoMateria');
-    selecao.innerHTML = '';
-    MATERIAS.filter(m=>m.id!=='red').forEach(materia=>{
-      const opcao = document.createElement('option');
-      opcao.value = materia.id;
-      opcao.textContent = materia.nome;
-      selecao.appendChild(opcao);
-    });
-  }
-
-  document.getElementById('btnAdicionarTopico').addEventListener('click', ()=>{
-    const materiaId = document.getElementById('selecaoMateria').value;
-    const nomeTopico = document.getElementById('nomeTopico').value.trim();
-    if(!nomeTopico) return;
-
-    const hoje = hojeISO();
-    estado.topicos.push({
-      id: Date.now().toString(36),
-      materia: materiaId,
-      nome: nomeTopico,
-      dataEstudo: hoje,
-      estagio: 0,
-      dataRevisao: somarDias(hoje, INTERVALOS_REVISAO[0])
-    });
-    document.getElementById('nomeTopico').value = '';
-    renderizarRevisoes();
-    salvarEstado();
-  });
-
-  // avança o tópico pro próximo estágio da repetição espaçada
-  function marcarComoRevisado(topicoId){
-    const topico = estado.topicos.find(t=>t.id===topicoId);
-    if(!topico) return;
-
-    topico.estagio++;
-    if(topico.estagio < INTERVALOS_REVISAO.length){
-      topico.dataRevisao = somarDias(hojeISO(), INTERVALOS_REVISAO[topico.estagio]);
-    } else {
-      topico.dataRevisao = null; // tópico dominado — sai da fila
-    }
-    renderizarRevisoes();
-    renderizarProgresso();
-    salvarEstado();
-  }
-
-  function renderizarRevisoes(){
-    preencherSelecaoDeMaterias();
-    const hoje = hojeISO();
-    const pendentes = estado.topicos.filter(t=>t.dataRevisao && t.dataRevisao <= hoje);
-    const futuras = estado.topicos
-      .filter(t=>t.dataRevisao && t.dataRevisao > hoje)
-      .sort((a,b)=> a.dataRevisao.localeCompare(b.dataRevisao));
-
-    const listaPendentes = document.getElementById('listaRevisarHoje');
-    listaPendentes.innerHTML = '';
-    if(pendentes.length===0){
-      listaPendentes.innerHTML = '<div class="estado-vazio">Nada para revisar hoje.</div>';
-    }
-    pendentes.forEach(topico=>{
-      const linha = document.createElement('div');
-      linha.className = 'item-revisao pendente';
-      linha.innerHTML = `
-        <div class="info-topico">
-          <div class="nome-topico">${escaparHtml(topico.nome)}</div>
-          <div class="detalhe">${materiaPorId[topico.materia].nome} · estudado em ${formatarData(topico.dataEstudo)}</div>
+  const blocosHtml = sessao.blocks.map((b, i) => {
+    const marcado = !!checks[i];
+    const timerAtivo = timer && timer.blocoIndex === i;
+    let timerHtml = '';
+    if (timerAtivo) {
+      const st = computeTimerState(timer.iniciadoEm, timer.modo, Date.now());
+      timerHtml = `
+        <div class="timer-box">
+          <div class="timer-fase">${st.fase === 'estudo' ? 'estudo' : st.fase === 'pausa' ? 'pausa' : 'concluído'} · ciclo ${st.ciclo} de ${st.totalCiclos}</div>
+          <div class="timer-display mono">${st.concluido ? '00:00' : fmtMin(st.restanteMs)}</div>
+          <div class="timer-controls">
+            <button class="btn small" data-action="timer-parar">parar</button>
+          </div>
         </div>
-        <div class="pontos-estagio">${pontosDoEstagio(topico.estagio)}</div>
       `;
-      const botaoRevisado = document.createElement('button');
-      botaoRevisado.className = 'botao botao-principal botao-pequeno';
-      botaoRevisado.textContent = 'Revisado';
-      botaoRevisado.addEventListener('click', ()=>marcarComoRevisado(topico.id));
-      linha.appendChild(botaoRevisado);
-      listaPendentes.appendChild(linha);
-    });
-
-    const listaFuturas = document.getElementById('listaProximasRevisoes');
-    listaFuturas.innerHTML = '';
-    if(futuras.length===0){
-      listaFuturas.innerHTML = '<div class="estado-vazio">Nenhum tópico agendado ainda.</div>';
-    }
-    futuras.slice(0,15).forEach(topico=>{
-      const linha = document.createElement('div');
-      linha.className = 'item-revisao';
-      linha.innerHTML = `
-        <div class="info-topico">
-          <div class="nome-topico">${escaparHtml(topico.nome)}</div>
-          <div class="detalhe">${materiaPorId[topico.materia].nome} · revisa em ${formatarData(topico.dataRevisao)}</div>
+    } else {
+      timerHtml = `
+        <div class="timer-box">
+          <button class="btn small" data-action="timer-iniciar" data-bloco="${i}">iniciar timer (${esc(b.modo)})</button>
         </div>
-        <div class="pontos-estagio">${pontosDoEstagio(topico.estagio)}</div>
       `;
-      listaFuturas.appendChild(linha);
-    });
-  }
-
-  function pontosDoEstagio(estagio){
-    let html = '';
-    for(let i=0; i<INTERVALOS_REVISAO.length; i++){
-      html += `<span class="${i<estagio ? 'preenchido' : ''}"></span>`;
     }
+    return `
+      <div class="bloco ${marcado ? 'feito' : ''}">
+        <div class="bloco-head">
+          <label class="check-hit">
+            <input type="checkbox" class="checkbox-tap" data-action="toggle-bloco" data-bloco="${i}" ${marcado ? 'checked' : ''} aria-label="Bloco concluído">
+          </label>
+          <div class="bloco-info">
+            <div class="bloco-materia">${esc(b.materia)}</div>
+            <div class="bloco-topico">${esc(b.topico)}</div>
+            <div class="bloco-modo mono">${esc(b.modo)}</div>
+          </div>
+        </div>
+        ${timerHtml}
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="card">
+      <div class="row between" style="margin-bottom:6px;">
+        <h2 style="margin:0;">Sessão ${id + 1} · ${esc(sessao.fase)}</h2>
+      </div>
+      ${blocosHtml}
+      <div class="row" style="margin-top:12px;">
+        <button class="btn primary" data-action="concluir-sessao" ${ambosMarcados ? '' : 'disabled'}>sessão concluída</button>
+        <button class="btn ghost" data-action="pular-sessao">pular</button>
+      </div>
+    </div>
+  `;
+}
+
+function viewRevisoesVencidasHoje(hoje) {
+  const vencidas = getVencidas(STATE.erros, hoje);
+  if (vencidas.length === 0) return '';
+  return `
+    <div class="card">
+      <h2>Revisões vencidas hoje</h2>
+      <p class="faint">${vencidas.length} pendente${vencidas.length === 1 ? '' : 's'} — mais antiga primeiro.</p>
+      ${vencidas.slice(0, 5).map((e) => erroCardHtml(e, hoje)).join('')}
+      ${vencidas.length > 5 ? `<p class="small muted">+ ${vencidas.length - 5} na tela Erros.</p>` : ''}
+    </div>
+  `;
+}
+
+/* ---- Tela Fila --------------------------------------------------------- */
+
+function viewFila(hoje) {
+  const vespera = isVespera(hoje);
+  const concluidas = contarConcluidas();
+  const ritmo = calcRitmo(hoje, datasConclusaoOrdenadas());
+
+  let html = `
+    <div class="card">
+      <h2>Ritmo</h2>
+      <div class="kpi-grid">
+        <div class="kpi"><div class="label">Concluídas</div><div class="value num">${concluidas} / ${TOTAL_SESSOES}</div></div>
+        <div class="kpi"><div class="label">Ritmo atual</div><div class="value num">${fmtNum(ritmo.ritmo, 1)}/sem</div></div>
+        <div class="kpi"><div class="label">Projeção em 22/11</div><div class="value num">sessão ${ritmo.projecao}</div></div>
+        <div class="kpi"><div class="label">Necessário</div><div class="value num">${fmtNum(ritmo.necessario, 1)}/sem</div></div>
+      </div>
+    </div>
+  `;
+
+  if (vespera) {
+    html += `<div class="banner">A fila está travada — a partir de 22/11 o app fica em modo véspera. Veja a tela Hoje.</div>`;
     return html;
   }
 
-  function escaparHtml(texto){
-    return texto.replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const atualId = sessaoAtualId();
+  const idsPorFase = { 'Fundação': [], 'Volume': [], 'Consolidação': [] };
+  for (const id of STATE.ordem) idsPorFase[sessaoPorId(id).fase].push(id);
+
+  for (const faseNome of ['Fundação', 'Volume', 'Consolidação']) {
+    const ids = idsPorFase[faseNome];
+    const feitas = ids.filter((id) => STATE.status[id] === 'concluida');
+    const pendentes = ids.filter((id) => STATE.status[id] !== 'concluida');
+    const mostrarFeitas = !!STATE.mostrarConcluidasPorFase[faseNome];
+
+    html += `<div class="fase-group">
+      <div class="fase-header">
+        <h3 style="margin:0;">${faseNome}</h3>
+        <span class="faint mono">${feitas.length}/${ids.length}</span>
+      </div>`;
+
+    if (feitas.length > 0) {
+      html += `<button class="toggle-link" data-action="toggle-concluidas-fase" data-fase="${faseNome}">
+        ${mostrarFeitas ? 'ocultar concluídas' : `mostrar ${feitas.length} concluída${feitas.length === 1 ? '' : 's'}`}
+      </button>`;
+      if (mostrarFeitas) {
+        html += feitas.map((id) => sessaoItemHtml(id, atualId)).join('');
+      }
+    }
+    html += pendentes.map((id) => sessaoItemHtml(id, atualId)).join('');
+    html += `</div>`;
   }
 
-  // =========================================================
-  // ABA "PROGRESSO"
-  // =========================================================
-  function renderizarProgresso(){
-    document.getElementById('statDias').textContent = estado.diasConcluidos;
-    document.getElementById('statHoras').textContent = Math.round(estado.minutosTotaisEstudados/60*10)/10 + 'h';
-    const topicosAtivos = estado.topicos.filter(t=>t.dataRevisao).length;
-    document.getElementById('statTopicos').textContent = topicosAtivos;
+  return html;
+}
 
-    const barras = document.getElementById('barrasProgresso');
-    barras.innerHTML = '';
-    const maiorValor = Math.max(1, ...MATERIAS.map(m=>estado.blocosConcluidosPorMateria[m.id]||0));
-    MATERIAS.filter(m=>m.id!=='red').forEach(materia=>{
-      const valor = estado.blocosConcluidosPorMateria[materia.id]||0;
-      const linha = document.createElement('div');
-      linha.className = 'linha-barra';
-      linha.innerHTML = `
-        <div class="nome-materia">${materia.nome}</div>
-        <div class="trilho-barra"><div class="preenchimento-barra" style="width:${(valor/maiorValor*100)}%;background:${materia.cor}"></div></div>
-        <div class="valor-barra">${valor} blocos</div>
-      `;
-      barras.appendChild(linha);
+function sessaoItemHtml(id, atualId) {
+  const s = sessaoPorId(id);
+  const concluida = STATE.status[id] === 'concluida';
+  const atual = id === atualId;
+  return `
+    <div class="sessao-item ${concluida ? 'concluida' : ''} ${atual ? 'atual' : ''}">
+      <span class="sessao-idx mono">${id + 1}</span>
+      <span class="sessao-blocos">
+        ${s.blocks.map((b) => `<span class="b">${esc(b.materia)} · ${esc(b.topico)}</span>`).join(' + ')}
+      </span>
+    </div>
+  `;
+}
+
+/* ---- Tela Erros ---------------------------------------------------- */
+
+function viewErros(hoje) {
+  let html = `
+    <div class="card">
+      <h2>Registrar erro</h2>
+      <form id="form-erro" data-action="registrar-erro">
+        <label class="field">
+          <span>Matéria</span>
+          <select name="materia" id="erro-materia" required>
+            <option value="" disabled selected>selecione</option>
+            ${MATERIAS_FOCO.map((m) => `<option value="${esc(m)}">${esc(m)}</option>`).join('')}
+          </select>
+        </label>
+        <label class="field">
+          <span>Tópico</span>
+          <select name="topico" id="erro-topico" required>
+            <option value="" disabled selected>selecione a matéria primeiro</option>
+          </select>
+        </label>
+        <fieldset class="field">
+          <legend><span>Causa</span></legend>
+          <div class="causa-btns" id="erro-causa-btns">
+            ${CAUSAS.map(([key, label]) => `<button type="button" class="causa-btn" data-action="escolher-causa" data-causa="${key}" aria-pressed="false">${label}</button>`).join('')}
+          </div>
+          <input type="hidden" name="causa" id="erro-causa-valor">
+        </fieldset>
+        <label class="field">
+          <span>Origem (opcional)</span>
+          <input type="text" name="origem" placeholder='ex: "2025.2 Q17"'>
+        </label>
+        <label class="field">
+          <span>Anotação (opcional)</span>
+          <input type="text" name="anotacao" placeholder="uma linha">
+        </label>
+        <button type="submit" class="btn primary full">registrar erro</button>
+      </form>
+    </div>
+  `;
+
+  html += `
+    <div class="card">
+      <div class="row between" style="margin-bottom:10px;">
+        <h2 style="margin:0;">Erros registrados</h2>
+      </div>
+      <div class="row" style="margin-bottom:10px;">
+        <select id="filtro-materia" data-action="filtro-materia" style="flex:1;">
+          <option value="">todas as matérias</option>
+          ${MATERIAS_FOCO.map((m) => `<option value="${esc(m)}" ${STATE.filtroErroMateria === m ? 'selected' : ''}>${esc(m)}</option>`).join('')}
+        </select>
+        <select id="filtro-causa" data-action="filtro-causa" style="flex:1;">
+          <option value="">todas as causas</option>
+          ${CAUSAS.map(([key, label]) => `<option value="${key}" ${STATE.filtroErroCausa === key ? 'selected' : ''}>${label}</option>`).join('')}
+        </select>
+      </div>
+      ${listaErrosHtml(hoje)}
+    </div>
+  `;
+
+  return html;
+}
+
+function listaErrosHtml(hoje) {
+  let lista = STATE.erros.slice();
+  if (STATE.filtroErroMateria) lista = lista.filter((e) => e.materia === STATE.filtroErroMateria);
+  if (STATE.filtroErroCausa) lista = lista.filter((e) => e.causa === STATE.filtroErroCausa);
+  lista.sort((a, b) => (a.proxima || '9999') < (b.proxima || '9999') ? -1 : 1);
+
+  if (lista.length === 0) return `<p class="empty">Nenhum erro registrado com esse filtro.</p>`;
+  return lista.map((e) => erroCardHtml(e, hoje)).join('');
+}
+
+function erroCardHtml(e, hoje) {
+  const vencida = e.proxima !== '' && e.proxima <= hoje;
+  const concluido = e.proxima === '';
+  const causaLabel = (CAUSAS.find((c) => c[0] === e.causa) || [null, e.causa])[1];
+  const emRevisao = STATE.revisandoErroId === e.id;
+
+  let corpo = `
+    <div class="erro-top">
+      <div>
+        <strong>${esc(e.materia)}</strong> — ${esc(e.topico)}
+        <div class="faint">${causaLabel}${e.origem ? ` · ${esc(e.origem)}` : ''}</div>
+      </div>
+      <span class="tag">${e.acertos}✓ ${e.erros}✗</span>
+    </div>
+  `;
+
+  if (e.anotacao) corpo += `<p class="small" style="margin-top:6px;">${esc(e.anotacao)}</p>`;
+
+  if (concluido) {
+    corpo += `<p class="small muted" style="margin-top:8px;">revisão concluída — não aparece mais nas vencidas.</p>`;
+  } else if (!vencida) {
+    corpo += `<p class="small muted" style="margin-top:8px;">próxima revisão: ${fmtDataBR(e.proxima)}</p>`;
+  } else if (!emRevisao) {
+    corpo += `
+      <div class="row" style="margin-top:8px;">
+        <span class="small">vence em ${fmtDataBR(e.proxima)}</span>
+        <button class="btn small" data-action="abrir-revisao" data-id="${e.id}">revisar</button>
+      </div>
+    `;
+  } else {
+    corpo += `
+      <div style="margin-top:8px; padding:10px; background:var(--bg-sunken); border-radius:var(--radius);">
+        <p class="small muted" style="margin-bottom:8px;">Responda de novo antes de conferir: <strong>${esc(e.materia)}</strong> — ${esc(e.topico)}${e.origem ? ` (${esc(e.origem)})` : ''}.</p>
+        <div class="row">
+          <button class="btn small primary" data-action="revisar-erro" data-id="${e.id}" data-acertou="1">acertei</button>
+          <button class="btn small" data-action="revisar-erro" data-id="${e.id}" data-acertou="0">errei de novo</button>
+        </div>
+      </div>
+    `;
+  }
+
+  return `<div class="erro-item ${vencida ? 'vencida' : ''}">${corpo}</div>`;
+}
+
+/* ---- Tela Progresso ------------------------------------------------ */
+
+function viewProgresso(hoje) {
+  let html = '<div class="card"><h2>Horas por matéria</h2>';
+  const planejado = {};
+  for (const fase of FASES) for (const [materia, , horas] of fase.itens) planejado[materia] = (planejado[materia] || 0) + horas;
+
+  const concluido = {};
+  for (const id of STATE.ordem) {
+    const s = sessaoPorId(id);
+    const checks = checksDe(id);
+    s.blocks.forEach((b, i) => {
+      const feito = STATE.status[id] === 'concluida' || checks[i];
+      if (feito) concluido[b.materia] = (concluido[b.materia] || 0) + 1;
     });
   }
 
-  // =========================================================
-  // INICIALIZAÇÃO
-  // =========================================================
-  function iniciarAplicacao(){
-    iniciarProgressoDoDia();
-    renderizarSessao();
-    renderizarCronograma();
-    renderizarRevisoes();
-    renderizarProgresso();
+  const materiasOrdenadas = Object.keys(planejado).sort((a, b) => planejado[b] - planejado[a]);
+  for (const materia of materiasOrdenadas) {
+    const total = planejado[materia];
+    const feito = Math.min(total, concluido[materia] || 0);
+    const pct = total > 0 ? (feito / total) * 100 : 0;
+    html += `
+      <div class="bar-row">
+        <div class="bar-label"><span>${esc(materia)}</span><span class="mono">${feito}h / ${total}h</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+      </div>
+    `;
   }
-  iniciarAplicacao();
+  html += '</div>';
 
-})();
+  html += '<div class="card"><h2>Tópicos cobertos vs. peso na prova</h2>';
+  for (const materia of Object.keys(PESOS)) {
+    html += `<h3 style="margin-top:10px;">${esc(materia)}</h3>`;
+    const pesos = PESOS[materia];
+    const pesoMax = Math.max(...pesos.map((p) => p[1]));
+    for (const [topico, peso] of pesos) {
+      const fontes = (MAPA_COBERTURA[materia] && MAPA_COBERTURA[materia][topico]) || [];
+      let horasFeitas = 0, horasTotais = 0;
+      for (const fonte of fontes) {
+        for (const fase of FASES) {
+          for (const [m, t, h] of fase.itens) {
+            if (m === materia && t === fonte) horasTotais += h;
+          }
+        }
+      }
+      for (const id of STATE.ordem) {
+        const s = sessaoPorId(id);
+        const checks = checksDe(id);
+        s.blocks.forEach((b, i) => {
+          if (b.materia === materia && fontes.includes(b.topico)) {
+            const feito = STATE.status[id] === 'concluida' || checks[i];
+            if (feito) horasFeitas++;
+          }
+        });
+      }
+      let estado;
+      if (fontes.length === 0) estado = 'fora do plano';
+      else if (horasFeitas === 0) estado = 'não iniciado';
+      else if (horasFeitas >= horasTotais) estado = 'coberto';
+      else estado = 'em andamento';
+
+      html += `
+        <div class="bar-row">
+          <div class="bar-label"><span>${esc(topico)}</span><span class="faint">${estado}</span></div>
+          <div class="bar-track"><div class="bar-fill amber" style="width:${(peso / pesoMax) * 100}%"></div></div>
+        </div>
+      `;
+    }
+  }
+  html += '</div>';
+
+  html += viewCausasErro();
+  html += viewSimulados();
+
+  return html;
+}
+
+function viewCausasErro() {
+  const contagens = { naoSabia: 0, errouConta: 0, interpretouMal: 0 };
+  for (const e of STATE.erros) {
+    if (e.causa === 'nao-sabia') contagens.naoSabia++;
+    else if (e.causa === 'errou-conta') contagens.errouConta++;
+    else if (e.causa === 'interpretou-mal') contagens.interpretouMal++;
+  }
+  const max = Math.max(1, contagens.naoSabia, contagens.errouConta, contagens.interpretouMal);
+  const gargalo = interpretarGargalo(contagens);
+  /** @type {ParTopicoPeso[]} */
+  const linhas = [
+    ['não sabia', contagens.naoSabia],
+    ['sabia e errei conta', contagens.errouConta],
+    ['interpretei mal', contagens.interpretouMal],
+  ];
+  return `
+    <div class="card">
+      <h2>Distribuição das causas de erro</h2>
+      ${linhas.map(([label, n]) => `
+        <div class="bar-row">
+          <div class="bar-label"><span>${label}</span><span class="mono">${n}</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(n / max) * 100}%"></div></div>
+        </div>
+      `).join('')}
+      ${gargalo ? `<p class="small" style="margin-top:6px;"><strong>${gargalo}</strong></p>` : '<p class="faint">Sem erros registrados ainda.</p>'}
+    </div>
+  `;
+}
+
+function viewSimulados() {
+  let html = `
+    <div class="card">
+      <h2>Simulados</h2>
+      <form id="form-simulado" data-action="registrar-simulado">
+        <label class="field"><span>Data</span><input type="date" name="data" required></label>
+        <p class="faint" style="margin-top:-4px;">Acertos por matéria</p>
+        ${SIMULADO_MATERIAS.map(([materia, max]) => `
+          <label class="field">
+            <span>${esc(materia)} (0 a ${max})</span>
+            <input type="number" name="acertos-${esc(materia)}" min="0" max="${max}" step="0.5" value="0" required>
+          </label>
+        `).join('')}
+        <label class="field"><span>Nota da redação (0 a 10)</span><input type="number" name="redacao" min="0" max="10" step="0.1" required></label>
+        <button type="submit" class="btn primary full">registrar simulado</button>
+      </form>
+    </div>
+  `;
+
+  if (STATE.simulados.length > 0) {
+    const ordenados = STATE.simulados.slice().sort((a, b) => (a.data < b.data ? 1 : -1));
+    html += `
+      <div class="card">
+        <h3>Histórico</h3>
+        <div style="overflow-x:auto;">
+        <table class="simples">
+          <thead><tr><th>Data</th>${SIMULADO_MATERIAS.map(([m]) => `<th>${esc(m.split(' ')[0])}</th>`).join('')}<th>Total</th><th>Redação</th><th>Desempenho</th></tr></thead>
+          <tbody>
+            ${ordenados.map((s) => {
+              const total = Object.values(s.acertosPorMateria).reduce((a, b) => a + b, 0);
+              return `
+              <tr>
+                <td>${fmtDataBR(s.data)}</td>
+                ${SIMULADO_MATERIAS.map(([m]) => `<td class="mono">${s.acertosPorMateria[m] || 0}</td>`).join('')}
+                <td class="mono">${total}</td>
+                <td class="mono">${fmtNum(s.redacao, 1)}</td>
+                <td class="mono">${fmtNum(calcDesempenho(total, s.redacao), 1)}</td>
+              </tr>
+            `;
+            }).join('')}
+          </tbody>
+        </table>
+        </div>
+      </div>
+    `;
+  }
+  return html;
+}
+
+/* ---- Diálogo de configurações --------------------------------------- */
+
+function renderConfigDialog() {
+  byId('config-content').innerHTML = `
+    <div class="dialog-head">
+      <h2 style="margin:0;">Configurações</h2>
+      <button class="icon-btn" data-action="fechar-config" aria-label="Fechar">fechar</button>
+    </div>
+    <label class="field">
+      <span>Frase se-então</span>
+      <textarea id="config-frase">${esc(STATE.fraseIntencao)}</textarea>
+    </label>
+    <button class="btn small" data-action="salvar-frase" style="margin-bottom:16px;">salvar frase</button>
+
+    <label class="field">
+      <span>Tema</span>
+      <select id="config-tema" data-action="mudar-tema">
+        <option value="auto" ${STATE.tema === 'auto' ? 'selected' : ''}>seguir sistema</option>
+        <option value="light" ${STATE.tema === 'light' ? 'selected' : ''}>claro</option>
+        <option value="dark" ${STATE.tema === 'dark' ? 'selected' : ''}>escuro</option>
+      </select>
+    </label>
+
+    <label class="check-row" style="margin-bottom:16px;">
+      <input type="checkbox" class="checkbox-tap" data-action="toggle-inscricao" ${STATE.inscricaoFeita ? 'checked' : ''}>
+      <span>já fiz a inscrição do vestibular</span>
+    </label>
+
+    <div class="row" style="margin-bottom:8px;">
+      <button class="btn small" data-action="exportar-json">exportar JSON</button>
+      <button class="btn small" data-action="importar-json">importar JSON</button>
+      <input type="file" id="import-file" accept="application/json" style="display:none;">
+    </div>
+    <p class="field-hint">Exporte no celular e importe no PC (ou vice-versa) para manter os dados sincronizados manualmente.</p>
+  `;
+}
+
+/* =========================================================================
+ * DELEGAÇÃO DE EVENTOS — um único ponto de despacho por data-action
+ * ========================================================================= */
+
+function handleClick(e) {
+  const alvo = /** @type {HTMLElement|null} */ (asEl(e.target).closest('[data-action]'));
+  if (!alvo) return;
+  const t = alvo;
+  const action = t.dataset.action;
+
+  if (action === 'ir-tela') { mutate((s) => { s.telaAtiva = t.dataset.tela; }); return; }
+
+  if (action === 'abrir-config') { dialogById('config-dialog').showModal(); garantirTick(); return; }
+  if (action === 'fechar-config') { dialogById('config-dialog').close(); garantirTick(); return; }
+
+  if (action === 'marcar-inscricao') { mutate((s) => { s.inscricaoFeita = true; }); return; }
+  if (action === 'toggle-inscricao') { mutate((s) => { s.inscricaoFeita = asInput(t).checked; }); return; }
+
+  if (action === 'toggle-vespera') {
+    const i = Number(t.dataset.i);
+    const marcado = asInput(t).checked;
+    mutate((s) => { s.vesperaChecks[i] = marcado; });
+    return;
+  }
+
+  if (action === 'toggle-bloco') {
+    const id = sessaoAtualId();
+    if (id == null) return;
+    const i = Number(t.dataset.bloco);
+    const marcado = asInput(t).checked;
+    mutate((s) => {
+      if (!s.checks[id]) s.checks[id] = [false, false];
+      s.checks[id][i] = marcado;
+    });
+    return;
+  }
+
+  if (action === 'concluir-sessao') {
+    const id = sessaoAtualId();
+    if (id == null) return;
+    const checks = checksDe(id);
+    if (!(checks[0] && checks[1])) return;
+    mutate((s) => {
+      s.status[id] = 'concluida';
+      s.dataConclusao[id] = hojeISO();
+      s.timer = null;
+    });
+    ultimaFaseTimer = null;
+    return;
+  }
+
+  if (action === 'pular-sessao') {
+    const id = sessaoAtualId();
+    if (id == null) return;
+    mutate((s) => {
+      const pos = s.ordem.indexOf(id);
+      s.ordem.splice(pos, 1);
+      s.ordem.push(id);
+      s.timer = null;
+    });
+    ultimaFaseTimer = null;
+    return;
+  }
+
+  if (action === 'timer-iniciar') {
+    const bloco = Number(t.dataset.bloco);
+    const id = sessaoAtualId();
+    if (id == null) return;
+    const sessao = sessaoPorId(id);
+    beep(880, 150);
+    mutate((s) => {
+      s.timer = { blocoIndex: bloco, iniciadoEm: Date.now(), modo: sessao.blocks[bloco].modo };
+    });
+    return;
+  }
+
+  if (action === 'timer-parar') {
+    mutate((s) => { s.timer = null; });
+    ultimaFaseTimer = null;
+    return;
+  }
+
+  if (action === 'toggle-concluidas-fase') {
+    const fase = t.dataset.fase;
+    if (!fase) return;
+    mutate((s) => {
+      s.mostrarConcluidasPorFase[fase] = !s.mostrarConcluidasPorFase[fase];
+    });
+    return;
+  }
+
+  if (action === 'abrir-revisao') {
+    const id = t.dataset.id;
+    if (!id) return;
+    mutate((s) => { s.revisandoErroId = id; });
+    return;
+  }
+
+  if (action === 'revisar-erro') {
+    const id = t.dataset.id;
+    const acertou = t.dataset.acertou === '1';
+    mutate((s) => {
+      const idx = s.erros.findIndex((er) => er.id === id);
+      if (idx >= 0) s.erros[idx] = revisarErro(s.erros[idx], hojeISO(), acertou);
+      s.revisandoErroId = null;
+    });
+    return;
+  }
+
+  if (action === 'escolher-causa') {
+    document.querySelectorAll('.causa-btn').forEach((b) => b.setAttribute('aria-pressed', 'false'));
+    t.setAttribute('aria-pressed', 'true');
+    inputById('erro-causa-valor').value = t.dataset.causa || '';
+    return;
+  }
+
+  if (action === 'exportar-json') { exportarJSON(); return; }
+  if (action === 'importar-json') { inputById('import-file').click(); return; }
+
+  if (action === 'onboarding-salvar') {
+    const val = textareaById('onboarding-frase').value.trim();
+    if (!val) return;
+    mutate((s) => { s.fraseIntencao = val; s.onboardingCompleto = true; });
+    return;
+  }
+
+  if (action === 'salvar-frase') {
+    const val = textareaById('config-frase').value.trim();
+    mutate((s) => { s.fraseIntencao = val; });
+    return;
+  }
+}
+
+function handleChange(e) {
+  const origem = asEl(e.target);
+  const t = /** @type {HTMLElement|null} */ (origem.closest('[data-action]'));
+  if (t) {
+    const action = t.dataset.action;
+    const valor = asInput(t).value;
+    if (action === 'mudar-tema') { mutate((s) => { s.tema = valor; }); return; }
+    if (action === 'filtro-materia') { mutate((s) => { s.filtroErroMateria = valor; }); return; }
+    if (action === 'filtro-causa') { mutate((s) => { s.filtroErroCausa = valor; }); return; }
+  }
+
+  if (origem.id === 'erro-materia') {
+    const materia = asInput(origem).value;
+    const topicoSelect = byId('erro-topico');
+    const topicos = TOPICOS_ERRO[materia] || [];
+    topicoSelect.innerHTML = topicos.map((tp) => `<option value="${esc(tp)}">${esc(tp)}</option>`).join('');
+    return;
+  }
+
+  if (origem.id === 'import-file') {
+    const files = asInput(origem).files;
+    const file = files && files[0];
+    if (file) importarJSON(file);
+    return;
+  }
+}
+
+function handleSubmit(e) {
+  const alvo = /** @type {HTMLFormElement|null} */ (asEl(e.target).closest('[data-action]'));
+  if (!alvo) return;
+  e.preventDefault();
+  const form = alvo;
+  const action = form.dataset.action;
+
+  if (action === 'registrar-erro') {
+    const fd = new FormData(form);
+    const materia = String(fd.get('materia') || '');
+    const topico = String(fd.get('topico') || '');
+    const causa = String(fd.get('causa') || '');
+    if (!materia || !topico || !causa) return;
+    mutate((s) => {
+      const id = 'erro-' + s.proximoErroId++;
+      s.erros.push(criarErro({
+        materia, topico, causa,
+        origem: String(fd.get('origem') || ''),
+        anotacao: String(fd.get('anotacao') || ''),
+      }, id, hojeISO()));
+    });
+    return;
+  }
+
+  if (action === 'registrar-simulado') {
+    const fd = new FormData(form);
+    const data = String(fd.get('data') || '');
+    const redacao = Number(fd.get('redacao'));
+    /** @type {Record<string, number>} */
+    const acertosPorMateria = {};
+    for (const [materia] of SIMULADO_MATERIAS) {
+      acertosPorMateria[materia] = Number(fd.get('acertos-' + materia)) || 0;
+    }
+    if (!data || Number.isNaN(redacao)) return;
+    mutate((s) => { s.simulados.push({ data, acertosPorMateria, redacao }); });
+    return;
+  }
+}
+
+function exportarJSON() {
+  const blob = new Blob([JSON.stringify(STATE, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `fila-udesc-${hojeISO()}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+/** @param {File} file */
+function importarJSON(file) {
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const dados = JSON.parse(String(reader.result));
+      if (dados && dados.v === 1) {
+        STATE = Object.assign(estadoPadrao(), dados);
+        salvar();
+        render();
+      }
+    } catch (e) { /* JSON inválido — ignora silenciosamente */ }
+  };
+  reader.readAsText(file);
+}
+
+/* =========================================================================
+ * INICIALIZAÇÃO
+ * ========================================================================= */
+
+document.addEventListener('click', handleClick);
+document.addEventListener('change', handleChange);
+document.addEventListener('submit', handleSubmit);
+
+render();
 </script>
 </body>
 </html>
