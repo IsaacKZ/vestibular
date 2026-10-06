@@ -10,9 +10,11 @@
     "dev": "vite --host 127.0.0.1",
     "check": "tsc --noEmit",
     "build": "npm run check && vite build",
+    "build:pages": "npm run check && vite build --mode pages",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "test:pages": "playwright test --config playwright.pages.config.ts",
     "content:import": "tsx scripts/import-corpus.ts",
     "content:audit": "tsx scripts/audit-content.ts",
     "preview": "vite preview --host 127.0.0.1"

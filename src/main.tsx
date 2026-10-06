@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import { AppProvider } from "./ui/AppContext";
 import { AppShell } from "./ui/AppShell";
 import { TodayPage } from "./features/today/TodayPage";
@@ -14,9 +14,10 @@ import { SettingsPage } from "./features/settings/SettingsPage";
 import "katex/dist/katex.min.css";
 import "./styles/tokens.css";
 import "./styles/global.css";
+const Router = import.meta.env.MODE === "pages" ? HashRouter : BrowserRouter;
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <AppProvider>
         <Routes>
           <Route element={<AppShell />}>
@@ -45,6 +46,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           </Route>
         </Routes>
       </AppProvider>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
 );

@@ -99,7 +99,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         await refresh();
         const responses = await Promise.all(
           ["catalog", "questions", "audit"].map((name) =>
-            fetch(`/content/${name}.json`),
+            fetch(`${import.meta.env.BASE_URL}content/${name}.json`),
           ),
         );
         if (responses.some((r) => !r.ok))

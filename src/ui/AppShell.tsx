@@ -65,7 +65,14 @@ export function AppShell() {
   );
   return (
     <div className="app-shell">
-      <a href="#main-content" className="skip-link">
+      <a
+        href="#main-content"
+        className="skip-link"
+        onClick={(event) => {
+          event.preventDefault();
+          document.getElementById("main-content")?.focus();
+        }}
+      >
         Pular para o conteúdo
       </a>
       <aside className="sidebar">

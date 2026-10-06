@@ -16,7 +16,7 @@ export function AssetFigure({
   useEffect(() => {
     if (expanded) dialog.current?.showModal();
   }, [expanded]);
-  const path = `/${asset.path.replace(/^\//, "")}`;
+  const path = `${import.meta.env.BASE_URL}${asset.path.replace(/^\/+/, "")}`;
   return (
     <span className="asset-figure">
       <button

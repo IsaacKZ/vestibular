@@ -33,6 +33,27 @@ Os testes de navegador usam Chromium. Neste ambiente, o executável
 o navegador com `npx playwright install chromium`. Para usar outro
 executável, defina `PLAYWRIGHT_CHROMIUM_EXECUTABLE` com o caminho local.
 
+## Hospedagem no GitHub Pages
+
+O endereço previsto é https://isaackz.github.io/vestibular/.
+O workflow [Deploy to GitHub Pages](.github/workflows/pages.yml) audita o
+conteúdo, executa os testes e publica o build após cada envio à branch `main`.
+No repositório, configure **Settings → Pages → Build and deployment → Source →
+GitHub Actions**. Para repetir a publicação, use **Actions → Deploy to GitHub
+Pages → Run workflow**.
+
+```sh
+npm run build:pages
+npm run test:pages
+```
+
+O build para Pages usa o caminho `/vestibular/` e rotas como
+`/vestibular/#/questions`, que permitem abrir links e recarregar telas em
+uma hospedagem estática. O desenvolvimento e o build padrão continuam na
+raiz. Os testes de Pages verificam o catálogo, figuras, retomada de tentativas,
+navegação por teclado e funcionamento offline em um servidor sem fallback
+de rotas.
+
 ## Conteúdo disponível
 
 O catálogo tem **420 questões**, de cinco disciplinas e seis edições de
@@ -56,8 +77,9 @@ e [docs/publicacao-2026-10-06.md](docs/publicacao-2026-10-06.md).
 Os exemplos sintéticos usados para testar o estudo estão somente em
 `tests/`; eles não fazem parte do app publicado.
 
-Validação em 06/10/2026: 263 testes de módulos e 26 testes de navegador
-passaram, além da auditoria de conteúdo e do build com verificação de tipos.
+Validação em 06/10/2026: 263 testes de módulos, 26 testes de navegador na
+raiz e três testes específicos de Pages passaram, além da auditoria de
+conteúdo e dos dois builds com verificação de tipos.
 Os comandos de validação acima verificam também celular, offline, retomada de rascunhos,
 encerramento por prazo, transferência de backup e bloqueio da correção
 durante simulados.
