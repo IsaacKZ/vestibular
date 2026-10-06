@@ -1,0 +1,1777 @@
+[
+  {
+    "id": "udesc-2025-2-matutino-15",
+    "revision": "review-2026-10-05-biologia-2025-2-15",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 15,
+    "subjectNumber": 1,
+    "topics": [
+      "origem da vida"
+    ],
+    "skills": [
+      "Relacionar fotossíntese oxigênica à oxigenação da atmosfera e à vida aeróbica"
+    ],
+    "rawText": "\n\nQuestão 15\nO surgimento dos organismos fotossintetizantes há cerca de 2,5 bilhões de anos teve um impacto\nsignificativo na história da Terra. Um dos principais efeitos dessa mudança foi o (a):\nA. ( ) liberação de oxigênio molecular (O ) na atmosfera, possibilitando a formação da camada de ozônio\ne a diversificação da vida aeróbica.\nB. ( ) aumento da concentração de dióxido de carbono (CO ) na atmosfera, promovendo o aquecimento\nglobal.\nC. ( ) redução da concentração de oxigênio (O ) nos oceanos, dificultando a evolução da vida aeróbica.\nD. ( ) surgimento dos primeiros organismos multicelulares, marcando o início da Era Paleozoica.\nE. ( ) extinção em massa da maioria dos organismos anaeróbicos, seguida pela imediata predominância\nde organismos aeróbicos complexos.\n\n\n---\n\n",
+    "stem": "O surgimento dos organismos fotossintetizantes há cerca de 2,5 bilhões de anos teve um impacto significativo na história da Terra. Um dos principais efeitos dessa mudança foi o (a):",
+    "options": [
+      {
+        "letter": "A",
+        "text": "liberação de oxigênio molecular (O₂) na atmosfera, possibilitando a formação da camada de ozônio e a diversificação da vida aeróbica."
+      },
+      {
+        "letter": "B",
+        "text": "aumento da concentração de dióxido de carbono (CO₂) na atmosfera, promovendo o aquecimento global."
+      },
+      {
+        "letter": "C",
+        "text": "redução da concentração de oxigênio (O₂) nos oceanos, dificultando a evolução da vida aeróbica."
+      },
+      {
+        "letter": "D",
+        "text": "surgimento dos primeiros organismos multicelulares, marcando o início da Era Paleozoica."
+      },
+      {
+        "letter": "E",
+        "text": "extinção em massa da maioria dos organismos anaeróbicos, seguida pela imediata predominância de organismos aeróbicos complexos."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 1 (nº 15 no caderno)",
+      "sha256": "70a00bfc33f5047802ed9f645f0f8c0d7f02115614e0618ea8c328340a14ea45",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 11
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-matutino-16",
+    "revision": "review-2026-10-05-biologia-2025-2-16",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 16,
+    "subjectNumber": 2,
+    "topics": [
+      "ecologia"
+    ],
+    "skills": [
+      "Relacionar fixação de carbono vegetal e mitigação do aquecimento global"
+    ],
+    "rawText": "\n\nQuestão 16\nAs plantas desempenham um papel fundamental na regulação do clima global, especialmente no contexto\ndo aquecimento global.\nAssinale a alternativa que corresponde a uma das contribuições das plantas para a mitigação desse\nfenômeno.\nA. ( ) As plantas aumentam a liberação de vapor d’água na atmosfera, intensificando o efeito estufa e\nelevando a temperatura global.\nB. ( ) As plantas absorvem gás metano (CH ) da atmosfera, reduzindo diretamente o efeito estufa.\nC. ( ) A fotossíntese realizada pelas plantas remove dióxido de carbono (CO ) da atmosfera, contribuindo\npara a redução do aquecimento global.\nD. ( ) O crescimento acelerado das florestas tropicais resulta em maior emissão de CO , agravando o\naquecimento global.\nE. ( ) A decomposição da matéria orgânica nas florestas reduz a concentração de gases do efeito estufa\nna atmosfera.\n\n\n",
+    "stem": "As plantas desempenham um papel fundamental na regulação do clima global, especialmente no contexto do aquecimento global.\n\nAssinale a alternativa que corresponde a uma das contribuições das plantas para a mitigação desse fenômeno.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "As plantas aumentam a liberação de vapor d’água na atmosfera, intensificando o efeito estufa e elevando a temperatura global."
+      },
+      {
+        "letter": "B",
+        "text": "As plantas absorvem gás metano (CH₄) da atmosfera, reduzindo diretamente o efeito estufa."
+      },
+      {
+        "letter": "C",
+        "text": "A fotossíntese realizada pelas plantas remove dióxido de carbono (CO₂) da atmosfera, contribuindo para a redução do aquecimento global."
+      },
+      {
+        "letter": "D",
+        "text": "O crescimento acelerado das florestas tropicais resulta em maior emissão de CO₂, agravando o aquecimento global."
+      },
+      {
+        "letter": "E",
+        "text": "A decomposição da matéria orgânica nas florestas reduz a concentração de gases do efeito estufa na atmosfera."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 2 (nº 16 no caderno)",
+      "sha256": "226237ce48efa54e4cddc79df2aa2ff3bd7b707c4baba9d736bc71b41eebf56b",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 11
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-matutino-17",
+    "revision": "review-2026-10-05-biologia-2025-2-17",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 17,
+    "subjectNumber": 3,
+    "topics": [
+      "botânica"
+    ],
+    "skills": [
+      "Distinguir transporte de seiva bruta pelo xilema e seiva elaborada pelo floema"
+    ],
+    "rawText": "\n\nQuestão 17\nNas plantas, os tecidos vasculares desempenham um papel essencial no transporte de substâncias. O\nxilema e o floema possuem funções distintas nesse processo.\nAssinale a alternativa que descreve corretamente a função de cada um desses tecidos.\nA. ( ) O xilema conduz água e sais minerais das raízes para o restante da planta, enquanto o floema\ntransporta substâncias orgânicas produzidas na fotossíntese.\nB. ( ) O xilema transporta seiva elaborada e o floema transporta seiva bruta.\nC. ( ) O xilema transporta nutrientes orgânicos, enquanto o floema transporta água e sais minerais.\nD. ( ) O xilema transporta glicose para as folhas, e o floema distribui gás oxigênio para os tecidos vegetais.\nE. ( ) O xilema e o floema transportam os mesmos compostos, mas em direções opostas.\n\n\fTEXTO 1\nEm janeiro de 2023, Florianópolis registrou um surto de diarreia, com mais de 3 mil casos\nnotificados na Unidade de Pronto Atendimento (UPA). Outro evento parecido foi registrado em 2024, onde\nsomente no mês de dezembro a UPA registrou 1.007 casos de diarreia e gastroenterite. Recentemente,\nFlorianópolis passou por mais um surto dessas doenças infecciosas do sistema digestório, onde 499 casos\nde gastroenterite foram registrados na capital Catarinense apenas na primeira semana de 2025. Esses\nsurtos estão relacionados com o aumento da população no verão, o que ocasiona o saturamento dos\nsistemas sanitários. Um reflexo disso é a drástica queda no número de pontos próprios para banho no\nlitoral do estado, conforme divulgado pelo Instituto do Meio Ambiente de Santa Catarina (IMA), onde dos\n238 locais monitorados, apenas 151 estavam próprios para banho.\nDisponível em: https://g1.globo.com/sc/santa-catarina/noticia/2025/01/09/florianopolis-gastroenteriteprevencao.ghtml. Adaptado. Acesso em: 01 abr. 2025.\n\nDe acordo com o Texto 1, responda às questões 18 e 19.\n\n\n",
+    "stem": "Nas plantas, os tecidos vasculares desempenham um papel essencial no transporte de substâncias. O xilema e o floema possuem funções distintas nesse processo.\n\nAssinale a alternativa que descreve corretamente a função de cada um desses tecidos.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O xilema conduz água e sais minerais das raízes para o restante da planta, enquanto o floema transporta substâncias orgânicas produzidas na fotossíntese."
+      },
+      {
+        "letter": "B",
+        "text": "O xilema transporta seiva elaborada e o floema transporta seiva bruta."
+      },
+      {
+        "letter": "C",
+        "text": "O xilema transporta nutrientes orgânicos, enquanto o floema transporta água e sais minerais."
+      },
+      {
+        "letter": "D",
+        "text": "O xilema transporta glicose para as folhas, e o floema distribui gás oxigênio para os tecidos vegetais."
+      },
+      {
+        "letter": "E",
+        "text": "O xilema e o floema transportam os mesmos compostos, mas em direções opostas."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 3 (nº 17 no caderno)",
+      "sha256": "3277cafcd29a0616c605fe7c1bd9b81e7b5a60978dff0fc828876368e343912a",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 11
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-matutino-18",
+    "revision": "review-2026-10-05-biologia-2025-2-18",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 18,
+    "subjectNumber": 4,
+    "topics": [
+      "microbiologia (vírus, bactérias, protozoários, fungos)"
+    ],
+    "skills": [
+      "Distinguir protozoários ameboides, flagelados e bactérias em doenças intestinais"
+    ],
+    "rawText": "\n\nQuestão 18\nCom base no Texto 1, relacionado com os micro-organismos responsáveis por diarreia e gastroenterite,\nneste tipo de situação, assinale a alternativa incorreta.\nA. ( ) A giardíase é uma doença transmitida pela ingestão de água e alimentos contaminados pelos cistos\ndo protozoário Giardia duodenalis.\nB. ( ) Os principais agentes bacterianos, relacionados com as gastroenterites, incluem os gêneros\nSalmonella, Shigella, Escherichia, Staphylococcus, sendo todos eles seres anucleados com\nausência de organelas membranosas e a presença de ribossomos.\nC. ( ) O protozoário do gênero Giardia não possui aparelho de Golgi e mitocôndrias, mas possui\nmitossomos, sendo considerados seres eucariontes.\nD. ( ) A Giardia duodenalis, responsável por uma das gastroenterites, é um protozoário flagelado assim\ncomo o Trypanosoma cruzi que é o agente etiológico da Doença de Chagas.\nE. ( ) A amebíase é uma dessas gastroenterites registradas pelas UPAs, sendo um protozoário que se\nlocomove pelos pseudópodes, agrupado dentro dos Esporozoários, grupo onde todos são\nendoparasitas de células.\n\n\n---\n\n",
+    "stem": "TEXTO 1\n\nEm janeiro de 2023, Florianópolis registrou um surto de diarreia, com mais de 3 mil casos notificados na Unidade de Pronto Atendimento (UPA). Outro evento parecido foi registrado em 2024, onde somente no mês de dezembro a UPA registrou 1.007 casos de diarreia e gastroenterite. Recentemente, Florianópolis passou por mais um surto dessas doenças infecciosas do sistema digestório, onde 499 casos de gastroenterite foram registrados na capital Catarinense apenas na primeira semana de 2025. Esses surtos estão relacionados com o aumento da população no verão, o que ocasiona o saturamento dos sistemas sanitários. Um reflexo disso é a drástica queda no número de pontos próprios para banho no litoral do estado, conforme divulgado pelo Instituto do Meio Ambiente de Santa Catarina (IMA), onde dos 238 locais monitorados, apenas 151 estavam próprios para banho.\n\nDisponível em: https://g1.globo.com/sc/santa-catarina/noticia/2025/01/09/florianopolis-gastroenterite- prevencao.ghtml. Adaptado. Acesso em: 01 abr. 2025.\n\nCom base no Texto 1, relacionado com os micro-organismos responsáveis por diarreia e gastroenterite, neste tipo de situação, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A giardíase é uma doença transmitida pela ingestão de água e alimentos contaminados pelos cistos do protozoário Giardia duodenalis."
+      },
+      {
+        "letter": "B",
+        "text": "Os principais agentes bacterianos, relacionados com as gastroenterites, incluem os gêneros Salmonella, Shigella, Escherichia, Staphylococcus, sendo todos eles seres anucleados com ausência de organelas membranosas e a presença de ribossomos."
+      },
+      {
+        "letter": "C",
+        "text": "O protozoário do gênero Giardia não possui aparelho de Golgi e mitocôndrias, mas possui mitossomos, sendo considerados seres eucariontes."
+      },
+      {
+        "letter": "D",
+        "text": "A Giardia duodenalis, responsável por uma das gastroenterites, é um protozoário flagelado assim como o Trypanosoma cruzi que é o agente etiológico da Doença de Chagas."
+      },
+      {
+        "letter": "E",
+        "text": "A amebíase é uma dessas gastroenterites registradas pelas UPAs, sendo um protozoário que se locomove pelos pseudópodes, agrupado dentro dos Esporozoários, grupo onde todos são endoparasitas de células."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 4 (nº 18 no caderno)",
+      "sha256": "5f29279cc333ed79891a6d5af7791ef06db749b164ec0adf631f67cc1642e365",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-19",
+    "revision": "review-2026-10-05-biologia-2025-2-19",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 19,
+    "subjectNumber": 5,
+    "topics": [
+      "saúde, doenças e parasitoses"
+    ],
+    "skills": [
+      "Identificar transmissão fecal-oral e diferenciar agentes de doenças associadas à água"
+    ],
+    "rawText": "\n\nQuestão 19\nCom base no Texto 1, assinale a alternativa correta.\nA. ( ) O Instituto do Meio Ambiente de Santa Catarina (IMA) utiliza os coliformes fecais como indicadores\npara demonstrar se a praia está própria para banho, pois são todos protozoários patogênicos\nencontrados nas fezes humanas.\nB. ( ) Além dos casos de diarreia e gastroenterite, a esquistossomose é uma doença que pode estar\npresente nesses casos, já que ela está relacionada com a água contaminada.\nC. ( ) O rotavírus é um dos agentes infecciosos encontrados nestes casos, já que sua transmissão é via\nfecal-oral.\nD. ( ) A cólera é uma das gastroenterites que está relacionada a esse tipo de situação, já que é uma\ndoença transmitida pela água contaminada com cistos do protozoário patógeno, que ao ser ingerido\nirá gerar uma infecção intestinal aguda.\nE. ( ) Os problemas, descritos no Texto 1, não têm relação com os sistemas sanitários, mas sim com o\nnúmero de pessoas contaminadas que estão frequentando as praias.\n\n\n",
+    "stem": "TEXTO 1\n\nEm janeiro de 2023, Florianópolis registrou um surto de diarreia, com mais de 3 mil casos notificados na Unidade de Pronto Atendimento (UPA). Outro evento parecido foi registrado em 2024, onde somente no mês de dezembro a UPA registrou 1.007 casos de diarreia e gastroenterite. Recentemente, Florianópolis passou por mais um surto dessas doenças infecciosas do sistema digestório, onde 499 casos de gastroenterite foram registrados na capital Catarinense apenas na primeira semana de 2025. Esses surtos estão relacionados com o aumento da população no verão, o que ocasiona o saturamento dos sistemas sanitários. Um reflexo disso é a drástica queda no número de pontos próprios para banho no litoral do estado, conforme divulgado pelo Instituto do Meio Ambiente de Santa Catarina (IMA), onde dos 238 locais monitorados, apenas 151 estavam próprios para banho.\n\nDisponível em: https://g1.globo.com/sc/santa-catarina/noticia/2025/01/09/florianopolis-gastroenterite- prevencao.ghtml. Adaptado. Acesso em: 01 abr. 2025.\n\nCom base no Texto 1, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O Instituto do Meio Ambiente de Santa Catarina (IMA) utiliza os coliformes fecais como indicadores para demonstrar se a praia está própria para banho, pois são todos protozoários patogênicos encontrados nas fezes humanas."
+      },
+      {
+        "letter": "B",
+        "text": "Além dos casos de diarreia e gastroenterite, a esquistossomose é uma doença que pode estar presente nesses casos, já que ela está relacionada com a água contaminada."
+      },
+      {
+        "letter": "C",
+        "text": "O rotavírus é um dos agentes infecciosos encontrados nestes casos, já que sua transmissão é via fecal-oral."
+      },
+      {
+        "letter": "D",
+        "text": "A cólera é uma das gastroenterites que está relacionada a esse tipo de situação, já que é uma doença transmitida pela água contaminada com cistos do protozoário patógeno, que ao ser ingerido irá gerar uma infecção intestinal aguda."
+      },
+      {
+        "letter": "E",
+        "text": "Os problemas, descritos no Texto 1, não têm relação com os sistemas sanitários, mas sim com o número de pessoas contaminadas que estão frequentando as praias."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 5 (nº 19 no caderno)",
+      "sha256": "81a7d37226d41a182d6ab0dcba5c38dc4947af491180e44aeca2d5ef65668025",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-20",
+    "revision": "review-2026-10-05-biologia-2025-2-20",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 20,
+    "subjectNumber": 6,
+    "topics": [
+      "zoologia — vertebrados"
+    ],
+    "skills": [
+      "Identificar características circulatórias, excretoras e reprodutivas das aves"
+    ],
+    "rawText": "\n\nQuestão 20\nA araponga (Procnias nudicollis) é uma espécie de ampla ocorrência na Mata Atlântica e foi escolhida como\nave símbolo de Santa Catarina.\nEm relação às principais características das aves, analise as proposições.\nI. Possuem ossos pneumáticos, que são ocos e leves.\nII. Excretam ácido úrico, que é um composto nitrogenado insolúvel em água.\nIII. Parte do desenvolvimento embrionário das aves acontece no meio externo, por meio da colocação dos\novos no ambiente pela fêmea. Esse processo é chamado de oviposição.\nIV. O embrião das aves se desenvolve utilizando as reservas nutritivas que estão presentes no ovo em\nambiente externo, o que é uma característica do desenvolvimento embrionário de animais vivíparos.\nV. Possuem coração com quatro cavidades, circulação dupla, completa e sistema circulatório fechado.\nAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I, II e IV são verdadeiras.\nSomente as proposições I, II e V são verdadeiras.\nSomente as proposições I, III e V são verdadeiras.\nSomente as proposições II, III e IV são verdadeiras.\nSomente as proposições I, II, III e V são verdadeiras.\n\n\n",
+    "stem": "A araponga (Procnias nudicollis) é uma espécie de ampla ocorrência na Mata Atlântica e foi escolhida como ave símbolo de Santa Catarina.\n\nEm relação às principais características das aves, analise as proposições.\n\nI. Possuem ossos pneumáticos, que são ocos e leves. II. Excretam ácido úrico, que é um composto nitrogenado insolúvel em água. III. Parte do desenvolvimento embrionário das aves acontece no meio externo, por meio da colocação dos ovos no ambiente pela fêmea. Esse processo é chamado de oviposição. IV. O embrião das aves se desenvolve utilizando as reservas nutritivas que estão presentes no ovo em ambiente externo, o que é uma característica do desenvolvimento embrionário de animais vivíparos. V. Possuem coração com quatro cavidades, circulação dupla, completa e sistema circulatório fechado.\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I, II e IV são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I, II e V são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições I, III e V são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições II, III e IV são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições I, II, III e V são verdadeiras."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 6 (nº 20 no caderno)",
+      "sha256": "8ab30c827e59b211840f7e3ad9f9e241bddebf1a573c3ff09100cb4107ec6447",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-21",
+    "revision": "review-2026-10-05-biologia-2025-2-21",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 21,
+    "subjectNumber": 7,
+    "topics": [
+      "zoologia — vertebrados"
+    ],
+    "skills": [
+      "Comparar adaptações fisiológicas e reprodutivas de grupos de vertebrados e crustáceos"
+    ],
+    "rawText": "\n\nQuestão 21\nAnalise as proposições em relação aos animais abaixo.\nI.\n\nAssim como os anfíbios, todos os répteis apresentam coração com três cavidades: dois átrios (um direito\ne um esquerdo) e um ventrículo, com circulação fechada e mistura de sangue venoso com arterial.\nII. Os anfíbios foram os primeiros vertebrados a ocupar o ambiente terrestre, embora não efetivamente, já\nque colocam ovos sem casca e precisam da água para sua reprodução.\nIII. Todos os crustáceos, mesmo aqueles que são terrestres como os tatuzinhos-de-jardim, respiram por\nmeio de brânquias.\nIV. Além da diferença do seu endoesqueleto, os peixes ósseos também apresentam bexiga natatória,\nestruturas ausentes nos peixes cartilaginosos.\nV. Todos os mamíferos são homeotérmicos, vivíparos, com presença de pelos e glândulas mamárias.\nAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I, II e IV são verdadeiras.\nSomente as proposições I, III e IV são verdadeiras.\nSomente as proposições II, III e IV são verdadeiras.\nSomente as proposições II, III e V são verdadeiras.\nSomente as proposições II, III, IV e V são verdadeiras.\n\n\n",
+    "stem": "Analise as proposições em relação aos animais abaixo.\n\nI. Assim como os anfíbios, todos os répteis apresentam coração com três cavidades: dois átrios (um direito e um esquerdo) e um ventrículo, com circulação fechada e mistura de sangue venoso com arterial. II. Os anfíbios foram os primeiros vertebrados a ocupar o ambiente terrestre, embora não efetivamente, já que colocam ovos sem casca e precisam da água para sua reprodução. III. Todos os crustáceos, mesmo aqueles que são terrestres como os tatuzinhos-de-jardim, respiram por meio de brânquias. IV. Além da diferença do seu endoesqueleto, os peixes ósseos também apresentam bexiga natatória, estruturas ausentes nos peixes cartilaginosos. V. Todos os mamíferos são homeotérmicos, vivíparos, com presença de pelos e glândulas mamárias.\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I, II e IV são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I, III e IV são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições II, III e IV são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições II, III e V são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições II, III, IV e V são verdadeiras."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 7 (nº 21 no caderno)",
+      "sha256": "de79192e76e96f18e33db9f41878ec69d56706f700e0f8244fd2123f176ac3e0",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-22",
+    "revision": "review-2026-10-05-biologia-2025-2-22",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 22,
+    "subjectNumber": 8,
+    "topics": [
+      "fisiologia humana"
+    ],
+    "skills": [
+      "Associar órgãos e tecidos humanos às suas funções e ao controle muscular"
+    ],
+    "rawText": "\n\nQuestão 22\nAnalise as proposições sobre a anatomia e fisiologia humana.\n( ) Além de sustentar o corpo e proteger diversos órgãos, o esqueleto também tem como função ser uma\nreserva de cálcio para o organismo.\n( ) O tecido muscular estriado esquelético e o muscular liso apresentam contrações voluntárias, enquanto\no muscular estriado cardíaco apresenta contrações involuntárias.\n( ) A uretra é um canal compartilhado entre o sistema excretor e reprodutor nos órgãos sexuais masculino\ne feminino.\n( ) A faringe é um órgão musculomembranoso compartilhado entre o sistema digestório e o respiratório.\n( ) O baço é um órgão responsável por filtrar o sangue, eliminando células velhas, reciclando o tecido\nsanguíneo, fazendo parte do sistema excretor.\nLevando em consideração que V é verdadeiro e F é falso, assinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nF–V–V–F–V\nF–F–V–V–F\nV–V–F–V–F\nV–F–F–V–F\nV–F–F–F–V\n\n\n",
+    "stem": "Analise as proposições sobre a anatomia e fisiologia humana.\n\n( ) Além de sustentar o corpo e proteger diversos órgãos, o esqueleto também tem como função ser uma reserva de cálcio para o organismo. ( ) O tecido muscular estriado esquelético e o muscular liso apresentam contrações voluntárias, enquanto o muscular estriado cardíaco apresenta contrações involuntárias. ( ) A uretra é um canal compartilhado entre o sistema excretor e reprodutor nos órgãos sexuais masculino e feminino. ( ) A faringe é um órgão musculomembranoso compartilhado entre o sistema digestório e o respiratório. ( ) O baço é um órgão responsável por filtrar o sangue, eliminando células velhas, reciclando o tecido sanguíneo, fazendo parte do sistema excretor.\n\nLevando em consideração que V é verdadeiro e F é falso, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "F–V–V–F–V"
+      },
+      {
+        "letter": "B",
+        "text": "F–F–V–V–F"
+      },
+      {
+        "letter": "C",
+        "text": "V–V–F–V–F"
+      },
+      {
+        "letter": "D",
+        "text": "V–F–F–V–F"
+      },
+      {
+        "letter": "E",
+        "text": "V–F–F–F–V"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 8 (nº 22 no caderno)",
+      "sha256": "8cdf21d82fbc06bab2536b62bd9fc9c212b64d3d991256e124673e536bfa221e",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 14
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-23",
+    "revision": "review-2026-10-05-biologia-2025-2-23",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 23,
+    "subjectNumber": 9,
+    "topics": [
+      "fisiologia humana"
+    ],
+    "skills": [
+      "Explicar o papel de actina, miosina e ATP na contração muscular"
+    ],
+    "rawText": "\n\nQuestão 23\nA Meia Maratona de Joinville é uma das mais antigas do Brasil, sua edição tem mais de 30 anos e abrange\num percurso de 21 km. Anualmente, tem um aumento no número de inscritos, o que reflete os incentivos da\natividade física (IAF) do programa governamental. O movimento é fundamental para a qualidade de vida em\nequilíbrio da saúde do corpo e da mente. Durante a corrida, a contração dos músculos estriados esqueléticos\nocorre com a participação da proteína miosina.\nCom base nessas informações, assinale a alternativa incorreta.\nA. ( ) O estímulo para contração dos músculos das pernas é um impulso nervoso por meio de um nervo,\nsendo essa uma contração voluntária do tecido muscular estriado esquelético.\nB. ( ) A miosina é uma proteína motora, que atua nos movimentos gerados pelos miofilamentos.\nC. ( ) As fibras musculares esqueléticas possuem um padrão de estriações transversais formadas,\nprincipalmente, por filamentos de actina e miosina.\nD. ( ) A cãibra muscular é uma contração súbita do músculo estriado esquelético após a desidratação da\nproteína miosina.\nE. ( ) A proteína miosina é uma ATPase que se movimenta ao longo da actina e em presença de ATP,\nsendo responsável pela contração muscular.\n\n\n",
+    "stem": "A Meia Maratona de Joinville é uma das mais antigas do Brasil, sua edição tem mais de 30 anos e abrange um percurso de 21 km. Anualmente, tem um aumento no número de inscritos, o que reflete os incentivos da atividade física (IAF) do programa governamental. O movimento é fundamental para a qualidade de vida em equilíbrio da saúde do corpo e da mente. Durante a corrida, a contração dos músculos estriados esqueléticos ocorre com a participação da proteína miosina.\n\nCom base nessas informações, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O estímulo para contração dos músculos das pernas é um impulso nervoso por meio de um nervo, sendo essa uma contração voluntária do tecido muscular estriado esquelético."
+      },
+      {
+        "letter": "B",
+        "text": "A miosina é uma proteína motora, que atua nos movimentos gerados pelos miofilamentos."
+      },
+      {
+        "letter": "C",
+        "text": "As fibras musculares esqueléticas possuem um padrão de estriações transversais formadas, principalmente, por filamentos de actina e miosina."
+      },
+      {
+        "letter": "D",
+        "text": "A cãibra muscular é uma contração súbita do músculo estriado esquelético após a desidratação da proteína miosina."
+      },
+      {
+        "letter": "E",
+        "text": "A proteína miosina é uma ATPase que se movimenta ao longo da actina e em presença de ATP, sendo responsável pela contração muscular."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 9 (nº 23 no caderno)",
+      "sha256": "0cf239b1ca48b7c2671b2661351c2e035e03f7c7eaf458dc1487bff305c29d7c",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 14
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-24",
+    "revision": "review-2026-10-05-biologia-2025-2-24",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 24,
+    "subjectNumber": 10,
+    "topics": [
+      "genética mendeliana"
+    ],
+    "skills": [
+      "Aplicar uma hierarquia de dominância em cruzamentos com alelos múltiplos"
+    ],
+    "rawText": "\n\nQuestão 24\nA determinação da cor da pelagem em coelhos é um exemplo de polialelia de quatro genes alelos, em que\no C expressa a cor selvagem, Cch a cor chinchila, o Ch a cor himalaia e o Ca o albino. Sendo a relação de\ndominância a seguir: C > Cch > Ch > Ca.\nAnalise as proposições e assinale a alternativa correta.\nA. ( ) Por se tratar de 4 genes alelos, a cor chinchila pode ser ocasionada pelos genótipos CchCa, CchCh,\nCCch e CchCch.\nB. ( ) Os filhotes de coelhos sempre irão nascer com a cor selvagem, caso um dos progenitores tenha o\ngenótipo CC.\nC. ( ) A cor himalaia ocorre nos genótipos ChCa, CchCh e ChCh.\nD. ( ) A cor selvagem é aquela com a maior combinação de genótipos possíveis, um total de 5\ncombinações, já que ela é a dominante.\nE. ( ) É possível ter um filhote albino, caso os progenitores sejam uma fêmea albina com um macho\nhimalaia homozigoto.\n\n\n",
+    "stem": "A determinação da cor da pelagem em coelhos é um exemplo de polialelia de quatro genes alelos, em que o C expressa a cor selvagem, Cᶜʰ a cor chinchila, o Cʰ a cor himalaia e o Cᵃ o albino. Sendo a relação de dominância a seguir: C > Cᶜʰ > Cʰ > Cᵃ.\n\nAnalise as proposições e assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Por se tratar de 4 genes alelos, a cor chinchila pode ser ocasionada pelos genótipos CᶜʰCᵃ, CᶜʰCʰ, CCᶜʰ e CᶜʰCᶜʰ."
+      },
+      {
+        "letter": "B",
+        "text": "Os filhotes de coelhos sempre irão nascer com a cor selvagem, caso um dos progenitores tenha o genótipo CC."
+      },
+      {
+        "letter": "C",
+        "text": "A cor himalaia ocorre nos genótipos CʰCᵃ, CᶜʰCʰ e CʰCʰ."
+      },
+      {
+        "letter": "D",
+        "text": "A cor selvagem é aquela com a maior combinação de genótipos possíveis, um total de 5 combinações, já que ela é a dominante."
+      },
+      {
+        "letter": "E",
+        "text": "É possível ter um filhote albino, caso os progenitores sejam uma fêmea albina com um macho himalaia homozigoto."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 10 (nº 24 no caderno)",
+      "sha256": "5653a03f3709a6c3672014a2e27497f8513d43d0b8918f76e401ecab2b3cccf9",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-25",
+    "revision": "review-2026-10-05-biologia-2025-2-25",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 25,
+    "subjectNumber": 11,
+    "topics": [
+      "evolução"
+    ],
+    "skills": [
+      "Distinguir seleção natural, deriva genética e modalidades de especiação"
+    ],
+    "rawText": "\n\nQuestão 25\nA especiação é um processo contínuo que é responsável pelo desenvolvimento das linhagens evolutivas,\nque constituem a biodiversidade do planeta.\nAssinale a alternativa correta sobre esse processo.\nA. ( ) A seleção natural desempenha um papel na adaptação ecológica tanto em populações separadas\ngeograficamente quanto naquelas sem isolamento.\nB. ( ) A deriva genética participa do processo de especiação, promovendo um aumento da diversidade\ngenética resultante do cruzamento entre indivíduos de diferentes populações.\nC. ( ) A especiação ocorre devido ao resultado da seleção convergente que ocorre entre diferentes\nambientes ecológicos.\nD. ( ) A separação geográfica é um fator indispensável para a especiação, levando as novas espécies a\nexplorarem nichos ecológicos distintos.\nE. ( ) O isolamento reprodutivo é um componente fundamental e exclusivo da especiação parapátrica.\n\n\n",
+    "stem": "A especiação é um processo contínuo que é responsável pelo desenvolvimento das linhagens evolutivas, que constituem a biodiversidade do planeta.\n\nAssinale a alternativa correta sobre esse processo.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A seleção natural desempenha um papel na adaptação ecológica tanto em populações separadas geograficamente quanto naquelas sem isolamento."
+      },
+      {
+        "letter": "B",
+        "text": "A deriva genética participa do processo de especiação, promovendo um aumento da diversidade genética resultante do cruzamento entre indivíduos de diferentes populações."
+      },
+      {
+        "letter": "C",
+        "text": "A especiação ocorre devido ao resultado da seleção convergente que ocorre entre diferentes ambientes ecológicos."
+      },
+      {
+        "letter": "D",
+        "text": "A separação geográfica é um fator indispensável para a especiação, levando as novas espécies a explorarem nichos ecológicos distintos."
+      },
+      {
+        "letter": "E",
+        "text": "O isolamento reprodutivo é um componente fundamental e exclusivo da especiação parapátrica."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 11 (nº 25 no caderno)",
+      "sha256": "766c02f148eb5d518f66ad9465e2eb35cc73a1a1e6944cae80c611897cbf5c95",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-26",
+    "revision": "review-2026-10-05-biologia-2025-2-26",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 26,
+    "subjectNumber": 12,
+    "topics": [
+      "histologia"
+    ],
+    "skills": [
+      "Identificar a fonte de DNA nuclear no sangue humano"
+    ],
+    "rawText": "\n\nQuestão 26\nO DNA Udesc é o único laboratório público do Estado de SC que faz testes de paternidade pela análise do\nDNA. Ele surgiu em 2007, a partir de um convênio firmado entre a Udesc, Tribunal de Justiça de Santa\nCatarina, Ministério Público, Secretaria de Estado da Saúde e Instituto Paternidade Responsável. São feitos,\npor ano, de 1.500 a 2.500 testes de paternidade.\nOs elementos do sangue que carregam informações genéticas para um teste de paternidade são:\nA. ( ) plaquetas, que possuem uma camada de glicocálix, substâncias envolvidas no reconhecimento\ncelular.\nB. ( ) leucócitos e plaquetas, pois possuem núcleos contendo moléculas de DNA circular.\nC. ( ) plasma e leucócitos, pois contêm histonas específicas modificadas epigeneticamente que\ndeterminam a sequência de aminoácidos.\nD. ( ) leucócitos, já que apresentam DNA nuclear formado por sequências de desoxirribonucleotídeos.\nE. ( ) hemácias, pois contêm hemoglobina formada por uma sequência de ribonucleotídeos.\n\n\n---\n\n",
+    "stem": "O DNA Udesc é o único laboratório público do Estado de SC que faz testes de paternidade pela análise do DNA. Ele surgiu em 2007, a partir de um convênio firmado entre a Udesc, Tribunal de Justiça de Santa Catarina, Ministério Público, Secretaria de Estado da Saúde e Instituto Paternidade Responsável. São feitos, por ano, de 1.500 a 2.500 testes de paternidade.\n\nOs elementos do sangue que carregam informações genéticas para um teste de paternidade são:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "plaquetas, que possuem uma camada de glicocálix, substâncias envolvidas no reconhecimento celular."
+      },
+      {
+        "letter": "B",
+        "text": "leucócitos e plaquetas, pois possuem núcleos contendo moléculas de DNA circular."
+      },
+      {
+        "letter": "C",
+        "text": "plasma e leucócitos, pois contêm histonas específicas modificadas epigeneticamente que determinam a sequência de aminoácidos."
+      },
+      {
+        "letter": "D",
+        "text": "leucócitos, já que apresentam DNA nuclear formado por sequências de desoxirribonucleotídeos."
+      },
+      {
+        "letter": "E",
+        "text": "hemácias, pois contêm hemoglobina formada por uma sequência de ribonucleotídeos."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 12 (nº 26 no caderno) ⚠",
+      "sha256": "b1713ef2cb8229c8c433a581e813cc21c682d8b84caec14821a295773e043cdc",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-matutino-27",
+    "revision": "review-2026-10-05-biologia-2025-2-27",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 27,
+    "subjectNumber": 13,
+    "topics": [
+      "ecologia"
+    ],
+    "skills": [
+      "Relacionar migração vertical do zooplâncton a alimentação e predação visual"
+    ],
+    "rawText": "\n\nQuestão 27\nA migração vertical é um fenômeno observado em diferentes organismos zooplanctônicos. A migração\nnoturna ocorre devido à:\nA. ( ) busca por abrigo nas zonas superficiais superiores, que apresentam mais opções de substrato para\nse esconder de predadores ao anoitecer e o retorno às regiões mais profundas antes da luz diurna,\nprotegendo-os de predadores que se guiam pela visão.\nB. ( ) alimentação nas zonas superficiais superiores de biomassa abundante ao anoitecer e o retorno às\nregiões mais profundas antes da luz diurna, protegendo-os de predadores que se guiam pela visão.\nC. ( ) alimentação nas zonas superficiais superiores, que são mais abundantes em recursos alimentares,\ncomo peixes, por exemplo, ao anoitecer e o retorno às regiões mais profundas antes da luz diurna,\nprotegendo-os de predadores que se guiam pela audição.\nD. ( ) alimentação nas zonas mais profundas, que são mais abundantes em recursos alimentares, como\nfitoplâncton, por exemplo, ao anoitecer e o retorno às regiões superficiais superiores antes da luz\ndiurna, protegendo-os de predadores que se guiam pela visão.\nE. ( ) alimentação nas zonas mais profundas, que são mais abundantes em recursos alimentares, como\npeixes, por exemplo, ao anoitecer e o retorno às regiões superficiais superiores antes da luz diurna,\nprotegendo-os de predadores que se guiam pela visão.\n\n\n",
+    "stem": "A migração vertical é um fenômeno observado em diferentes organismos zooplanctônicos. A migração noturna ocorre devido à:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "busca por abrigo nas zonas superficiais superiores, que apresentam mais opções de substrato para se esconder de predadores ao anoitecer e o retorno às regiões mais profundas antes da luz diurna, protegendo-os de predadores que se guiam pela visão."
+      },
+      {
+        "letter": "B",
+        "text": "alimentação nas zonas superficiais superiores de biomassa abundante ao anoitecer e o retorno às regiões mais profundas antes da luz diurna, protegendo-os de predadores que se guiam pela visão."
+      },
+      {
+        "letter": "C",
+        "text": "alimentação nas zonas superficiais superiores, que são mais abundantes em recursos alimentares, como peixes, por exemplo, ao anoitecer e o retorno às regiões mais profundas antes da luz diurna, protegendo-os de predadores que se guiam pela audição."
+      },
+      {
+        "letter": "D",
+        "text": "alimentação nas zonas mais profundas, que são mais abundantes em recursos alimentares, como fitoplâncton, por exemplo, ao anoitecer e o retorno às regiões superficiais superiores antes da luz diurna, protegendo-os de predadores que se guiam pela visão."
+      },
+      {
+        "letter": "E",
+        "text": "alimentação nas zonas mais profundas, que são mais abundantes em recursos alimentares, como peixes, por exemplo, ao anoitecer e o retorno às regiões superficiais superiores antes da luz diurna, protegendo-os de predadores que se guiam pela visão."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 13 (nº 27 no caderno)",
+      "sha256": "ede6d9a1f840bcedaefed4cd01211da9b763ee90ac7c438ea66c92d63a7cc773",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 16
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-28",
+    "revision": "review-2026-10-05-biologia-2025-2-28",
+    "subject": "biologia",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 28,
+    "subjectNumber": 14,
+    "topics": [
+      "genética molecular (dna, rna, síntese proteica)"
+    ],
+    "skills": [
+      "Relacionar degeneração do código genético e mutações sinônimas"
+    ],
+    "rawText": "\n\nQuestão 28\nIndique a alternativa correta sobre a transcrição e a tradução de genes.\nA. ( ) Qualquer alteração que houver nos códons da tabela acarretará modificação na proteína traduzida,\npois o código genético é sensível a mutações.\nB. ( ) Com exceção da metionina, mais de um tipo de códon pode codificar o mesmo aminoácido. Isso\npossibilita que nem toda mutação acarrete alteração na proteína traduzida, sobretudo uma mutação\nde substituição na terceira base do códon.\nC. ( ) Somente um ribossomo ancora para realizar a transcrição do RNAm de cada vez.\nD. ( ) Cada espécie apresenta um código genético diferente, que é resultado da transcrição dos genes do\ngenoma único que a define como espécie.\nE. ( ) AUG é o único códon de parada conhecido, que sinaliza o fim da tradução, representando uma forte\nevidência de ancestralidade comum da vida.\n\n\fLÍNGUA ESTRANGEIRA\nInglês\n\n(08 questões)\n\nTEXT 1\nFamous Quotations about Change\n“Change is the law of life. And those who look only to the past or present are certain to miss the\nfuture”.\n(John Kennedy, American president)\n\n“There is nothing like returning to a place that remains unchanged to find how you yourself have\naltered”.\n(Nelson Mandela, South African president)\n\n“Certain things should stay the way they are. You ought to be able to stick them in one of those big\nglass cases and just leave them alone”.\n(Holden Caulfield in Catcher in the Rye, by J. D. Salinger, American novelist)\n\n“Only the wisest and stupidest of men never change”.\n(Confucius, Chinese teacher)\n\n“Everything is in a process of change, nothing endures; we do not seek permanence”. (Masatoshi\nNaito, Japanese photographer)\n\n“You can clutch the past so tightly to your chest that it leaves your arms too full to embrace the\npresent”.\n(Jan Glidewell. American journalist)\n\n“To change and to change for the better are two different things”.\n(German proverb)\n\n“Any change, even a change for the better, is always accompanied by drawbacks and discomforts”.\n(Arnold Bennett, English novelist)\n\n“That's the risk you take if you change: that people you've been involved with won't like the new you.\nBut other people who do will come along”.\n(Lisa Alther, American novelist)\nEARLE-CARLIN, S. Skills for Success. 2nd edition, 2015.\n\nAnswer the questions below according to text 1.\n\n\fQuestion 29\nThe underlined words were turned into adverbs; match their meanings accordingly:\nI. certain – certainly\nII. wisest – wisely\nIII. different – differently\nIV. full – fully\nV. like – likely\n\n(\n(\n(\n(\n(\n\n)\n)\n)\n)\n)\n\notherwise\nwholly\npresumably\nundoubtedly\nrightly\n\nNow, mark the alternative which shows the correct sequence from top to bottom matching each adverb with\nits right meaning.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nIII – IV – II – V – I\nII – I – V – III – IV\nIII – IV – V – I – II\nIV – V – I – II – III\nV – IV – I – II – III\n\nQuestion 30\nThe words: who, that, them and it in bold, from the text refer to:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nlife, nothing, they, chest\nthose, place, things, past\nthose, yourself, cases, past\nlaw, nothing, things, chest\nthose, place, cases, past\n\nQuestion 31\nMark the correct alternative according to each quote and its meaning.\nA. ( ) The sixth quote says that past sometimes helps the present to be accepted and seen.\nB. ( ) The fourth quote says that all kinds of men still unchanged.\nC. ( ) The second quote says that you realize changes have happened to you even though; somehow\nsome places remain the same.\nD. ( ) The eighth quote says that all changes may cause jittering in actions at any time in life.\nE. ( ) The ninth quote says that there is always a risk that comes out of the blue with changes, some\npeople may like them and some ought not to.\nQuestion 32\nMark the alternative which has the correct negative inversion of the sentence: “Change is the law of life”.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nOn no account is change the law of life.\nHardly any change is not the law of life.\nNever change is the law of life.\nIs never change the law of life.\nNot change is the law of life.\n\n\fTEXT 2\n\nAvailable at: https://rrenatto.wordpress.com/. Acessed on: April 16th, 2025.\n\nAnswer the question below according to text 2.\nQuestion 33\nThe comic strip says that:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nit is implicit that the door was left open.\nJon (the man) is sure he forgot something about feeding the goat.\nalthough Garfield (the cat) sticks to the idea of something is wrong, Jon talks him out of it.\nthe whole thing is about a moose in the living room.\nwe can capture from the dialogue that they are having a row.\nTEXT 3\n\nAvailable at: https://rrenatto.wordpress.com/. Acessed on: April 16th, 2025.\n\nAnswer the question below according to text 3.\nQuestion 34\nThe text says that:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nall their secrecy is about to come out.\nJon asked about their work.\nGarfield (cat) says he has the right to a fair trial.\nGarfield´s friend (dog) is unemployed and searches for an opportunity as a lawyer.\nJon (man) is suspicious about what the other two are doing.\n\n\fTEXT 4\nArtificial Intelligence is transforming the world\nArtificial Intelligence (AI) is a branch of computer science that focuses on creating machines capable\nof performing tasks that require human-like intelligence. This includes learning from experience,\nunderstanding natural language, recognizing patterns, and making decisions. AI technology has\nmade significant advancements in recent years and is now an integral part of our daily lives. ______,\nvirtual assistants like Siri and Google Assistant use AI to respond to voice commands and provide\ninformation. In the business world, AI can analyze large datasets quickly, helping companies make\ninformed decisions and improve efficiency. In healthcare, AI plays a vital role in diagnosing diseases\nand developing personalized treatment plans based on patient data. ______, AI is at the forefront of\ninnovations such as self-driving cars, which can navigate and make decisions in real-time. ______,\nthe\n\n[…] (enunciado truncado — veja o PDF original)\n\n\n",
+    "stem": "Indique a alternativa correta sobre a transcrição e a tradução de genes.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Qualquer alteração que houver nos códons da tabela acarretará modificação na proteína traduzida, pois o código genético é sensível a mutações."
+      },
+      {
+        "letter": "B",
+        "text": "Com exceção da metionina, mais de um tipo de códon pode codificar o mesmo aminoácido. Isso possibilita que nem toda mutação acarrete alteração na proteína traduzida, sobretudo uma mutação de substituição na terceira base do códon."
+      },
+      {
+        "letter": "C",
+        "text": "Somente um ribossomo ancora para realizar a transcrição do RNAm de cada vez."
+      },
+      {
+        "letter": "D",
+        "text": "Cada espécie apresenta um código genético diferente, que é resultado da transcrição dos genes do genoma único que a define como espécie."
+      },
+      {
+        "letter": "E",
+        "text": "AUG é o único códon de parada conhecido, que sinaliza o fim da tradução, representando uma forte evidência de ancestralidade comum da vida."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2025/2] questão 14 (nº 28 no caderno)",
+      "sha256": "5e46da70243f10d81c10c97da1513838d1901206ead011a0fe04e2576c62865f",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 16
+    },
+    "quality": {
+      "reviewed": false,
+      "ocr": false,
+      "uncertain": true,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-15",
+    "revision": "review-2026-10-05-biologia-2026-1-15",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 15,
+    "subjectNumber": 1,
+    "topics": [
+      "embriologia"
+    ],
+    "skills": [
+      "Distinguir gametogênese, anexos embrionários, gemelaridade e gastrulação"
+    ],
+    "rawText": "\n\nQuestão 15\nConsidere as proposições a seguir sobre biologia do desenvolvimento e embriologia de mamíferos.\nI.\n\nOs gametas são formados pela mitose com a ocorrência da permutação cromossômica, o que irá gerar\ncélulas haplóides.\nII. A placenta é um órgão materno-fetal, que tem como funções a transferência de nutrientes e oxigênio\nda mãe para o feto, além da remoção de resíduos metabólicos do feto.\nIII. A determinação do sexo dos mamíferos ocorre no momento da fecundação, quando é definida a\ncombinação dos cromossomos sexuais.\nIV. Os gêmeos bivitelinos, também chamados de idênticos, são formados a partir da divisão de um único\nóvulo fertilizado por um único espermatozoide.\nV. Na gastrulação, ocorre a formação dos três folhetos germinativos nos vertebrados: ectoderma,\nmesoderma e endoderma.\nAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I, II e IV são verdadeiras.\nSomente as proposições I, III e V são verdadeiras.\nSomente as proposições II, III e V são verdadeiras.\nSomente as proposições II, IV e V são verdadeiras.\nSomente as proposições II e V são verdadeiras.\n\n",
+    "stem": "Considere as proposições a seguir sobre biologia do desenvolvimento e embriologia de mamíferos.\n\nI. Os gametas são formados pela mitose com a ocorrência da permutação cromossômica, o que irá gerar células haplóides. II. A placenta é um órgão materno-fetal, que tem como funções a transferência de nutrientes e oxigênio da mãe para o feto, além da remoção de resíduos metabólicos do feto. III. A determinação do sexo dos mamíferos ocorre no momento da fecundação, quando é definida a combinação dos cromossomos sexuais. IV. Os gêmeos bivitelinos, também chamados de idênticos, são formados a partir da divisão de um único óvulo fertilizado por um único espermatozoide. V. Na gastrulação, ocorre a formação dos três folhetos germinativos nos vertebrados: ectoderma, mesoderma e endoderma.\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I, II e IV são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I, III e V são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições II, III e V são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições II, IV e V são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições II e V são verdadeiras."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 1 (nº 15 no caderno)",
+      "sha256": "551e1bee8ea8fb6b67503c7d1402bd9abbc50beb2bc5a4ca6d5cfc9aed767b44",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 11
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-16",
+    "revision": "review-2026-10-05-biologia-2026-1-16",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 16,
+    "subjectNumber": 2,
+    "topics": [
+      "fisiologia humana"
+    ],
+    "skills": [
+      "Diferenciar imunização ativa por vacina e passiva por soro"
+    ],
+    "rawText": "\n\nQuestão 16\nVital Brasil foi um cientista de renome internacional, reconhecido mundialmente pelo desenvolvimento do\nprimeiro soro antiofídico específico, inserindo o país na vanguarda da pesquisa em imunologia. Ele também\nfoi o primeiro diretor e um dos fundadores do Instituto Butantan, em São Paulo, que é uma instituição\nfundamental para a produção de diversos soros e vacinas para todo o Brasil.\nA respeito de soros e vacinas, assinale a alternativa correta.\nA. ( ) A amamentação é considerada um soro natural, pois os anticorpos passados pelo leite materno\ngarantem a imunização temporária do recém-nascido.\nB. ( ) Assim como as vacinas, o soro garante uma imunidade permanente no indivíduo que o recebeu,\ngerando memória imunológica.\nC. ( ) Os soros são produzidos a partir do veneno de cobras e aranhas, sendo aplicados nos cavalos\npara eles produzirem anticorpos contra o veneno, não existindo soro contra vírus ou bactérias.\nD. ( ) O soro antirrábico contém anticorpos prontos contra o vírus da raiva, que foram produzidos a partir\ndo plasma de equinos, mas ele não gera memória imunológica ao vírus da raiva.\nE. ( ) As vacinas contêm anticorpos prontos contra um agente infeccioso específico, neutralizando\nimediatamente o vírus ou bactéria, tendo uma proteção imediata e gerando memória imunológica.\n\n\n",
+    "stem": "Vital Brasil foi um cientista de renome internacional, reconhecido mundialmente pelo desenvolvimento do primeiro soro antiofídico específico, inserindo o país na vanguarda da pesquisa em imunologia. Ele também foi o primeiro diretor e um dos fundadores do Instituto Butantan, em São Paulo, que é uma instituição fundamental para a produção de diversos soros e vacinas para todo o Brasil.\n\nA respeito de soros e vacinas, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A amamentação é considerada um soro natural, pois os anticorpos passados pelo leite materno garantem a imunização temporária do recém-nascido."
+      },
+      {
+        "letter": "B",
+        "text": "Assim como as vacinas, o soro garante uma imunidade permanente no indivíduo que o recebeu, gerando memória imunológica."
+      },
+      {
+        "letter": "C",
+        "text": "Os soros são produzidos a partir do veneno de cobras e aranhas, sendo aplicados nos cavalos para eles produzirem anticorpos contra o veneno, não existindo soro contra vírus ou bactérias."
+      },
+      {
+        "letter": "D",
+        "text": "O soro antirrábico contém anticorpos prontos contra o vírus da raiva, que foram produzidos a partir do plasma de equinos, mas ele não gera memória imunológica ao vírus da raiva."
+      },
+      {
+        "letter": "E",
+        "text": "As vacinas contêm anticorpos prontos contra um agente infeccioso específico, neutralizando imediatamente o vírus ou bactéria, tendo uma proteção imediata e gerando memória imunológica."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 2 (nº 16 no caderno)",
+      "sha256": "4caa30dfaca2885ec9b07462423d7c3e60bc9329b8a830cac596e63084783a21",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 11
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-17",
+    "revision": "review-2026-10-05-biologia-2026-1-17",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 17,
+    "subjectNumber": 3,
+    "topics": [
+      "fisiologia humana"
+    ],
+    "skills": [
+      "Interpretar circulação pulmonar e sistêmica em um esquema cardíaco"
+    ],
+    "rawText": "\n\nQuestão 17\nObserve a Figura 1.\nFigura 1 – Sistema Circulatório Humano\n\nDisponível em: http://educacao.globo.com/biologia/assunto/fisiologia-humana/circulacao.html. Acesso em: 12 nov. 2025.\n[Adaptado].\n\nAssinale a alternativa correta.\nA. ( ) As células das artérias, representadas pela trajetória indicada pelo número 1, são estriadas\ncardíacas, já que apresentam alta pressão para circulação, enquanto as veias, representadas pela\ntrajetória indicada pelo número 3, são compostas por tecido conjuntivo.\nB. ( ) A artéria pulmonar esquerda está levando o sangue venoso do ventrículo direito para os pulmões,\ntrajetória indicada pelo número 5.\nC. ( ) A “pequena circulação” está representada pelo trajeto indicado pelos números 1 e 3, já que esse\né o menor percurso do sangue arterial com o seu retorno para os pulmões.\nD. ( ) A entrada do sangue venoso no átrio direito pela veia cava está sendo representado pelo número\n5.\nE. ( ) Conforme mostrado nas trajetórias indicadas pelos números 3, 4 e 5, o sangue venoso circula\napenas pelas veias, enquanto o sangue arterial, cujas trajetórias estão indicadas pelos números 1\ne 2, circula apenas pelas artérias.\n\nTEXTO 1\nCidade de SC decreta emergência por proliferação de carrapatos após aumento de capivaras em lago.\nPalhoça, cidade praiana turística com a sétima maior população de Santa Catarina, decretou emergência\napós a proliferação de carrapatos na região do Lago da Pedra Branca. A situação ocorre por conta do aumento das\ncapivaras no local. Segundo o município, localizado na Grande Florianópolis, as capivaras são um dos principais\nhospedeiros do carrapato-estrela, que transmite a febre maculosa brasileira. O decreto foi assinado na sexta-feira\n(31) e autoriza a mobilização de diferentes órgãos para buscar uma solução. O Instituto Brasileiro do Meio Ambiente\ne dos Recursos Naturais Renováveis (IBAMA) foi contatado para \"viabilizar um plano de manejo das capivaras de\nforma responsável e dentro das normas ambientais\".\nDisponível em: https://g1.globo.com/sc/santa-catarina/noticia/2025/02/05/palhoca-decreta-emergencia-proliferacao-carrapatoscapivaras.ghtml. Acesso em: 12 nov. 2025.\n\n\n",
+    "stem": "Observe a Figura 1. Figura 1 – Sistema Circulatório Humano\n\nDisponível em: http://educacao.globo.com/biologia/assunto/fisiologia-humana/circulacao.html. Acesso em: 12 nov. 2025. [Adaptado].\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "As células das artérias, representadas pela trajetória indicada pelo número 1, são estriadas cardíacas, já que apresentam alta pressão para circulação, enquanto as veias, representadas pela trajetória indicada pelo número 3, são compostas por tecido conjuntivo."
+      },
+      {
+        "letter": "B",
+        "text": "A artéria pulmonar esquerda está levando o sangue venoso do ventrículo direito para os pulmões, trajetória indicada pelo número 5."
+      },
+      {
+        "letter": "C",
+        "text": "A “pequena circulação” está representada pelo trajeto indicado pelos números 1 e 3, já que esse é o menor percurso do sangue arterial com o seu retorno para os pulmões."
+      },
+      {
+        "letter": "D",
+        "text": "A entrada do sangue venoso no átrio direito pela veia cava está sendo representado pelo número 5."
+      },
+      {
+        "letter": "E",
+        "text": "Conforme mostrado nas trajetórias indicadas pelos números 3, 4 e 5, o sangue venoso circula apenas pelas veias, enquanto o sangue arterial, cujas trajetórias estão indicadas pelos números 1 e 2, circula apenas pelas artérias."
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/biologia/2026-1-17-figura-b95a9fc2ca6fa269.png",
+        "alt": "Figura 1: esquema original da circulação humana com pulmões, coração e trajetos numerados de 1 a 5.",
+        "required": true,
+        "verified": true,
+        "source": "Caderno oficial UDESC 2026/1, matutino, questão 17, página PDF 12; https://www.udesc.br/arquivos/udesc/id_cpmenu/21194/Prova_Matutino_2026_01_1764546991821_21194.pdf; SHA-256 9005018b5b35f40957ad8b6ad6b32065f2af7d5a1aaa75d03845e84126430fd3",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 3 (nº 17 no caderno)",
+      "sha256": "20bd35117b6bcc904c776a8263e3965560122f9dae4b90e1e0ee059af4b3b55e",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-18",
+    "revision": "review-2026-10-05-biologia-2026-1-18",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 18,
+    "subjectNumber": 4,
+    "topics": [
+      "saúde, doenças e parasitoses"
+    ],
+    "skills": [
+      "Distinguir agente, vetor e hospedeiro na febre maculosa"
+    ],
+    "rawText": "\n\nQuestão 18\nCom base no Texto 1 e em seus conhecimentos em biologia, assinale a alternativa correta.\nA. ( ) A febre maculosa brasileira não é transmitida pelo contato direto com pessoas infectadas, sendo\ntransmitida exclusivamente pela picada de carrapatos infectados.\nB. ( ) A capivara é um vetor da febre maculosa, logo, o seu aumento populacional, juntamente com o\naumento de carrapatos, coloca em risco a população.\nC. ( ) A febre maculosa pode ser transmitida pela picada do carrapato-estrela ou pelo contato com\nanimais infectados, como a capivara.\nD. ( ) A febre maculosa brasileira é causada pelo protozoário Rickettsia, um organismo eucarionte\nunicelular.\nE. ( ) O carrapato-estrela é o único inseto vetor da febre maculosa brasileira; uma das suas profilaxias\nsão a eliminação deles e o uso de repelentes com ação contra carrapatos.\n\n\n",
+    "stem": "TEXTO 1\n\nCidade de SC decreta emergência por proliferação de carrapatos após aumento de capivaras em lago.\n\nPalhoça, cidade praiana turística com a sétima maior população de Santa Catarina, decretou emergência após a proliferação de carrapatos na região do Lago da Pedra Branca. A situação ocorre por conta do aumento das capivaras no local. Segundo o município, localizado na Grande Florianópolis, as capivaras são um dos principais hospedeiros do carrapato-estrela, que transmite a febre maculosa brasileira. O decreto foi assinado na sexta-feira (31) e autoriza a mobilização de diferentes órgãos para buscar uma solução. O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) foi contatado para \"viabilizar um plano de manejo das capivaras de forma responsável e dentro das normas ambientais\".\n\nDisponível em: https://g1.globo.com/sc/santa-catarina/noticia/2025/02/05/palhoca-decreta-emergencia-proliferacao-carrapatos- capivaras.ghtml. Acesso em: 12 nov. 2025.\n\nCom base no Texto 1 e em seus conhecimentos em biologia, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A febre maculosa brasileira não é transmitida pelo contato direto com pessoas infectadas, sendo transmitida exclusivamente pela picada de carrapatos infectados."
+      },
+      {
+        "letter": "B",
+        "text": "A capivara é um vetor da febre maculosa, logo, o seu aumento populacional, juntamente com o aumento de carrapatos, coloca em risco a população."
+      },
+      {
+        "letter": "C",
+        "text": "A febre maculosa pode ser transmitida pela picada do carrapato-estrela ou pelo contato com animais infectados, como a capivara."
+      },
+      {
+        "letter": "D",
+        "text": "A febre maculosa brasileira é causada pelo protozoário Rickettsia, um organismo eucarionte unicelular."
+      },
+      {
+        "letter": "E",
+        "text": "O carrapato-estrela é o único inseto vetor da febre maculosa brasileira; uma das suas profilaxias são a eliminação deles e o uso de repelentes com ação contra carrapatos."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 4 (nº 18 no caderno)",
+      "sha256": "fe57760e2221955a5ffe3fbe10268b664d42bafbd2718e70f9528b5da985afef",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-matutino-19",
+    "revision": "review-2026-10-05-biologia-2026-1-19",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 19,
+    "subjectNumber": 5,
+    "topics": [
+      "botânica"
+    ],
+    "skills": [
+      "Comparar formação mitótica e meiótica de esporos em fungos e plantas"
+    ],
+    "rawText": "\n\nQuestão 19\nA reprodução por esporos é uma estratégia biológica encontrada em diferentes grupos de organismos,\ndesempenhando papel fundamental na dispersão e perpetuação das espécies. Em algas, fungos, briófitas,\npteridófitas e em alguns protistas, os esporos podem ser formados por meiose ou mitose, dependendo do\nciclo de vida.\nSobre a reprodução por esporos, assinale a alternativa correta.\nA. ( ) Os protistas não apresentam reprodução por esporos, sendo este processo exclusivo de plantas\nterrestres.\nB. ( ) Apenas as plantas produzem esporos, que sempre são haploides e resultam exclusivamente da\nmeiose.\nC. ( ) Nas algas, a formação de esporos não ocorre, já que sua reprodução é apenas por fragmentação\nou gametas móveis.\nD. ( ) Em briófitas e pteridófitas, os esporos são sempre diploides, responsáveis por originar diretamente\no esporófito.\nE. ( ) Fungos como os bolores podem produzir esporos tanto de forma assexuada (mitótica) quanto\nsexuada (meiótica), favorecendo sua rápida dispersão em ambientes diversos.\n\n\n",
+    "stem": "A reprodução por esporos é uma estratégia biológica encontrada em diferentes grupos de organismos, desempenhando papel fundamental na dispersão e perpetuação das espécies. Em algas, fungos, briófitas, pteridófitas e em alguns protistas, os esporos podem ser formados por meiose ou mitose, dependendo do ciclo de vida.\n\nSobre a reprodução por esporos, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Os protistas não apresentam reprodução por esporos, sendo este processo exclusivo de plantas terrestres."
+      },
+      {
+        "letter": "B",
+        "text": "Apenas as plantas produzem esporos, que sempre são haploides e resultam exclusivamente da meiose."
+      },
+      {
+        "letter": "C",
+        "text": "Nas algas, a formação de esporos não ocorre, já que sua reprodução é apenas por fragmentação ou gametas móveis."
+      },
+      {
+        "letter": "D",
+        "text": "Em briófitas e pteridófitas, os esporos são sempre diploides, responsáveis por originar diretamente o esporófito."
+      },
+      {
+        "letter": "E",
+        "text": "Fungos como os bolores podem produzir esporos tanto de forma assexuada (mitótica) quanto sexuada (meiótica), favorecendo sua rápida dispersão em ambientes diversos."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 5 (nº 19 no caderno)",
+      "sha256": "50dbaefc33ddfb10b34fce49c361dd0979c1c2c24a900643c5474316e9a9ee34",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-20",
+    "revision": "review-2026-10-05-biologia-2026-1-20",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 20,
+    "subjectNumber": 6,
+    "topics": [
+      "ecologia"
+    ],
+    "skills": [
+      "Relacionar fecundidade e mortalidade à dinâmica populacional dos coelhos"
+    ],
+    "rawText": "\n\nQuestão 20\nObserve a Figura 2 sobre a passagem bíblica da Arca de Noé.\nFigura 2 – Charge: Arca de Noé\n\nFonte: Ilustração adaptada de Denise McCorry\n\nAssinale a alternativa correta.\nA. ( ) A estratégia reprodutiva não está relacionada com a seleção natural em coelhos, pois a evolução\nde sobrevivência do coelho está associada apenas com a sua velocidade e agilidade na fuga de\npredadores.\nB. ( ) O coelho é um animal que apresenta uma rápida capacidade de reprodução, pois são seres\nprodutores, servindo de sustento para os consumidores na cadeia alimentar.\nC. ( ) Apesar da alta capacidade de reprodução, os coelhos jamais causam desequilíbrio ambiental,\nmesmo sem predadores, pois são consumidores primários.\nD. ( ) Uma das estratégias de sobrevivência do coelho é sua rápida reprodução, compensando, assim,\nas altas taxas de mortalidade causadas por predadores.\nE. ( ) Os coelhos são herbívoros que realizam a cecotrofia (ingerem certas fezes); logo, eles podem ser\nconsiderados, em uma teia alimentar, como consumidores primários e/ou decompositores.\n\n\n",
+    "stem": "Observe a Figura 2 sobre a passagem bíblica da Arca de Noé.\n\nFigura 2 – Charge: Arca de Noé\n\nFonte: Ilustração adaptada de Denise McCorry\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A estratégia reprodutiva não está relacionada com a seleção natural em coelhos, pois a evolução de sobrevivência do coelho está associada apenas com a sua velocidade e agilidade na fuga de predadores."
+      },
+      {
+        "letter": "B",
+        "text": "O coelho é um animal que apresenta uma rápida capacidade de reprodução, pois são seres produtores, servindo de sustento para os consumidores na cadeia alimentar."
+      },
+      {
+        "letter": "C",
+        "text": "Apesar da alta capacidade de reprodução, os coelhos jamais causam desequilíbrio ambiental, mesmo sem predadores, pois são consumidores primários."
+      },
+      {
+        "letter": "D",
+        "text": "Uma das estratégias de sobrevivência do coelho é sua rápida reprodução, compensando, assim, as altas taxas de mortalidade causadas por predadores."
+      },
+      {
+        "letter": "E",
+        "text": "Os coelhos são herbívoros que realizam a cecotrofia (ingerem certas fezes); logo, eles podem ser considerados, em uma teia alimentar, como consumidores primários e/ou decompositores."
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/biologia/2026-1-20-figura-12d7890cf16583f2.png",
+        "alt": "Figura 2: charge original de Denise McCorry, com muitos coelhos no dia 40 na Arca de Noé e fala “Eu achava que o limite era apenas 2”.",
+        "required": true,
+        "verified": true,
+        "source": "Caderno oficial UDESC 2026/1, matutino, questão 20, página PDF 14; https://www.udesc.br/arquivos/udesc/id_cpmenu/21194/Prova_Matutino_2026_01_1764546991821_21194.pdf; SHA-256 9005018b5b35f40957ad8b6ad6b32065f2af7d5a1aaa75d03845e84126430fd3",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 6 (nº 20 no caderno)",
+      "sha256": "162882565a8d303d995c103fe70fc3914c9b44b2a202046ce3194ba3b61aa7b3",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 14
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-matutino-21",
+    "revision": "review-2026-10-05-biologia-2026-1-21",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 21,
+    "subjectNumber": 7,
+    "topics": [
+      "genética mendeliana"
+    ],
+    "skills": [
+      "Interpretar herança autossômica recessiva e probabilidades condicionais em heredogramas"
+    ],
+    "rawText": "\n\nQuestão 21\n\nObserve a Figura 3.\nFigura 3 – Heredograma de uma doença articulatória\n\nFonte: Elaboração própria.\n\nO heredograma representado na Figura 3 trata de uma doença articulatória recessiva, onde os símbolos\nquadrados representam o sexo masculino, e os circulares o feminino; a tonalidade dos símbolos representa os\nfenótipos: a tonalidade escura revela os indivíduos que possuem a doença, enquanto a tonalidade clara indica\nos saudáveis. A doença representada no heredograma está obrigatoriamente em homozigose e não está\nrelacionada com os cromossomos sexuais.\nAssinale a alternativa incorreta.\n\nA. ( ) Todos os possíveis filhos do indivíduo 3 da geração III sempre irão carregar o gene da doença\narticulatória, independente da não expressão fenotípica da doença.\nB. ( ) O indivíduo 4 da geração II é um heterozigoto para a respectiva doença articulatória, sendo que\ntodos os seus filhos com o indivíduo 5 sempre terão 50% de chance de nascer com a doença.\nC. ( ) A probabilidade do indivíduo 1 da geração III de não carregar o gene da respectiva doença\narticulatória é de 25%.\nD. ( ) Os indivíduos 3 e 4 da geração I são heterozigotos para o gene da doença articulatória, existindo\n50% de chance de terem filhos que irão carregar o gene da doença.\nE. ( ) Caso o indivíduo 6 da geração II se relacione e tenha filhos com um homem homozigoto sem a\ndoença articulatória, pode-se assegurar que nenhum desses filhos irá apresentar a doença.\n\n\n",
+    "stem": "Observe a Figura 3.\n\nFigura 3 – Heredograma de uma doença articulatória\n\nFonte: Elaboração própria.\n\nO heredograma representado na Figura 3 trata de uma doença articulatória recessiva, onde os símbolos quadrados representam o sexo masculino, e os circulares o feminino; a tonalidade dos símbolos representa os fenótipos: a tonalidade escura revela os indivíduos que possuem a doença, enquanto a tonalidade clara indica os saudáveis. A doença representada no heredograma está obrigatoriamente em homozigose e não está relacionada com os cromossomos sexuais. Assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Todos os possíveis filhos do indivíduo 3 da geração III sempre irão carregar o gene da doença articulatória, independente da não expressão fenotípica da doença."
+      },
+      {
+        "letter": "B",
+        "text": "O indivíduo 4 da geração II é um heterozigoto para a respectiva doença articulatória, sendo que todos os seus filhos com o indivíduo 5 sempre terão 50% de chance de nascer com a doença."
+      },
+      {
+        "letter": "C",
+        "text": "A probabilidade do indivíduo 1 da geração III de não carregar o gene da respectiva doença articulatória é de 25%."
+      },
+      {
+        "letter": "D",
+        "text": "Os indivíduos 3 e 4 da geração I são heterozigotos para o gene da doença articulatória, existindo 50% de chance de terem filhos que irão carregar o gene da doença."
+      },
+      {
+        "letter": "E",
+        "text": "Caso o indivíduo 6 da geração II se relacione e tenha filhos com um homem homozigoto sem a doença articulatória, pode-se assegurar que nenhum desses filhos irá apresentar a doença."
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/biologia/2026-1-21-figura-e9f013b0d547bc8c.png",
+        "alt": "Figura 3: heredograma original de doença autossômica recessiva. I-1 a I-4 são saudáveis; II-5 e II-6, III-2 e III-3 são afetados; demais símbolos claros são saudáveis.",
+        "required": true,
+        "verified": true,
+        "source": "Caderno oficial UDESC 2026/1, matutino, questão 21, página PDF 15; https://www.udesc.br/arquivos/udesc/id_cpmenu/21194/Prova_Matutino_2026_01_1764546991821_21194.pdf; SHA-256 9005018b5b35f40957ad8b6ad6b32065f2af7d5a1aaa75d03845e84126430fd3",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 7 (nº 21 no caderno)",
+      "sha256": "2b2d31fc671007c0ae99bc0c7c2611bc0bb1f9dc95e1e23a096f69cbe59387af",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": false,
+      "ocr": false,
+      "uncertain": true,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-22",
+    "revision": "review-2026-10-05-biologia-2026-1-22",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 22,
+    "subjectNumber": 8,
+    "topics": [
+      "metabolismo energético (respiração, fotossíntese, fermentação)"
+    ],
+    "skills": [
+      "Distinguir respiração celular contínua e fotossíntese nas plantas"
+    ],
+    "rawText": "\n\nQuestão 22\n\nAssim como os animais e outros seres aeróbios, as plantas também realizam o processo da respiração celular\npara gerar energia.\nSobre esse processo fisiológico, assinale a alternativa incorreta.\n\nA. ( ) A respiração celular ocorre somente à noite, quando não há fotossíntese, já que de dia a planta\nutiliza exclusivamente a energia luminosa para seu metabolismo.\nB. ( ) A respiração celular nas plantas ocorre principalmente nas mitocôndrias, onde moléculas\norgânicas, como a glicose, são oxidadas para liberar energia na forma de ATP.\nC. ( ) A respiração celular é um processo contínuo, ocorrendo tanto durante o dia quanto à noite,\nindependentemente da realização da fotossíntese.\nD. ( ) O oxigênio produzido na fotossíntese pode ser utilizado no processo de respiração celular,\nmostrando a interdependência entre esses dois processos.\nE. ( ) Durante a respiração celular, a planta consome oxigênio e libera gás carbônico, exatamente como\nocorre nos animais.\n\nTEXTO 2\nNOTA OFICIAL: Cidasc atua na contenção de caso de Influenza Aviária de Alta Patogenicidade detectado\nem ave de fundo de quintal em Meleiro\nDesde 2023, têm ocorrido surtos de Influenza Aviária (H5N1) de Alta Patogenicidade (IAAP) no Brasil. Em\n2025, a Secretaria de Estado da Agricultura e Pecuária (SAR) e a Companhia Integrada de Desenvolvimento\nAgrícola de Santa Catarina (Cidasc) registraram a detecção de H5N1 em Santa Catarina, no município de Meleiro,\nem uma propriedade com criação de aves de subsistência.\nDisponível em: https://www.agricultura.sc.gov.br/nota-oficial-cidasc-atua-na-contencao-de-caso-de-influenza-aviaria-de-altapatogenicidade-detectado-em-ave-de-subsistencia-em-meleiro/. Acesso em: 13 nov. 2025. [Adaptado].\n\n\n---\n\n",
+    "stem": "Assim como os animais e outros seres aeróbios, as plantas também realizam o processo da respiração celular para gerar energia. Sobre esse processo fisiológico, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A respiração celular ocorre somente à noite, quando não há fotossíntese, já que de dia a planta utiliza exclusivamente a energia luminosa para seu metabolismo."
+      },
+      {
+        "letter": "B",
+        "text": "A respiração celular nas plantas ocorre principalmente nas mitocôndrias, onde moléculas orgânicas, como a glicose, são oxidadas para liberar energia na forma de ATP."
+      },
+      {
+        "letter": "C",
+        "text": "A respiração celular é um processo contínuo, ocorrendo tanto durante o dia quanto à noite, independentemente da realização da fotossíntese."
+      },
+      {
+        "letter": "D",
+        "text": "O oxigênio produzido na fotossíntese pode ser utilizado no processo de respiração celular, mostrando a interdependência entre esses dois processos."
+      },
+      {
+        "letter": "E",
+        "text": "Durante a respiração celular, a planta consome oxigênio e libera gás carbônico, exatamente como ocorre nos animais."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 8 (nº 22 no caderno)",
+      "sha256": "52e3bac377e9bfa006611c65dadb8d88f88445ece223d019e6fbb7702cf616e7",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-matutino-23",
+    "revision": "review-2026-10-05-biologia-2026-1-23",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 23,
+    "subjectNumber": 9,
+    "topics": [
+      "saúde, doenças e parasitoses"
+    ],
+    "skills": [
+      "Reconhecer transmissão zoonótica e reservatórios da influenza aviária"
+    ],
+    "rawText": "\n\nQuestão 23\nCom base no Texto 2 e em seus conhecimentos sobre a Influenza Aviária (H5N1) de Alta Patogenicidade (IAAP),\nassinale a alternativa incorreta:\n\nA. ( ) A H5N1 – IAAP é uma doença viral que causa alta mortalidade em aves migratórias, podendo\nintroduzir o vírus em novas regiões, entrando em contato com aves domésticas e de produção.\nB. ( ) Embora os surtos de influenza aviária afetem principalmente os animais, eles representam riscos\ncontínuos à saúde pública. Os casos esporádicos detectados de H5N1 em humanos estão\nassociados à ausência dos protocolos de vacinação em massa da população e a medidas de\nbiossegurança em viagens internacionais.\nC. ( ) As aves, quando infectadas, podem disseminar vírus através da saliva, secreções de mucosas e\nfezes. A infecção se dá tanto pelo contato direto (respirar o vírus contido em gotículas ou partículas\ntransportadas pelo ar) ou pelo contato com superfícies contaminadas por aves infectadas.\nD. ( ) As aves silvestres, principalmente as aves aquáticas, tais como pato, marreco, ganso, maçaricos,\ngaivotas, garças, tecelões, pardelas e cisne entre outras, são o reservatório natural do vírus de\ninfluenza.\nE. ( ) As aves domésticas terrestres, tais como galinhas e perus, não são consideradas reservatórios\ndos vírus de influenza, mas são sensíveis à infecção por vírus transmitido por aves silvestres.\n\n\n",
+    "stem": "TEXTO 2\n\nNOTA OFICIAL: Cidasc atua na contenção de caso de Influenza Aviária de Alta Patogenicidade detectado em ave de fundo de quintal em Meleiro\n\nDesde 2023, têm ocorrido surtos de Influenza Aviária (H5N1) de Alta Patogenicidade (IAAP) no Brasil. Em 2025, a Secretaria de Estado da Agricultura e Pecuária (SAR) e a Companhia Integrada de Desenvolvimento Agrícola de Santa Catarina (Cidasc) registraram a detecção de H5N1 em Santa Catarina, no município de Meleiro, em uma propriedade com criação de aves de subsistência. Disponível em: https://www.agricultura.sc.gov.br/nota-oficial-cidasc-atua-na-contencao-de-caso-de-influenza-aviaria-de-alta- patogenicidade-detectado-em-ave-de-subsistencia-em-meleiro/. Acesso em: 13 nov. 2025. [Adaptado].\n\nCom base no Texto 2 e em seus conhecimentos sobre a Influenza Aviária (H5N1) de Alta Patogenicidade (IAAP), assinale a alternativa incorreta:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A H5N1 – IAAP é uma doença viral que causa alta mortalidade em aves migratórias, podendo introduzir o vírus em novas regiões, entrando em contato com aves domésticas e de produção."
+      },
+      {
+        "letter": "B",
+        "text": "Embora os surtos de influenza aviária afetem principalmente os animais, eles representam riscos contínuos à saúde pública. Os casos esporádicos detectados de H5N1 em humanos estão associados à ausência dos protocolos de vacinação em massa da população e a medidas de biossegurança em viagens internacionais."
+      },
+      {
+        "letter": "C",
+        "text": "As aves, quando infectadas, podem disseminar vírus através da saliva, secreções de mucosas e fezes. A infecção se dá tanto pelo contato direto (respirar o vírus contido em gotículas ou partículas transportadas pelo ar) ou pelo contato com superfícies contaminadas por aves infectadas."
+      },
+      {
+        "letter": "D",
+        "text": "As aves silvestres, principalmente as aves aquáticas, tais como pato, marreco, ganso, maçaricos, gaivotas, garças, tecelões, pardelas e cisne entre outras, são o reservatório natural do vírus de influenza."
+      },
+      {
+        "letter": "E",
+        "text": "As aves domésticas terrestres, tais como galinhas e perus, não são consideradas reservatórios dos vírus de influenza, mas são sensíveis à infecção por vírus transmitido por aves silvestres."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 9 (nº 23 no caderno)",
+      "sha256": "3d7cceba6c8c6b0397a8e3a8cf01d1f7bc64a879f18360db940a3def3035f138",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 16
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-24",
+    "revision": "review-2026-10-05-biologia-2026-1-24",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 24,
+    "subjectNumber": 10,
+    "topics": [
+      "ecologia"
+    ],
+    "skills": [
+      "Explicar impactos de espécies exóticas invasoras sobre a biodiversidade"
+    ],
+    "rawText": "\n\nQuestão 24\nEm Santa Catarina, assim como em outras regiões do Brasil, a presença de espécies exóticas invasoras\ntem provocado impactos significativos sobre os ecossistemas naturais. No litoral catarinense, por exemplo,\na Casuarina equisetifolia (casuarina) foi introduzida em restingas e dunas para controle da erosão, mas sua\nexpansão compromete a regeneração da vegetação nativa e altera as características do solo. Em áreas\nrurais e naturais do estado, populações de Sus scrofa (javali) têm se expandido rapidamente, causando\ndanos à agricultura, predando espécies silvestres e competindo com a fauna nativa.\nCom base nessas informações, assinale a alternativa correta.\n\nA. ( ) O controle de espécies exóticas invasoras é inviável, pois nenhuma técnica de manejo apresenta\nresultados positivos.\nB. ( ) Espécies exóticas invasoras são sempre introduzidas de forma acidental, nunca de maneira\nintencional.\nC. ( ) Por serem adaptáveis, as espécies invasoras contribuem para aumentar a diversidade biológica\nlocal, fortalecendo os ecossistemas.\nD. ( ) Apenas espécies animais são consideradas invasoras, já que plantas não apresentam capacidade\nde alterar ecossistemas.\nE. ( ) A introdução de animais como o javali e de plantas como a casuarina em Santa Catarina pode\nprovocar impactos negativos em ecossistemas locais, gerando competição com espécies nativas\ne alteração do solo.\n\nTEXTO 3\nPolícia descobre presença inédita de insetos em cadáveres humanos em SC\nPesquisas da Polícia Científica de Santa Catarina descobriram a presença de duas espécies de insetos em\ncadáveres humanos pela primeira vez na história. As pesquisas diagnosticaram duas espécies de moscas (Peckia\nintermutans e Sarcophaga ruficornis) em cadáveres humanos recolhidos do Planalto Norte Catarinense. Para a Polícia\nCientífica, a entomologia forense ainda é uma ciência pouco explorada no Brasil, com poucos estudos de casos\npublicados. Santa Catarina se destaca como um dos poucos estados brasileiros em que a perícia oficial utiliza vestígios\nentomológicos para estimar o intervalo pós-morte.\nDisponível em: https://www.nsctotal.com.br/noticias/policia-descobre-presenca-inedita-de-insetos-em-cadaveres-humanos-em-sc.\nAcesso em: 13 nov. 2025. [Adaptado]\n\n\n",
+    "stem": "Em Santa Catarina, assim como em outras regiões do Brasil, a presença de espécies exóticas invasoras tem provocado impactos significativos sobre os ecossistemas naturais. No litoral catarinense, por exemplo, a Casuarina equisetifolia (casuarina) foi introduzida em restingas e dunas para controle da erosão, mas sua expansão compromete a regeneração da vegetação nativa e altera as características do solo. Em áreas rurais e naturais do estado, populações de Sus scrofa (javali) têm se expandido rapidamente, causando danos à agricultura, predando espécies silvestres e competindo com a fauna nativa.\n\nCom base nessas informações, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O controle de espécies exóticas invasoras é inviável, pois nenhuma técnica de manejo apresenta resultados positivos."
+      },
+      {
+        "letter": "B",
+        "text": "Espécies exóticas invasoras são sempre introduzidas de forma acidental, nunca de maneira intencional."
+      },
+      {
+        "letter": "C",
+        "text": "Por serem adaptáveis, as espécies invasoras contribuem para aumentar a diversidade biológica local, fortalecendo os ecossistemas."
+      },
+      {
+        "letter": "D",
+        "text": "Apenas espécies animais são consideradas invasoras, já que plantas não apresentam capacidade de alterar ecossistemas."
+      },
+      {
+        "letter": "E",
+        "text": "A introdução de animais como o javali e de plantas como a casuarina em Santa Catarina pode provocar impactos negativos em ecossistemas locais, gerando competição com espécies nativas e alteração do solo."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 10 (nº 24 no caderno)",
+      "sha256": "0bb884d1122a40a1c66193525f55659b0f0f25105ff49517293314d46ecff0dd",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 16
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-matutino-25",
+    "revision": "review-2026-10-05-biologia-2026-1-25",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 25,
+    "subjectNumber": 11,
+    "topics": [
+      "zoologia — invertebrados"
+    ],
+    "skills": [
+      "Distinguir metamorfose completa e funções ecológicas e forenses dos insetos"
+    ],
+    "rawText": "\n\nQuestão 25\n\nCom base no Texto 3, analise as proposições sobre os insetos e assinale (V) para verdadeira e (F) para falsa.\n\n( ) Os insetos pertencem ao Filo Arthropoda, caracterizados por possuírem exoesqueleto quitinoso, três\npares de patas articuladas, olhos compostos, duas antenas e corpo dividido em três partes: cabeça,\ntórax e abdómen.\n( ) As moscas são consideradas insetos hemimetábolos, por possuírem metamorfose completa, com\nciclo biológico constituído pelas fases de ovo, larva e pupa.\n( ) Muitos insetos são detritívoros, contribuindo para a remineralização dos produtos orgânicos e\naceleração do processo de ciclagem dos nutrientes.\n( ) As moscas são empregadas frequentemente em pesquisas científicas sobre doenças humanas,\navanços na genética e na biologia do desenvolvimento, com destaque aos estudos de doenças como\nParkinson e Alzheimer.\n( ) As moscas são utilizadas para determinar o tempo e o local de morte em investigações criminais,\natravés da análise do seu ciclo biológico e de sua colonização em cadáveres.\nAssinale a alternativa correta, de cima para baixo.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nF–V–V–F–V\nV–V–F–F–F\nV–F–V–V–V\nF–F–V–V–F\nV–F–F–V–V\n\n\n",
+    "stem": "TEXTO 3 Polícia descobre presença inédita de insetos em cadáveres humanos em SC\n\nPesquisas da Polícia Científica de Santa Catarina descobriram a presença de duas espécies de insetos em cadáveres humanos pela primeira vez na história. As pesquisas diagnosticaram duas espécies de moscas (Peckia intermutans e Sarcophaga ruficornis) em cadáveres humanos recolhidos do Planalto Norte Catarinense. Para a Polícia Científica, a entomologia forense ainda é uma ciência pouco explorada no Brasil, com poucos estudos de casos publicados. Santa Catarina se destaca como um dos poucos estados brasileiros em que a perícia oficial utiliza vestígios entomológicos para estimar o intervalo pós-morte. Disponível em: https://www.nsctotal.com.br/noticias/policia-descobre-presenca-inedita-de-insetos-em-cadaveres-humanos-em-sc. Acesso em: 13 nov. 2025. [Adaptado]\n\nCom base no Texto 3, analise as proposições sobre os insetos e assinale (V) para verdadeira e (F) para falsa.\n\n( ) Os insetos pertencem ao Filo Arthropoda, caracterizados por possuírem exoesqueleto quitinoso, três pares de patas articuladas, olhos compostos, duas antenas e corpo dividido em três partes: cabeça, tórax e abdómen. ( ) As moscas são consideradas insetos hemimetábolos, por possuírem metamorfose completa, com ciclo biológico constituído pelas fases de ovo, larva e pupa. ( ) Muitos insetos são detritívoros, contribuindo para a remineralização dos produtos orgânicos e aceleração do processo de ciclagem dos nutrientes. ( ) As moscas são empregadas frequentemente em pesquisas científicas sobre doenças humanas, avanços na genética e na biologia do desenvolvimento, com destaque aos estudos de doenças como Parkinson e Alzheimer. ( ) As moscas são utilizadas para determinar o tempo e o local de morte em investigações criminais, através da análise do seu ciclo biológico e de sua colonização em cadáveres. Assinale a alternativa correta, de cima para baixo.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "F–V–V–F–V"
+      },
+      {
+        "letter": "B",
+        "text": "V–V–F–F–F"
+      },
+      {
+        "letter": "C",
+        "text": "V–F–V–V–V"
+      },
+      {
+        "letter": "D",
+        "text": "F–F–V–V–F"
+      },
+      {
+        "letter": "E",
+        "text": "V–F–F–V–V"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 11 (nº 25 no caderno)",
+      "sha256": "aae30f70a3140f527f384f1bbb9648b40a01ebb658d48cf8bc14dd155efb4836",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 17
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-26",
+    "revision": "review-2026-10-05-biologia-2026-1-26",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 26,
+    "subjectNumber": 12,
+    "topics": [
+      "botânica"
+    ],
+    "skills": [
+      "Relacionar adaptações xerofíticas, metabolismo CAM e sazonalidade da perda de folhas"
+    ],
+    "rawText": "\n\nQuestão 26\n\nO Brasil apresenta cinco grandes biomas: Amazônia, Cerrado, Caatinga, Pantanal e Mata Atlântica. Alguns\ndeles, como o Cerrado e a Caatinga, são marcados por longos períodos de seca, o que favoreceu a evolução\nde diferentes adaptações morfológicas, fisiológicas e comportamentais dos seres vivos para resistirem ao\nestresse hídrico.\nEm relação às adaptações descritas a seguir, assinale a alternativa incorreta.\n\nA. ( ) Animais de regiões áridas podem apresentar comportamento noturno, evitando a perda de água\npelo calor intenso do dia.\nB. ( ) Muitas plantas da Caatinga apresentam folhas modificadas em espinhos e caules suculentos, o\nque reduz a perda de água e permite o armazenamento de reservas hídricas.\nC. ( ) Nos biomas secos, a maioria das plantas depende da queda total de suas folhas na estação\nchuvosa para reduzir a transpiração e evitar a perda de água.\nD. ( ) Algumas espécies de plantas do Cerrado apresentam estruturas subterrâneas (xilopódios) que\narmazenam água e nutrientes, permitindo a rebrota após incêndios ou períodos secos.\nE. ( ) Em algumas plantas xerófitas, como os cactos, ocorre o metabolismo CAM, com abertura dos\nestômatos à noite para minimizar perdas de água.\n\nTEXTO 4\nMinistério da Pesca amplia cota para pesca da tainha de arrasto de praia em SC\nA tainha, de nome científico Mugil liza, é um peixe de grande importância econômica e social no litoral de\nSanta Catarina e no sul do Brasil, especialmente durante sua migração para desova. Santa Catarina é o maior\nprodutor da espécie no país, representando 45% da captura nacional. A pesca, tanto artesanal quanto industrial, é\nregulamentada por cotas anuais para garantir a sustentabilidade do recurso. A cota total de tainha para 2025 foi de\n6.795 toneladas, definida na Portaria Interministerial MPA/MMA nº 26/2025, que detalha as regras para pesca nas\nregiões Sudeste e Sul do Brasil.\nDisponível em: https://www.nsctotal.com.br/noticias/ministerio-da-pesca-amplia-cota-para-pesca-da-tainha-de-arrasto-de-praiaem-sc. Acesso em: 13 nov. 2025. [Adaptado].\n\n\n",
+    "stem": "O Brasil apresenta cinco grandes biomas: Amazônia, Cerrado, Caatinga, Pantanal e Mata Atlântica. Alguns deles, como o Cerrado e a Caatinga, são marcados por longos períodos de seca, o que favoreceu a evolução de diferentes adaptações morfológicas, fisiológicas e comportamentais dos seres vivos para resistirem ao estresse hídrico.\n\nEm relação às adaptações descritas a seguir, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Animais de regiões áridas podem apresentar comportamento noturno, evitando a perda de água pelo calor intenso do dia."
+      },
+      {
+        "letter": "B",
+        "text": "Muitas plantas da Caatinga apresentam folhas modificadas em espinhos e caules suculentos, o que reduz a perda de água e permite o armazenamento de reservas hídricas."
+      },
+      {
+        "letter": "C",
+        "text": "Nos biomas secos, a maioria das plantas depende da queda total de suas folhas na estação chuvosa para reduzir a transpiração e evitar a perda de água."
+      },
+      {
+        "letter": "D",
+        "text": "Algumas espécies de plantas do Cerrado apresentam estruturas subterrâneas (xilopódios) que armazenam água e nutrientes, permitindo a rebrota após incêndios ou períodos secos."
+      },
+      {
+        "letter": "E",
+        "text": "Em algumas plantas xerófitas, como os cactos, ocorre o metabolismo CAM, com abertura dos estômatos à noite para minimizar perdas de água."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 12 (nº 26 no caderno)",
+      "sha256": "9ea39158ecc61d3180562343d5d3565f18dc0878b8dc098d22de50318d9aa6e1",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 17
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-27",
+    "revision": "review-2026-10-05-biologia-2026-1-27",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 27,
+    "subjectNumber": 13,
+    "topics": [
+      "zoologia — vertebrados"
+    ],
+    "skills": [
+      "Distinguir peixes ósseos e cartilaginosos e reconhecer seus órgãos sensoriais"
+    ],
+    "rawText": "\n\nQuestão 27\nCom base no Texto 4 e em seus conhecimentos sobre a pesca da tainha, assinale a alternativa incorreta:\nA. ( ) A taxa de mortalidade corresponde à velocidade com que indivíduos são eliminados da população.\nPopulações cuja taxa de mortalidade é aproximadamente igual à de natalidade são consideradas\nrelativamente estáveis de uma geração para a seguinte. No caso em tela, as cotas anuais para\ncaptura de tainhas buscam reduzir a taxa de mortalidade para evitar o declínio de uma geração.\nB. ( ) A tainha é uma espécie de peixe cartilaginoso, que ocorre nos estuários e lagoas costeiras do sul\ne sudeste do Brasil, bem como do Uruguai e Argentina. Atinge maturidade sexual em torno de\ncinco anos de idade e com o comprimento total de aproximadamente 40 cm, quando realiza a\nprimeira migração reprodutiva em áreas costeiras marinhas, durante os meses das estações\noutono e inverno.\nC. ( ) Durante a migração anual, os cardumes de tainhas concentram milhares de indivíduos, nadando\nsincronicamente no litoral catarinense. Esse fenômeno ocorre devido a um sistema sensorial das\ntainhas, conhecido como linha lateral, que é composto por mecanorreceptores, que detectam\nvibrações, movimentos e gradientes de pressão na água, permitindo que naveguem, evitem\nobstáculos, encontrem presas e se organizem em cardumes, sem colidir umas com as outras.\nD. ( ) A migração é definida biologicamente como o movimento em larga escala de indivíduos de uma\nespécie para um ambiente diferente, geralmente motivado pela busca por condições ambientais\nmais favoráveis, como deslocamento para áreas com maior disponibilidade de recursos,\nmovimentos para locais adequados para acasalamento, fuga de predadores ou ambientes\nextremos para a sobrevivência, como em períodos de seca ou inverno rigoroso.\nE. ( ) A tainha é reconhecida como item da dieta de mamíferos marinhos (golfinhos e lobos marinhos)\natravés da presença de otólitos nos conteúdos gastrointestinais. O otólito é uma estrutura calcária\ndo ouvido interno, composta de carbonato de cálcio, que serve para a audição e equilíbrio dos\npeixes, sendo encontrada em conteúdos gastrointestinais, devido à lenta degradação durante a\ndigestão.\n\n\n",
+    "stem": "TEXTO 4\n\nMinistério da Pesca amplia cota para pesca da tainha de arrasto de praia em SC\n\nA tainha, de nome científico Mugil liza, é um peixe de grande importância econômica e social no litoral de Santa Catarina e no sul do Brasil, especialmente durante sua migração para desova. Santa Catarina é o maior produtor da espécie no país, representando 45% da captura nacional. A pesca, tanto artesanal quanto industrial, é regulamentada por cotas anuais para garantir a sustentabilidade do recurso. A cota total de tainha para 2025 foi de 6.795 toneladas, definida na Portaria Interministerial MPA/MMA nº 26/2025, que detalha as regras para pesca nas regiões Sudeste e Sul do Brasil.\n\nDisponível em: https://www.nsctotal.com.br/noticias/ministerio-da-pesca-amplia-cota-para-pesca-da-tainha-de-arrasto-de-praia- em-sc. Acesso em: 13 nov. 2025. [Adaptado].\n\nCom base no Texto 4 e em seus conhecimentos sobre a pesca da tainha, assinale a alternativa incorreta:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A taxa de mortalidade corresponde à velocidade com que indivíduos são eliminados da população. Populações cuja taxa de mortalidade é aproximadamente igual à de natalidade são consideradas relativamente estáveis de uma geração para a seguinte. No caso em tela, as cotas anuais para captura de tainhas buscam reduzir a taxa de mortalidade para evitar o declínio de uma geração."
+      },
+      {
+        "letter": "B",
+        "text": "A tainha é uma espécie de peixe cartilaginoso, que ocorre nos estuários e lagoas costeiras do sul e sudeste do Brasil, bem como do Uruguai e Argentina. Atinge maturidade sexual em torno de cinco anos de idade e com o comprimento total de aproximadamente 40 cm, quando realiza a primeira migração reprodutiva em áreas costeiras marinhas, durante os meses das estações outono e inverno."
+      },
+      {
+        "letter": "C",
+        "text": "Durante a migração anual, os cardumes de tainhas concentram milhares de indivíduos, nadando sincronicamente no litoral catarinense. Esse fenômeno ocorre devido a um sistema sensorial das tainhas, conhecido como linha lateral, que é composto por mecanorreceptores, que detectam vibrações, movimentos e gradientes de pressão na água, permitindo que naveguem, evitem obstáculos, encontrem presas e se organizem em cardumes, sem colidir umas com as outras."
+      },
+      {
+        "letter": "D",
+        "text": "A migração é definida biologicamente como o movimento em larga escala de indivíduos de uma espécie para um ambiente diferente, geralmente motivado pela busca por condições ambientais mais favoráveis, como deslocamento para áreas com maior disponibilidade de recursos, movimentos para locais adequados para acasalamento, fuga de predadores ou ambientes extremos para a sobrevivência, como em períodos de seca ou inverno rigoroso."
+      },
+      {
+        "letter": "E",
+        "text": "A tainha é reconhecida como item da dieta de mamíferos marinhos (golfinhos e lobos marinhos) através da presença de otólitos nos conteúdos gastrointestinais. O otólito é uma estrutura calcária do ouvido interno, composta de carbonato de cálcio, que serve para a audição e equilíbrio dos peixes, sendo encontrada em conteúdos gastrointestinais, devido à lenta degradação durante a digestão."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 13 (nº 27 no caderno)",
+      "sha256": "d0443ac117a6831d329a5f122da60f796043dd99f6e33be25a4c4108102249e0",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 18
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-matutino-28",
+    "revision": "review-2026-10-05-biologia-2026-1-28",
+    "subject": "biologia",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 28,
+    "subjectNumber": 14,
+    "topics": [
+      "zoologia — invertebrados"
+    ],
+    "skills": [
+      "Distinguir grupos de invertebrados e impactos físicos na fauna de praias"
+    ],
+    "rawText": "\n\nQuestão 28\nO alargamento da Praia Central de Balneário Camboriú foi uma obra realizada em 2021, que aumentou a\nlargura da faixa de areia de 25 metros para 70 metros, através de um aterro com areia nova, oriunda do\nfundo do mar, por meio de uma draga conectada a tubos.\nSobre a fauna praial envolvida durante e após o processo de alargamento da Praia Central, assinale a\nalternativa correta.\nA. ( ) A maria-farinha (Ocypode quadrata) é um crustáceo bastante comum nas praias brasileiras,\nreconhecido pela construção de tocas e por ser considerado um bioindicador de qualidade\nambiental. A compactação e soterramento do solo é a principal ameaça a esta espécie.\nB. ( ) Os moluscos bivalves encontrados mortos na área aterrada apresentaram características\nsugestivas de sufocamento, devido ao colapso do sifão inalante, estrutura anatômica responsável\npela locomoção e proteção do manto.\nC. ( ) Os briozoários são invertebrados solitários encontrados no mar, mais especificamente na faixa de\nareia, para onde são trazidos pelas ondas, emitindo um cheiro desagradável ao se decomporem.\nD. ( ) Presentes na região entremarés da orla de Balneário Camboriú, as minhocas-do-mar são\nanelídeos poliquetos caracterizados pelo corpo chato e metamerizado, probóscide retrátil e\npresença de vários pares de cerdas por segmento corporal.\nE. ( ) Nos períodos de verão, ocorre a intensificação de casos de larva migrans cutânea ou bicho\ngeográfico na Praia Central de Balneário Camboriú. Trata-se de uma dermatose causada por um\nplatelminto presente no intestino e nas fezes de cães e gatos e que se hospeda na pele de seres\nhumanos, causando irritação e muita coceira.\n\nLÍNGUA ESTRANGEIRA\nInglês\n\n(08 questões)\nTEXT 1\n\nBrazil ensures accommodation for all countries at COP30\nCruise ships reinforce Brazilian accommodation solution during COP\nOn Wednesday, July 16, the Brazilian Federal Government, through the Special Secretariat for COP30 and\nEmbratur, finalized an agreement for two cruise ships to serve as temporary accommodation during the COP30\nevent. This pivotal climate conference will take place in Belém, Pará, from November 10 to 21, 2025. This initiative\nwill significantly increase lodging capacity by providing approximately 3,900 cabins and 6,000 beds for the world's\nlargest climate event.\nFrom now on, accommodation will be made available in stages. This includes all modalities, such as hotels, vacation\nrentals, and ships, among others, which are part of the set of accommodation solutions.\n“These two large ships are part of a variety of lodging options designed to accommodate all COP30 attendees,\nincluding UN delegations, observers, civil society organizations, academic institutions, and businesses,” said Mr.\nValter Correia, the special secretary for COP30.\nSource: https://cop30.br/en/news-about-cop30/brasil-ensures-accommodation-for-all-countries-at-cop30. Access on August 16,\n2025. [Adapted].\n\nQuestion 29\nAccording to information from Text 1, it is correct to say that the main idea is:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nto explain how ships are used for transportation in Belém.\nto discuss the price of accommodation in Belém.\nto discuss the goals of an international event.\nto describe Embratur’s role at COP30.\nto explain a solution to expand accommodation options in Belém.\n\nQuestion 30\nBased on information from Text 1, mark true (T) or false (F) for the statements below.\n(\n(\n(\n(\n(\n\n) The text shows the dates of the COP30 event.\n) 3,900 refers to the number of beds available on ships.\n) The government regulates accommodation offers for UN delegates only.\n) The COP30 organizers think that ship transportation will improve traffic.\n) Different accommodation options are being offered.\n\nNow, select the option that shows the correct sequence.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nT–F–T–F–F\nF–T–F–T–F\nF–T–F–F–T\nT–F–F–F–T\nF–F–T–T–T\n\nQuestion 31\nConsider the underlined words of the sentences below, taken from Text 1.\n“From now on, accommodations will be made available in stages. This includes all modalities, such as hotels, vacation\nrentals, and ships, among others, which are part of the set of accommodation solutions.”\n\nNow, select the correct option.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nThe pronoun ‘this’ refers to the COP30 event\nThe expression ‘such as’ introduces examples.\nThe expression ‘such as’ is used to indicate opposition.\nThe word ‘which’ is used to modify a verb.\nThe word ‘this’ refers to the word ‘modalities’.\nTEXT 2\nTo host UN climate talks, Brazil chose one of its poorer cities. That’s no accident.\n\nWhen world leaders, diplomats, business leaders, scientists and activists go to Brazil in November for the United\nNations’ annual climate negotiations, poverty, deforestation and much of the world’s troubles will be right in their\nfaces — by design.\nIn past conference cities — including resort areas and playgrounds for the rich such as Bali, Cancun, Paris, Sharm\nEl-Sheikh and Dubai — host nations show off both their amenities and what their communities have done about\nclimate change. But this year’s conference is in a high-poverty city on the edge of the Amazon to demonstrate what\nneeds to be done.\n“What better way to tackle a problem than facing it head on, however uncomfortable”, COP30 President-designate\nAndré Corrêa do Lago said. “We cannot hide the fact that we are in the world with lots of inequalities and where\nsustainability and fighting climate change is something that has to get closer to people”.\nThis is a significant year for climate negotiations, but some of the negotiations’ most important work won’t be on the\nformal agenda, such as providing $1.3 trillion in financial help to poorer nations in dealing with climate change or the\nprotection of forests.\nOn Wednesday, the United Nation’s top court ruled that a clean and healthy environment is a basic human right, a\ndecision that may bolster efforts to come up with stronger action at the climate conference, some activists said.\nSource: https://apnews.com/article/u\n\n[…] (enunciado truncado — veja o PDF original)\n\n\n",
+    "stem": "O alargamento da Praia Central de Balneário Camboriú foi uma obra realizada em 2021, que aumentou a largura da faixa de areia de 25 metros para 70 metros, através de um aterro com areia nova, oriunda do fundo do mar, por meio de uma draga conectada a tubos.\n\nSobre a fauna praial envolvida durante e após o processo de alargamento da Praia Central, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A maria-farinha (Ocypode quadrata) é um crustáceo bastante comum nas praias brasileiras, reconhecido pela construção de tocas e por ser considerado um bioindicador de qualidade ambiental. A compactação e soterramento do solo é a principal ameaça a esta espécie."
+      },
+      {
+        "letter": "B",
+        "text": "Os moluscos bivalves encontrados mortos na área aterrada apresentaram características sugestivas de sufocamento, devido ao colapso do sifão inalante, estrutura anatômica responsável pela locomoção e proteção do manto."
+      },
+      {
+        "letter": "C",
+        "text": "Os briozoários são invertebrados solitários encontrados no mar, mais especificamente na faixa de areia, para onde são trazidos pelas ondas, emitindo um cheiro desagradável ao se decomporem."
+      },
+      {
+        "letter": "D",
+        "text": "Presentes na região entremarés da orla de Balneário Camboriú, as minhocas-do-mar são anelídeos poliquetos caracterizados pelo corpo chato e metamerizado, probóscide retrátil e presença de vários pares de cerdas por segmento corporal."
+      },
+      {
+        "letter": "E",
+        "text": "Nos períodos de verão, ocorre a intensificação de casos de larva migrans cutânea ou bicho geográfico na Praia Central de Balneário Camboriú. Trata-se de uma dermatose causada por um platelminto presente no intestino e nas fezes de cães e gatos e que se hospeda na pele de seres humanos, causando irritação e muita coceira."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-biologia.md",
+      "section": "## [2026/1] questão 14 (nº 28 no caderno)",
+      "sha256": "6048727d746af31bc52d6a16f17751cfa1a89958522d6bc699bf45289b2a8001",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 19
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Biologia",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  }
+]

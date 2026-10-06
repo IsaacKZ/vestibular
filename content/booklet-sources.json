@@ -1,0 +1,122 @@
+[
+  {
+    "edition": "2024/1",
+    "period": "matutino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/17802/2024_1___Prova_Matutino_17133860755826_17802.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "d9660a44f4d9d174e0daa6886db219a07dd21bf12a3283466a7092b256d85e22",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:47.742036Z",
+    "file": "content/documents/cadernos/UDESC-2024-1-matutino-d9660a44f4d9.pdf"
+  },
+  {
+    "edition": "2024/1",
+    "period": "vespertino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/17802/2024_1___Prova_Vespertino_17133860756063_17802.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "409aae0e519c58566ba7c3658a29c772363bbb5e8476dfadd7ae02b1fa6f0a3f",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:57.957883Z",
+    "file": "content/documents/cadernos/UDESC-2024-1-vespertino-409aae0e519c.pdf"
+  },
+  {
+    "edition": "2024/2",
+    "period": "matutino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/17918/3___Caderno_de_Prova_2024_2___Per_odo_Matutino_pb_17249513205108_17918.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "0864cc27f07cb9f0a0289ee310f5c8e4f999861a1dd40e8fb60ad338a3614065",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:29.268047Z",
+    "file": "content/documents/cadernos/UDESC-2024-2-matutino-0864cc27f07c.pdf"
+  },
+  {
+    "edition": "2024/2",
+    "period": "vespertino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/17918/4___Caderno_de_Prova_2024_2___Per_odo_Vespertino_pb_17249514263672_17918.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "fe4c498cb0842054f7e1a5996efcd746a1f57079aba997cdce1b8efd9d40caaa",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:55:43.518402Z",
+    "file": "content/documents/cadernos/UDESC-2024-2-vespertino-fe4c498cb084.pdf"
+  },
+  {
+    "edition": "2025/1",
+    "period": "matutino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/17918/Prova_Matutino_2025_17406859895959_17918.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "07ac7f0e82d1a2bd457c4c3d635366acc5b92637fb32f876d4d9981ec21ba192",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:15.812250Z",
+    "file": "content/documents/cadernos/UDESC-2025-1-matutino-07ac7f0e82d1.pdf"
+  },
+  {
+    "edition": "2025/1",
+    "period": "vespertino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/17918/Caderno_de_Prova_2025_1___Vespertino_17406860472788_17918.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "936a0eaa0c76c2a611a84a2ee2f18cbd3d116d762aced59f4a79cb4550935aed",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:29.195216Z",
+    "file": "content/documents/cadernos/UDESC-2025-1-vespertino-936a0eaa0c76.pdf"
+  },
+  {
+    "edition": "2025/2",
+    "period": "matutino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/20080/Prova_Matutino_2025_2___site_17500321187953_20080.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "78e3baf2a717503dd2ab5c04a6f0b67169642be25a6c0e250e9425bedcdb39da",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:53:53.243144Z",
+    "file": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf"
+  },
+  {
+    "edition": "2025/2",
+    "period": "vespertino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/20080/Prova_Vespertino_2025_2___site_17500321870438_20080.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "ce15bd49ae95196851b2a33ad86b19d60d45db6e3cb1850ffc0a97f0dfe39087",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:01.372757Z",
+    "file": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf"
+  },
+  {
+    "edition": "2026/1",
+    "period": "matutino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/21194/Prova_Matutino_2026_01_1764546991821_21194.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "9005018b5b35f40957ad8b6ad6b32065f2af7d5a1aaa75d03845e84126430fd3",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:53:54.270039Z",
+    "file": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf"
+  },
+  {
+    "edition": "2026/1",
+    "period": "vespertino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/21194/Prova_Vespertino_2026_01_17645470086405_21194.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "cbcb4b34fa96031c64aebb033dd57b55badeedb6ab401d2df85ee08b887dbe1d",
+    "pages": 40,
+    "downloadedAt": "2026-10-05T20:53:54.852955Z",
+    "file": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf"
+  },
+  {
+    "edition": "2026/2",
+    "period": "matutino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/22463/Prova_Matutino_2026_2_17814818713136_22463.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "cc94b6f29ad19c055950c7d7fa8b82e50c5736ca3e7329d3b54d735610c91cbf",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:18.784437Z",
+    "file": "content/documents/cadernos/UDESC-2026-2-matutino-cc94b6f29ad1.pdf"
+  },
+  {
+    "edition": "2026/2",
+    "period": "vespertino",
+    "url": "https://www.udesc.br/arquivos/udesc/id_cpmenu/22463/Prova_Vespertino_2026_2_1781481892914_22463.pdf",
+    "sourcePage": "https://www.udesc.br/vestibular/provasanteriores",
+    "sha256": "dd4d2abf2f3b1d0ba5310920ad623cf21b32f202fe07c9e829125bc6e7f459b1",
+    "pages": 48,
+    "downloadedAt": "2026-10-05T20:54:23.724060Z",
+    "file": "content/documents/cadernos/UDESC-2026-2-vespertino-dd4d2abf2f3b.pdf"
+  }
+]

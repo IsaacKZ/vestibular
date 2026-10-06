@@ -1,0 +1,1971 @@
+[
+  {
+    "id": "udesc-2025-2-vespertino-15",
+    "revision": "review-2026-10-05-quimica-2025-2-15",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 15,
+    "subjectNumber": 1,
+    "topics": [
+      "estequiometria"
+    ],
+    "skills": [
+      "balancear neutralização e calcular massa pela proporção molar"
+    ],
+    "rawText": "\n\nQuestão 15\nUma das maneiras mais utilizadas para a clarificação da água para uso em diversas finalidades, como para\nconsumo ou uso em piscinas, consiste na floculação/coagulação usando sais de alumínio.\nAssinale a alternativa que representa a massa de óxido de cálcio necessária para neutralizar completamente\numa massa de 30 kg de sulfato de alumínio, gerando hidróxido de alumínio e sulfato de cálcio.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n9,83 kg\n14,75 kg\n4,92 kg\n41,03 kg\n33,65 kg\n\n\n",
+    "stem": "Uma das maneiras mais utilizadas para a clarificação da água para uso em diversas finalidades, como para consumo ou uso em piscinas, consiste na floculação/coagulação usando sais de alumínio.\n\nAssinale a alternativa que representa a massa de óxido de cálcio necessária para neutralizar completamente uma massa de 30 kg de sulfato de alumínio, gerando hidróxido de alumínio e sulfato de cálcio.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "9,83 kg"
+      },
+      {
+        "letter": "B",
+        "text": "14,75 kg"
+      },
+      {
+        "letter": "C",
+        "text": "4,92 kg"
+      },
+      {
+        "letter": "D",
+        "text": "41,03 kg"
+      },
+      {
+        "letter": "E",
+        "text": "33,65 kg"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 1 (nº 15 no caderno)",
+      "sha256": "63d0f9329c7d8dfa8c5a625e9d07a973af4a4ae7a12e8e0ba796b024c4ef3bb0",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-15",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — conferência Química",
+      "letter": "B"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-16",
+    "revision": "review-2026-10-05-quimica-2025-2-16",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 16,
+    "subjectNumber": 2,
+    "topics": [
+      "ligações químicas"
+    ],
+    "skills": [
+      "relacionar geometria molecular, NOX e volume de gás ideal"
+    ],
+    "rawText": "\n\nQuestão 16\nCom relação à molécula de monóxido de dicloro, considere as proposições.\nI. É uma molécula de geometria linear, portanto, apolar.\nII. O estado de oxidação do elemento cloro nessa molécula é igual a +1.\nIII. Sua reação com o hidróxido de sódio em água gera o hipoclorito de sódio.\nIV. É uma substância oxidante, usada como bactericida e branqueador.\nV. A 0,1 atm de pressão e 50°C, uma massa de 87 g da substância ocupa cerca de 26 litros.\nAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I, II e V são verdadeiras.\nSomente as proposições I, III e IV são verdadeiras.\nSomente as proposições I, IV e V são verdadeiras.\nSomente as proposições II, III e IV são verdadeiras.\nSomente as proposições II, III e V são verdadeiras.\n\n\n",
+    "stem": "Com relação à molécula de monóxido de dicloro, considere as proposições.\n\n\nI. É uma molécula de geometria linear, portanto, apolar. \nII. O estado de oxidação do elemento cloro nessa molécula é igual a +1. \nIII. Sua reação com o hidróxido de sódio em água gera o hipoclorito de sódio. \nIV. É uma substância oxidante, usada como bactericida e branqueador. \nV. A 0,1 atm de pressão e 50°C, uma massa de 87 g da substância ocupa cerca de 26 litros.\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I, II e V são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I, III e IV são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições I, IV e V são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições II, III e IV são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições II, III e V são verdadeiras."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 2 (nº 16 no caderno) ⚠",
+      "sha256": "4b729b6d10b0cc5750ac6feef156a9ba82b457d09e064c081afe43ce7e9970c4",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-16",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — conferência Química",
+      "letter": "D"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "hard"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-17",
+    "revision": "review-2026-10-05-quimica-2025-2-17",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 17,
+    "subjectNumber": 3,
+    "topics": [
+      "soluções e concentração"
+    ],
+    "skills": [
+      "converter concentração molar de cálcio em concentração mássica equivalente de sais"
+    ],
+    "rawText": "\n\nQuestão 17\nFoi determinada a concentração de cálcio em uma amostra de água como sendo igual a 4,00 x 10-4 mol/L.\nAssinale a alternativa que representa o resultado expresso como mg/L de carbonato de cálcio e como mg/L\nde nitrato de cálcio, respectivamente.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n27,2 mg/L e 40,8 mg/L\n40,0 mg/L e 65,6 mg/L\n33,6 mg/L e 24 mg/L\n60,0 mg/L e 35,0 mg/L\n100 mg/L e 86,4 mg/L\n\n\n",
+    "stem": "Foi determinada a concentração de cálcio em uma amostra de água como sendo igual a 4,00 × 10⁻⁴ mol/L.\n\nAssinale a alternativa que representa o resultado expresso como mg/L de carbonato de cálcio e como mg/L de nitrato de cálcio, respectivamente.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "27,2 mg/L e 40,8 mg/L"
+      },
+      {
+        "letter": "B",
+        "text": "40,0 mg/L e 65,6 mg/L"
+      },
+      {
+        "letter": "C",
+        "text": "33,6 mg/L e 24 mg/L"
+      },
+      {
+        "letter": "D",
+        "text": "60,0 mg/L e 35,0 mg/L"
+      },
+      {
+        "letter": "E",
+        "text": "100 mg/L e 86,4 mg/L"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 3 (nº 17 no caderno)",
+      "sha256": "348a308a17505a0f031108d46f1ebca2b8740816b3a7ca17cb7b505d5f3b4634",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-17",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — conferência Química",
+      "letter": "B"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-18",
+    "revision": "review-2026-10-05-quimica-2025-2-18",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 18,
+    "subjectNumber": 4,
+    "topics": [
+      "termodinâmica e cinética química"
+    ],
+    "skills": [
+      "distinguir espontaneidade termodinâmica de velocidade de reação"
+    ],
+    "rawText": "\n\nQuestão 18\nA termodinâmica química e a cinética química são duas áreas importantes que dizem respeito às trocas de\nenergia e de espontaneidade em processos químicos e à velocidade em que esses processos ocorrem,\nrespectivamente.\nCom relação a essa temática, assinale a alternativa correta.\nA. ( ) A energia de ativação diminui com o aumento da temperatura, portanto, o aumento da temperatura\nem um sistema em equilíbrio irá deslocá-lo no sentido direto.\nB. ( ) Sendo a constante de equilíbrio de um processo reversível dada pela razão entre a constante de\nvelocidade do processo direto e a constante de velocidade do processo inverso, afirma-se que um\nprocesso com a constante de equilíbrio maior que a unidade será um processo que ocorre\nrapidamente no sentido direto.\nC. ( ) Tanto a expressão da constante de equilíbrio quanto a lei de velocidade de uma dada reação\nquímica são obtidas com auxílio dos coeficientes estequiométricos da equação química balanceada.\nD. ( ) A energia de ativação para uma dada reação química é entendida como a diferença de energia\nentre produtos e reagentes, cujo valor irá reger a velocidade em que o processo ocorrerá.\nE. ( ) Processos termodinamicamente espontâneos em uma dada temperatura e à pressão constante\nsignificam que o somatório da energia livre dos produtos é menor que o somatório da energia livre\ndos reagentes, todos no seu estado padrão, mas nada indicam sobre a velocidade em que o\nprocesso ocorre.\n\n\n",
+    "stem": "A termodinâmica química e a cinética química são duas áreas importantes que dizem respeito às trocas de energia e de espontaneidade em processos químicos e à velocidade em que esses processos ocorrem, respectivamente.\n\nCom relação a essa temática, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A energia de ativação diminui com o aumento da temperatura, portanto, o aumento da temperatura  em um sistema em equilíbrio irá deslocá-lo no sentido direto."
+      },
+      {
+        "letter": "B",
+        "text": "Sendo a constante de equilíbrio de um processo reversível dada pela razão entre a constante de  velocidade do processo direto e a constante de velocidade do processo inverso, afirma-se que um  processo com a constante de equilíbrio maior que a unidade será um processo que ocorre  rapidamente no sentido direto."
+      },
+      {
+        "letter": "C",
+        "text": "Tanto a expressão da constante de equilíbrio quanto a lei de velocidade de uma dada reação  química são obtidas com auxílio dos coeficientes estequiométricos da equação química balanceada."
+      },
+      {
+        "letter": "D",
+        "text": "A energia de ativação para uma dada reação química é entendida como a diferença de energia  entre produtos e reagentes, cujo valor irá reger a velocidade em que o processo ocorrerá."
+      },
+      {
+        "letter": "E",
+        "text": "Processos termodinamicamente espontâneos em uma dada temperatura e à pressão constante  significam que o somatório da energia livre dos produtos é menor que o somatório da energia livre  dos reagentes, todos no seu estado padrão, mas nada indicam sobre a velocidade em que o  processo ocorre."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 4 (nº 18 no caderno) ⚠",
+      "sha256": "ab0b2c731a96e78493ce5c26e5a900137ceedcab58ac31f7a8f0e09cba477c41",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-18",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — conferência Química",
+      "letter": "E"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-19",
+    "revision": "review-2026-10-05-quimica-2025-2-19",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 19,
+    "subjectNumber": 5,
+    "topics": [
+      "tabela periódica e propriedades"
+    ],
+    "skills": [
+      "avaliar obtenção, valência e eletronegatividade do silício"
+    ],
+    "rawText": "\n\nQuestão 19\nO elemento silício é o segundo elemento mais abundante da crosta terrestre. É um elemento muito utilizado\nna fabricação de dispositivos eletrônicos. Sua principal fonte natural é o dióxido de silício.\nSobre esse elemento considere as proposições.\nI.\n\nUma das maneiras de obtenção do elemento silício é o tratamento em alta temperatura na presença de\ncarbono, representado pela equação: SiO2\n) + 2 CO(g).\nII. O elemento silício tem configuração eletrônica: [Ne]3s23p2, portanto, tende a formar 2 ligações\ncovalentes simples em seus compostos.\nIII. Na equação Si(s) + 3 HC\n3(g) + H2(g), usada para purificação do silício impuro, o elemento\nsilício é o agente oxidante e o HC é o agente redutor.\nIV. O elemento silício possui menor eletronegatividade que o carbono e maior eletronegatividade que o\nalumínio.\nAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I e II são verdadeiras.\nSomente as proposições I e III são verdadeiras.\nSomente as proposições I e IV são verdadeiras.\nSomente as proposições II e III são verdadeiras.\nSomente as proposições III e IV são verdadeiras.\n\n\n",
+    "stem": "O elemento silício é o segundo elemento mais abundante da crosta terrestre. É um elemento muito utilizado na fabricação de dispositivos eletrônicos. Sua principal fonte natural é o dióxido de silício.\n\nSobre esse elemento considere as proposições.\n\nI. Uma das maneiras de obtenção do elemento silício é o tratamento em alta temperatura na presença de carbono, representado pela equação: SiO₂(s) + 2 C(s) → Si(ℓ) + 2 CO(g).\nII. O elemento silício tem configuração eletrônica: [Ne]3s²3p², portanto, tende a formar 2 ligações covalentes simples em seus compostos.\nIII. Na equação Si(s) + 3 HCl(g) → SiHCl₃(g) + H₂(g), usada para purificação do silício impuro, o elemento silício é o agente oxidante e o HCl é o agente redutor.\nIV. O elemento silício possui menor eletronegatividade que o carbono e maior eletronegatividade que o alumínio.\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I e II são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I e III são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições I e IV são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições II e III são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições III e IV são verdadeiras."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 5 (nº 19 no caderno) ⚠",
+      "sha256": "848aef3a5bf907e08cb3403990a5eac21d6e817722cc5fd36ed2570227d558e8",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-19",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — conferência Química",
+      "letter": "C"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-20",
+    "revision": "review-2026-10-05-quimica-2025-2-20",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 20,
+    "subjectNumber": 6,
+    "topics": [
+      "funções inorgânicas"
+    ],
+    "skills": [
+      "associar funções inorgânicas às definições de Arrhenius e neutralização"
+    ],
+    "rawText": "\n\nQuestão 20\nAs funções inorgânicas possuem características distintas, sendo fundamentais para compreender as\nreações e as interações químicas. Os ácidos, as bases, os sais e os óxidos, possuem propriedades próprias,\ncomo a liberação de íons ou a formação de compostos iônicos. Com base nesse conceito, correlacione as\nfunções inorgânicas da Coluna 1 com as suas respectivas características na Coluna 2.\n\nCOLUNA 1\n\nCOLUNA 2\n\n1. Ácidos\n\nA) Compostos que liberam íons hidrogênio (H ) quando\ndissolvidos em água e têm pH menor que 7\n\n2. Bases\n\nB) Compostos que formam íons hidroxila (OH ) quando\ndissolvidos em água, com pH maior que 7\n\n3. Sais\n\nC) Compostos formados pela neutralização de um ácido\ncom uma base, resultando em compostos iônicos\n\n4. Óxidos\n\nD) Compostos que contêm oxigênio e formam ácidos ou\nbases ao reagirem com água\n\nAssinale a alternativa correta.\nA. ( ) 1 - A, 2 - B, 3 - C, 4 - D\nB. ( ) 1 - C, 2 - A, 3 - D, 4 - B\nC. ( ) 1 - B, 2 - A, 3 - D, 4 - C\nD. ( ) 1 - D, 2 - C, 3 - A, 4 - B\nE. ( ) 1 - D, 2 - A, 3 - B, 4 - C\n\n\n---\n\n",
+    "stem": "As funções inorgânicas possuem características distintas, sendo fundamentais para compreender as reações e as interações químicas. Os ácidos, as bases, os sais e os óxidos, possuem propriedades próprias, como a liberação de íons ou a formação de compostos iônicos. Com base nesse conceito, correlacione as funções inorgânicas da Coluna 1 com as suas respectivas características na Coluna 2.\n\nCOLUNA 1\n1. Ácidos\n2. Bases\n3. Sais\n4. Óxidos\n\nCOLUNA 2\nA) Compostos que liberam íons hidrogênio (H⁺) quando dissolvidos em água e têm pH menor que 7\nB) Compostos que formam íons hidroxila (OH⁻) quando dissolvidos em água, com pH maior que 7\nC) Compostos formados pela neutralização de um ácido com uma base, resultando em compostos iônicos\nD) Compostos que contêm oxigênio e formam ácidos ou bases ao reagirem com água\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1 - A, 2 - B, 3 - C, 4 - D"
+      },
+      {
+        "letter": "B",
+        "text": "1 - C, 2 - A, 3 - D, 4 - B"
+      },
+      {
+        "letter": "C",
+        "text": "1 - B, 2 - A, 3 - D, 4 - C"
+      },
+      {
+        "letter": "D",
+        "text": "1 - D, 2 - C, 3 - A, 4 - B"
+      },
+      {
+        "letter": "E",
+        "text": "1 - D, 2 - A, 3 - B, 4 - C"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 6 (nº 20 no caderno)",
+      "sha256": "6e18397f5641387a31404de4bb4842b6e9fb6a0314cda58fd20b30c54668b35f",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 14
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-20",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — conferência Química",
+      "letter": "A"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-21",
+    "revision": "review-2026-10-05-quimica-2025-2-21",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 21,
+    "subjectNumber": 7,
+    "topics": [
+      "orgânica — estrutura e hibridização"
+    ],
+    "skills": [
+      "reconhecer hibridização do carbono em alótropos e compostos"
+    ],
+    "rawText": "\n\nQuestão 21\nO carbono é um elemento químico fundamental, formando diversas estruturas como o grafite e o diamante,\nalém de ser a base dos compostos orgânicos. O comportamento e as propriedades desses materiais estão\ndiretamente relacionados à hibridização dos átomos de carbono e à sua organização estrutural.\nCom base nesses conceitos, assinale a alternativa incorreta.\nA. ( ) No Oct-1-en-1,6-diol, o carbono ligado à dupla ligação está hibridizado em sp², enquanto os\ncarbonos dos grupos hidroxila ( -OH) estão hibridizados em sp³.\nB. ( ) No diamante, os átomos de carbono estão hibridizados em sp ³ e formam uma rede tridimensional\nrígida, o que confere ao diamante sua extrema dureza.\nC. ( ) Em compostos orgânicos, o carbono pode apresentar hibridização sp³, sp² ou sp, permitindo a\nformação de ligações simples, duplas ou triplas.\nD. ( ) No grafite, os átomos de carbono estão hibridizados em sp² e formam uma estrutura em camadas,\no que permite que os elétrons se movam livremente entre elas, tornando o grafite um bom condutor\nde eletricidade.\nE. ( ) No ácido benzoico, os carbonos do anel benzênico estão hibridizados em sp², formando uma\nestrutura plana e estável com ligações duplas conjugadas.\n\n\n",
+    "stem": "O carbono é um elemento químico fundamental, formando diversas estruturas como o grafite e o diamante, além de ser a base dos compostos orgânicos. O comportamento e as propriedades desses materiais estão diretamente relacionados à hibridização dos átomos de carbono e à sua organização estrutural.\n\nCom base nesses conceitos, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No Oct-1-en-1,6-diol, o carbono ligado à dupla ligação está hibridizado em sp², enquanto os  carbonos dos grupos hidroxila ( -OH) estão hibridizados em sp³."
+      },
+      {
+        "letter": "B",
+        "text": "No diamante, os átomos de carbono estão hibridizados em sp ³ e formam uma rede tridimensional  rígida, o que confere ao diamante sua extrema dureza."
+      },
+      {
+        "letter": "C",
+        "text": "Em compostos orgânicos, o carbono pode apresentar hibridização sp³, sp² ou sp, permitindo a  formação de ligações simples, duplas ou triplas."
+      },
+      {
+        "letter": "D",
+        "text": "No grafite, os átomos de carbono estão hibridizados em sp² e formam uma estrutura em camadas,  o que permite que os elétrons se movam livremente entre elas, tornando o grafite um bom condutor  de eletricidade."
+      },
+      {
+        "letter": "E",
+        "text": "No ácido benzoico, os carbonos do anel benzênico estão hibridizados em sp², formando uma  estrutura plana e estável com ligações duplas conjugadas."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 7 (nº 21 no caderno) ⚠",
+      "sha256": "ebd0c61f6e54507ad3badc33b1ca29375c72796e295ba0ef306f39226b693f5e",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 14
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": true,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": null,
+    "annulment": {
+      "revision": "official-a313df214152-21",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — conferência Química"
+    },
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-22",
+    "revision": "review-2026-10-05-quimica-2025-2-22",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 22,
+    "subjectNumber": 8,
+    "topics": [
+      "soluções e concentração"
+    ],
+    "skills": [
+      "calcular concentração após mistura de soluções do mesmo soluto"
+    ],
+    "rawText": "\n\nQuestão 22\nConsidere que há duas soluções contendo cloreto de sódio prontas, sendo 200 mL de NaC 150 g/L (solução\nA) e 500 mL de NaC 80 g/L (solução B).\nAssinale a alternativa que representa a concentração da solução resultante quando as soluções A e B são\nmisturadas.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n125 g/L\n100 g/L\n90 g/L\n115 g/L\n130 g/L\n\n\n",
+    "stem": "Considere que há duas soluções contendo cloreto de sódio prontas, sendo 200 mL de NaCl 150 g/L (solução A) e 500 mL de NaCl 80 g/L (solução B). Assinale a alternativa que representa a concentração da solução resultante quando as soluções A e B são misturadas.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "125 g/L"
+      },
+      {
+        "letter": "B",
+        "text": "100 g/L"
+      },
+      {
+        "letter": "C",
+        "text": "90 g/L"
+      },
+      {
+        "letter": "D",
+        "text": "115 g/L"
+      },
+      {
+        "letter": "E",
+        "text": "130 g/L"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 8 (nº 22 no caderno)",
+      "sha256": "ecacb2e7a75ff5a310978f48c9676c5928f03c4f28c27277de2f4a52de6951a2",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-22",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — conferência Química",
+      "letter": "B"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-23",
+    "revision": "review-2026-10-05-quimica-2025-2-23",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 23,
+    "subjectNumber": 9,
+    "topics": [
+      "ligações químicas"
+    ],
+    "skills": [
+      "identificar ligações de hidrogênio e forças de London pela polaridade molecular"
+    ],
+    "rawText": "\n\nQuestão 23\nAs interações intermoleculares são forças que ocorrem entre moléculas e influenciam diversas propriedades\nfísicas e químicas das substâncias, como ponto de fusão, ponto de ebulição, solubilidade e viscosidade.\nEssas interações podem ser do tipo dipolo-dipolo, ligação de hidrogênio, forças de dispersão de London,\nentre outras.\nAssinale a alternativa correta sobre as interações intermoleculares.\nA. ( ) A água, com suas altas propriedades de solubilidade e ponto de ebulição, possui interações\nintermoleculares do tipo ligação de hidrogênio. Isso é evidenciado pela alta tensão superficial da\nágua e pelo fato de ela ser um excelente solvente para muitas substâncias.\nB. ( ) O dióxido de carbono (CO2) tem um ponto de ebulição muito alto devido às fortes interações dipolodipolo entre suas moléculas.\nC. ( ) O álcool etílico (etanol) tem um ponto de fusão baixo, devido à ausência de interações\nintermoleculares significativas.\nD. ( ) O metano (CH4) apresenta interações intermoleculares dipolo-dipolo, o que explica seu ponto de\nebulição mais baixo em relação à água.\nE. ( ) O butano, um gás utilizado como combustível, apresenta interações dipolo-dipolo entre suas\nmoléculas, o que explica sua baixa temperatura de ebulição.\n\n\n---\n\n",
+    "stem": "As interações intermoleculares são forças que ocorrem entre moléculas e influenciam diversas propriedades físicas e químicas das substâncias, como ponto de fusão, ponto de ebulição, solubilidade e viscosidade. Essas interações podem ser do tipo dipolo-dipolo, ligação de hidrogênio, forças de dispersão de London, entre outras.\n\nAssinale a alternativa correta sobre as interações intermoleculares.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A água, com suas altas propriedades de solubilidade e ponto de ebulição, possui interações  intermoleculares do tipo ligação de hidrogênio. Isso é evidenciado pela alta tensão superficial da  água e pelo fato de ela ser um excelente solvente para muitas substâncias."
+      },
+      {
+        "letter": "B",
+        "text": "O dióxido de carbono (CO2) tem um ponto de ebulição muito alto devido às fortes interações dipolo-  dipolo entre suas moléculas."
+      },
+      {
+        "letter": "C",
+        "text": "O álcool etílico (etanol) tem um ponto de fusão baixo, devido à ausência de interações  intermoleculares significativas."
+      },
+      {
+        "letter": "D",
+        "text": "O metano (CH4) apresenta interações intermoleculares dipolo-dipolo, o que explica seu ponto de  ebulição mais baixo em relação à água."
+      },
+      {
+        "letter": "E",
+        "text": "O butano, um gás utilizado como combustível, apresenta interações dipolo-dipolo entre suas  moléculas, o que explica sua baixa temperatura de ebulição."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 9 (nº 23 no caderno)",
+      "sha256": "7afab35546a344d26b80dc9f8b9cf065c9d638dc4fc98e32ab04ad238b733586",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-23",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — conferência Química",
+      "letter": "A"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-24",
+    "revision": "review-2026-10-05-quimica-2025-2-24",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 24,
+    "subjectNumber": 10,
+    "topics": [
+      "tabela periódica e propriedades"
+    ],
+    "skills": [
+      "reconhecer o sentido das tendências de eletronegatividade"
+    ],
+    "rawText": "\n\nQuestão 24\nOs elementos químicos estão organizados na tabela periódica segundo alguns critérios que podem envolver\nsuas propriedades. A eletronegatividade, por exemplo, é uma propriedade que considera a capacidade de\num átomo atrair para si a densidade eletrônica da ligação química.\nSobre a eletronegatividade na tabela periódica, assinale a alternativa incorreta.\nA. ( ) A eletronegatividade na tabela periódica varia da esquerda para a direta e de cima para baixo, assim\ncomo a energia de ionização.\nB. ( ) A eletronegatividade pode influenciar o tipo de ligação formada entre os átomos.\nC. ( ) O elemento mais eletronegativo da tabela periódica é o flúor (F).\nD. ( ) A eletronegatividade pode influenciar na polaridade das ligações químicas.\nE. ( ) Os metais alcalinos são pouco eletronegativos e apresentam tendência em formar íons positivos.\n\n\n",
+    "stem": "Os elementos químicos estão organizados na tabela periódica segundo alguns critérios que podem envolver suas propriedades. A eletronegatividade, por exemplo, é uma propriedade que considera a capacidade de um átomo atrair para si a densidade eletrônica da ligação química.\n\nSobre a eletronegatividade na tabela periódica, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A eletronegatividade na tabela periódica varia da esquerda para a direta e de cima para baixo, assim  como a energia de ionização."
+      },
+      {
+        "letter": "B",
+        "text": "A eletronegatividade pode influenciar o tipo de ligação formada entre os átomos."
+      },
+      {
+        "letter": "C",
+        "text": "O elemento mais eletronegativo da tabela periódica é o flúor (F)."
+      },
+      {
+        "letter": "D",
+        "text": "A eletronegatividade pode influenciar na polaridade das ligações químicas."
+      },
+      {
+        "letter": "E",
+        "text": "Os metais alcalinos são pouco eletronegativos e apresentam tendência em formar íons positivos."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 10 (nº 24 no caderno)",
+      "sha256": "10f5004de8caadba198c732b8a8d5580fe4ac60e928a34a16ec302ec293fbe82",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-24",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — conferência Química",
+      "letter": "A"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-25",
+    "revision": "review-2026-10-05-quimica-2025-2-25",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 25,
+    "subjectNumber": 11,
+    "topics": [
+      "estrutura atômica"
+    ],
+    "skills": [
+      "relacionar modelos atômicos a evidências experimentais e aplicações químicas"
+    ],
+    "rawText": "\n\nQuestão 25\nA história da química é marcada por uma série de descobertas e teorias que transformaram a compreensão\ndas substâncias e dos processos naturais. Desde o início da alquimia até os desenvolvimentos modernos\nda química, muitos cientistas contribuíram para o avanço da ciência.\nAssinale a alternativa incorreta sobre os marcos históricos da química.\nA. ( ) O conceito de átomo como a menor partícula indivisível de um elemento foi introduzido por John\nDalton, no início do século XIX, com base em experimentos sobre as leis das proporções múltiplas\ne das proporções constantes.\nB. ( ) Antoine Lavoisier, no século XVIII, é considerado o \"pai da química moderna\" devido à sua\ncontribuição para a Lei da Conservação da Massa e a reformulação da teoria da combustão, que\nantes era mal compreendida como sendo um processo de \"calor\".\nC. ( ) A Tabela Periódica de Dmitri Mendeléiev, publicada em 1869, foi um dos maiores avanços da\nquímica, já que ela organizou os elementos conhecidos de acordo com suas propriedades e massas\natômicas, e previu as propriedades de elementos ainda desconhecidos.\nD. ( ) A teoria do modelo atômico proposto por Niels Bohr, em 1913, foi essencial para explicar os\nespectros atômicos e a quantização das energias, sendo um avanço crucial para a física quântica,\nmas com implicações diretas apenas para a área da física, sem relevância para a química.\nE. ( ) A descoberta dos elétrons por J.J. Thomson, em 1897, por meio do experimento com o tubo de\nraios catódicos, foi fundamental para entender a estrutura atômica e contribuiu para o\ndesenvolvimento da teoria atômica moderna.\n\n\n",
+    "stem": "A história da química é marcada por uma série de descobertas e teorias que transformaram a compreensão das substâncias e dos processos naturais. Desde o início da alquimia até os desenvolvimentos modernos da química, muitos cientistas contribuíram para o avanço da ciência.\n\nAssinale a alternativa incorreta sobre os marcos históricos da química.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O conceito de átomo como a menor partícula indivisível de um elemento foi introduzido por John  Dalton, no início do século XIX, com base em experimentos sobre as leis das proporções múltiplas  e das proporções constantes."
+      },
+      {
+        "letter": "B",
+        "text": "Antoine Lavoisier, no século XVIII, é considerado o \"pai da química moderna\" devido à sua  contribuição para a Lei da Conservação da Massa e a reformulação da teoria da combustão, que  antes era mal compreendida como sendo um processo de \"calor\"."
+      },
+      {
+        "letter": "C",
+        "text": "A Tabela Periódica de Dmitri Mendeléiev, publicada em 1869, foi um dos maiores avanços da  química, já que ela organizou os elementos conhecidos de acordo com suas propriedades e massas  atômicas, e previu as propriedades de elementos ainda desconhecidos."
+      },
+      {
+        "letter": "D",
+        "text": "A teoria do modelo atômico proposto por Niels Bohr, em 1913, foi essencial para explicar os  espectros atômicos e a quantização das energias, sendo um avanço crucial para a física quântica,  mas com implicações diretas apenas para a área da física, sem relevância para a química."
+      },
+      {
+        "letter": "E",
+        "text": "A descoberta dos elétrons por J.J. Thomson, em 1897, por meio do experimento com o tubo de  raios catódicos, foi fundamental para entender a estrutura atômica e contribuiu para o  desenvolvimento da teoria atômica moderna."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 11 (nº 25 no caderno)",
+      "sha256": "855835e7c74008fe21c859a6c8c0215747e573d804ab90c445f65eb2002978a5",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 16
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-25",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — conferência Química",
+      "letter": "D"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-26",
+    "revision": "review-2026-10-05-quimica-2025-2-26",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 26,
+    "subjectNumber": 12,
+    "topics": [
+      "radioatividade"
+    ],
+    "skills": [
+      "comparar poder de penetração e ionização das radiações nucleares"
+    ],
+    "rawText": "\n\nQuestão 26\nA radioatividade é um fenômeno natural em que núcleos instáveis de certos elementos emitem radiação para\natingir uma forma mais estável. Esse processo pode gerar diferentes tipos de radiação, como alfa, beta e\ngama, cada uma com características e níveis de penetração variados. A radioatividade tem várias\naplicações, desde a medicina, em tratamentos de câncer, até a datação de fósseis, mas também apresenta\nriscos à saúde, como o aumento do risco de câncer em caso de exposição excessiva.\nAssinale a alternativa incorreta sobre os conceitos e os tipos de radiação associados à radioatividade.\nA. ( ) A radiação gama possui um alto poder de penetração, sendo capaz de atravessar materiais densos\ncomo concreto, e por isso requer blindagem com materiais como chumbo para ser controlada.\nB. ( ) A radiação beta consiste em elétrons de alta energia que podem penetrar a pele, mas pode ser\nbloqueada por materiais como vidro ou plástico.\nC. ( ) A radiação alfa é a mais penetrante, sendo capaz de atravessar facilmente a pele humana e causar\ndanos aos tecidos internos.\nD. ( ) A radiação alfa é formada por partículas compostas por dois prótons e dois nêutrons, e embora\ntenha baixa penetração, é altamente ionizante e pode causar danos internos se os materiais\nradioativos forem inalados ou ingeridos.\nE. ( ) A radioatividade pode ser utilizada na medicina, especialmente em tratamentos de radioterapia,\nquando radiações como a gama são usadas para destruir células cancerígenas.\n\n\n",
+    "stem": "A radioatividade é um fenômeno natural em que núcleos instáveis de certos elementos emitem radiação para atingir uma forma mais estável. Esse processo pode gerar diferentes tipos de radiação, como alfa, beta e gama, cada uma com características e níveis de penetração variados. A radioatividade tem várias aplicações, desde a medicina, em tratamentos de câncer, até a datação de fósseis, mas também apresenta riscos à saúde, como o aumento do risco de câncer em caso de exposição excessiva.\n\nAssinale a alternativa incorreta sobre os conceitos e os tipos de radiação associados à radioatividade.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A radiação gama possui um alto poder de penetração, sendo capaz de atravessar materiais densos  como concreto, e por isso requer blindagem com materiais como chumbo para ser controlada."
+      },
+      {
+        "letter": "B",
+        "text": "A radiação beta consiste em elétrons de alta energia que podem penetrar a pele, mas pode ser  bloqueada por materiais como vidro ou plástico."
+      },
+      {
+        "letter": "C",
+        "text": "A radiação alfa é a mais penetrante, sendo capaz de atravessar facilmente a pele humana e causar  danos aos tecidos internos."
+      },
+      {
+        "letter": "D",
+        "text": "A radiação alfa é formada por partículas compostas por dois prótons e dois nêutrons, e embora  tenha baixa penetração, é altamente ionizante e pode causar danos internos se os materiais  radioativos forem inalados ou ingeridos."
+      },
+      {
+        "letter": "E",
+        "text": "A radioatividade pode ser utilizada na medicina, especialmente em tratamentos de radioterapia,  quando radiações como a gama são usadas para destruir células cancerígenas."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 12 (nº 26 no caderno)",
+      "sha256": "8d54a1c9399c2c2a31ca130a10f21e7e721132088d1d3d088d07d6cf048e5db7",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 16
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-26",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — conferência Química",
+      "letter": "C"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-27",
+    "revision": "review-2026-10-05-quimica-2025-2-27",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 27,
+    "subjectNumber": 13,
+    "topics": [
+      "orgânica — funções e nomenclatura"
+    ],
+    "skills": [
+      "identificar grupos nitrogenados e carboxila na fórmula estrutural da creatina"
+    ],
+    "rawText": "\n\nQuestão 27\nA creatina (NH2–C(=NH)–N(CH3)–CH2–COOH) é bastante utilizada por atletas e praticantes de musculação,\npor gerar energia rápida e melhorar o desempenho físico.\nCom base na estrutura química da creatina, assinale a alternativa correta.\nA. ( ) O carbono da carboxila faz uma ligação simples com um oxigênio e outra ligação simples com um\ngrupo OH.\nB. ( ) É um composto nitrogenado que possui o grupo funcional amida, bem como um grupo carbonila.\nC. ( ) Possui apenas duas ligações iônicas em sua estrutura.\nD. ( ) Possui um grupo cetona, devido à presença da carbonila.\nE. ( ) É um composto nitrogenado que possui a função amina e também um grupo carboxila.\n\n\n",
+    "stem": "A creatina (NH2–C(=NH)–N(CH3)–CH2–COOH) é bastante utilizada por atletas e praticantes de musculação, por gerar energia rápida e melhorar o desempenho físico.\n\nCom base na estrutura química da creatina, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O carbono da carboxila faz uma ligação simples com um oxigênio e outra ligação simples com um  grupo OH."
+      },
+      {
+        "letter": "B",
+        "text": "É um composto nitrogenado que possui o grupo funcional amida, bem como um grupo carbonila."
+      },
+      {
+        "letter": "C",
+        "text": "Possui apenas duas ligações iônicas em sua estrutura."
+      },
+      {
+        "letter": "D",
+        "text": "Possui um grupo cetona, devido à presença da carbonila."
+      },
+      {
+        "letter": "E",
+        "text": "É um composto nitrogenado que possui a função amina e também um grupo carboxila."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 13 (nº 27 no caderno)",
+      "sha256": "789821851ffa281e784b9ba89d853fd584d59948200671fb5e1193f72bceaa47",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 17
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-27",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — conferência Química",
+      "letter": "E"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-28",
+    "revision": "review-2026-10-05-quimica-2025-2-28",
+    "subject": "quimica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 28,
+    "subjectNumber": 14,
+    "topics": [
+      "química ambiental"
+    ],
+    "skills": [
+      "relacionar óxidos ácidos a acidificação e corrosão ambiental"
+    ],
+    "rawText": "\n\nQuestão 28\nA formação da chuva ácida pode ser resultante da reação entre a água presente no ar e os óxidos de enxofre\n(SOx) ou de nitrogênio (NOx) provenientes da queima de combustíveis fósseis.\nSobre a chuva ácida, sua formação e impactos ambientais, assinale a alternativa correta.\nA. ( ) A chuva ácida pode ser benéfica para o solo, uma vez que, com sua composição baseada em\nóxidos de enxofre e de nitrogênio, fornece esses minerais essenciais à fertilidade.\nB. ( ) A formação da chuva ácida também pode ocorrer a partir do gás carbônico (CO2), que, ao reagir\ncom a água, forma o ácido nítrico.\nC. ( ) Um dos principais motivos de prejuízo da chuva ácida é o alto poder corrosivo, devido ao pH próximo\nde 11,0.\nD. ( ) A emissão dos óxidos de enxofre (SOx) e nitrogênio (NOx) é um fenômeno exclusivamente natural,\nsem ter relação com a ação humana.\nE. ( ) A chuva ácida pode causar prejuízos para a biodiversidade, por meio de acidificação que diminui o\npH dos corpos d’água e dos solos, além de provocar corrosão em materiais como o calcário e o\nmármore.\n\n\fHISTÓRIA\n\n(11 questões)\n\n\n---\n\n",
+    "stem": "A formação da chuva ácida pode ser resultante da reação entre a água presente no ar e os óxidos de enxofre (SOx) ou de nitrogênio (NOx) provenientes da queima de combustíveis fósseis.\n\nSobre a chuva ácida, sua formação e impactos ambientais, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A chuva ácida pode ser benéfica para o solo, uma vez que, com sua composição baseada em  óxidos de enxofre e de nitrogênio, fornece esses minerais essenciais à fertilidade."
+      },
+      {
+        "letter": "B",
+        "text": "A formação da chuva ácida também pode ocorrer a partir do gás carbônico (CO2), que, ao reagir  com a água, forma o ácido nítrico."
+      },
+      {
+        "letter": "C",
+        "text": "Um dos principais motivos de prejuízo da chuva ácida é o alto poder corrosivo, devido ao pH próximo  de 11,0."
+      },
+      {
+        "letter": "D",
+        "text": "A emissão dos óxidos de enxofre (SOx) e nitrogênio (NOx) é um fenômeno exclusivamente natural,  sem ter relação com a ação humana."
+      },
+      {
+        "letter": "E",
+        "text": "A chuva ácida pode causar prejuízos para a biodiversidade, por meio de acidificação que diminui o  pH dos corpos d’água e dos solos, além de provocar corrosão em materiais como o calcário e o  mármore."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2025/2] questão 14 (nº 28 no caderno)",
+      "sha256": "e147e909121904b77aad345f71dce78c7ba640ac4d4521234a24aee711fc6b79",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 17
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-a313df214152-28",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6)",
+      "location": "p. 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — conferência Química",
+      "letter": "E"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-15",
+    "revision": "review-2026-10-05-quimica-2026-1-15",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 15,
+    "subjectNumber": 1,
+    "topics": [
+      "orgânica — reações"
+    ],
+    "skills": [
+      "analisar fórmula molecular, cargas e formação de ligações na creatina"
+    ],
+    "rawText": "\n\nQuestão 15\nA Figura 1 representa a reação química de obtenção da creatina monohidratada.\nFigura 11\nFIGURA\n\nAnalise as proposições acerca da equação química da creatina e de suas aplicações.\nO produto da reação possui fórmula molecular igual a C3H9N3O2∙H2O.\nA estrutura apresentada representa a forma zwiteriônica da substância.\nA creatina monohidratada representa uma importante fonte de suplementação proteica para humanos.\nA formação da creatina envolve a ligação do nitrogênio da sarcosina ao carbono da cianamida\nconcomitante à formação da ligação dupla entre o carbono e o nitrogênio da cianamida.\nV. A Figura 1 é um exemplo de reação de oxirredução, pois há mudança no estado de oxidação dos\nelementos carbono e nitrogênio.\nI.\nII.\nIII.\nIV.\n\nAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I e III são verdadeiras.\nSomente as proposições I e V são verdadeiras.\nSomente as proposições II e IV são verdadeiras.\nSomente as proposições III e V são verdadeiras.\nSomente as proposições IV e V são verdadeiras.\n\n\n---\n\n",
+    "stem": "A Figura 1 representa a reação química de obtenção da creatina monohidratada.    \n\nAnalise as proposições acerca da equação química da creatina e de suas aplicações.\n\n\nI. O produto da reação possui fórmula molecular igual a C₃H₉N₃O₂·H₂O. \nII. A estrutura apresentada representa a forma zwiteriônica da substância. \nIII. A creatina monohidratada representa uma importante fonte de suplementação proteica para humanos. \nIV. A formação da creatina envolve a ligação do nitrogênio da sarcosina ao carbono da cianamida  concomitante à formação da ligação dupla entre o carbono e o nitrogênio da cianamida. \nV. A Figura 1 é um exemplo de reação de oxirredução, pois há mudança no estado de oxidação dos  elementos carbono e nitrogênio.\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I e III são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I e V são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições II e IV são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições III e V são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições IV e V são verdadeiras."
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/quimica/udesc-2026-1-q15-p9-a3e7e1aca33f.png",
+        "alt": "Figura 1: cianamida e sarcosina formando creatina monohidratada zwitteriônica.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 9; recorte da figura original",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 1 (nº 15 no caderno) ⚠",
+      "sha256": "c5a0caeeba11fbe9c1ccfd5f475597cc77fdaf16bb89c3579f4e5d5bd313d567",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 9
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-15",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — conferência Química",
+      "letter": "C"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "hard"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-16",
+    "revision": "review-2026-10-05-quimica-2026-1-16",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 16,
+    "subjectNumber": 2,
+    "topics": [
+      "eletroquímica"
+    ],
+    "skills": [
+      "calcular NOX do carbono em fenol e quinona e interpretar catálise"
+    ],
+    "rawText": "\n\nQuestão 16\nA reação química catalisada pela enzima polifenol oxidase (PFO) entre os polifenóis presentes, por\nexemplo, na maçã e na banana, com gás oxigênio, é a responsável pelo escurecimento desses alimentos\nquando cortados e expostos à atmosfera. Ela gera produtos de condensação de alta massa molar de cor\nescura com outros componentes, como quinonas, aminoácidos e proteínas. Um esquema simplificado\ndesse processo pode ser visualizado na Figura 2.\nFigura 22\nFIGURA\n\nAssinale a alternativa incorreta.\nA. ( ) Os estados de oxidação do carbono ligado a OH no fenol e do mesmo carbono ligado ao oxigênio\nna quinona são, respectivamente, -1 e -2.\nB. ( ) O escurecimento do alimento rico em polifenóis pode ser evitado pela minimização da exposição\nao oxigênio e pela adição de sucos ricos em ácido ascórbico.\nC. ( ) A presença da PFO aumenta a velocidade da reação de oxidação do polifenol pela criação de um\ncaminho alternativo menos energético entre reagentes e produtos, diminuindo, assim, a energia\nde ativação da reação.\nD. ( ) Alimentos ricos em PFO, quando misturados a alimentos ricos em polifenóis, podem diminuir a\nbiodisponibilidade desses últimos, que são ótimos antioxidantes.\nE. ( ) Alimentos escurecidos pela ação do oxigênio e da PFO podem ser consumidos, pois não são\ntóxicos, têm apenas uma diminuição em sua aceitação por uma questão visual.\n\n\n",
+    "stem": "A reação química catalisada pela enzima polifenol oxidase (PFO) entre os polifenóis presentes, por exemplo, na maçã e na banana, com gás oxigênio, é a responsável pelo escurecimento desses alimentos quando cortados e expostos à atmosfera. Ela gera produtos de condensação de alta massa molar de cor escura com outros componentes, como quinonas, aminoácidos e proteínas. Um esquema simplificado desse processo pode ser visualizado na Figura 2.  \n\nAssinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Os estados de oxidação do carbono ligado a OH no fenol e do mesmo carbono ligado ao oxigênio  na quinona são, respectivamente, -1 e -2."
+      },
+      {
+        "letter": "B",
+        "text": "O escurecimento do alimento rico em polifenóis pode ser evitado pela minimização da exposição  ao oxigênio e pela adição de sucos ricos em ácido ascórbico."
+      },
+      {
+        "letter": "C",
+        "text": "A presença da PFO aumenta a velocidade da reação de oxidação do polifenol pela criação de um  caminho alternativo menos energético entre reagentes e produtos, diminuindo, assim, a energia  de ativação da reação."
+      },
+      {
+        "letter": "D",
+        "text": "Alimentos ricos em PFO, quando misturados a alimentos ricos em polifenóis, podem diminuir a  biodisponibilidade desses últimos, que são ótimos antioxidantes."
+      },
+      {
+        "letter": "E",
+        "text": "Alimentos escurecidos pela ação do oxigênio e da PFO podem ser consumidos, pois não são  tóxicos, têm apenas uma diminuição em sua aceitação por uma questão visual."
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/quimica/udesc-2026-1-q16-p9-c30111d36e4b.png",
+        "alt": "Figura 2: oxidação de monofenol a o-difenol e o-quinona, seguida de formação de polímero escuro.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 9; recorte da figura original",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 2 (nº 16 no caderno) ⚠",
+      "sha256": "156186c40df7f4263315ec7e8d9998cd935c72d4961292fd633185d3e5e87863",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 9
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-16",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — conferência Química",
+      "letter": "A"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-17",
+    "revision": "review-2026-10-05-quimica-2026-1-17",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 17,
+    "subjectNumber": 3,
+    "topics": [
+      "estequiometria"
+    ],
+    "skills": [
+      "calcular demanda de oxigênio e tempo de aeração usando gases ideais"
+    ],
+    "rawText": "\n\nQuestão 17\nSuponha que um caminhão contendo uma carga de 2,00 toneladas de sacarose (C12H22O11) tenha tombado\nem uma rodovia, e todo o seu conteúdo tenha atingido um riacho de baixa vazão às margens da pista.\nAssinale a alternativa correta, que contém o tempo em horas em que um soprador de ar (contendo 20%\nde oxigênio) a uma vazão de 100 L/min a 2,0 atm de pressão e 25 °C deve ficar borbulhando no riacho de\ntal forma a oxidar toda a sacarose a dióxido de carbono e água.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n5,9 horas\n106 horas\n71 horas\n47 horas\n13 horas\n\n\n",
+    "stem": "Suponha que um caminhão contendo uma carga de 2,00 toneladas de sacarose (C₁₂H₂₂O₁₁) tenha tombado em uma rodovia, e todo o seu conteúdo tenha atingido um riacho de baixa vazão às margens da pista.\n\nAssinale a alternativa correta, que contém o tempo em horas em que um soprador de ar (contendo 20% de oxigênio) a uma vazão de 100 L/min a 2,0 atm de pressão e 25 °C deve ficar borbulhando no riacho de tal forma a oxidar toda a sacarose a dióxido de carbono e água.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5,9 horas"
+      },
+      {
+        "letter": "B",
+        "text": "106 horas"
+      },
+      {
+        "letter": "C",
+        "text": "71 horas"
+      },
+      {
+        "letter": "D",
+        "text": "47 horas"
+      },
+      {
+        "letter": "E",
+        "text": "13 horas"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 3 (nº 17 no caderno)",
+      "sha256": "bab603977656a0beb6d8bb39b1a4b7c24161a6facd00880886a6fbf34e94e9d2",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 10
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": true,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": null,
+    "annulment": {
+      "revision": "official-26e69110d8cf-17",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — conferência Química"
+    },
+    "explanation": null,
+    "difficulty": "hard"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-18",
+    "revision": "review-2026-10-05-quimica-2026-1-18",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 18,
+    "subjectNumber": 4,
+    "topics": [
+      "polímeros e bioquímica"
+    ],
+    "skills": [
+      "avaliar processos químicos e benefícios ambientais da reciclagem de elastômeros"
+    ],
+    "rawText": "\n\nQuestão 18\nAcerca da reciclagem da borracha, assinale a alternativa incorreta.\nA. ( ) A pirólise de produtos de borracha leva à formação de gases, líquido e sólido, que podem encontrar\nutilização, entre outras aplicações, como combustível.\nB. ( ) A reciclagem de pneus inservíveis diminui uma fonte de proliferação de mosquitos causadores de\ndoenças em humanos.\nC. ( ) Um dos processos utilizados para reciclagem e reuso de materiais à base de borracha é a de\ndesvulcanização, em que ligações S-S e C-S são clivadas, permitindo que a borracha retorne à\nindústria para outros usos.\nD. ( ) A borracha, especialmente aquela proveniente de pneumáticos, tem pouco valor agregado após\nseu uso, e sua transformação em produtos úteis em seu processo de reciclagem é ineficaz.\nE. ( ) A reciclagem da borracha tem impacto ambiental significativo, uma vez que fontes naturais deixam\nde ser tão exploradas.\n\n\n",
+    "stem": "Acerca da reciclagem da borracha, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A pirólise de produtos de borracha leva à formação de gases, líquido e sólido, que podem encontrar  utilização, entre outras aplicações, como combustível."
+      },
+      {
+        "letter": "B",
+        "text": "A reciclagem de pneus inservíveis diminui uma fonte de proliferação de mosquitos causadores de  doenças em humanos."
+      },
+      {
+        "letter": "C",
+        "text": "Um dos processos utilizados para reciclagem e reuso de materiais à base de borracha é a de  desvulcanização, em que ligações S-S e C-S são clivadas, permitindo que a borracha retorne à  indústria para outros usos."
+      },
+      {
+        "letter": "D",
+        "text": "A borracha, especialmente aquela proveniente de pneumáticos, tem pouco valor agregado após  seu uso, e sua transformação em produtos úteis em seu processo de reciclagem é ineficaz."
+      },
+      {
+        "letter": "E",
+        "text": "A reciclagem da borracha tem impacto ambiental significativo, uma vez que fontes naturais deixam  de ser tão exploradas."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 4 (nº 18 no caderno)",
+      "sha256": "ba680190e7b989653a56fa6f136f04ec916d1a0f574165ac661eec409ce58c57",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 10
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-18",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — conferência Química",
+      "letter": "D"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-19",
+    "revision": "review-2026-10-05-quimica-2026-1-19",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 19,
+    "subjectNumber": 5,
+    "topics": [
+      "ligações químicas"
+    ],
+    "skills": [
+      "identificar condensação e condução de calor em fenômenos cotidianos"
+    ],
+    "rawText": "\n\nQuestão 19\nConsidere que, em um dia quente e úmido, um estudante observou dois fatos curiosos ao tomar seu café\nda manhã, antes de ir para a escola:\nI.\nII.\n\nNo copo de suco de laranja, que pegou na geladeira, formaram-se pequenas gotículas na parte\nexterna da parede do copo de vidro.\nAo colocar uma colher de metal no café quente, após alguns instantes, a extremidade da colher, que\nestava fora do líquido, também se aqueceu.\n\nCom base nos fenômenos observados pelo estudante, assinale a alternativa correta.\nA. ( ) Em I: o vapor d’água presente no ar está se condensando ao entrar em contato com a superfície\nfria do copo com suco gelado; e em II: a estrutura metálica da colher permite a condução de calor,\npois os metais são bons condutores de calor e de eletricidade.\nB. ( ) Em I: o copo de suco libera água líquida por um processo de fusão através da parede de vidro; e\nem II: as ligações iônicas presentes no metal são quebradas e, por isso, o calor é conduzido até a\noutra extremidade da colher.\nC. ( ) Em I: a água líquida que constitui o suco evapora e rapidamente se condensa pelo lado de fora; e\nem II: a dissolução da cafeína do café na água libera muita energia e faz com que a colher\nesquente.\nD. ( ) Em I: o copo de vidro é uma membrana semipermeável e, por isso, a água do suco atravessa essa\nmembrana e se deposita na parede externa do copo; e em II: há transferência de calor apenas por\num sistema de convecção entre as partículas do metal.\nE. ( ) Em I: o suco de laranja, que é ácido, libera H+ que reage com o gás oxigênio do ar, formando\ngotículas de água nas paredes do copo; e em II: a energia fica armazenada temporariamente na\nparte da colher que está imersa no líquido e depois é liberada na outra extremidade metálica.\n\n\n---\n\n",
+    "stem": "Considere que, em um dia quente e úmido, um estudante observou dois fatos curiosos ao tomar seu café da manhã, antes de ir para a escola:\n\n\nI. No copo de suco de laranja, que pegou na geladeira, formaram-se pequenas gotículas na parte  externa da parede do copo de vidro. \nII. Ao colocar uma colher de metal no café quente, após alguns instantes, a extremidade da colher, que  estava fora do líquido, também se aqueceu.\n\nCom base nos fenômenos observados pelo estudante, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Em I: o vapor d’água presente no ar está se condensando ao entrar em contato com a superfície  fria do copo com suco gelado; e em II: a estrutura metálica da colher permite a condução de calor,  pois os metais são bons condutores de calor e de eletricidade."
+      },
+      {
+        "letter": "B",
+        "text": "Em I: o copo de suco libera água líquida por um processo de fusão através da parede de vidro; e  em II: as ligações iônicas presentes no metal são quebradas e, por isso, o calor é conduzido até a  outra extremidade da colher."
+      },
+      {
+        "letter": "C",
+        "text": "Em I: a água líquida que constitui o suco evapora e rapidamente se condensa pelo lado de fora; e  em II: a dissolução da cafeína do café na água libera muita energia e faz com que a colher  esquente."
+      },
+      {
+        "letter": "D",
+        "text": "Em I: o copo de vidro é uma membrana semipermeável e, por isso, a água do suco atravessa essa  membrana e se deposita na parede externa do copo; e em II: há transferência de calor apenas por  um sistema de convecção entre as partículas do metal."
+      },
+      {
+        "letter": "E",
+        "text": "Em I: o suco de laranja, que é ácido, libera H⁺ que reage com o gás oxigênio do ar, formando  gotículas de água nas paredes do copo; e em II: a energia fica armazenada temporariamente na  parte da colher que está imersa no líquido e depois é liberada na outra extremidade metálica."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 5 (nº 19 no caderno) ⚠",
+      "sha256": "674aeee4a9fc7470bfaa99db60b47a841803c2f91a8a21ed09c5a31d58fb82bd",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 11
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-19",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — conferência Química",
+      "letter": "A"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-20",
+    "revision": "review-2026-10-05-quimica-2026-1-20",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 20,
+    "subjectNumber": 6,
+    "topics": [
+      "equilíbrio químico"
+    ],
+    "skills": [
+      "aplicar Le Chatelier ao efeito da temperatura na solubilidade de gases"
+    ],
+    "rawText": "\n\nQuestão 20\nO dióxido de carbono está presente em muitas bebidas comerciais como, por exemplo, refrigerantes,\nespumantes, águas gaseificadas, entre outros. Nesses casos, a dissolução é realizada sob pressão. Nesse\ntipo de bebida, ocorre um equilíbrio que pode ser representado pela equação a seguir:\nCO2(aq) ⇌ CO2(g)\n\nSabendo que o processo de dissolução do dióxido de carbono é exotérmico, ao colocar uma lata de\nrefrigerante na geladeira, é correto afirmar que:\nA. ( ) A diminuição da temperatura desloca o equilíbrio para a formação de CO2 gasoso, aumentando a\npressão interna.\nB. ( ) A diminuição da temperatura favorecerá a dissolução de CO2 na bebida.\nC. ( ) O resfriamento não altera o equilíbrio.\nD. ( ) O processo torna-se endotérmico, pois a geladeira interfere no sistema e, consequentemente, na\ndissolução.\nE. ( ) Haverá diminuição da temperatura, mas isso não favorecerá a dissolução de CO2.\n\n\n---\n\n",
+    "stem": "O dióxido de carbono está presente em muitas bebidas comerciais como, por exemplo, refrigerantes, espumantes, águas gaseificadas, entre outros. Nesses casos, a dissolução é realizada sob pressão. Nesse tipo de bebida, ocorre um equilíbrio que pode ser representado pela equação a seguir:\n\n CO₂(aq) ⇌ CO₂(g)\n\nSabendo que o processo de dissolução do dióxido de carbono é exotérmico, ao colocar uma lata de refrigerante na geladeira, é correto afirmar que:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A diminuição da temperatura desloca o equilíbrio para a formação de CO₂ gasoso, aumentando a  pressão interna."
+      },
+      {
+        "letter": "B",
+        "text": "A diminuição da temperatura favorecerá a dissolução de CO₂ na bebida."
+      },
+      {
+        "letter": "C",
+        "text": "O resfriamento não altera o equilíbrio."
+      },
+      {
+        "letter": "D",
+        "text": "O processo torna-se endotérmico, pois a geladeira interfere no sistema e, consequentemente, na  dissolução."
+      },
+      {
+        "letter": "E",
+        "text": "Haverá diminuição da temperatura, mas isso não favorecerá a dissolução de CO₂."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 6 (nº 20 no caderno)",
+      "sha256": "2263ed50a5d712114cfc65996d7528f281677799c8d24b20eadf25b9add30fe6",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 11
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-20",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — conferência Química",
+      "letter": "B"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-21",
+    "revision": "review-2026-10-05-quimica-2026-1-21",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 21,
+    "subjectNumber": 7,
+    "topics": [
+      "cinética química"
+    ],
+    "skills": [
+      "relacionar temperatura, energia cinética e velocidade de decomposição"
+    ],
+    "rawText": "\n\nQuestão 21\nO gás metano (CH4) pode ser formado a partir da decomposição de matéria orgânica que é compactada\nem aterros sanitários, como resultado da ação de bactérias anaeróbicas. Sabe-se que, em regiões tropicais,\na geração de metano ocorre de forma mais rápida do que em outras regiões com clima frio.\nSobre esse processo, assinale a alternativa correta.\nA. ( ) O metano, pertencente à classe dos hidrocarbonetos, é um gás inerte, devido à sua estrutura\napolar, sendo o único hidrocarboneto que não sofre combustão.\nB. ( ) O lixo é compactado para aumentar a superfície de contato dos resíduos orgânicos com o ar e,\nconsequentemente, acelerar sua decomposição.\nC. ( ) As bactérias anaeróbicas são aquelas que precisam do gás oxigênio para suas atividades e, por\nisso, é importante que os aterros sejam construídos em locais abertos, com bastante circulação\nde gás oxigênio.\nD. ( ) As temperaturas altas das regiões tropicais resultam no aumento da energia cinética das\nmoléculas, tornando a decomposição da matéria orgânica mais acelerada do que em regiões mais\nfrias.\nE. ( ) A compactação excessiva do lixo aumenta a taxa de liberação de metano para a atmosfera.\n\n\n",
+    "stem": "O gás metano (CH₄) pode ser formado a partir da decomposição de matéria orgânica que é compactada em aterros sanitários, como resultado da ação de bactérias anaeróbicas. Sabe-se que, em regiões tropicais, a geração de metano ocorre de forma mais rápida do que em outras regiões com clima frio. Sobre esse processo, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O metano, pertencente à classe dos hidrocarbonetos, é um gás inerte, devido à sua estrutura  apolar, sendo o único hidrocarboneto que não sofre combustão."
+      },
+      {
+        "letter": "B",
+        "text": "O lixo é compactado para aumentar a superfície de contato dos resíduos orgânicos com o ar e,  consequentemente, acelerar sua decomposição."
+      },
+      {
+        "letter": "C",
+        "text": "As bactérias anaeróbicas são aquelas que precisam do gás oxigênio para suas atividades e, por  isso, é importante que os aterros sejam construídos em locais abertos, com bastante circulação  de gás oxigênio."
+      },
+      {
+        "letter": "D",
+        "text": "As temperaturas altas das regiões tropicais resultam no aumento da energia cinética das  moléculas, tornando a decomposição da matéria orgânica mais acelerada do que em regiões mais  frias."
+      },
+      {
+        "letter": "E",
+        "text": "A compactação excessiva do lixo aumenta a taxa de liberação de metano para a atmosfera."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 7 (nº 21 no caderno)",
+      "sha256": "0039d78da039201bafbcc548bd6e8e7a6aab3e35f553081211e8bdbe0e7d5701",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-21",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — conferência Química",
+      "letter": "D"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-22",
+    "revision": "review-2026-10-05-quimica-2026-1-22",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 22,
+    "subjectNumber": 8,
+    "topics": [
+      "soluções e concentração"
+    ],
+    "skills": [
+      "explicar a conservação com sal pela osmose e dissociação iônica"
+    ],
+    "rawText": "\n\nQuestão 22\nO sal de cozinha (NaCl) é amplamente utilizado no preparo de alimentos e, desde tempos mais remotos,\nsua utilização também servia para a conservação de alimentos, a partir do preparo de soluções\nconcentradas que dificultavam o crescimento de micro-organismos e diminuíam a atividade da água.\nSobre o NaCl e suas aplicações, assinale a alternativa correta.\nA. ( ) A conservação de alimentos nas soluções concentradas de sal ocorre porque os micro-organismos\nnão conseguem sobreviver debaixo d’água.\nB. ( ) O cloreto de sódio, popularmente conhecido por sal de cozinha, é constituído a partir da ligação\ncovalente polar entre o sódio e o cloro, de modo que a densidade eletrônica é maior na região do\nsódio do que na do cloro.\nC. ( ) As células perdem água em meio à presença do sal, a partir de um processo chamado osmose,\nque resulta na desidratação dos micro-organismos, dificultando sua sobrevivência.\nD. ( ) O NaCl, formado por íons Na2+ e Cl-, é conhecido como sal de cozinha, mas possui nomenclatura\noficial de clorato de sódio.\nE. ( ) O sal de cozinha não possui ligações iônicas e, por isso, quando dissolvido em água, permanece\ncom sua estrutura molecular, sem dissociação em íons.\n\n\n",
+    "stem": "O sal de cozinha (NaCl) é amplamente utilizado no preparo de alimentos e, desde tempos mais remotos, sua utilização também servia para a conservação de alimentos, a partir do preparo de soluções concentradas que dificultavam o crescimento de micro-organismos e diminuíam a atividade da água. Sobre o NaCl e suas aplicações, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A conservação de alimentos nas soluções concentradas de sal ocorre porque os micro-organismos  não conseguem sobreviver debaixo d’água."
+      },
+      {
+        "letter": "B",
+        "text": "O cloreto de sódio, popularmente conhecido por sal de cozinha, é constituído a partir da ligação  covalente polar entre o sódio e o cloro, de modo que a densidade eletrônica é maior na região do  sódio do que na do cloro."
+      },
+      {
+        "letter": "C",
+        "text": "As células perdem água em meio à presença do sal, a partir de um processo chamado osmose,  que resulta na desidratação dos micro-organismos, dificultando sua sobrevivência."
+      },
+      {
+        "letter": "D",
+        "text": "O NaCl, formado por íons Na²⁺ e Cl⁻, é conhecido como sal de cozinha, mas possui nomenclatura  oficial de clorato de sódio."
+      },
+      {
+        "letter": "E",
+        "text": "O sal de cozinha não possui ligações iônicas e, por isso, quando dissolvido em água, permanece  com sua estrutura molecular, sem dissociação em íons."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 8 (nº 22 no caderno) ⚠",
+      "sha256": "5435c01c46d15634bb25cdb22a2d35ec9075f759b9cbb7fedb616987938d05c6",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-22",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — conferência Química",
+      "letter": "C"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-23",
+    "revision": "review-2026-10-05-quimica-2026-1-23",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 23,
+    "subjectNumber": 9,
+    "topics": [
+      "estequiometria"
+    ],
+    "skills": [
+      "balancear redução de óxido de ferro e calcular massa de produto"
+    ],
+    "rawText": "\n\nQuestão 23\nA produção do ferro metálico é de grande importância desde a revolução industrial. Esse processo, que é\nrealizado em siderúrgicas, ocorre pela reação de redução do óxido de ferro(III) pelo monóxido de carbono\ne pode ser representado pela equação (não balanceada) a seguir:\nFe2O3(s) + CO(g) → Fe(s) + CO2(g)\nConsiderando o uso de 320 g de Fe2O3 em uma siderúrgica, com um rendimento de 100%, assinale a\nalternativa que representa a quantidade de ferro metálico produzido.\nA. ( ) 112 g\nB. ( ) 224 g\nC. ( ) 56 g\nD. ( ) 320 g\nE. ( ) 11,2 g\n\n\n",
+    "stem": "A produção do ferro metálico é de grande importância desde a revolução industrial. Esse processo, que é realizado em siderúrgicas, ocorre pela reação de redução do óxido de ferro(III) pelo monóxido de carbono e pode ser representado pela equação (não balanceada) a seguir:  Fe₂O₃(s) + CO(g) → Fe(s) + CO₂(g) Considerando o uso de 320 g de Fe₂O₃ em uma siderúrgica, com um rendimento de 100%, assinale a alternativa que representa a quantidade de ferro metálico produzido.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "112 g"
+      },
+      {
+        "letter": "B",
+        "text": "224 g"
+      },
+      {
+        "letter": "C",
+        "text": "56 g"
+      },
+      {
+        "letter": "D",
+        "text": "320 g"
+      },
+      {
+        "letter": "E",
+        "text": "11,2 g"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 9 (nº 23 no caderno)",
+      "sha256": "e85dc4ec06be398d3ce7bb1522f8f0f935245d57f5fddcb7449d03a03e3d2c83",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 12
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-23",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — conferência Química",
+      "letter": "B"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-24",
+    "revision": "review-2026-10-05-quimica-2026-1-24",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 24,
+    "subjectNumber": 10,
+    "topics": [
+      "orgânica — funções e nomenclatura"
+    ],
+    "skills": [
+      "identificar substituintes, funções e fórmula a partir de estrutura orgânica"
+    ],
+    "rawText": "\n\nQuestão 24\nA molécula na Figura 3 atende pelo nome oficial: 1,4-bis[(propan-2-il)amino]-9,10-dihidroantracen-9,10diona, sendo conhecida comercialmente como Solvente Azul 36 (óleo azul A). Essa molécula pode ser\nempregada para gerar fumaça azul em fogos de artifício.\nFIGURA\nFigura 3 3\n\nConsidere as informações estruturais e assinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nPossui o substituinte isopropil ligado às aminas.\nPossui a função éster.\nTodos os carbonos da molécula estão hibridizados sp³.\nPossui a fórmula C20H20N2O2.\nApresenta massa molar 315,89 g/mol.\n\n\n",
+    "stem": "A molécula na Figura 3 atende pelo nome oficial: 1,4-bis[(propan-2-il)amino]-9,10-dihidroantracen-9,10-diona, sendo conhecida comercialmente como Solvente Azul 36 (óleo azul A). Essa molécula pode ser empregada para gerar fumaça azul em fogos de artifício.  \n\nConsidere as informações estruturais e assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Possui o substituinte isopropil ligado às aminas."
+      },
+      {
+        "letter": "B",
+        "text": "Possui a função éster."
+      },
+      {
+        "letter": "C",
+        "text": "Todos os carbonos da molécula estão hibridizados sp³."
+      },
+      {
+        "letter": "D",
+        "text": "Possui a fórmula C₂₀H₂₀N₂O₂."
+      },
+      {
+        "letter": "E",
+        "text": "Apresenta massa molar 315,89 g/mol."
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/quimica/udesc-2026-1-q24-p13-7673a4365c1c.png",
+        "alt": "Figura 3: estrutura do Solvente Azul 36 com duas carbonilas e dois grupos isopropilamino.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 13; recorte da figura original",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 10 (nº 24 no caderno)",
+      "sha256": "56c2fabfd16f5eada16307600e9b49bb82e4640552a8789f010daf125c55a41b",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-24",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — conferência Química",
+      "letter": "A"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-25",
+    "revision": "review-2026-10-05-quimica-2026-1-25",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 25,
+    "subjectNumber": 11,
+    "topics": [
+      "tabela periódica e propriedades"
+    ],
+    "skills": [
+      "explicar variação do raio atômico pela carga nuclear efetiva"
+    ],
+    "rawText": "\n\nQuestão 25\nEm 2019, foi celebrado o Ano Internacional da Tabela Periódica, lembrando os 150 anos da proposta de\nMendeleev. Desde então, novas aplicações têm ressaltado a importância das leis periódicas para\ncompreender a organização dos elementos e suas propriedades. Um exemplo atual é o uso crescente de\nterras-raras (lantanídeos), fundamentais para a fabricação de imãs permanentes em turbinas eólicas,\nmotores de carros elétricos e dispositivos eletrônicos.\nConsiderando os princípios da tabela periódica e as propriedades periódicas, assinale a alternativa correta\nsobre os elementos envolvidos.\nA. ( ) Os elementos lantanídeos ocupam a série dos actinídeos e apresentam propriedades químicas\nidênticas às do urânio.\nB. ( ) A energia de ionização tende a diminuir dentro de um mesmo período, já que os elétrons externos\nficam cada vez mais próximos do núcleo.\nC. ( ) A afinidade eletrônica é constante dentro de um mesmo grupo, sendo idêntica para todos os\nelementos.\nD. ( ) O aumento do caráter metálico ocorre da direita para a esquerda em um período e de cima para\nbaixo em um grupo, sem exceções conhecidas.\nE. ( ) A variação do raio atômico dentro de um período ocorre pela maior atração nuclear efetiva, fazendo\ncom que, mesmo com o aumento do número atômico, o tamanho do átomo diminua da esquerda\npara a direita.\n\n\n",
+    "stem": "Em 2019, foi celebrado o Ano Internacional da Tabela Periódica, lembrando os 150 anos da proposta de Mendeleev. Desde então, novas aplicações têm ressaltado a importância das leis periódicas para compreender a organização dos elementos e suas propriedades. Um exemplo atual é o uso crescente de terras-raras (lantanídeos), fundamentais para a fabricação de imãs permanentes em turbinas eólicas, motores de carros elétricos e dispositivos eletrônicos. Considerando os princípios da tabela periódica e as propriedades periódicas, assinale a alternativa correta sobre os elementos envolvidos.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Os elementos lantanídeos ocupam a série dos actinídeos e apresentam propriedades químicas  idênticas às do urânio."
+      },
+      {
+        "letter": "B",
+        "text": "A energia de ionização tende a diminuir dentro de um mesmo período, já que os elétrons externos  ficam cada vez mais próximos do núcleo."
+      },
+      {
+        "letter": "C",
+        "text": "A afinidade eletrônica é constante dentro de um mesmo grupo, sendo idêntica para todos os  elementos."
+      },
+      {
+        "letter": "D",
+        "text": "O aumento do caráter metálico ocorre da direita para a esquerda em um período e de cima para  baixo em um grupo, sem exceções conhecidas."
+      },
+      {
+        "letter": "E",
+        "text": "A variação do raio atômico dentro de um período ocorre pela maior atração nuclear efetiva, fazendo  com que, mesmo com o aumento do número atômico, o tamanho do átomo diminua da esquerda  para a direita."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 11 (nº 25 no caderno)",
+      "sha256": "9b264bbf17d0e607074b596c012bc441f6bd9823fc26292548b4d53a644f47d7",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 13
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-25",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — conferência Química",
+      "letter": "E"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-26",
+    "revision": "review-2026-10-05-quimica-2026-1-26",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 26,
+    "subjectNumber": 12,
+    "topics": [
+      "estrutura atômica"
+    ],
+    "skills": [
+      "comparar modelos atômicos e aplicar os princípios de configuração eletrônica"
+    ],
+    "rawText": "\n\nQuestão 26\nA compreensão da estrutura da matéria evoluiu com diferentes modelos atômicos até a atual organização\ndos elétrons em níveis e subníveis de energia. Essa evolução permitiu não apenas avanços na Química,\nmas também no desenvolvimento de novas tecnologias, como semicondutores empregados em painéis\nsolares e dispositivos eletrônicos. A correta atribuição da configuração eletrônica é fundamental para\nexplicar as propriedades periódicas e a reatividade química dos elementos.\nConsiderando os modelos atômicos e os princípios que regem a distribuição eletrônica, assinale a\nalternativa correta.\nA. ( ) No caso dos gases nobres, sua estabilidade é explicada apenas pelo modelo de Dalton, pois este\njá previa o octeto eletrônico como regra de máxima estabilidade.\nB. ( ) O modelo de Dalton explicava os espectros de emissão atômica ao considerar que os átomos\neram esferas maciças e indivisíveis, capazes de emitir radiação quando excitadas.\nC. ( ) Segundo a configuração eletrônica, o cobalto (Z = 27) termina em 3d⁶4s¹, o que justifica seu\ncaráter de elemento de transição estável e sem variações de estados de oxidação.\nD. ( ) O Princípio da Exclusão de Pauli admite que dois elétrons em um mesmo orbital podem ter todos\nos quatro números quânticos idênticos, desde que o spin seja paralelo.\nE. ( ) O modelo de Bohr explicou os espectros de emissão do átomo de hidrogênio e, a partir dele, a\nconfiguração eletrônica passou a ser organizada em níveis e subníveis de energia, permitindo\njustificar a semelhança química entre elementos de um mesmo grupo da Tabela Periódica.\n\n\n",
+    "stem": "A compreensão da estrutura da matéria evoluiu com diferentes modelos atômicos até a atual organização dos elétrons em níveis e subníveis de energia. Essa evolução permitiu não apenas avanços na Química, mas também no desenvolvimento de novas tecnologias, como semicondutores empregados em painéis solares e dispositivos eletrônicos. A correta atribuição da configuração eletrônica é fundamental para explicar as propriedades periódicas e a reatividade química dos elementos.\n\nConsiderando os modelos atômicos e os princípios que regem a distribuição eletrônica, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No caso dos gases nobres, sua estabilidade é explicada apenas pelo modelo de Dalton, pois este  já previa o octeto eletrônico como regra de máxima estabilidade."
+      },
+      {
+        "letter": "B",
+        "text": "O modelo de Dalton explicava os espectros de emissão atômica ao considerar que os átomos  eram esferas maciças e indivisíveis, capazes de emitir radiação quando excitadas."
+      },
+      {
+        "letter": "C",
+        "text": "Segundo a configuração eletrônica, o cobalto (Z = 27) termina em 3d⁶4s¹, o que justifica seu  caráter de elemento de transição estável e sem variações de estados de oxidação."
+      },
+      {
+        "letter": "D",
+        "text": "O Princípio da Exclusão de Pauli admite que dois elétrons em um mesmo orbital podem ter todos  os quatro números quânticos idênticos, desde que o spin seja paralelo."
+      },
+      {
+        "letter": "E",
+        "text": "O modelo de Bohr explicou os espectros de emissão do átomo de hidrogênio e, a partir dele, a  configuração eletrônica passou a ser organizada em níveis e subníveis de energia, permitindo  justificar a semelhança química entre elementos de um mesmo grupo da Tabela Periódica."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 12 (nº 26 no caderno)",
+      "sha256": "a664d12379205dc1930837944f5a28b69050801255e5d8187a8a44621103c3c2",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 14
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-26",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — conferência Química",
+      "letter": "E"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-27",
+    "revision": "review-2026-10-05-quimica-2026-1-27",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 27,
+    "subjectNumber": 13,
+    "topics": [
+      "eletroquímica"
+    ],
+    "skills": [
+      "identificar redução por diminuição do NOX e ganho de elétrons"
+    ],
+    "rawText": "\n\nQuestão 27\nNo tratamento de efluentes industriais, um dos maiores desafios é a presença de íons Cr 6+, geralmente\nencontrados na forma de cromato (CrO42-) ou dicromato (Cr2O72-), altamente tóxicos e cancerígenos.\nProcessos de oxirredução são empregados para converter o Cr6+ em Cr3+, forma menos solúvel e com\nmenor toxicidade, possibilitando sua precipitação e remoção. A compreensão das reações redox é\nfundamental não apenas para explicar esse processo, mas também para analisar fenômenos como a\ncorrosão e a eletrólise.\nCom base nesses conceitos, assinale a alternativa incorreta.\nA. ( ) O agente redutor utilizado em uma reação redox, como o Fe 2+ em presença de Cr6+, é a espécie\nque fornece elétrons, sofrendo oxidação e permitindo a redução do cromo.\nB. ( ) No processo de conversão ambientalmente relevante do Cr6+ para o Cr3+, o cromo sofre oxidação,\npois passa de um número de oxidação mais baixo para um mais elevado, caracterizando o ganho\nde elétrons.\nC. ( ) Em qualquer reação de oxirredução, uma variação simultânea de números de oxidação ocorre,\nsendo imprescindível a presença de um oxidante e de um redutor.\nD. ( ) O balanceamento de reações redox pelo método iônico-eletrônico em meio ácido envolve a adição\nde H2O, H+ e de elétrons, de modo a conservar tanto a massa quanto a carga elétrica.\nE. ( ) A eletrólise utilizada em processos industriais, como a galvanoplastia, corresponde a uma reação\nde oxirredução não espontânea, forçada pela aplicação de corrente elétrica externa.\n\n\n",
+    "stem": "No tratamento de efluentes industriais, um dos maiores desafios é a presença de íons Cr⁶⁺, geralmente encontrados na forma de cromato (CrO₄²⁻) ou dicromato (Cr₂O₇²⁻), altamente tóxicos e cancerígenos. Processos de oxirredução são empregados para converter o Cr⁶⁺ em Cr³⁺, forma menos solúvel e com menor toxicidade, possibilitando sua precipitação e remoção. A compreensão das reações redox é fundamental não apenas para explicar esse processo, mas também para analisar fenômenos como a corrosão e a eletrólise.\n\nCom base nesses conceitos, assinale a alternativa incorreta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O agente redutor utilizado em uma reação redox, como o Fe²⁺ em presença de Cr⁶⁺, é a espécie  que fornece elétrons, sofrendo oxidação e permitindo a redução do cromo."
+      },
+      {
+        "letter": "B",
+        "text": "No processo de conversão ambientalmente relevante do Cr⁶⁺ para o Cr³⁺, o cromo sofre oxidação,  pois passa de um número de oxidação mais baixo para um mais elevado, caracterizando o ganho  de elétrons."
+      },
+      {
+        "letter": "C",
+        "text": "Em qualquer reação de oxirredução, uma variação simultânea de números de oxidação ocorre,  sendo imprescindível a presença de um oxidante e de um redutor."
+      },
+      {
+        "letter": "D",
+        "text": "O balanceamento de reações redox pelo método iônico-eletrônico em meio ácido envolve a adição  de H₂O, H⁺ e de elétrons, de modo a conservar tanto a massa quanto a carga elétrica."
+      },
+      {
+        "letter": "E",
+        "text": "A eletrólise utilizada em processos industriais, como a galvanoplastia, corresponde a uma reação  de oxirredução não espontânea, forçada pela aplicação de corrente elétrica externa."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 13 (nº 27 no caderno)",
+      "sha256": "9ca1567638ac674f108d8eb0ccc2ff4207b270afa186183a6a48a268b1aea7fc",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 14
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-27",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — conferência Química",
+      "letter": "B"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-28",
+    "revision": "review-2026-10-05-quimica-2026-1-28",
+    "subject": "quimica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 28,
+    "subjectNumber": 14,
+    "topics": [
+      "radioatividade"
+    ],
+    "skills": [
+      "relacionar emissões nucleares às variações dos números atômico e de massa"
+    ],
+    "rawText": "\n\nQuestão 28\nA descoberta da radioatividade no final do século XIX, por Becquerel, e os estudos de Marie e Pierre Curie\nrevolucionaram a ciência ao revelar que alguns núcleos atômicos podem se transformar espontaneamente\nem outros núcleos, liberando energia. Atualmente, os conceitos de meia-vida, tipos de radiação e\ndecaimento radioativo têm aplicações que vão da medicina nuclear à datação de fósseis.\nConsiderando os fundamentos da radioatividade, assinale a alternativa correta.\nA. ( ) A radiação gama é constituída por partículas eletricamente carregadas, o que explica sua baixa\npenetração em tecidos biológicos.\nB. ( ) A radiação beta consiste na emissão de um pósitron (e+), resultante da transformação de um próton\nem nêutron dentro do núcleo.\nC. ( ) O tempo de meia-vida de um radioisótopo varia de acordo com as condições externas de pressão,\ntemperatura e estado físico da amostra.\nD. ( ) O decaimento alfa corresponde à emissão de uma partícula formada por dois prótons e dois\nnêutrons, provocando a redução de duas unidades no número atômico e de quatro unidades no\nnúmero de massa do núcleo instável.\nE. ( ) O processo de fissão nuclear espontânea ocorre sem necessidade de indução externa e gera\nprodutos mais leves, acompanhados da liberação de grande quantidade de energia.\n\n2025.2\nVestibular\n\nHISTÓRIA\n\n(9 questões)\n\n\n",
+    "stem": "A descoberta da radioatividade no final do século XIX, por Becquerel, e os estudos de Marie e Pierre Curie revolucionaram a ciência ao revelar que alguns núcleos atômicos podem se transformar espontaneamente em outros núcleos, liberando energia. Atualmente, os conceitos de meia-vida, tipos de radiação e decaimento radioativo têm aplicações que vão da medicina nuclear à datação de fósseis.\n\nConsiderando os fundamentos da radioatividade, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A radiação gama é constituída por partículas eletricamente carregadas, o que explica sua baixa  penetração em tecidos biológicos."
+      },
+      {
+        "letter": "B",
+        "text": "A radiação beta consiste na emissão de um pósitron (e+), resultante da transformação de um próton  em nêutron dentro do núcleo."
+      },
+      {
+        "letter": "C",
+        "text": "O tempo de meia-vida de um radioisótopo varia de acordo com as condições externas de pressão,  temperatura e estado físico da amostra."
+      },
+      {
+        "letter": "D",
+        "text": "O decaimento alfa corresponde à emissão de uma partícula formada por dois prótons e dois  nêutrons, provocando a redução de duas unidades no número atômico e de quatro unidades no  número de massa do núcleo instável."
+      },
+      {
+        "letter": "E",
+        "text": "O processo de fissão nuclear espontânea ocorre sem necessidade de indução externa e gera  produtos mais leves, acompanhados da liberação de grande quantidade de energia."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-quimica.md",
+      "section": "## [2026/1] questão 14 (nº 28 no caderno)",
+      "sha256": "6f37e1304de546636cce9dc4c8183a704bb1c4145e8437df6bde65e33b42f63a",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 15
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": true,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Química",
+      "reviewedAt": "2026-10-05T21:30:00Z"
+    },
+    "key": {
+      "revision": "official-26e69110d8cf-28",
+      "verified": true,
+      "source": ".agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73)",
+      "location": "p. 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — conferência Química",
+      "letter": "D"
+    },
+    "annulment": null,
+    "explanation": null,
+    "difficulty": "medium"
+  }
+]

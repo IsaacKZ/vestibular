@@ -1,0 +1,1304 @@
+{
+  "total": 420,
+  "bySubject": {
+    "matematica": 84,
+    "biologia": 84,
+    "portugues-literatura": 84,
+    "fisica": 84,
+    "quimica": 84
+  },
+  "byEdition": {
+    "2024/1": 70,
+    "2024/2": 70,
+    "2025/1": 70,
+    "2025/2": 70,
+    "2026/1": 70,
+    "2026/2": 70
+  },
+  "bySubjectEdition": {
+    "matematica": {
+      "2024/1": 14,
+      "2024/2": 14,
+      "2025/1": 14,
+      "2025/2": 14,
+      "2026/1": 14,
+      "2026/2": 14
+    },
+    "biologia": {
+      "2024/1": 14,
+      "2024/2": 14,
+      "2025/1": 14,
+      "2025/2": 14,
+      "2026/1": 14,
+      "2026/2": 14
+    },
+    "portugues-literatura": {
+      "2024/1": 14,
+      "2024/2": 14,
+      "2025/1": 14,
+      "2025/2": 14,
+      "2026/1": 14,
+      "2026/2": 14
+    },
+    "fisica": {
+      "2024/1": 14,
+      "2024/2": 14,
+      "2025/1": 14,
+      "2025/2": 14,
+      "2026/1": 14,
+      "2026/2": 14
+    },
+    "quimica": {
+      "2024/1": 14,
+      "2024/2": 14,
+      "2025/1": 14,
+      "2025/2": 14,
+      "2026/1": 14,
+      "2026/2": 14
+    }
+  },
+  "flags": {
+    "ocr": 168,
+    "uncertain": 68,
+    "both": 21,
+    "blocked": 215,
+    "candidates": 205
+  },
+  "ready": 78,
+  "practiceReady": 78,
+  "reservedReady": 0,
+  "blockedForTraining": 342,
+  "historicalFrequency": {
+    "label": "Contagens provisórias do mapa histórico",
+    "sampleSize": 420,
+    "editions": [
+      "2024/1",
+      "2024/2",
+      "2025/1",
+      "2025/2",
+      "2026/1",
+      "2026/2"
+    ],
+    "uncertainClassifications": 68,
+    "topics": [
+      {
+        "subject": "matematica",
+        "topic": "trigonometria",
+        "total": 8,
+        "proofs": 5,
+        "distribution": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "geometria analítica",
+        "total": 7,
+        "proofs": 5,
+        "distribution": [
+          1,
+          2,
+          2,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "geometria espacial",
+        "total": 7,
+        "proofs": 6,
+        "distribution": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "geometria plana",
+        "total": 7,
+        "proofs": 4,
+        "distribution": [
+          2,
+          2,
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "matrizes e determinantes",
+        "total": 7,
+        "proofs": 6,
+        "distribution": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "função exponencial",
+        "total": 5,
+        "proofs": 4,
+        "distribution": [
+          2,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "funções (conceito, domínio, gráficos)",
+        "total": 5,
+        "proofs": 4,
+        "distribution": [
+          0,
+          1,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "logaritmos",
+        "total": 5,
+        "proofs": 5,
+        "distribution": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "progressão geométrica",
+        "total": 5,
+        "proofs": 4,
+        "distribution": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "análise combinatória",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "equações e inequações",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "função quadrática",
+        "total": 4,
+        "proofs": 3,
+        "distribution": [
+          2,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "estatística",
+        "total": 3,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "polinômios",
+        "total": 3,
+        "proofs": 3,
+        "distribution": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "probabilidade",
+        "total": 3,
+        "proofs": 3,
+        "distribution": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "progressão aritmética",
+        "total": 3,
+        "proofs": 3,
+        "distribution": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "porcentagem, juros e proporção",
+        "total": 2,
+        "proofs": 2,
+        "distribution": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "matematica",
+        "topic": "sistemas lineares",
+        "total": 2,
+        "proofs": 2,
+        "distribution": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "fisiologia humana",
+        "total": 12,
+        "proofs": 6,
+        "distribution": [
+          2,
+          3,
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "ecologia",
+        "total": 10,
+        "proofs": 6,
+        "distribution": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "botânica",
+        "total": 7,
+        "proofs": 5,
+        "distribution": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "saúde, doenças e parasitoses",
+        "total": 6,
+        "proofs": 5,
+        "distribution": [
+          0,
+          1,
+          1,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "zoologia — vertebrados",
+        "total": 6,
+        "proofs": 4,
+        "distribution": [
+          0,
+          0,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "genética molecular (dna, rna, síntese proteica)",
+        "total": 5,
+        "proofs": 4,
+        "distribution": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          2
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "taxonomia e classificação",
+        "total": 5,
+        "proofs": 3,
+        "distribution": [
+          1,
+          0,
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "citologia (estruturas e organelas)",
+        "total": 4,
+        "proofs": 2,
+        "distribution": [
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "evolução",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "genética mendeliana",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "metabolismo energético (respiração, fotossíntese, fermentação)",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "zoologia — invertebrados",
+        "total": 4,
+        "proofs": 3,
+        "distribution": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "histologia",
+        "total": 3,
+        "proofs": 2,
+        "distribution": [
+          2,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "microbiologia (vírus, bactérias, protozoários, fungos)",
+        "total": 3,
+        "proofs": 3,
+        "distribution": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "bioquímica celular (água, sais, glicídios, lipídios, proteínas, vitaminas)",
+        "total": 2,
+        "proofs": 1,
+        "distribution": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "origem da vida",
+        "total": 2,
+        "proofs": 2,
+        "distribution": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "biotecnologia e engenharia genética",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "divisão celular (mitose e meiose)",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "biologia",
+        "topic": "embriologia",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "literatura — obras obrigatórias",
+        "total": 35,
+        "proofs": 6,
+        "distribution": [
+          10,
+          5,
+          4,
+          7,
+          5,
+          4
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "interpretação de texto",
+        "total": 15,
+        "proofs": 6,
+        "distribution": [
+          2,
+          3,
+          1,
+          2,
+          2,
+          5
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "morfologia (classes de palavras)",
+        "total": 8,
+        "proofs": 5,
+        "distribution": [
+          2,
+          1,
+          3,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "semântica (sentido, ambiguidade, figuras de linguagem)",
+        "total": 5,
+        "proofs": 3,
+        "distribution": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "sintaxe (período, oração, termos)",
+        "total": 5,
+        "proofs": 3,
+        "distribution": [
+          0,
+          2,
+          2,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "coesão e coerência",
+        "total": 4,
+        "proofs": 3,
+        "distribution": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "literatura — teoria literária e versificação",
+        "total": 3,
+        "proofs": 3,
+        "distribution": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "ortografia e acentuação",
+        "total": 3,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "concordância",
+        "total": 2,
+        "proofs": 2,
+        "distribution": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "gêneros e tipos textuais",
+        "total": 2,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "literatura — escolas literárias",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "portugues-literatura",
+        "topic": "variação linguística",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "cinemática",
+        "total": 8,
+        "proofs": 6,
+        "distribution": [
+          2,
+          1,
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "dinâmica (leis de newton)",
+        "total": 8,
+        "proofs": 6,
+        "distribution": [
+          1,
+          1,
+          3,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "trabalho, energia e potência",
+        "total": 8,
+        "proofs": 5,
+        "distribution": [
+          0,
+          1,
+          3,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "calorimetria",
+        "total": 7,
+        "proofs": 6,
+        "distribution": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "eletrodinâmica (circuitos)",
+        "total": 7,
+        "proofs": 5,
+        "distribution": [
+          2,
+          2,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "física moderna",
+        "total": 6,
+        "proofs": 6,
+        "distribution": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "acústica",
+        "total": 5,
+        "proofs": 4,
+        "distribution": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "gravitação",
+        "total": 5,
+        "proofs": 5,
+        "distribution": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "termodinâmica",
+        "total": 5,
+        "proofs": 5,
+        "distribution": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "eletrostática",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "hidrostática",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "óptica",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "quantidade de movimento e impulso",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "eletromagnetismo",
+        "total": 3,
+        "proofs": 3,
+        "distribution": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "ondulatória",
+        "total": 3,
+        "proofs": 2,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "estática e equilíbrio",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "estudo dos gases",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "fisica",
+        "topic": "termometria e dilatação",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "estequiometria",
+        "total": 8,
+        "proofs": 6,
+        "distribution": [
+          2,
+          1,
+          1,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "soluções e concentração",
+        "total": 8,
+        "proofs": 5,
+        "distribution": [
+          2,
+          1,
+          1,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "tabela periódica e propriedades periódicas",
+        "total": 8,
+        "proofs": 6,
+        "distribution": [
+          1,
+          1,
+          2,
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "orgânica — funções e nomenclatura",
+        "total": 7,
+        "proofs": 6,
+        "distribution": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "eletroquímica",
+        "total": 6,
+        "proofs": 5,
+        "distribution": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "estrutura atômica",
+        "total": 6,
+        "proofs": 6,
+        "distribution": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "forças intermoleculares",
+        "total": 6,
+        "proofs": 4,
+        "distribution": [
+          2,
+          2,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "ligações químicas",
+        "total": 6,
+        "proofs": 5,
+        "distribution": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "cinética química",
+        "total": 5,
+        "proofs": 4,
+        "distribution": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "propriedades coligativas",
+        "total": 4,
+        "proofs": 3,
+        "distribution": [
+          0,
+          2,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "radioatividade",
+        "total": 4,
+        "proofs": 4,
+        "distribution": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "funções inorgânicas",
+        "total": 3,
+        "proofs": 3,
+        "distribution": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "reações inorgânicas",
+        "total": 3,
+        "proofs": 2,
+        "distribution": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "equilíbrio químico",
+        "total": 2,
+        "proofs": 2,
+        "distribution": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "geometria molecular e polaridade",
+        "total": 2,
+        "proofs": 2,
+        "distribution": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "polímeros e bioquímica",
+        "total": 2,
+        "proofs": 2,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "equilíbrio iônico e ph",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "orgânica — reações",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "outro: química ambiental (resíduos sólidos e chorume)",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "subject": "quimica",
+        "topic": "termoquímica",
+        "total": 1,
+        "proofs": 1,
+        "distribution": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "udesc-2025-2-vespertino-01",
+    "explanation": {
+      "text": "Converta 225 km/h para 62,5 m/s: a reta demora 500/62,5 = 8 s. Na pit lane o carro se move por 22 − 2 = 20 s, a 60/3,6 = 16,67 m/s; percorre 333,33 m. O percurso total é 833,33 m e o tempo total inclui a parada: 8 + 22 = 30 s. Assim, vₘ = 833,33/30 = 27,78 m/s = 100 km/h. Alternativa C. Não se faz a média aritmética das duas velocidades.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 3; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 1; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-02",
+    "explanation": {
+      "text": "Use a massa numérica fornecida, 40.824 kg para cada locomotiva, e v = 100/3,6 = 27,78 m/s. A energia cinética total é 2 × (mv²/2) = 40.824 × (100/3,6)² = 3,15 × 10⁷ J. Dividindo pela energia de uma banana de dinamite: N = 3,15 × 10⁷/(3,5 × 10⁶) = 9. Alternativa D. A expressão “40 toneladas” é aproximada no enunciado; adotar 40.000 kg também resulta em aproximadamente 9 bananas.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 3; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 2; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-03",
+    "explanation": {
+      "text": "Em uma colisão frontal perfeitamente elástica entre massas iguais, as velocidades são trocadas. Pela conservação do momento, v₁′ + v₂′ = 3 m/s; pela conservação da energia cinética, v₁′² + v₂′² = 9 m²/s². A solução após o choque é v₁′ = 0 e v₂′ = 3 m/s, no sentido inicial da bola branca. Alternativa A.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 4; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 3; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-04",
+    "explanation": {
+      "text": "Na vertical, F cos α = mg; na horizontal, Fc = F sen α. Portanto Fc = mg tan α. Com g = 10 m/s² (formulário do caderno) e α = 45°, Fc = 12000 × 10 × 1 = 1,2 × 10⁵ N. De Fc = mv²/R, v = √(Fc R/m) = √10000 = 100 m/s = 360 km/h. Alternativa E.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 4; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 4; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-05",
+    "explanation": {
+      "text": "Para movimento circular, a꜀ = 4π²R/T². Converta R = 384.400 km = 3,844 × 10⁸ m e T = 27,3 × 86400 = 2.358.720 s. Logo a꜀ = 4π² × 3,844 × 10⁸/(2.358.720)² ≈ 2,73 × 10⁻³ m/s², ou 0,0027 m/s². Alternativa A.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 5; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-06",
+    "explanation": {
+      "text": "A diferença dos comprimentos finais é L₀(αlatão − αCu)ΔT. Como ΔT = 110 − 10 = 100 °C e a diferença é 1 mm = 10⁻³ m, temos 10⁻³ = L₀ × (20 − 16) × 10⁻⁶ × 100. Logo L₀ = 10⁻³/(4 × 10⁻⁴) = 2,5 m. Alternativa B.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 6; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-07",
+    "explanation": {
+      "text": "Pelo valor de conversão dado no enunciado, Q = 50.000 J/4 = 12.500 cal. Como Q = mcΔT, ΔT = 12.500/(500 × 1) = 25 °C. A temperatura final é T = 5 + 25 = 30 °C. Alternativa D. O aumento de temperatura deve ser somado à temperatura inicial.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 7; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-08",
+    "explanation": {
+      "text": "O rendimento máximo é η = 1 − Tfria/Tquente, com temperaturas em kelvin. Assim Tfria = 18 + 273 = 291 K e Tquente = 115 + 273 = 388 K. η = 1 − 291/388 = 0,25 = 25%. Alternativa E. Usar diretamente temperaturas em °C nessa razão dá um resultado incorreto.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 6; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 8; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-09",
+    "explanation": {
+      "text": "I é verdadeira: o movimento molecular é aleatório. II é falsa: colisões com paredes são perfeitamente elásticas no modelo ideal, sem essa perda de energia cinética. III é falsa: há uma distribuição de velocidades; aquecer aumenta a energia cinética média, não igualmente a velocidade de cada molécula. IV é verdadeira: a pressão decorre da transferência de momento às paredes. V é verdadeira, pois ⟨Ec⟩ = (3/2)kT. São verdadeiras I, IV e V: alternativa C.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 6; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 9; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-11",
+    "explanation": {
+      "text": "As duas ondas percorrem a mesma distância d. Como o som no solo é mais rápido, Δt = d/340 − d/500 = 0,2 × 10⁻³ s. Logo d = 0,0002/(1/340 − 1/500) = 0,2125 m = 21,25 cm. Alternativa E. Milissegundo deve ser convertido para segundo antes do cálculo.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 11; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-12",
+    "explanation": {
+      "text": "No resistor de 1 Ω, U = RI = 1 × 2 = 2 V. O resistor de 2/3 Ω está em paralelo e recebe os mesmos 2 V: sua corrente é 2/(2/3) = 3 A. A corrente total nos dois resistores de 1/5 Ω é 2 + 3 = 5 A. Cada um tem queda de tensão (1/5) × 5 = 1 V. A fonte fornece ε = 1 + 2 + 1 = 4 V. Alternativa C.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 12; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-13",
+    "explanation": {
+      "text": "A figura fornece incidência de 45° e refração de 38°, ambos em relação à normal. Pela lei de Snell, nar sen 45° = nlíquido sen 38°. Logo nlíquido = 1,0 × sen 45°/sen 38° ≈ 0,7071/0,6157 = 1,148. O índice de refração é adimensional. Alternativa B.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 8; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 13; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-14",
+    "explanation": {
+      "text": "I é verdadeira: elétrons podem formar padrões de interferência na dupla fenda. II é verdadeira: a luz transfere energia em fótons. III é falsa: a dualidade não se restringe a partículas carregadas, ocorrendo também com partículas neutras. IV é verdadeira: λ = h/p fornece o comprimento de onda de de Broglie e a escala relevante para interferência. V é falsa: localizar melhor a partícula aumenta a incerteza do momento, sem a conclusão de intensificação ondulatória afirmada. São verdadeiras I, II e IV: alternativa B.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 8; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 14; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-01",
+    "explanation": {
+      "text": "Na relatividade geral, massas e energia alteram a geometria do espaço-tempo. Sistemas acelerados, como dois buracos negros em colisão, podem produzir ondas gravitacionais que se propagam por esse espaço-tempo. A observação dessas ondas pelo LIGO confirmou essa previsão da relatividade geral. Alternativa D.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 1; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-02",
+    "explanation": {
+      "text": "As duas caixas aceleram juntas: a = F/(m₁ + m₂) = 30/(5 + 10) = 2 m/s². Na caixa de 10 kg, a única força horizontal é a força de contato exercida pela primeira caixa: Fc = m₂a = 10 × 2 = 20 N. Alternativa C. A força aplicada de 30 N acelera ambas, por isso não é igual à força de contato.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 2; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-03",
+    "explanation": {
+      "text": "Adiabática significa ausência de troca de calor: Q = 0. Pela primeira lei, ΔU = Q − W, em que W é o trabalho realizado pelo gás. Durante a compressão, W < 0, pois o meio realiza trabalho sobre o gás. Logo ΔU = −W > 0: a energia interna aumenta porque o gás recebe trabalho. Alternativa E.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 3; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-04",
+    "explanation": {
+      "text": "Sem força externa horizontal resultante, conserva-se a quantidade de movimento: 2 × 15 + 3 × 0 = (2 + 3)Vf. Portanto Vf = 30/5 = 6,0 m/s no sentido do movimento inicial. Alternativa A. A energia cinética não se conserva nessa colisão, pois as caixas ficam aderidas.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 4; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-05",
+    "explanation": {
+      "text": "O plano é liso, portanto não há perda por atrito. Pela conservação da energia mecânica, mgh = mv²/2. A massa se cancela e v = √(2gh) = √(2 × 10 × 20) = 20 m/s. Alternativa B. A velocidade depende da altura, não do comprimento do plano.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 5; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-06",
+    "explanation": {
+      "text": "O James Webb observa principalmente radiação infravermelha. Objetos frios emitem fortemente nessa faixa; além disso, a luz de galáxias muito distantes sofre desvio para comprimentos de onda maiores pela expansão do Universo. Isso permite estudar objetos distantes e frios. Alternativa E.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 6; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-07",
+    "explanation": {
+      "text": "Na superfície, g = GM/R². Na órbita de raio 2R, a aceleração é górbita = GM/(2R)² = GM/(4R²) = g/4. Alternativa A. Dobrar o raio reduz a gravidade a um quarto, pela dependência com o quadrado da distância.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 7; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-08",
+    "explanation": {
+      "text": "Na extremidade fechada há um nó de deslocamento e na aberta, um ventre. No modo fundamental, o comprimento do tubo corresponde a um quarto de comprimento de onda: L = λ/4. Assim λ = 4L e f = v/λ = v/(4L). Alternativa C. A frequência tem unidade s⁻¹, ou hertz.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 8; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-09",
+    "explanation": {
+      "text": "O corpo está em equilíbrio, então qE = mg. Converta m = 20 g = 0,020 kg e q = 4,0 μC = 4,0 × 10⁻⁶ C. Usando g = 10 m/s² do formulário, E = 0,020 × 10/(4,0 × 10⁻⁶) = 5,0 × 10⁴ N/C. Alternativa B. A carga positiva recebe força elétrica para cima, oposta ao peso.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 9; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-10",
+    "explanation": {
+      "text": "Em flutuação, o empuxo equilibra o peso: ρlíquido g Vsub = mg. Logo Vsub = m/ρlíquido = 480/1,6 = 300 cm³. Esse volume é menor que os 600 cm³ totais, confirmando que o objeto pode flutuar parcialmente submerso. Alternativa D.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 10; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-11",
+    "explanation": {
+      "text": "A figura mostra as lâmpadas em paralelo; cada uma recebe 120 V. Use P = UI: para a lâmpada de 60 W, I = 60/120 = 0,5 A; para a de 100 W, I = 100/120 ≈ 0,83 A. Alternativa B. Correntes diferentes são possíveis porque os ramos em paralelo têm resistências diferentes.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 6; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 11; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-12",
+    "explanation": {
+      "text": "Pela relação Q = mc(Tf − Ti), ΔT = 1800/(200 × 0,90) = 10 °C. Então Tf = 20 + 10 = 30 °C. Alternativa D. As unidades em cal e g já são compatíveis com o calor específico fornecido.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 6; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 12; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-13",
+    "explanation": {
+      "text": "Para lançamento e queda no mesmo nível, R = v₀² sen(2θ)/g. Com v₀ = 20 m/s e θ = 45°, sen 90° = 1, então R = 20²/10 = 40 m. Alternativa A. A 45°, esse alcance também é o máximo para a velocidade dada.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 7; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 13; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-14",
+    "explanation": {
+      "text": "Converta a velocidade: 5400 km/h ÷ 3,6 = 1500 m/s. O intervalo de 0,40 s inclui ida e volta do som, então 2d = vt. Logo d = 1500 × 0,40/2 = 300 m. Alternativa C. Usar vt sem dividir por dois dá o percurso total do pulso, não a distância até a parede.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 7; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 14; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    }
+  }
+]

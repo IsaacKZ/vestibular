@@ -1,0 +1,277 @@
+[
+  {
+    "id": "udesc-2025-2-vespertino-15",
+    "explanation": {
+      "text": "A reação global é Al₂(SO₄)₃ + 3 CaO + 3 H₂O → 2 Al(OH)₃ + 3 CaSO₄. Um mol de sulfato de alumínio (342 g/mol) exige 3 mol de CaO (3 × 56 = 168 g). Assim, m(CaO) = 30 kg × 168/342 = 14,74 kg, aproximadamente 14,75 kg. A alternativa B preserva a proporção 1:3; usar apenas 56/342 daria 4,92 kg e esqueceria o coeficiente do óxido.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 12; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 15, alternativa B.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-16",
+    "explanation": {
+      "text": "O Cl₂O tem oxigênio central com dois pares ligantes e dois pares não ligantes: sua geometria é angular e a molécula é polar, tornando I falsa. Como 2x − 2 = 0, cada Cl tem NOX +1 (II verdadeira). A reação Cl₂O + 2 NaOH → 2 NaClO + H₂O produz hipoclorito (III), espécie oxidante com ação bactericida e branqueadora (IV). Para V, 87 g correspondem aproximadamente a 1 mol; V = nRT/P = 1 × 0,082 × 323/0,1 ≈ 265 L, não 26 L. Logo são verdadeiras II, III e IV: D.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 12; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 16, alternativa D.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-17",
+    "explanation": {
+      "text": "Cada fórmula de CaCO₃ e de Ca(NO₃)₂ contém um Ca, portanto a concentração equivalente dos sais é 4,00 × 10⁻⁴ mol/L. M(CaCO₃) = 40 + 12 + 3 × 16 = 100 g/mol; sua concentração é 4,00 × 10⁻⁴ × 100 = 0,0400 g/L = 40,0 mg/L. M[Ca(NO₃)₂] = 40 + 2(14 + 3 × 16) = 164 g/mol; resulta 0,0656 g/L = 65,6 mg/L. O par é o da alternativa B.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 12; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 17, alternativa B.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-18",
+    "explanation": {
+      "text": "A espontaneidade a temperatura e pressão constantes é determinada por ΔG < 0; no contexto dos estados padrão da alternativa, os produtos têm menor energia livre que os reagentes. Isso não garante reação rápida: uma barreira de ativação alta pode tornar o processo lento. Por isso E é a correta. A temperatura aumenta a fração de moléculas com energia suficiente, sem necessariamente reduzir a energia de ativação. K descreve a composição do equilíbrio e não a rapidez; a lei de velocidade precisa de determinação experimental para reações não elementares. A energia de ativação é a diferença entre o estado de transição e os reagentes, e não entre produtos e reagentes.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 13; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 18, alternativa E.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-19",
+    "explanation": {
+      "text": "I é verdadeira: o carbono reduz SiO₂ em alta temperatura, conforme SiO₂ + 2 C → Si + 2 CO. II é falsa: [Ne]3s²3p² mostra quatro elétrons de valência, e o silício tipicamente forma quatro ligações. III inverte os agentes: o Si passa de NOX 0 a positivo em SiHCl₃ e é oxidado; o hidrogênio do ácido é reduzido a H₂. Logo o Si atua como redutor. IV é verdadeira: a eletronegatividade do Si é menor que a do C, acima dele no grupo, e maior que a do Al, à sua esquerda no período. Verdadeiras I e IV: C.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 13; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 19, alternativa C.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-20",
+    "explanation": {
+      "text": "Pelas definições usadas na tabela, ácidos liberam H⁺ em água (1–A), bases formam OH⁻ (2–B), sais correspondem aos produtos iônicos de neutralização (3–C), e óxidos reativos com água podem formar ácidos ou bases (4–D). Exemplos: HCl → H⁺ + Cl⁻; NaOH → Na⁺ + OH⁻; HCl + NaOH → NaCl + H₂O; CaO + H₂O → Ca(OH)₂. A sequência é 1–A, 2–B, 3–C, 4–D, alternativa A. A descrição da tabela é uma simplificação: nem todo óxido reage com água.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 14; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 20, alternativa A.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-22",
+    "explanation": {
+      "text": "Converta os volumes: 200 mL = 0,200 L e 500 mL = 0,500 L. A primeira solução contém 150 g/L × 0,200 L = 30 g de NaCl; a segunda, 80 g/L × 0,500 L = 40 g. Com volumes aditivos, a mistura tem 70 g em 0,700 L. Portanto C = 70/0,700 = 100 g/L, alternativa B. Não se usa a média simples das concentrações porque os volumes são diferentes.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 15; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 22, alternativa B.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-23",
+    "explanation": {
+      "text": "A ligação O–H da água permite ligações de hidrogênio entre suas moléculas. Essa interação explica a alta tensão superficial e o ponto de ebulição relativamente elevado, sustentando A. CO₂ é linear e apolar; CH₄ e butano também são apolares, logo suas atrações principais são forças de London, não dipolo-dipolo. O etanol possui O–H e também forma ligações de hidrogênio; seu comportamento não decorre da ausência de interações.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 15; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 23, alternativa A.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-24",
+    "explanation": {
+      "text": "A tendência geral é aumento da eletronegatividade da esquerda para a direita em um período e de baixo para cima em um grupo. A energia de ionização segue tendência geral semelhante. Portanto a direção vertical descrita em A está invertida, tornando-a a incorreta solicitada. F é o elemento mais eletronegativo; diferenças de eletronegatividade influenciam o caráter e a polaridade das ligações. Metais alcalinos perdem elétrons com facilidade e formam cátions.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 15; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 24, alternativa A.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-25",
+    "explanation": {
+      "text": "D é incorreta porque o modelo de Bohr tem relevância direta para a Química: níveis eletrônicos quantizados ajudam a explicar os espectros de emissão e absorção, e a evolução da compreensão da estrutura eletrônica. Sua aplicação mais bem-sucedida é o átomo de hidrogênio. Os demais itens associam corretamente Dalton à teoria atômica, Lavoisier à conservação da massa, Mendeleev à organização periódica e previsões, e Thomson à descoberta do elétron.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 16; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 25, alternativa D.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-26",
+    "explanation": {
+      "text": "C é incorreta: partículas alfa (núcleos de ⁴He, com dois prótons e dois nêutrons) têm baixo poder de penetração e podem ser barradas por papel ou pela camada superficial da pele. Sua alta ionização torna perigosa a incorporação do emissor por ingestão ou inalação. Beta possui penetração intermediária e gama é muito mais penetrante, exigindo blindagem apropriada. Assim, dizer que alfa é a mais penetrante inverte a ordem usual α < β < γ.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 16; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 26, alternativa C.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-27",
+    "explanation": {
+      "text": "A estrutura NH₂–C(=NH)–N(CH₃)–CH₂–COOH contém grupos nitrogenados e a carboxila –C(=O)OH, de ácido carboxílico. Dentro da classificação escolar apresentada, isso corresponde a E. O carbono da carboxila faz uma ligação dupla C=O e uma simples C–OH, eliminando A. Amida exige N ligado diretamente ao carbono de uma carbonila, o que não ocorre nessa estrutura. A carbonila da carboxila não é cetona, e as ligações representadas na molécula neutra são covalentes.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 17; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 27, alternativa E.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-28",
+    "explanation": {
+      "text": "Óxidos de enxofre e de nitrogênio podem gerar ácidos na atmosfera. Por exemplo, SO₃ + H₂O → H₂SO₄. A acidificação reduz o pH de águas e solos, prejudicando organismos. Materiais carbonatados sofrem ataque: CaCO₃ + 2 H⁺ → Ca²⁺ + CO₂ + H₂O. Logo E descreve os efeitos corretos. CO₂ em água forma ácido carbônico, não nítrico; pH 11 caracteriza meio básico; a queima de combustíveis é uma importante fonte humana desses óxidos.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, p. 17; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito2_2025.pdf (SHA-256 a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6), p. 1, Período Vespertino, Química, questão 28, alternativa E.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-15",
+    "explanation": {
+      "text": "A figura mostra quatro carbonos na creatina: carbono guanidínico, CH₃, CH₂ e carboxila. Sua fórmula é C₄H₉N₃O₂·H₂O, logo I, que traz C₃, é falsa. O produto tem carga positiva no grupo nitrogenado e negativa na carboxila, caracterizando o zwitteríon (II). Creatina não é proteína e não constitui suplementação proteica (III falsa); participa do sistema creatina/fosfocreatina de fornecimento rápido de energia. O N da sarcosina se liga ao C da cianamida, com reorganização da ligação C≡N para C=N (IV). Não há transferência líquida de elétrons nem mudança de NOX que caracterize oxirredução (V falsa). Somente II e IV são verdadeiras: C.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 9; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 15, alternativa C.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-16",
+    "explanation": {
+      "text": "A é a incorreta. No carbono aromático ligado a OH, a ligação C–O contribui +1 ao NOX do carbono e as ligações C–C contribuem zero, resultando +1. Na quinona, a ligação dupla C=O contribui +2. Logo os valores são +1 e +2, e não −1 e −2: o carbono é oxidado. O oxigênio do ar permite o processo; diminuir sua exposição ou adicionar ácido ascórbico, redutor, limita o escurecimento. A enzima fornece um caminho de menor energia de ativação e acelera a reação, sem inverter esses estados de oxidação.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 9; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 16, alternativa A.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-18",
+    "explanation": {
+      "text": "D é a incorreta: pneus usados podem originar produtos úteis, como borracha moída para pavimentos e outros materiais, produtos da pirólise e borracha recuperada por desvulcanização. A vulcanização cria ligações cruzadas contendo enxofre; romper ligações S–S e C–S ajuda a recuperar o material. Reciclar também reduz o descarte de pneus que acumulam água e favorecem mosquitos, e diminui a demanda por matérias-primas naturais. Logo não se pode afirmar que a transformação em produtos úteis seja ineficaz.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 10; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 18, alternativa D.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-19",
+    "explanation": {
+      "text": "Em I, o vapor de água do ar perde energia ao tocar a parede fria do copo e condensa, formando gotas externas. O vidro não precisa deixar o suco atravessá-lo. Em II, a energia térmica se propaga por condução no metal; elétrons móveis e vibrações da rede metálica contribuem para o transporte. Portanto A é correta. Fusão é passagem de sólido a líquido, convecção envolve movimento de fluido e a colher metálica não possui ligações iônicas responsáveis por esse aquecimento.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 11; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 19, alternativa A.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-20",
+    "explanation": {
+      "text": "A dissolução é exotérmica: CO₂(g) ⇌ CO₂(aq) + calor. Ao reduzir a temperatura, a retirada de calor favorece o sentido que o produz, aumentando a quantidade de CO₂ dissolvido. Na equação escrita no enunciado, isso corresponde ao deslocamento para a esquerda. Logo B é correta. Resfriar não transforma o processo em endotérmico nem deixa o equilíbrio inalterado.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 11; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 20, alternativa B.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-21",
+    "explanation": {
+      "text": "D é correta porque, na faixa adequada à atividade das bactérias, o aumento de temperatura eleva a energia cinética e aumenta a frequência de eventos capazes de superar a barreira de ativação, acelerando a decomposição. Metano é combustível: CH₄ + 2 O₂ → CO₂ + 2 H₂O. Bactérias anaeróbicas atuam sem necessidade de oxigênio, e compactar o resíduo diminui o contato com o ar; não é um modo de aumentar sua superfície de contato com oxigênio.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 12; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 21, alternativa D.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-22",
+    "explanation": {
+      "text": "C é correta: uma solução concentrada de NaCl é hipertônica em relação ao interior de muitas células microbianas. A água atravessa a membrana para o meio externo por osmose, causando desidratação e dificultando o crescimento. O sal também reduz a atividade da água disponível. NaCl é um sólido iônico que se dissocia em Na⁺ e Cl⁻; não contém Na²⁺ e seu nome é cloreto, não clorato de sódio.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 12; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 22, alternativa C.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-23",
+    "explanation": {
+      "text": "Balanceando: Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂. A massa molar de Fe₂O₃ é 2 × 56 + 3 × 16 = 160 g/mol, então 320 g correspondem a 2 mol de óxido. Pela proporção 1:2, produzem-se 4 mol de Fe. Com rendimento de 100%, m(Fe) = 4 × 56 = 224 g, alternativa B. A massa do óxido inclui oxigênio, portanto não se transforma integralmente em massa de ferro.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 12; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 23, alternativa B.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-24",
+    "explanation": {
+      "text": "Cada grupo ligado ao nitrogênio tem a estrutura –CH(CH₃)₂, chamada isopropil ou propan-2-il; portanto A é correta. A figura contém duas carbonilas de cetona, não éster, e carbonos aromáticos e carbonílicos sp², além dos carbonos sp³ dos isopropis. A fórmula é C₂₀H₂₂N₂O₂: o esqueleto antraquinônico substituído tem C₁₄H₆O₂, somado a dois grupos –NH–C₃H₇. Sua massa molar aproximada é 20 × 12 + 22 × 1 + 2 × 14 + 2 × 16 = 322 g/mol, cerca de 322,4 g/mol com massas mais precisas, eliminando D e E.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 13; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 24, alternativa A.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-25",
+    "explanation": {
+      "text": "E descreve a tendência geral correta: ao avançar num período, aumenta a carga nuclear enquanto os elétrons adicionados ocupam a mesma camada principal. A blindagem não compensa totalmente esse aumento, de modo que a atração nuclear efetiva cresce e o raio diminui. Lantanídeos e actinídeos são séries distintas; a energia de ionização tende a aumentar ao longo de um período, e a afinidade eletrônica varia entre elementos. Tendências de caráter metálico são gerais, e a afirmação absoluta “sem exceções conhecidas” em D não é adequada.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 13; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 25, alternativa E.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-26",
+    "explanation": {
+      "text": "E reúne a explicação de Bohr para o espectro do hidrogênio e a evolução posterior para níveis e subníveis eletrônicos, que permite relacionar configurações de valência semelhantes às propriedades de um grupo. Subníveis e orbitais pertencem aos aperfeiçoamentos posteriores, não ao modelo original de Bohr. Dalton não tinha elétrons ou octeto em sua teoria. O Co (Z = 27) tem configuração fundamental [Ar]3d⁷4s², e apresenta diferentes NOX. Pauli proíbe dois elétrons com os quatro números quânticos iguais; num mesmo orbital, seus spins são opostos.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 14; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 26, alternativa E.",
+      "reviewer": "Codex — conferência Química"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-27",
+    "explanation": {
+      "text": "B é a incorreta: passar de Cr(VI) a Cr(III) diminui o NOX de +6 para +3 e implica ganho de três elétrons por átomo de cromo, portanto é redução. Em meio ácido, por exemplo, Cr₂O₇²⁻ + 14 H⁺ + 6 e⁻ → 2 Cr³⁺ + 7 H₂O. Um redutor como Fe²⁺ fornece elétrons e é oxidado: Fe²⁺ → Fe³⁺ + e⁻. O balanceamento conserva átomos e carga, e a eletrólise força uma reação redox por energia elétrica externa.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, p. 14; gabarito oficial: .agents/skills/udesc-vestibular/references/gabaritos/gabarito1_2026.pdf (SHA-256 26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73), p. 1, Período Vespertino, Química, questão 27, alternativa B.",
+      "reviewer": "Codex — conferência Química"
+    }
+  }
+]

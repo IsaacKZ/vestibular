@@ -1,0 +1,79 @@
+[
+  {
+    "id": "udesc-2024-1-uploaded-49f4395f7443",
+    "edition": "2024/1",
+    "file": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+    "sha256": "49f4395f74439b0489a68a9a946786c5e816ee430cfebbb292095eaa01dca90c",
+    "pages": 1,
+    "origin": "user_upload",
+    "receivedAt": "2026-10-04",
+    "reviewedAt": "2026-10-05",
+    "title": "Gabarito Oficial",
+    "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+  },
+  {
+    "id": "udesc-2024-2-uploaded-ae96345f3e1d",
+    "edition": "2024/2",
+    "file": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+    "sha256": "ae96345f3e1d785755066e93612d7e8d52441b6e149962d2b97f0a0e297afd68",
+    "pages": 1,
+    "origin": "user_upload",
+    "receivedAt": "2026-10-04",
+    "reviewedAt": "2026-10-05",
+    "title": "Gabarito Oficial",
+    "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+  },
+  {
+    "id": "udesc-2025-1-uploaded-4d1ea5b16b76",
+    "edition": "2025/1",
+    "file": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+    "sha256": "4d1ea5b16b767c661f90a7ccbe39428cc3c1f04b35390d8766847c452e7e7570",
+    "pages": 1,
+    "origin": "user_upload",
+    "receivedAt": "2026-10-04",
+    "reviewedAt": "2026-10-05",
+    "title": "Gabarito Oficial",
+    "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+  },
+  {
+    "id": "udesc-2025-2-uploaded-a313df214152",
+    "edition": "2025/2",
+    "file": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+    "sha256": "a313df2141524b2ca236476134354f0e0b6863bf11e39c9e3087c8daf8bb28a6",
+    "pages": 1,
+    "origin": "user_upload",
+    "receivedAt": "2026-10-04",
+    "reviewedAt": "2026-10-05",
+    "title": "Gabarito Oficial",
+    "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+  },
+  {
+    "id": "udesc-2026-1-uploaded-26e69110d8cf",
+    "edition": "2026/1",
+    "file": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+    "sha256": "26e69110d8cf229f7b12af964c1848296e8751c24f23f6d29a93a99b762daf73",
+    "pages": 1,
+    "origin": "user_upload",
+    "receivedAt": "2026-10-04",
+    "reviewedAt": "2026-10-05",
+    "title": "Gabarito Oficial",
+    "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual",
+    "officialStatusConfirmation": {
+      "source": "user",
+      "date": "2026-10-04",
+      "note": "O usuário confirmou que este é o gabarito oficial; a identificação incorreta no título interno decorre de erro de digitalização."
+    }
+  },
+  {
+    "id": "udesc-2026-2-uploaded-779e3f653454",
+    "edition": "2026/2",
+    "file": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+    "sha256": "779e3f653454eeb0143f93c76adaa4ec28afcd591e2a352a97bcdd49473e2846",
+    "pages": 1,
+    "origin": "user_upload",
+    "receivedAt": "2026-10-04",
+    "reviewedAt": "2026-10-05",
+    "title": "Gabarito Oficial",
+    "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+  }
+]

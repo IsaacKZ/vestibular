@@ -1,0 +1,2239 @@
+[
+  {
+    "id": "udesc-2025-2-vespertino-01",
+    "revision": "review-2026-10-05-fisica-2025-2-01",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 1,
+    "subjectNumber": 1,
+    "topics": [
+      "cinemática"
+    ],
+    "skills": [
+      "calcular velocidade escalar média em percurso com parada"
+    ],
+    "rawText": "\n\nQuestão 01\nEm um autódromo, um piloto de Fórmula 1 percorre uma reta de 500 metros a uma velocidade constante de\n225 km/h. Após esse trecho, ele entra na pit lane - uma via paralela à pista principal - para realizar a troca\nde pneus. Seguindo as regras da corrida, ele anda pela pit lane sempre a 60 km/h. A troca de pneus dura\nexatamente 2 segundos, durante os quais o carro permanece parado.\n\nFIGURA 1\n\nA Figura 1 não está em escala e serve apenas para ilustrar o trajeto.\nConsiderando que o tempo total gasto pelo piloto desde a entrada na pit lane até seu retorno à pista principal,\né de 22 segundos, assinale a alternativa que apresenta a velocidade escalar média do piloto em todo o\npercurso, desde o início da reta até o momento em que retorna à pista após sair da pit lane.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n60 km/h\n225 km/h\n100 km/h\n121 km/h\n106 km/h\n\n\n",
+    "stem": "Em um autódromo, um piloto de Fórmula 1 percorre uma reta de 500 metros a uma velocidade constante de 225 km/h. Após esse trecho, ele entra na pit lane - uma via paralela à pista principal - para realizar a troca de pneus. Seguindo as regras da corrida, ele anda pela pit lane sempre a 60 km/h. A troca de pneus dura exatamente 2 segundos, durante os quais o carro permanece parado.\n\nA Figura 1 não está em escala e serve apenas para ilustrar o trajeto. Considerando que o tempo total gasto pelo piloto desde a entrada na pit lane até seu retorno à pista principal, é de 22 segundos, assinale a alternativa que apresenta a velocidade escalar média do piloto em todo o percurso, desde o início da reta até o momento em que retorna à pista após sair da pit lane.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "60 km/h"
+      },
+      {
+        "letter": "B",
+        "text": "225 km/h"
+      },
+      {
+        "letter": "C",
+        "text": "100 km/h"
+      },
+      {
+        "letter": "D",
+        "text": "121 km/h"
+      },
+      {
+        "letter": "E",
+        "text": "106 km/h"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2025-2-01-figure-f5bb9b889dcf.png",
+        "alt": "Figura 1: reta de 500 m seguida de desvio pit lane para troca de pneus.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 3; recorte do original, SHA-256 PDF ce15bd49ae95196851b2a33ad86b19d60d45db6e3cb1850ffc0a97f0dfe39087",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 1 (nº 1 no caderno)",
+      "sha256": "9f903fb82fb06c5e392816257d758791eb8b30b3e94bfd6eb558e1edd28a54c9",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 3
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Converta 225 km/h para 62,5 m/s: a reta demora 500/62,5 = 8 s. Na pit lane o carro se move por 22 − 2 = 20 s, a 60/3,6 = 16,67 m/s; percorre 333,33 m. O percurso total é 833,33 m e o tempo total inclui a parada: 8 + 22 = 30 s. Assim, vₘ = 833,33/30 = 27,78 m/s = 100 km/h. Alternativa C. Não se faz a média aritmética das duas velocidades.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 3; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 1; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-02",
+    "revision": "review-2026-10-05-fisica-2025-2-02",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 2,
+    "subjectNumber": 2,
+    "topics": [
+      "trabalho, energia e potência"
+    ],
+    "skills": [
+      "somar energias cinéticas e converter velocidade"
+    ],
+    "rawText": "\n\nQuestão 02\nEm 15 de setembro de 1896, ocorreu no Texas, Estados Unidos, um evento conhecido como \"Crash at\nCrush\", no qual duas locomotivas a vapor colidiram frontalmente como parte de uma demonstração pública.\nA energia do impacto foi o suficiente para romper as caldeiras e causar a explosão do vapor de alta pressão,\nferindo muitos espectadores. Suponha que cada locomotiva tenha uma massa de 40 toneladas (40.824 kg).\nConsidere que cada uma das locomotivas estava a 100 km/h no momento da colisão.\nA quantas bananas de dinamite correspondeu a energia do impacto? Considere uma banana de dinamite\nequivalente a 3,5 x 10 J.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n\n",
+    "stem": "Em 15 de setembro de 1896, ocorreu no Texas, Estados Unidos, um evento conhecido como \"Crash at Crush\", no qual duas locomotivas a vapor colidiram frontalmente como parte de uma demonstração pública. A energia do impacto foi o suficiente para romper as caldeiras e causar a explosão do vapor de alta pressão, ferindo muitos espectadores. Suponha que cada locomotiva tenha uma massa de 40 toneladas (40.824 kg). Considere que cada uma das locomotivas estava a 100 km/h no momento da colisão.\n\nA quantas bananas de dinamite correspondeu a energia do impacto? Considere uma banana de dinamite equivalente a 3,5 × 10⁶ J.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "45"
+      },
+      {
+        "letter": "B",
+        "text": "4"
+      },
+      {
+        "letter": "C",
+        "text": "90"
+      },
+      {
+        "letter": "D",
+        "text": "9"
+      },
+      {
+        "letter": "E",
+        "text": "100"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 2 (nº 2 no caderno)",
+      "sha256": "17c602203c12812a69809792fa43548ac1eddd2b93e756e22ef33b3cc722bcf9",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 3
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Use a massa numérica fornecida, 40.824 kg para cada locomotiva, e v = 100/3,6 = 27,78 m/s. A energia cinética total é 2 × (mv²/2) = 40.824 × (100/3,6)² = 3,15 × 10⁷ J. Dividindo pela energia de uma banana de dinamite: N = 3,15 × 10⁷/(3,5 × 10⁶) = 9. Alternativa D. A expressão “40 toneladas” é aproximada no enunciado; adotar 40.000 kg também resulta em aproximadamente 9 bananas.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 3; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 2; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-03",
+    "revision": "review-2026-10-05-fisica-2025-2-03",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 3,
+    "subjectNumber": 3,
+    "topics": [
+      "quantidade de movimento e impulso"
+    ],
+    "skills": [
+      "aplicar conservação do momento e energia em colisão elástica"
+    ],
+    "rawText": "\n\nQuestão 03\nEm um jogo de bilhar, a bola branca (bola 1) é lançada com velocidade inicial v1 = 3 m/s em direção à bola\npreta (bola 2), que está, inicialmente, em repouso (v2 = 0). As duas bolas possuem massas iguais e deslizam\nsobre uma mesa sem atrito.\nSabendo que a colisão entre elas é frontal e perfeitamente elástica, determine a velocidade das duas bolas\napós a colisão v1 e v2, sequencialmente.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nv1 = 0, v2 = 3 m/s\nv1 = 3 m/s, v2 = 0 m/s\nv1 = 1,5 m/s, v2 = 1,5 m/s\nv1 = - 3 m/s, v2 = 0 m/s\nv1 = - 3 m/s, v2 = 3 m/s\n\n\n",
+    "stem": "Em um jogo de bilhar, a bola branca (bola 1) é lançada com velocidade inicial v1 = 3 m/s em direção à bola preta (bola 2), que está, inicialmente, em repouso (v2 = 0). As duas bolas possuem massas iguais e deslizam sobre uma mesa sem atrito.\n\nSabendo que a colisão entre elas é frontal e perfeitamente elástica, determine a velocidade das duas bolas após a colisão v1 e v2, sequencialmente.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "v1 = 0, v2 = 3 m/s"
+      },
+      {
+        "letter": "B",
+        "text": "v1 = 3 m/s, v2 = 0 m/s"
+      },
+      {
+        "letter": "C",
+        "text": "v1 = 1,5 m/s, v2 = 1,5 m/s"
+      },
+      {
+        "letter": "D",
+        "text": "v1 = - 3 m/s, v2 = 0 m/s"
+      },
+      {
+        "letter": "E",
+        "text": "v1 = - 3 m/s, v2 = 3 m/s"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 3 (nº 3 no caderno)",
+      "sha256": "290a11c5d0b61f6c48b10e09b40ab3b986b3898282f25752aafa576ca4577737",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 4
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Em uma colisão frontal perfeitamente elástica entre massas iguais, as velocidades são trocadas. Pela conservação do momento, v₁′ + v₂′ = 3 m/s; pela conservação da energia cinética, v₁′² + v₂′² = 9 m²/s². A solução após o choque é v₁′ = 0 e v₂′ = 3 m/s, no sentido inicial da bola branca. Alternativa A.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 4; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 3; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-04",
+    "revision": "review-2026-10-05-fisica-2025-2-04",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 4,
+    "subjectNumber": 4,
+    "topics": [
+      "dinâmica (leis de newton)"
+    ],
+    "skills": [
+      "decompor sustentação e calcular força centrípeta"
+    ],
+    "rawText": "\n\nQuestão 04\nA Figura 2 representa um avião de massa m, executando uma curva circular em torno de um ponto fixo.\nsustentação é perpendicular às asas. A força representa o peso do avião, e R é o raio da trajetória\ncircular. Os valores conhecidos são: = 450, R = 1000 metros, m = 12000 kg.\n\nFIGURA 2\n\nCom base na Figura 2\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nassinale a alternativa que apresenta\n\nN; v = 330 km/h\nkm/h\nkm/h\nkm/h\nkm/h\n\n\n",
+    "stem": "A Figura 2 representa um avião de massa m, executando uma curva circular em torno de um ponto fixo. Durante essa manobra, o avião está inclinado de um ângulo α em relação à horizontal. A força de sustentação F⃗ é perpendicular às asas. A força P⃗ representa o peso do avião, e R é o raio da trajetória circular. Os valores conhecidos são: α = 45°, R = 1000 metros, m = 12000 kg.\n\nCom base na Figura 2 e nas informações fornecidas, assinale a alternativa que apresenta a força centrípeta Fc que atua sobre o avião e o módulo da velocidade v do avião ao executar a curva.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fc = 1,2 × 10⁵ N; v = 330 km/h"
+      },
+      {
+        "letter": "B",
+        "text": "Fc = 2,4 × 10⁵ N; v = 300 km/h"
+      },
+      {
+        "letter": "C",
+        "text": "Fc = 2,4 × 10⁵ N; v = 510 km/h"
+      },
+      {
+        "letter": "D",
+        "text": "Fc = 6,0 × 10⁴ N; v = 260 km/h"
+      },
+      {
+        "letter": "E",
+        "text": "Fc = 1,2 × 10⁵ N; v = 360 km/h"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2025-2-04-figure-6672f7602225.png",
+        "alt": "Figura 2: avião inclinado de α; sustentação perpendicular às asas e peso vertical; raio R até o centro da curva.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 4; recorte do original, SHA-256 PDF ce15bd49ae95196851b2a33ad86b19d60d45db6e3cb1850ffc0a97f0dfe39087",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 4 (nº 4 no caderno) ⚠",
+      "sha256": "07794924c9d7331b7f56da6d965947f3e0fc9bcf107f90a6f6d13c96f5e1e0d9",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 4
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Na vertical, F cos α = mg; na horizontal, Fc = F sen α. Portanto Fc = mg tan α. Com g = 10 m/s² (formulário do caderno) e α = 45°, Fc = 12000 × 10 × 1 = 1,2 × 10⁵ N. De Fc = mv²/R, v = √(Fc R/m) = √10000 = 100 m/s = 360 km/h. Alternativa E.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 4; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 4; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-05",
+    "revision": "review-2026-10-05-fisica-2025-2-05",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 5,
+    "subjectNumber": 5,
+    "topics": [
+      "cinemática"
+    ],
+    "skills": [
+      "calcular aceleração centrípeta orbital a partir do período"
+    ],
+    "rawText": "\n\nQuestão 05\nA Lua realiza um movimento quase circular ao redor da Terra, completando uma volta a cada 27,3 dias, a\numa distância média de 384.400 km do centro terrestre.\nCom base nesses dados, a aceleração centrípeta que atua sobre a Lua durante a sua trajetória orbital é:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n0,0027 m/s²\n0,027 m/s²\n0,27 m/s²\n2,7 m/s²\n27 m/s²\n\n\n",
+    "stem": "A Lua realiza um movimento quase circular ao redor da Terra, completando uma volta a cada 27,3 dias, a uma distância média de 384.400 km do centro terrestre.\n\nCom base nesses dados, a aceleração centrípeta que atua sobre a Lua durante a sua trajetória orbital é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0,0027 m/s²"
+      },
+      {
+        "letter": "B",
+        "text": "0,027 m/s²"
+      },
+      {
+        "letter": "C",
+        "text": "0,27 m/s²"
+      },
+      {
+        "letter": "D",
+        "text": "2,7 m/s²"
+      },
+      {
+        "letter": "E",
+        "text": "27 m/s²"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 5 (nº 5 no caderno)",
+      "sha256": "76c02fcc180fdaf03b595971f46ec49a11d048077bdbc66e22f5e5319c563811",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 5
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Para movimento circular, a꜀ = 4π²R/T². Converta R = 384.400 km = 3,844 × 10⁸ m e T = 27,3 × 86400 = 2.358.720 s. Logo a꜀ = 4π² × 3,844 × 10⁸/(2.358.720)² ≈ 2,73 × 10⁻³ m/s², ou 0,0027 m/s². Alternativa A.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 5; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-06",
+    "revision": "review-2026-10-05-fisica-2025-2-06",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 6,
+    "subjectNumber": 6,
+    "topics": [
+      "termometria e dilatação"
+    ],
+    "skills": [
+      "calcular diferença de dilatação linear de duas barras"
+    ],
+    "rawText": "\n\nQuestão 06\nDuas barras, uma de cobre e a outra de latão, possuem o mesmo comprimento a 10°C. Ao serem aquecidas\naté 110°C, a barra de latão fica 1 mm mais comprida que a de cobre. Os coeficientes de dilatação linear são:\nCobre: Cu = 16 × 10-6 C-1\nLatão: latão = 20 × 10-6 C-1\nAssinale a alternativa que corresponde ao comprimento inicial das barras a 10°C.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n0,25 m\n2,5 m\n1,0 m\n6,25 m\n10,0 m\n\n",
+    "stem": "Duas barras, uma de cobre e a outra de latão, possuem o mesmo comprimento a 10°C. Ao serem aquecidas até 110°C, a barra de latão fica 1 mm mais comprida que a de cobre. Os coeficientes de dilatação linear são:\n\nCobre: αCu = 16 × 10⁻⁶ °C⁻¹ Latão: αlatão = 20 × 10⁻⁶ °C⁻¹\n\nAssinale a alternativa que corresponde ao comprimento inicial das barras a 10°C.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0,25 m"
+      },
+      {
+        "letter": "B",
+        "text": "2,5 m"
+      },
+      {
+        "letter": "C",
+        "text": "1,0 m"
+      },
+      {
+        "letter": "D",
+        "text": "6,25 m"
+      },
+      {
+        "letter": "E",
+        "text": "10,0 m"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 6 (nº 6 no caderno)",
+      "sha256": "d5c24c641271311e48011142ac388b8e509fbdf43b4578d6846c760c62574f56",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 5
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "A diferença dos comprimentos finais é L₀(αlatão − αCu)ΔT. Como ΔT = 110 − 10 = 100 °C e a diferença é 1 mm = 10⁻³ m, temos 10⁻³ = L₀ × (20 − 16) × 10⁻⁶ × 100. Logo L₀ = 10⁻³/(4 × 10⁻⁴) = 2,5 m. Alternativa B.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 6; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-07",
+    "revision": "review-2026-10-05-fisica-2025-2-07",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 7,
+    "subjectNumber": 7,
+    "topics": [
+      "calorimetria"
+    ],
+    "skills": [
+      "aplicar calor sensível com conversão entre joule e caloria"
+    ],
+    "rawText": "\n\nQuestão 07\nUm calorímetro ideal contém 500 g de água, inicialmente a uma temperatura de 5°C, ao nível do mar. Uma\nquantidade de calor igual a 50 kJ é transferida para a água, elevando sua temperatura para um valor final T.\nSuponha que todo o calor foi absorvido pela água, que permaneceu no estado líquido durante todo o\nprocesso.\nSabendo que o calor específico da água é c = 1 cal/goC e que 1 cal = 4 J, a temperatura final da água é:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nT = 90°C\nT = 25°C\nT = 105°C\nT = 30°C\nT = 100°C\n\n\n",
+    "stem": "Um calorímetro ideal contém 500 g de água, inicialmente a uma temperatura de 5°C, ao nível do mar. Uma quantidade de calor igual a 50 kJ é transferida para a água, elevando sua temperatura para um valor final T. Suponha que todo o calor foi absorvido pela água, que permaneceu no estado líquido durante todo o processo.\n\nSabendo que o calor específico da água é c = 1 cal/goC e que 1 cal = 4 J, a temperatura final da água é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "T = 90°C"
+      },
+      {
+        "letter": "B",
+        "text": "T = 25°C"
+      },
+      {
+        "letter": "C",
+        "text": "T = 105°C"
+      },
+      {
+        "letter": "D",
+        "text": "T = 30°C"
+      },
+      {
+        "letter": "E",
+        "text": "T = 100°C"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 7 (nº 7 no caderno)",
+      "sha256": "254a0b47761e35c1c075595d3740e41236568f0fe0447d8551c9877b4df6959d",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 5
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Pelo valor de conversão dado no enunciado, Q = 50.000 J/4 = 12.500 cal. Como Q = mcΔT, ΔT = 12.500/(500 × 1) = 25 °C. A temperatura final é T = 5 + 25 = 30 °C. Alternativa D. O aumento de temperatura deve ser somado à temperatura inicial.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 7; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-08",
+    "revision": "review-2026-10-05-fisica-2025-2-08",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 8,
+    "subjectNumber": 8,
+    "topics": [
+      "termodinâmica"
+    ],
+    "skills": [
+      "calcular rendimento de Carnot com temperaturas absolutas"
+    ],
+    "rawText": "\n\nQuestão 08\nUma máquina térmica opera segundo o ciclo de Carnot com temperaturas de 18ºC e 115ºC em suas fontes\nfria e quente.\nO rendimento dessa máquina térmica, em porcentagem, é:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n75%\n50%\n6,5%\n93%\n25%\n\n\n",
+    "stem": "Uma máquina térmica opera segundo o ciclo de Carnot com temperaturas de 18ºC e 115ºC em suas fontes fria e quente.\n\nO rendimento dessa máquina térmica, em porcentagem, é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "75%"
+      },
+      {
+        "letter": "B",
+        "text": "50%"
+      },
+      {
+        "letter": "C",
+        "text": "6,5%"
+      },
+      {
+        "letter": "D",
+        "text": "93%"
+      },
+      {
+        "letter": "E",
+        "text": "25%"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 8 (nº 8 no caderno)",
+      "sha256": "d929a358540cefc16c59cea3da802981730af8014fdbefb348b10ba978d60ae9",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 6
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "O rendimento máximo é η = 1 − Tfria/Tquente, com temperaturas em kelvin. Assim Tfria = 18 + 273 = 291 K e Tquente = 115 + 273 = 388 K. η = 1 − 291/388 = 0,25 = 25%. Alternativa E. Usar diretamente temperaturas em °C nessa razão dá um resultado incorreto.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 6; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 8; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-09",
+    "revision": "review-2026-10-05-fisica-2025-2-09",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 9,
+    "subjectNumber": 9,
+    "topics": [
+      "estudo dos gases"
+    ],
+    "skills": [
+      "avaliar pressão e energia cinética na teoria dos gases"
+    ],
+    "rawText": "\n\nQuestão 09\nDe acordo com a teoria cinética dos gases ideais, as moléculas de um gás estão em movimento caótico,\ncolidindo entre si e com as paredes do recipiente. As colisões são consideradas perfeitamente elásticas e a\nenergia cinética média de translação está relacionada à temperatura absoluta segundo: Ec = 3/2 kT, em que\nEc é a energia cinética média de cada molécula, T é a temperatura absoluta e k é a constante de Boltzmann.\nCom base nesse modelo, analise as proposições.\nI.\n\nAs moléculas de um gás ideal movimentam-se em todas as direções de forma aleatória e não em\ntrajetórias paralelas.\nII. Ao colidir com as paredes do recipiente, a energia cinética das moléculas diminui, sendo parcialmente\nconvertida em calor.\nIII. Ao aumentar a temperatura, todas as moléculas do gás aumentam igualmente sua velocidade.\nIV. A pressão exercida por um gás sobre as paredes do recipiente resulta da troca de quantidade de\nmovimento nas colisões com as paredes.\nV. O aumento da temperatura média do gás implica aumento da energia cinética média das moléculas.\nAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I e IV são verdadeiras.\nSomente as proposições I, III e V são verdadeiras.\nSomente as proposições I, IV e V são verdadeiras.\nSomente as proposições II, IV e V são verdadeiras.\nSomente as proposições I, II, IV e V são verdadeiras.\n\n\n---\n\n",
+    "stem": "De acordo com a teoria cinética dos gases ideais, as moléculas de um gás estão em movimento caótico, colidindo entre si e com as paredes do recipiente. As colisões são consideradas perfeitamente elásticas e a energia cinética média de translação está relacionada à temperatura absoluta segundo: Ec = 3/2 kT, em que Ec é a energia cinética média de cada molécula, T é a temperatura absoluta e k é a constante de Boltzmann.\n\nCom base nesse modelo, analise as proposições.\n\nI. As moléculas de um gás ideal movimentam-se em todas as direções de forma aleatória e não em trajetórias paralelas. II. Ao colidir com as paredes do recipiente, a energia cinética das moléculas diminui, sendo parcialmente convertida em calor. III. Ao aumentar a temperatura, todas as moléculas do gás aumentam igualmente sua velocidade. IV. A pressão exercida por um gás sobre as paredes do recipiente resulta da troca de quantidade de movimento nas colisões com as paredes. V. O aumento da temperatura média do gás implica aumento da energia cinética média das moléculas.\n\nAssinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I e IV são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I, III e V são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições I, IV e V são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições II, IV e V são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições I, II, IV e V são verdadeiras."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 9 (nº 9 no caderno)",
+      "sha256": "06b6ef8d78a32c6b88267a42091bd343b911c7da12011103455e81aebe797c92",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 6
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "I é verdadeira: o movimento molecular é aleatório. II é falsa: colisões com paredes são perfeitamente elásticas no modelo ideal, sem essa perda de energia cinética. III é falsa: há uma distribuição de velocidades; aquecer aumenta a energia cinética média, não igualmente a velocidade de cada molécula. IV é verdadeira: a pressão decorre da transferência de momento às paredes. V é verdadeira, pois ⟨Ec⟩ = (3/2)kT. São verdadeiras I, IV e V: alternativa C.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 6; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 9; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-10",
+    "revision": "review-2026-10-05-fisica-2025-2-10",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 10,
+    "subjectNumber": 10,
+    "topics": [
+      "eletrostática"
+    ],
+    "skills": [
+      "equilibrar forças elétricas colineares"
+    ],
+    "rawText": "\n\nQuestão 10\nDuas cargas elétricas puntiformes, +Q e +2Q, estão fixas sobre o eixo x, localizadas, respectivamente, nas\nposições x = 0,0 m e x = 1,0 m. Uma terceira carga é colocada entre elas, também sobre o eixo x, de modo\nque permaneça em equilíbrio eletrostático. A posição dessa terceira carga, em metros, é:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n0,293 m\n0,500 m\n0,333 m\n0,414 m\n0,586 m\n\n\n",
+    "stem": "Duas cargas elétricas puntiformes, +Q e +2Q, estão fixas sobre o eixo x, localizadas, respectivamente, nas posições x = 0,0 m e x = 1,0 m. Uma terceira carga é colocada entre elas, também sobre o eixo x, de modo que permaneça em equilíbrio eletrostático. A posição dessa terceira carga, em metros, é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0,293 m"
+      },
+      {
+        "letter": "B",
+        "text": "0,500 m"
+      },
+      {
+        "letter": "C",
+        "text": "0,333 m"
+      },
+      {
+        "letter": "D",
+        "text": "0,414 m"
+      },
+      {
+        "letter": "E",
+        "text": "0,586 m"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 10 (nº 10 no caderno)",
+      "sha256": "916b38746b77f257e01221b0a85056564e0e976a303c226172f481046847e839",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 6
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": true,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "explanation": null,
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-11",
+    "revision": "review-2026-10-05-fisica-2025-2-11",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 11,
+    "subjectNumber": 11,
+    "topics": [
+      "acústica"
+    ],
+    "skills": [
+      "calcular distância pela diferença de tempos de propagação"
+    ],
+    "rawText": "\n\nQuestão 11\nO escorpião de cauda grossa (Androctonus australis), típico de regiões desérticas, é capaz de caçar mesmo\nsem enxergar. Ele possui sensores altamente sensíveis nas patas, que detectam vibrações do solo e do ar.\nQuando uma presa se movimenta, ela gera som que se propaga simultaneamente pelo solo e pelo ar. Assim\nque a onda sonora chega pelo solo, o escorpião a sente pelas patas e determina a direção da presa. Em\nseguida, ao perceber a chegada da onda que vem pelo ar, ele calcula a distância da presa com base na\ndiferença de tempo entre os dois sinais.\n\nFIGURA 3\n\nConsidere que a velocidade do som no solo seja vs = 500 m/s, e no ar seja va = 340 m/s. Se a diferença de\ntempo entre as chegadas de cada onda ao escorpião é t = 0,2 ms (milissegundos), a distância da presa ao\nescorpião é aproximadamente:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n2,0 cm\n68,0 cm\n136,1 cm\n42,52 cm\n21,25 cm\n\n\n",
+    "stem": "O escorpião de cauda grossa (Androctonus australis), típico de regiões desérticas, é capaz de caçar mesmo sem enxergar. Ele possui sensores altamente sensíveis nas patas, que detectam vibrações do solo e do ar. Quando uma presa se movimenta, ela gera som que se propaga simultaneamente pelo solo e pelo ar. Assim que a onda sonora chega pelo solo, o escorpião a sente pelas patas e determina a direção da presa. Em seguida, ao perceber a chegada da onda que vem pelo ar, ele calcula a distância da presa com base na diferença de tempo entre os dois sinais.\n\nConsidere que a velocidade do som no solo seja vs = 500 m/s, e no ar seja va = 340 m/s. Se a diferença de tempo entre as chegadas de cada onda ao escorpião é Δt = 0,2 ms (milissegundos), a distância da presa ao escorpião é aproximadamente:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2,0 cm"
+      },
+      {
+        "letter": "B",
+        "text": "68,0 cm"
+      },
+      {
+        "letter": "C",
+        "text": "136,1 cm"
+      },
+      {
+        "letter": "D",
+        "text": "42,52 cm"
+      },
+      {
+        "letter": "E",
+        "text": "21,25 cm"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2025-2-11-figure-5efa9780d507.png",
+        "alt": "Figura 3: presa e escorpião separados por uma distância; vibrações propagam-se pelo ar e pelo solo.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7; recorte do original, SHA-256 PDF ce15bd49ae95196851b2a33ad86b19d60d45db6e3cb1850ffc0a97f0dfe39087",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 11 (nº 11 no caderno)",
+      "sha256": "6b58da2a8993905e2e1bf81483f0211117b2e35339c0ff91ba227a9364c54dd9",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 7
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "As duas ondas percorrem a mesma distância d. Como o som no solo é mais rápido, Δt = d/340 − d/500 = 0,2 × 10⁻³ s. Logo d = 0,0002/(1/340 − 1/500) = 0,2125 m = 21,25 cm. Alternativa E. Milissegundo deve ser convertido para segundo antes do cálculo.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 11; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-12",
+    "revision": "review-2026-10-05-fisica-2025-2-12",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 12,
+    "subjectNumber": 12,
+    "topics": [
+      "eletrodinâmica (circuitos)"
+    ],
+    "skills": [
+      "reduzir associação mista e aplicar lei de Ohm"
+    ],
+    "rawText": "\n\nQuestão 12\nNo circuito mostrado na Figura 4\na =\nO circuito é alimentado por uma fonte de tensão ideal .\n\npossui intensidade igual\n\nFIGURA 4\n\nO valor da diferença de potencial ( ) entre os terminais da fonte é:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n6/5 V\n6V\n4V\n14/5 V\n1V\n\n\n",
+    "stem": "No circuito mostrado na Figura 4, a corrente elétrica que atravessa o resistor de 1 Ω possui intensidade igual a I = 2 A. O circuito é alimentado por uma fonte de tensão ideal ε.\n\nO valor da diferença de potencial (ε) entre os terminais da fonte é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "6/5 V"
+      },
+      {
+        "letter": "B",
+        "text": "6 V"
+      },
+      {
+        "letter": "C",
+        "text": "4 V"
+      },
+      {
+        "letter": "D",
+        "text": "14/5 V"
+      },
+      {
+        "letter": "E",
+        "text": "1 V"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2025-2-12-figure-e44f4ac34989.png",
+        "alt": "Figura 4: fonte ε, dois resistores de 1/5 Ω em série com um paralelo de 1 Ω e 2/3 Ω; corrente de 2 A no resistor de 1 Ω.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7; recorte do original, SHA-256 PDF ce15bd49ae95196851b2a33ad86b19d60d45db6e3cb1850ffc0a97f0dfe39087",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 12 (nº 12 no caderno) ⚠",
+      "sha256": "fa350203d3e7f7be1c852a4b2331594cfd92c5d306c8ee672c92ba5e1a480d20",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 7
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "No resistor de 1 Ω, U = RI = 1 × 2 = 2 V. O resistor de 2/3 Ω está em paralelo e recebe os mesmos 2 V: sua corrente é 2/(2/3) = 3 A. A corrente total nos dois resistores de 1/5 Ω é 2 + 3 = 5 A. Cada um tem queda de tensão (1/5) × 5 = 1 V. A fonte fornece ε = 1 + 2 + 1 = 4 V. Alternativa C.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 12; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "hard"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-13",
+    "revision": "review-2026-10-06-fisica-2025-2-13",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 13,
+    "subjectNumber": 13,
+    "topics": [
+      "óptica"
+    ],
+    "skills": [
+      "aplicar lei de Snell a ângulos medidos pela normal"
+    ],
+    "rawText": "\n\nQuestão 13\nUm feixe estreito de luz, proveniente de uma lanterna posicionada no ar, incide, obliquamente, sobre a\nsuperfície de separação com um líquido transparente, sofrendo refração, conforme ilustrado na Figura 5.\n\nFIGURA 5\n\nO índice de refração do ar é n = 1,0.\nCom base no comportamento do feixe, ao atravessar a interface, o índice de refração do líquido é:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n0,435\n1,148\n0,870\n0,348\n2,871\n\n\n",
+    "stem": "Um feixe estreito de luz, proveniente de uma lanterna posicionada no ar, incide, obliquamente, sobre a superfície de separação com um líquido transparente, sofrendo refração, conforme ilustrado na Figura 5.\n\nO índice de refração do ar é n = 1,0.\n\nCom base no comportamento do feixe, ao atravessar a interface, o índice de refração do líquido é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0,435"
+      },
+      {
+        "letter": "B",
+        "text": "1,148"
+      },
+      {
+        "letter": "C",
+        "text": "0,870"
+      },
+      {
+        "letter": "D",
+        "text": "0,348"
+      },
+      {
+        "letter": "E",
+        "text": "2,871"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2025-2-13-figure-58fbbc57e037.png",
+        "alt": "Figura 5: raio sai do ar para o líquido com incidência de 45° e refração de 38°, medidos a partir da normal.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 8; recorte do original, SHA-256 PDF ce15bd49ae95196851b2a33ad86b19d60d45db6e3cb1850ffc0a97f0dfe39087",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 13 (nº 13 no caderno)",
+      "sha256": "1f5405b4edc7b35478d096cebecc8cc297f84468e5f7e762417f9a884d0b8db2",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 8
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-06T11:20:00Z"
+    },
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "A figura fornece incidência de 45° e refração de 38°, ambos em relação à normal. Pela lei de Snell, nar sen 45° = nlíquido sen 38°. Logo nlíquido = 1,0 × sen 45°/sen 38° ≈ 0,7071/0,6157 = 1,148. O índice de refração é adimensional. Alternativa B.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 8; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 13; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-vespertino-14",
+    "revision": "review-2026-10-05-fisica-2025-2-14",
+    "subject": "fisica",
+    "edition": "2025/2",
+    "period": "vespertino",
+    "originalNumber": 14,
+    "subjectNumber": 14,
+    "topics": [
+      "física moderna"
+    ],
+    "skills": [
+      "reconhecer dualidade onda-partícula e relação de de Broglie"
+    ],
+    "rawText": "\n\nQuestão 14\nA dualidade onda-partícula é um dos pilares da Física Moderna e descreve como partículas e radiações\npodem exibir tanto comportamentos ondulatórios quanto corpusculares, dependendo do experimento\nrealizado.\nCom base nesse conceito, analise as proposições.\nI.\n\nOs elétrons, ao passarem por fendas duplas, podem produzir padrões de interferência, comportamento\ntípico de ondas.\nII. A luz pode se comportar como partícula, sendo capaz de transferir energia em quantidades discretas\nchamadas fótons.\nIII. A dualidade onda-partícula é prevista pela equação de Schrödinger e está presente apenas em\npartículas carregadas eletricamente.\nIV. O comprimento de onda associado a uma partícula, dado pela relação de Broglie: = h/p, determina\nquando ocorrem padrões de interferência.\nV. Uma vez determinada com precisão a posição de uma partícula, seu comportamento ondulatório\nintensifica-se, segundo o princípio da incerteza de Heisenberg.\n\n\fAssinale a alternativa correta.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nSomente as proposições I, II e III são verdadeiras.\nSomente as proposições I, II e IV são verdadeiras.\nSomente as proposições I, II e V são verdadeiras.\nSomente as proposições I, III e V são verdadeiras.\nSomente as proposições II, III e IV são verdadeiras.\n\n\fFORMULÁRIO DE FÍSICA\n\n\fQUÍMICA\n\n(14 questões)\n\nTabela periódica p. 18.\n\n\n",
+    "stem": "A dualidade onda-partícula é um dos pilares da Física Moderna e descreve como partículas e radiações podem exibir tanto comportamentos ondulatórios quanto corpusculares, dependendo do experimento realizado.\n\nCom base nesse conceito, analise as proposições.\n\nI. Os elétrons, ao passarem por fendas duplas, podem produzir padrões de interferência, comportamento típico de ondas. II. A luz pode se comportar como partícula, sendo capaz de transferir energia em quantidades discretas chamadas fótons. III. A dualidade onda-partícula é prevista pela equação de Schrödinger e está presente apenas em partículas carregadas eletricamente. IV. O comprimento de onda associado a uma partícula, dado pela relação de Broglie: λ = h/p, determina quando ocorrem padrões de interferência. V. Uma vez determinada com precisão a posição de uma partícula, seu comportamento ondulatório intensifica-se, segundo o princípio da incerteza de Heisenberg. Assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Somente as proposições I, II e III são verdadeiras."
+      },
+      {
+        "letter": "B",
+        "text": "Somente as proposições I, II e IV são verdadeiras."
+      },
+      {
+        "letter": "C",
+        "text": "Somente as proposições I, IV e V são verdadeiras."
+      },
+      {
+        "letter": "D",
+        "text": "Somente as proposições II, III e V são verdadeiras."
+      },
+      {
+        "letter": "E",
+        "text": "Somente as proposições III e IV são verdadeiras."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2025/2] questão 14 (nº 14 no caderno)",
+      "sha256": "8d60efd3b1abe4ee4cef37b72c4a28c13d58e439e6ac5f4f4e301b313c769eb8",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf",
+      "page": 8
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "I é verdadeira: elétrons podem formar padrões de interferência na dupla fenda. II é verdadeira: a luz transfere energia em fótons. III é falsa: a dualidade não se restringe a partículas carregadas, ocorrendo também com partículas neutras. IV é verdadeira: λ = h/p fornece o comprimento de onda de de Broglie e a escala relevante para interferência. V é falsa: localizar melhor a partícula aumenta a incerteza do momento, sem a conclusão de intensificação ondulatória afirmada. São verdadeiras I, II e IV: alternativa B.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 8; content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 14; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-01",
+    "revision": "review-2026-10-05-fisica-2026-1-01",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 1,
+    "subjectNumber": 1,
+    "topics": [
+      "física moderna"
+    ],
+    "skills": [
+      "associar ondas gravitacionais à relatividade geral"
+    ],
+    "rawText": "\n\nQuestão 01\nEm 2015, o Observatório de Ondas Gravitacionais por Interferômetro Laser (LIGO) conseguiu detectar\nondas gravitacionais pela primeira vez, inaugurando um novo modo de fazer astronomia. Indo além da luz,\nagora é possível observar pequenas variações no próprio tecido do espaço, causadas por grandes eventos\ncósmicos, como a colisão de buracos negros.\nAssinale a alternativa correta, em que essa detecção confirma a teoria física:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nEletromagnetismo.\nMecânica Quântica.\nTermodinâmica.\nRelatividade Geral.\nTeoria Cinética dos Gases\n\n\n",
+    "stem": "Em 2015, o Observatório de Ondas Gravitacionais por Interferômetro Laser (LIGO) conseguiu detectar ondas gravitacionais pela primeira vez, inaugurando um novo modo de fazer astronomia. Indo além da luz, agora é possível observar pequenas variações no próprio tecido do espaço, causadas por grandes eventos cósmicos, como a colisão de buracos negros. Assinale a alternativa correta, em que essa detecção confirma a teoria física:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Eletromagnetismo."
+      },
+      {
+        "letter": "B",
+        "text": "Mecânica Quântica."
+      },
+      {
+        "letter": "C",
+        "text": "Termodinâmica."
+      },
+      {
+        "letter": "D",
+        "text": "Relatividade Geral."
+      },
+      {
+        "letter": "E",
+        "text": "Teoria Cinética dos Gases"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 1 (nº 1 no caderno)",
+      "sha256": "44623fdddb6ec4b4e719cede0fe2912e1473c671becd1bb3e7abaee159949942",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 3
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Na relatividade geral, massas e energia alteram a geometria do espaço-tempo. Sistemas acelerados, como dois buracos negros em colisão, podem produzir ondas gravitacionais que se propagam por esse espaço-tempo. A observação dessas ondas pelo LIGO confirmou essa previsão da relatividade geral. Alternativa D.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 1; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-02",
+    "revision": "review-2026-10-05-fisica-2026-1-02",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 2,
+    "subjectNumber": 2,
+    "topics": [
+      "dinâmica (leis de newton)"
+    ],
+    "skills": [
+      "calcular força de contato entre blocos pela segunda lei de Newton"
+    ],
+    "rawText": "\n\nQuestão 02\nA Figura 1 mostra duas caixas sobre uma superfície horizontal sem atrito. A primeira tem massa de m1 = 5\nkg, e a segunda tem massa de m2 = 10 kg. Aplica-se uma força horizontal de F = 30 N sobre a primeira\ncaixa, empurrando ambas.\nFigura 1\n\nFonte: Elaboração própria\n\nSabendo que não há atrito entre as caixas e o solo, assinale a alternativa que apresenta a força de contato\nentre as duas caixas.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n15 N\n10 N\n20 N\n5N\n25 N\n\n\n",
+    "stem": "A Figura 1 mostra duas caixas sobre uma superfície horizontal sem atrito. A primeira tem massa de m1 = 5 kg, e a segunda tem massa de m2 = 10 kg. Aplica-se uma força horizontal de F = 30 N sobre a primeira caixa, empurrando ambas.\n\nSabendo que não há atrito entre as caixas e o solo, assinale a alternativa que apresenta a força de contato entre as duas caixas.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "15 N"
+      },
+      {
+        "letter": "B",
+        "text": "10 N"
+      },
+      {
+        "letter": "C",
+        "text": "20 N"
+      },
+      {
+        "letter": "D",
+        "text": "5N"
+      },
+      {
+        "letter": "E",
+        "text": "25 N"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2026-1-02-figure-82cd264f6048.png",
+        "alt": "Figura 1: força horizontal F aplicada à caixa m1, que empurra a caixa m2, ambas no solo sem atrito.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3; recorte do original, SHA-256 PDF cbcb4b34fa96031c64aebb033dd57b55badeedb6ab401d2df85ee08b887dbe1d",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 2 (nº 2 no caderno)",
+      "sha256": "77577c29f742a685d6193df86dcbe6ce2a0535a85c8682e1b8d872d486d21b60",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 3
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "As duas caixas aceleram juntas: a = F/(m₁ + m₂) = 30/(5 + 10) = 2 m/s². Na caixa de 10 kg, a única força horizontal é a força de contato exercida pela primeira caixa: Fc = m₂a = 10 × 2 = 20 N. Alternativa C. A força aplicada de 30 N acelera ambas, por isso não é igual à força de contato.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 2; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-03",
+    "revision": "review-2026-10-05-fisica-2026-1-03",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 3,
+    "subjectNumber": 3,
+    "topics": [
+      "termodinâmica"
+    ],
+    "skills": [
+      "aplicar primeira lei da termodinâmica em compressão adiabática"
+    ],
+    "rawText": "\n\nQuestão 03\nUm gás ideal é submetido a uma compressão adiabática. Nessas condições, pode-se afirmar que a energia\ninterna do gás:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\ndiminui, devido à saída de calor.\ndiminui, pois o sistema fornece trabalho.\nnão se altera, já que a temperatura permanece constante.\naumenta, em virtude da entrada de calor.\naumenta, pois o sistema recebe trabalho.\n\n\n",
+    "stem": "Um gás ideal é submetido a uma compressão adiabática. Nessas condições, pode-se afirmar que a energia interna do gás:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "diminui, devido à saída de calor."
+      },
+      {
+        "letter": "B",
+        "text": "diminui, pois o sistema fornece trabalho."
+      },
+      {
+        "letter": "C",
+        "text": "não se altera, já que a temperatura permanece constante."
+      },
+      {
+        "letter": "D",
+        "text": "aumenta, em virtude da entrada de calor."
+      },
+      {
+        "letter": "E",
+        "text": "aumenta, pois o sistema recebe trabalho."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 3 (nº 3 no caderno)",
+      "sha256": "164e9c89a160c4dfccf187011698092449ef1daf375eb38eeed8b99d63f26e44",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 3
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Adiabática significa ausência de troca de calor: Q = 0. Pela primeira lei, ΔU = Q − W, em que W é o trabalho realizado pelo gás. Durante a compressão, W < 0, pois o meio realiza trabalho sobre o gás. Logo ΔU = −W > 0: a energia interna aumenta porque o gás recebe trabalho. Alternativa E.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 3; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-04",
+    "revision": "review-2026-10-05-fisica-2026-1-04",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 4,
+    "subjectNumber": 4,
+    "topics": [
+      "quantidade de movimento e impulso"
+    ],
+    "skills": [
+      "conservar quantidade de movimento em colisão perfeitamente inelástica"
+    ],
+    "rawText": "\n\nQuestão 04\n\nA Figura 2 apresenta o mesmo sistema em duas situações: inicial e final. Na situação inicial, uma caixa de\n2 kg move-se sobre um plano sem atrito a 15 m/s, enquanto uma segunda caixa de 3 kg encontra-se em\nrepouso. Na situação final, a caixa de 2 kg colide com a caixa de 3 kg e fica aderida a esta.\nFigura 2\n\nFonte: Elaboração própria.\n\nAssinale a alternativa correta da velocidade Vf do conjunto após a colisão.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n6,0 m/s\n7,5 m/s\n8,0 m/s\n3,0 m/s\n0,0 m/s\n\n\n---\n\n",
+    "stem": "A Figura 2 apresenta o mesmo sistema em duas situações: inicial e final. Na situação inicial, uma caixa de 2 kg move-se sobre um plano sem atrito a 15 m/s, enquanto uma segunda caixa de 3 kg encontra-se em repouso. Na situação final, a caixa de 2 kg colide com a caixa de 3 kg e fica aderida a esta.\n\nAssinale a alternativa correta da velocidade Vf do conjunto após a colisão.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "6,0 m/s"
+      },
+      {
+        "letter": "B",
+        "text": "7,5 m/s"
+      },
+      {
+        "letter": "C",
+        "text": "8,0 m/s"
+      },
+      {
+        "letter": "D",
+        "text": "3,0 m/s"
+      },
+      {
+        "letter": "E",
+        "text": "0,0 m/s"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2026-1-04-figure-4fa2c071d6ec.png",
+        "alt": "Figura 2: caixa de 2 kg a 15 m/s colide com caixa de 3 kg em repouso; ambas seguem aderidas com velocidade Vf.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4; recorte do original, SHA-256 PDF cbcb4b34fa96031c64aebb033dd57b55badeedb6ab401d2df85ee08b887dbe1d",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 4 (nº 4 no caderno)",
+      "sha256": "867fc3e08adaa78675088d51aa45029d2cf82c2978a1affd8b8abfbc389f381a",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 4
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Sem força externa horizontal resultante, conserva-se a quantidade de movimento: 2 × 15 + 3 × 0 = (2 + 3)Vf. Portanto Vf = 30/5 = 6,0 m/s no sentido do movimento inicial. Alternativa A. A energia cinética não se conserva nessa colisão, pois as caixas ficam aderidas.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 4; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-05",
+    "revision": "review-2026-10-05-fisica-2026-1-05",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 5,
+    "subjectNumber": 5,
+    "topics": [
+      "trabalho, energia e potência"
+    ],
+    "skills": [
+      "converter energia potencial gravitacional em energia cinética"
+    ],
+    "rawText": "\n\nQuestão 05\n\nUm objeto de 2 kg é liberado do topo, a partir de seu ponto de repouso, de um plano inclinado liso de 20 m\nde altura.\nAssinale a alternativa que demonstra a velocidade do objeto ao atingir a base do plano. Adote g = 10 m/s²\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n10 m/s\n20 m/s\n5 m/s\n15 m/s\n30 m/s\n\n\n",
+    "stem": "Um objeto de 2 kg é liberado do topo, a partir de seu ponto de repouso, de um plano inclinado liso de 20 m de altura. Assinale a alternativa que demonstra a velocidade do objeto ao atingir a base do plano. Adote g = 10 m/s²",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 m/s"
+      },
+      {
+        "letter": "B",
+        "text": "20 m/s"
+      },
+      {
+        "letter": "C",
+        "text": "5 m/s"
+      },
+      {
+        "letter": "D",
+        "text": "15 m/s"
+      },
+      {
+        "letter": "E",
+        "text": "30 m/s"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 5 (nº 5 no caderno)",
+      "sha256": "71be9562d5b7d2821c121141a432318ffc0dc588396d4df68fc629fec4ad1686",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 4
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "O plano é liso, portanto não há perda por atrito. Pela conservação da energia mecânica, mgh = mv²/2. A massa se cancela e v = √(2gh) = √(2 × 10 × 20) = 20 m/s. Alternativa B. A velocidade depende da altura, não do comprimento do plano.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 5; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-06",
+    "revision": "review-2026-10-05-fisica-2026-1-06",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 6,
+    "subjectNumber": 6,
+    "topics": [
+      "ondas eletromagnéticas"
+    ],
+    "skills": [
+      "identificar radiação infravermelha e observação astronômica"
+    ],
+    "rawText": "\n\nQuestão 06\n\nLançado em dezembro de 2021, o Telescópio Espacial James Webb (JWST) é considerado o sucessor do\nHubble e já forneceu imagens detalhadas de galáxias muito antigas.\nA principal inovação tecnológica do JWST está relacionada à capacidade de observar:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nneutrinos emitidos em explosões estelares.\nraios X emitidos por buracos negros.\no espectro visível com maior nitidez.\nondas de rádio com altíssima resolução.\nradiação infravermelha, permitindo estudar objetos muito distantes e frios.\n\n\n",
+    "stem": "Lançado em dezembro de 2021, o Telescópio Espacial James Webb (JWST) é considerado o sucessor do Hubble e já forneceu imagens detalhadas de galáxias muito antigas. A principal inovação tecnológica do JWST está relacionada à capacidade de observar:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "neutrinos emitidos em explosões estelares."
+      },
+      {
+        "letter": "B",
+        "text": "raios X emitidos por buracos negros."
+      },
+      {
+        "letter": "C",
+        "text": "o espectro visível com maior nitidez."
+      },
+      {
+        "letter": "D",
+        "text": "ondas de rádio com altíssima resolução."
+      },
+      {
+        "letter": "E",
+        "text": "radiação infravermelha, permitindo estudar objetos muito distantes e frios."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 6 (nº 6 no caderno) ⚠",
+      "sha256": "a113a06e57509b286613e9dfe9cf415ed16afd8095bca79a068af262e46e406c",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 4
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "O James Webb observa principalmente radiação infravermelha. Objetos frios emitem fortemente nessa faixa; além disso, a luz de galáxias muito distantes sofre desvio para comprimentos de onda maiores pela expansão do Universo. Isso permite estudar objetos distantes e frios. Alternativa E.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 6; resposta oficial E",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-07",
+    "revision": "review-2026-10-05-fisica-2026-1-07",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 7,
+    "subjectNumber": 7,
+    "topics": [
+      "gravitação"
+    ],
+    "skills": [
+      "aplicar dependência inversa quadrática do campo gravitacional"
+    ],
+    "rawText": "\n\nQuestão 07\nConsidere um satélite orbitando a Terra em uma órbita circular de raio igual ao dobro do raio terrestre.\nEm relação à aceleração da gravidade g na superfície da Terra, assinale a alternativa correta sobre a\naceleração gravitacional atuando no satélite.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\ng/4\ng/2\ng\n2g\n4g\n\n\n",
+    "stem": "Considere um satélite orbitando a Terra em uma órbita circular de raio igual ao dobro do raio terrestre.\n\nEm relação à aceleração da gravidade g na superfície da Terra, assinale a alternativa correta sobre a aceleração gravitacional atuando no satélite.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "g/4"
+      },
+      {
+        "letter": "B",
+        "text": "g/2"
+      },
+      {
+        "letter": "C",
+        "text": "g"
+      },
+      {
+        "letter": "D",
+        "text": "2g"
+      },
+      {
+        "letter": "E",
+        "text": "4g"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 7 (nº 7 no caderno)",
+      "sha256": "8bcea51b6bccd8bead8ba44b39a66d3115d705e4026b3a88168677b39e2498d2",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 5
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Na superfície, g = GM/R². Na órbita de raio 2R, a aceleração é górbita = GM/(2R)² = GM/(4R²) = g/4. Alternativa A. Dobrar o raio reduz a gravidade a um quarto, pela dependência com o quadrado da distância.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 7; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-08",
+    "revision": "review-2026-10-05-fisica-2026-1-08",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 8,
+    "subjectNumber": 8,
+    "topics": [
+      "acústica"
+    ],
+    "skills": [
+      "determinar frequência fundamental de tubo com uma extremidade fechada"
+    ],
+    "rawText": "\n\nQuestão 08\nSeja um tubo sonoro, fechado em uma das extremidades e de comprimento L, e seja v a velocidade do\nsom no ar.\nAssinale a alternativa correta a respeito da menor frequência de ressonância que esse tubo pode produzir.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\nv/2L\nv/3L\nv/4L\nv/L\n2v/L\n\n\n",
+    "stem": "Seja um tubo sonoro, fechado em uma das extremidades e de comprimento L, e seja v a velocidade do som no ar.\n\nAssinale a alternativa correta a respeito da menor frequência de ressonância que esse tubo pode produzir.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "v/2L"
+      },
+      {
+        "letter": "B",
+        "text": "v/3L"
+      },
+      {
+        "letter": "C",
+        "text": "v/4L"
+      },
+      {
+        "letter": "D",
+        "text": "v/L"
+      },
+      {
+        "letter": "E",
+        "text": "2v/L"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 8 (nº 8 no caderno)",
+      "sha256": "3b4aafe706ffbe2905df4a52625f7637898ceb3e55fac463bbe08f9ddaf5cdf6",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 5
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Na extremidade fechada há um nó de deslocamento e na aberta, um ventre. No modo fundamental, o comprimento do tubo corresponde a um quarto de comprimento de onda: L = λ/4. Assim λ = 4L e f = v/λ = v/(4L). Alternativa C. A frequência tem unidade s⁻¹, ou hertz.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 8; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-09",
+    "revision": "review-2026-10-05-fisica-2026-1-09",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 9,
+    "subjectNumber": 9,
+    "topics": [
+      "eletrostática"
+    ],
+    "skills": [
+      "equilibrar força elétrica e peso em campo uniforme"
+    ],
+    "rawText": "\n\nQuestão 09\nUm pequeno corpo de massa 20 g e carga 4,0 μC encontra-se em equilíbrio suspenso em um campo\nelétrico uniforme vertical, dirigido para cima.\nAssinale a alternativa correta do módulo do campo elétrico.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n3,0×10⁴N/C\n5,0×10⁴N/C.\n2,0×10⁴N/C.\n4,0×10⁴N/C.\n6,0×10⁴N/C.\n\n\n---\n\n",
+    "stem": "Um pequeno corpo de massa 20 g e carga 4,0 μC encontra-se em equilíbrio suspenso em um campo elétrico uniforme vertical, dirigido para cima.\n\nAssinale a alternativa correta do módulo do campo elétrico.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3,0×10⁴N/C"
+      },
+      {
+        "letter": "B",
+        "text": "5,0×10⁴N/C."
+      },
+      {
+        "letter": "C",
+        "text": "2,0×10⁴N/C."
+      },
+      {
+        "letter": "D",
+        "text": "4,0×10⁴N/C."
+      },
+      {
+        "letter": "E",
+        "text": "6,0×10⁴N/C."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 9 (nº 9 no caderno)",
+      "sha256": "3ea5f6961c28774182b60a13081719cb0f618b5c8bd183f21ea4c402e5630914",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 5
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "O corpo está em equilíbrio, então qE = mg. Converta m = 20 g = 0,020 kg e q = 4,0 μC = 4,0 × 10⁻⁶ C. Usando g = 10 m/s² do formulário, E = 0,020 × 10/(4,0 × 10⁻⁶) = 5,0 × 10⁴ N/C. Alternativa B. A carga positiva recebe força elétrica para cima, oposta ao peso.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 9; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-10",
+    "revision": "review-2026-10-05-fisica-2026-1-10",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 10,
+    "subjectNumber": 10,
+    "topics": [
+      "hidrostática"
+    ],
+    "skills": [
+      "aplicar empuxo ao volume submerso de corpo flutuante"
+    ],
+    "rawText": "\n\nQuestão 10\nUm objeto de 480 g é colocado em um líquido de densidade 1,6 g/cm³. Sabendo que o objeto tem 600 cm³\nde volume total, assinale a alternativa que corresponde à parte do volume do objeto que está submerso no\nlíquido.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n700 cm³\n500 cm³\n800 cm³\n300 cm³\n600 cm³\n\n\n---\n\n",
+    "stem": "Um objeto de 480 g é colocado em um líquido de densidade 1,6 g/cm³. Sabendo que o objeto tem 600 cm³ de volume total, assinale a alternativa que corresponde à parte do volume do objeto que está submerso no líquido.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "700 cm³"
+      },
+      {
+        "letter": "B",
+        "text": "500 cm³"
+      },
+      {
+        "letter": "C",
+        "text": "800 cm³"
+      },
+      {
+        "letter": "D",
+        "text": "300 cm³"
+      },
+      {
+        "letter": "E",
+        "text": "600 cm³"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 10 (nº 10 no caderno)",
+      "sha256": "31c7f883998c5dc270ea29460114f328015e5efc4082a432c9c8669fe4070e18",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 5
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Em flutuação, o empuxo equilibra o peso: ρlíquido g Vsub = mg. Logo Vsub = m/ρlíquido = 480/1,6 = 300 cm³. Esse volume é menor que os 600 cm³ totais, confirmando que o objeto pode flutuar parcialmente submerso. Alternativa D.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 10; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-11",
+    "revision": "review-2026-10-05-fisica-2026-1-11",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 11,
+    "subjectNumber": 11,
+    "topics": [
+      "eletrodinâmica (circuitos)"
+    ],
+    "skills": [
+      "calcular corrente de lâmpadas em paralelo pela potência"
+    ],
+    "rawText": "\n\nQuestão 11\nA Figura 3 mostra um circuito elétrico composto por duas lâmpadas, uma de 60 W e outra de 100 W.\nFigura 3\n\nFonte: Elaboração própria.\n\nSabendo que ambas estão ligadas a uma fonte de tensão de 120 V, assinale a alternativa que corresponde\nàs correntes elétricas que percorrem cada lâmpada quando o interruptor é acionado.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n1,0 A na lâmpada de 60 W e 2,0 A na de 100 W\n0,5 A na lâmpada de 60 W e 0,83 A na de 100 W\n50 A na lâmpada de 60 W e 60 A na de 100 W\n0,31 A em cada lâmpada\n1,33 A em cada lâmpada\n\n\n",
+    "stem": "A Figura 3 mostra um circuito elétrico composto por duas lâmpadas, uma de 60 W e outra de 100 W.\n\nSabendo que ambas estão ligadas a uma fonte de tensão de 120 V, assinale a alternativa que corresponde às correntes elétricas que percorrem cada lâmpada quando o interruptor é acionado.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1,0 A na lâmpada de 60 W e 2,0 A na de 100 W"
+      },
+      {
+        "letter": "B",
+        "text": "0,5 A na lâmpada de 60 W e 0,83 A na de 100 W"
+      },
+      {
+        "letter": "C",
+        "text": "50 A na lâmpada de 60 W e 60 A na de 100 W"
+      },
+      {
+        "letter": "D",
+        "text": "0,31 A em cada lâmpada"
+      },
+      {
+        "letter": "E",
+        "text": "1,33 A em cada lâmpada"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2026-1-11-figure-d035e665c945.png",
+        "alt": "Figura 3: duas lâmpadas ligadas em paralelo à fonte, controladas por um interruptor comum.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 6; recorte do original, SHA-256 PDF cbcb4b34fa96031c64aebb033dd57b55badeedb6ab401d2df85ee08b887dbe1d",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 0
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 11 (nº 11 no caderno)",
+      "sha256": "0b5a11ba94dd9265af1c2676a60913e1e05a2ed6c1c6d9980ae318b822db5060",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 6
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "A figura mostra as lâmpadas em paralelo; cada uma recebe 120 V. Use P = UI: para a lâmpada de 60 W, I = 60/120 = 0,5 A; para a de 100 W, I = 100/120 ≈ 0,83 A. Alternativa B. Correntes diferentes são possíveis porque os ramos em paralelo têm resistências diferentes.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 6; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 11; resposta oficial B",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-12",
+    "revision": "review-2026-10-05-fisica-2026-1-12",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 12,
+    "subjectNumber": 12,
+    "topics": [
+      "calorimetria"
+    ],
+    "skills": [
+      "determinar temperatura final por calor sensível"
+    ],
+    "rawText": "\n\nQuestão 12\nUm bloco de alumínio de massa 200 g e calor específico 0,90 cal/g °C está a 20 °C. Ele recebe 1800 cal\nde calor.\nAssinale a alternativa que corresponde à nova temperatura do bloco.\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n25 °C\n40 °C\n35 °C\n30 °C\n45 °C\n\n\n",
+    "stem": "Um bloco de alumínio de massa 200 g e calor específico 0,90 cal/g °C está a 20 °C. Ele recebe 1800 cal de calor.\n\nAssinale a alternativa que corresponde à nova temperatura do bloco.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "25 °C"
+      },
+      {
+        "letter": "B",
+        "text": "40 °C"
+      },
+      {
+        "letter": "C",
+        "text": "35 °C"
+      },
+      {
+        "letter": "D",
+        "text": "30 °C"
+      },
+      {
+        "letter": "E",
+        "text": "45 °C"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 12 (nº 12 no caderno)",
+      "sha256": "bb90725695e2f9eda98f536f06d73deb270b25a764fa6251c9a73f96d90f6626",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 6
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Pela relação Q = mc(Tf − Ti), ΔT = 1800/(200 × 0,90) = 10 °C. Então Tf = 20 + 10 = 30 °C. Alternativa D. As unidades em cal e g já são compatíveis com o calor específico fornecido.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 6; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 12; resposta oficial D",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-13",
+    "revision": "review-2026-10-05-fisica-2026-1-13",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 13,
+    "subjectNumber": 13,
+    "topics": [
+      "cinemática"
+    ],
+    "skills": [
+      "calcular alcance de lançamento oblíquo no mesmo nível"
+    ],
+    "rawText": "\n\nQuestão 13\nUm jogador de futebol chuta a bola com velocidade inicial de 20 m/s em um ângulo de 45° em relação ao\nsolo plano e horizontal.\nDesprezando a resistência do ar e adotando g = 10 m/s², a bola atinge o solo a uma distância horizontal\nmáxima de:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n40 m\n10 m\n80 m\n60 m\n20 m\n\n\n",
+    "stem": "Um jogador de futebol chuta a bola com velocidade inicial de 20 m/s em um ângulo de 45° em relação ao solo plano e horizontal.\n\nDesprezando a resistência do ar e adotando g = 10 m/s², a bola atinge o solo a uma distância horizontal máxima de:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "40 m"
+      },
+      {
+        "letter": "B",
+        "text": "10 m"
+      },
+      {
+        "letter": "C",
+        "text": "80 m"
+      },
+      {
+        "letter": "D",
+        "text": "60 m"
+      },
+      {
+        "letter": "E",
+        "text": "20 m"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 13 (nº 13 no caderno)",
+      "sha256": "f55340e70bc973657e49751896af6aec6d38f0318fa9817978c83c5348b008b1",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 7
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Para lançamento e queda no mesmo nível, R = v₀² sen(2θ)/g. Com v₀ = 20 m/s e θ = 45°, sen 90° = 1, então R = 20²/10 = 40 m. Alternativa A. A 45°, esse alcance também é o máximo para a velocidade dada.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 7; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 13; resposta oficial A",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-vespertino-14",
+    "revision": "review-2026-10-05-fisica-2026-1-14",
+    "subject": "fisica",
+    "edition": "2026/1",
+    "period": "vespertino",
+    "originalNumber": 14,
+    "subjectNumber": 14,
+    "topics": [
+      "acústica"
+    ],
+    "skills": [
+      "calcular distância por tempo de ida e volta do eco"
+    ],
+    "rawText": "\n\nQuestão 14\nAs belugas (espécie de baleia branca) utilizam a ecolocalização para se orientarem em águas turvas e\ngeladas do Ártico. Elas emitem pulsos sonoros de alta frequência, que se propagam pela água, refletem\nem obstáculos e retornam ao animal, permitindo-lhe “enxergar pelo som”.\nA Figura 4 ilustra uma beluga emitindo um pulso sonoro em direção a uma parede de gelo. Ela percebe o\neco retornando após 0,40 s.\nFigura 4\n\nFonte: Elaboração própria.\n\nSabendo que a velocidade do som na água do mar é de aproximadamente 5400 km/h, a distância da beluga\naté a parede é de:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n100 m\n600 m\n300 m\n2160 m\n1080 m\n\nFORMULÁRIO DE FÍSICA\n∆𝑥𝑥 = 𝑥𝑥 − 𝑥𝑥0\n\n𝑎𝑎\n𝑥𝑥 = 𝑥𝑥0 + 𝑣𝑣0 𝑡𝑡 + 𝑡𝑡 2\n\n𝑃𝑃⃗⃗ = 𝑚𝑚𝑔𝑔⃗\n\n𝐹𝐹𝑐𝑐𝑐𝑐 =\n\n𝑚𝑚𝑣𝑣 2\n𝑅𝑅\n\n𝑊𝑊 = 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹\n\n∆𝑥𝑥\n∆𝑡𝑡\n\n𝑣𝑣𝑚𝑚 =\n\n𝑣𝑣 = 𝑣𝑣0 + 𝑎𝑎𝑎𝑎\n𝑚𝑚\n𝑔𝑔 = 10 2\n𝑠𝑠\n\n𝑝𝑝⃗ = 𝑚𝑚𝑣𝑣⃗\n\n𝑊𝑊\n∆𝑡𝑡\n\n𝑝𝑝 = 𝑝𝑝0 + 𝑑𝑑𝑑𝑑ℎ\n\n𝑘𝑘 = 9,0 × 109\n𝑅𝑅 = 𝜌𝜌\n\n𝐿𝐿\n𝐴𝐴\n\n𝑁𝑁. 𝑚𝑚2\n𝐶𝐶 2\n\n𝑈𝑈 2\n𝑅𝑅\n𝑇𝑇𝐶𝐶 = 𝑇𝑇𝐾𝐾 − 273\n𝑃𝑃 =\n\n𝑄𝑄 = 𝑚𝑚𝑚𝑚∆𝑇𝑇\n\n𝑝𝑝0 𝑉𝑉0 𝑝𝑝𝑓𝑓 𝑉𝑉𝑓𝑓\n\n𝑇𝑇0\n𝑇𝑇𝑓𝑓\n1 1 1\n= +\n𝑓𝑓 𝑝𝑝 𝑝𝑝′\n\n𝑐𝑐 = 3,0 × 108\n\n𝑣𝑣 = √\n\n𝐹𝐹 =\n\n1𝐿𝐿 = 103 𝑐𝑐𝑐𝑐3\n\n𝐺𝐺𝐺𝐺\n𝑅𝑅\n\n𝑘𝑘|𝑞𝑞1 ||𝑞𝑞2 |\n𝑑𝑑 2\n\n𝑉𝑉 = 𝐸𝐸𝐸𝐸\n\n𝑊𝑊 = 𝛥𝛥𝐸𝐸𝑐𝑐\n\n2𝜋𝜋\n𝑇𝑇\n\n𝐺𝐺 = 6,7 × 10−11\n\n𝑁𝑁. 𝑚𝑚2\n𝑘𝑘𝑘𝑘2\n\n1𝑎𝑎𝑎𝑎𝑎𝑎 = 1,0 × 105 𝑃𝑃𝑃𝑃\n𝐹𝐹⃗ = 𝑞𝑞𝐸𝐸⃗⃗\n\n𝐴𝐴 =\n\n𝑖𝑖 −𝑝𝑝′\n\n𝑜𝑜\n𝑝𝑝\n\n𝐸𝐸 = 𝑁𝑁ℎ𝑓𝑓\n\n𝜌𝜌𝐻𝐻2𝑂𝑂 = 103 𝑘𝑘𝑘𝑘⁄𝑚𝑚 ³\n\n𝑚𝑚𝑚𝑚 2\n\n𝐼𝐼⃗ = ∆𝑝𝑝⃗\n𝑑𝑑 =\n\n𝑚𝑚\n𝑉𝑉\n\n𝐹𝐹\n𝐴𝐴\n𝑞𝑞\n𝑉𝑉 = 𝑘𝑘\n𝑑𝑑\n𝑝𝑝 =\n\n𝜇𝜇0 𝑖𝑖\n2𝜋𝜋𝜋𝜋\n\n𝛷𝛷 = 𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵\n\n𝑄𝑄\n= 𝑚𝑚𝑚𝑚\n∆𝑇𝑇\n\n𝑝𝑝𝑝𝑝 = 𝑁𝑁𝑁𝑁𝑁𝑁\n\n∆𝐴𝐴 = 𝐴𝐴0 𝛽𝛽∆𝑇𝑇\n\n𝐽𝐽\n𝑚𝑚𝑚𝑚𝑚𝑚. 𝐾𝐾\n\n𝐸𝐸𝑐𝑐 =\n\n𝐵𝐵 =\n\n∆𝐿𝐿 = 𝐿𝐿0 𝛼𝛼∆𝑇𝑇\n𝑄𝑄 = 𝑚𝑚𝑚𝑚\n\n𝐹𝐹⃗𝑒𝑒𝑒𝑒 = −𝑘𝑘𝑥𝑥⃗\n\n∆𝑞𝑞\n∆𝑡𝑡\n\n= +. . . +\n𝑅𝑅𝑒𝑒𝑒𝑒 𝑅𝑅1\n𝑅𝑅𝑛𝑛\n\n𝐹𝐹 = 𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞𝑞\n\n𝐹𝐹⃗𝑅𝑅 = 𝑚𝑚𝑎𝑎⃗\n\n𝑖𝑖 =\n\n𝑅𝑅𝑒𝑒𝑒𝑒 = 𝑅𝑅1 +. . . +𝑅𝑅𝑛𝑛\n\n𝑅𝑅 = 8,3\n𝑚𝑚\n𝑠𝑠\n\n𝑣𝑣 2\n𝑎𝑎𝑐𝑐𝑐𝑐 =\n𝑅𝑅\n\n𝑘𝑘𝑘𝑘 2\n\n𝑃𝑃 =\n\n𝐸𝐸 = 𝑑𝑑𝑑𝑑𝑑𝑑\n\n𝑊𝑊 = 𝑝𝑝∆𝑉𝑉\n\n𝐹𝐹𝑎𝑎𝑎𝑎 = 𝜇𝜇𝜇𝜇\n\n𝑣𝑣 2 = 𝑣𝑣02 + 2𝑎𝑎∆𝑥𝑥\n𝜔𝜔 = 2𝜋𝜋𝜋𝜋 =\n\n𝐸𝐸𝑝𝑝𝑝𝑝𝑝𝑝 =\n\n𝑚𝑚1 𝑚𝑚2\n𝑑𝑑2\n\n𝑥𝑥 = 𝑥𝑥0 + 𝑣𝑣𝑣𝑣\n\n𝑣𝑣 = 𝜔𝜔𝜔𝜔\n\n𝐸𝐸𝑝𝑝𝑝𝑝 = 𝑚𝑚𝑚𝑚ℎ\n\n𝐹𝐹 = 𝐺𝐺\n\n∆𝑣𝑣\n∆𝑡𝑡\n\n𝑎𝑎 =\n\n𝐶𝐶 =\n\n1𝑐𝑐𝑐𝑐𝑐𝑐 = 4,2𝐽𝐽\n𝑛𝑛 =\n\n𝑐𝑐\n𝑣𝑣\n\n𝑣𝑣 = 𝜆𝜆𝜆𝜆\n\n𝑐𝑐𝐻𝐻2 𝑂𝑂 = 4,18 𝐽𝐽⁄𝑔𝑔 °𝐶𝐶\n\n𝑈𝑈 = 𝑅𝑅𝑅𝑅\n\n𝑃𝑃 = 𝑅𝑅𝑖𝑖 2\n\n∆𝑉𝑉 = 𝑉𝑉0 𝛾𝛾∆𝑇𝑇\n\n∆𝑈𝑈 = 𝑄𝑄 − 𝑊𝑊\n\n𝑛𝑛1 𝑠𝑠𝑠𝑠𝑠𝑠𝜃𝜃𝑖𝑖 = 𝑛𝑛2 𝑠𝑠𝑠𝑠𝑠𝑠𝜃𝜃𝑟𝑟\nℎ = 6,6 × 10−34 𝐽𝐽. 𝑠𝑠\n\nVelocidade do som no ar\n𝑣𝑣 = 340 𝑚𝑚⁄𝑠𝑠\n\nQUÍMICA\n\n(14 questões)\n\nTabela periódica p. 16.\n\n\n",
+    "stem": "As belugas (espécie de baleia branca) utilizam a ecolocalização para se orientarem em águas turvas e geladas do Ártico. Elas emitem pulsos sonoros de alta frequência, que se propagam pela água, refletem em obstáculos e retornam ao animal, permitindo-lhe “enxergar pelo som”.\n\nA Figura 4 ilustra uma beluga emitindo um pulso sonoro em direção a uma parede de gelo. Ela percebe o eco retornando após 0,40 s.\n\nSabendo que a velocidade do som na água do mar é de aproximadamente 5400 km/h, a distância da beluga até a parede é de:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "100 m"
+      },
+      {
+        "letter": "B",
+        "text": "600 m"
+      },
+      {
+        "letter": "C",
+        "text": "300 m"
+      },
+      {
+        "letter": "D",
+        "text": "2160 m"
+      },
+      {
+        "letter": "E",
+        "text": "1080 m"
+      }
+    ],
+    "assets": [
+      {
+        "path": "content/assets/fisica/udesc-2026-1-14-figure-05ac18b69c75.png",
+        "alt": "Figura 4: beluga emite pulso sonoro em direção a uma parede de gelo e recebe o eco refletido.",
+        "required": true,
+        "verified": true,
+        "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 7; recorte do original, SHA-256 PDF cbcb4b34fa96031c64aebb033dd57b55badeedb6ab401d2df85ee08b887dbe1d",
+        "anchor": {
+          "target": "stem",
+          "optionLetter": null,
+          "afterBlock": 1
+        }
+      }
+    ],
+    "source": {
+      "file": "content/source/questoes-fisica.md",
+      "section": "## [2026/1] questão 14 (nº 14 no caderno)",
+      "sha256": "96988cae80b0d04bf320c9a4ab9b88218890c4b31fb3d96f5ef400d0029022ad",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf",
+      "page": 7
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência Física",
+      "reviewedAt": "2026-10-05T22:00:00Z"
+    },
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Converta a velocidade: 5400 km/h ÷ 3,6 = 1500 m/s. O intervalo de 0,40 s inclui ida e volta do som, então 2d = vt. Logo d = 1500 × 0,40/2 = 300 m. Alternativa C. Usar vt sem dividir por dois dá o percurso total do pulso, não a distância até a parede.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 7; content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 14; resposta oficial C",
+      "reviewer": "Codex — conferência Física"
+    },
+    "difficulty": "easy"
+  }
+]

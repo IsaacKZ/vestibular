@@ -1,0 +1,5026 @@
+[
+  {
+    "id": "udesc-2024-1-matutino-01",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-02",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-03",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-04",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-05",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-06",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-07",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-08",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-09",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-10",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-11",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-12",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-13",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-14",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-15",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-16",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-17",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-18",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-19",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-20",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-21",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-22",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-23",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-24",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-25",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-26",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-27",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-28",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-37",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-37",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 37",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-38",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-38",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 38",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-39",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-39",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 39",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2024-1-matutino-40",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-40",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 40",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-41",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-41",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 41",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-42",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-42",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 42",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-43",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-43",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 43",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-44",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-44",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 44",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-45",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-45",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 45",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-46",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-46",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 46",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-47",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-47",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 47",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-48",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-48",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 48",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-49",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-49",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 49",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-matutino-50",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-50",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 50",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-01",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-02",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-03",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-04",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-05",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-06",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-07",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-08",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-09",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-10",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-11",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-12",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2024-1-vespertino-13",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-14",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-15",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-16",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-17",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-18",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-19",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-20",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-21",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-22",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-23",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-24",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-25",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-26",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-27",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-1-vespertino-28",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-1-49f4395f74439b04-vespertino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-01",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-02",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-03",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-04",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-05",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2024-2-matutino-06",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-07",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-08",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-09",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-10",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-11",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-12",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2024-2-matutino-13",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-14",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-15",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-16",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-17",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-18",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-19",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-20",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-21",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-22",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-23",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-24",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-25",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-26",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2024-2-matutino-27",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-28",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-37",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-37",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 37",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-38",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-38",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 38",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-39",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-39",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 39",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-40",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-40",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 40",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-41",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-41",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 41",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-42",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-42",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 42",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-43",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-43",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 43",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-44",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-44",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 44",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-45",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-45",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 45",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-46",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-46",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 46",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-47",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-47",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 47",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-48",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-48",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 48",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-49",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-49",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 49",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-matutino-50",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-matutino-50",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 50",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-01",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-02",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-03",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-04",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-05",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-06",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-07",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-08",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-09",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-10",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2024-2-vespertino-11",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-12",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-13",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-14",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-15",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-16",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-17",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-18",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-19",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-20",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2024-2-vespertino-21",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-22",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-23",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-24",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-25",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-26",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-27",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2024-2-vespertino-28",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2024-2-ae96345f3e1d7857-vespertino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-2-ae96345f3e1d.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-01",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-02",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-03",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-04",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-05",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-06",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-07",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-08",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-09",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-10",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-11",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-12",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-13",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-14",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-15",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-16",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-17",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-18",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-19",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-20",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-21",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-22",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-23",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-24",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-25",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-26",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-27",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-28",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-37",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-37",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 37",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-38",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-38",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 38",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-39",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-39",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 39",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-40",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-40",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 40",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-41",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-41",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 41",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-42",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-42",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 42",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-43",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-43",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 43",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-44",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-44",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 44",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-45",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-45",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 45",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-46",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-46",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 46",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-47",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-47",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 47",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-48",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-48",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 48",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-49",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-49",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 49",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-matutino-50",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-50",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 50",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-01",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-02",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-03",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-04",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-05",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-06",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-07",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-08",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-09",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-10",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-11",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-12",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-13",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-14",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-15",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-16",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-17",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-18",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-19",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-20",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-21",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-22",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-23",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2025-1-vespertino-24",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-25",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-26",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-27",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-1-vespertino-28",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-vespertino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-01",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-02",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-03",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-04",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-05",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-06",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-07",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-08",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-09",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-10",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-11",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-12",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-13",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-14",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-15",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-16",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-17",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-18",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-19",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-20",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-21",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-22",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-23",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-24",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-25",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-26",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-27",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-28",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-37",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-37",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 37",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-38",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-38",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 38",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-39",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-39",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 39",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-40",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-40",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 40",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-41",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-41",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 41",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-42",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-42",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 42",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-43",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-43",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 43",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-44",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-44",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 44",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-45",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-45",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 45",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-46",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-46",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 46",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-47",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-47",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 47",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-48",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-48",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 48",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-49",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-49",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 49",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-matutino-50",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-50",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 50",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-01",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-02",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-03",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-04",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-05",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-06",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-07",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-08",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-09",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-10",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-11",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-12",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-13",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-14",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-15",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-16",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-17",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-18",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-19",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-20",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-21",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-22",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-23",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-24",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-25",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-26",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-27",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2025-2-vespertino-28",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2025-2-a313df2141524b2c-vespertino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-01",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-02",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-03",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-04",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-05",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-06",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-07",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-08",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-09",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-10",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-11",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-12",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-13",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-14",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-15",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-16",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-17",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-18",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-19",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-20",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-21",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-22",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-23",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-24",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-25",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-26",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-27",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-28",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-37",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-37",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 37",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-38",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-38",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 38",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-39",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-39",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 39",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-40",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-40",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 40",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-41",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-41",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 41",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-42",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-42",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 42",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-43",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-43",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 43",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-44",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-44",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 44",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-45",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-45",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 45",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-46",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-46",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 46",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-47",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-47",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 47",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-48",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-48",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 48",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-49",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-49",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 49",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-matutino-50",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-50",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 50",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-01",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-02",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-03",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-04",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-05",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-06",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-07",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-08",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-09",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-10",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-11",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-12",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-13",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-14",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-15",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-16",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-17",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-18",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-19",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-20",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-21",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-22",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-23",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-24",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-25",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-26",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-27",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-1-vespertino-28",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-1-26e69110d8cf229f-vespertino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-01",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-02",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-03",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-04",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-05",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-06",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-07",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-08",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-09",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2026-2-matutino-10",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-11",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-12",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-13",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-14",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-15",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-16",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-17",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-18",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-19",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-20",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-21",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-22",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-23",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-24",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-25",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-26",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-27",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-28",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Biologia, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-37",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-37",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 37",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-38",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-38",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 38",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-39",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-39",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 39",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-40",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-40",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 40",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-41",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-41",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 41",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-42",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-42",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 42",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-43",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-43",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 43",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-44",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-44",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 44",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-45",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-45",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 45",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-46",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-46",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 46",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-47",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-47",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 47",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-48",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-48",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 48",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-49",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-49",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 49",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-matutino-50",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-50",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 50",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-01",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-02",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-2",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 2",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-03",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-3",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 3",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-04",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-4",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 4",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-05",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-5",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 5",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-06",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-6",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 6",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-07",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-7",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 7",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-08",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-8",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 8",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-09",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-9",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 9",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-10",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-11",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-12",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-12",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 12",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-13",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-13",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 13",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-14",
+    "key": null,
+    "annulment": {
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-14",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Física, questão 14",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    }
+  },
+  {
+    "id": "udesc-2026-2-vespertino-15",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-15",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 15",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-16",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-16",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 16",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-17",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-17",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 17",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-18",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-18",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 18",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-19",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-19",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 19",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-20",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-20",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 20",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-21",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-21",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 21",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-22",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-22",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 22",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-23",
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-23",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 23",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-24",
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-24",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 24",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-25",
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-25",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 25",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-26",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-26",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 26",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-27",
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-27",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 27",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  },
+  {
+    "id": "udesc-2026-2-vespertino-28",
+    "key": {
+      "letter": "A",
+      "revision": "udesc-2026-2-779e3f653454eeb0-vespertino-28",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Vespertino, Química, questão 28",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null
+  }
+]
