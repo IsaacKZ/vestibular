@@ -12,6 +12,7 @@ test("diminuir a rotina atualiza um plano já salvo sem ultrapassar o novo orça
   await useVerifiedTestCorpus(page);
   await page.goto("/");
   await expect(page.locator(".task-list li")).toHaveCount(12);
+  await page.getByRole("button", { name: "Editar plano", exact: true }).click();
   await page
     .getByRole("button", { name: "Subir tarefa 2", exact: true })
     .click();

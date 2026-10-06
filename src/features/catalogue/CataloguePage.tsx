@@ -78,8 +78,8 @@ export function CataloguePage() {
     <>
       <PageHeader eyebrow="Acervo UDESC" title="Questões">
         <p>
-          Consulte os enunciados e a origem de cada item. O treino usa somente
-          conteúdo conferido.
+          Filtre por matéria, assunto ou edição e escolha o que estudar.
+          O treino usa somente questões conferidas.
         </p>
       </PageHeader>
       <div className="inventory-line" style={{ flexWrap: "wrap" }}>

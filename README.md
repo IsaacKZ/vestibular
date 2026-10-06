@@ -35,7 +35,7 @@ executável, defina `PLAYWRIGHT_CHROMIUM_EXECUTABLE` com o caminho local.
 
 ## Hospedagem no GitHub Pages
 
-O endereço previsto é https://isaackz.github.io/vestibular/.
+O app está em https://isaackz.github.io/vestibular/.
 O workflow [Deploy to GitHub Pages](.github/workflows/pages.yml) audita o
 conteúdo, executa os testes e publica o build após cada envio à branch `main`.
 No repositório, configure **Settings → Pages → Build and deployment → Source →
@@ -77,7 +77,7 @@ e [docs/publicacao-2026-10-06.md](docs/publicacao-2026-10-06.md).
 Os exemplos sintéticos usados para testar o estudo estão somente em
 `tests/`; eles não fazem parte do app publicado.
 
-Validação em 06/10/2026: 263 testes de módulos, 26 testes de navegador na
+Validação em 06/10/2026: 263 testes de módulos, 31 testes de navegador na
 raiz e três testes específicos de Pages passaram, além da auditoria de
 conteúdo e dos dois builds com verificação de tipos.
 Os comandos de validação acima verificam também celular, offline, retomada de rascunhos,
@@ -88,6 +88,19 @@ A revisão e as correções estão registradas em
 [docs/revisao-2026-10-02.md](docs/revisao-2026-10-02.md). As correções pedagógicas
 e sua validação estão em
 [docs/correcoes-aprendizagem-2026-10-03.md](docs/correcoes-aprendizagem-2026-10-03.md).
+
+## Interface e leitura
+
+A interface usa fundo de papel, texto escuro, azul para ações e títulos em
+serifa. A tela Hoje apresenta o início do estudo antes do roteiro; os
+controles de organização aparecem ao abrir Editar plano. A prática usa uma
+coluna de leitura e identifica cada correção por título e cor.
+
+As fontes, decisões e limites da pesquisa estão em
+[docs/pesquisa-cores-interface-2026-10-06.md](docs/pesquisa-cores-interface-2026-10-06.md).
+A entrega e os testes estão em [docs/interface-2026-10-06.md](docs/interface-2026-10-06.md).
+A paleta foi escolhida para identidade e legibilidade; não há evidência de
+que, por si, melhore retenção ou aprovação no vestibular.
 
 ## Regras de estudo
 

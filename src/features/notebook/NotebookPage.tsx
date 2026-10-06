@@ -27,8 +27,7 @@ export function NotebookPage() {
     <>
       <PageHeader eyebrow="Erros, dúvidas e retornos" title="Caderno">
         <p>
-          Registre a causa que você identificou. O retorno em outro dia fornece
-          evidência sobre aquele item.
+          Anote onde errou e acompanhe as questões que precisam de revisão.
         </p>
       </PageHeader>
       <div className="filters">

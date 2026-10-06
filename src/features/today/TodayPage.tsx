@@ -1,4 +1,5 @@
 import { fitDailyPlan } from "./fitDailyPlan";
+import "../../styles/today.css";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import type {
@@ -59,7 +60,8 @@ export function TodayPage() {
     app.settings,
   );
   const [error, setError] = useState(""),
-    [busy, setBusy] = useState(false);
+    [busy, setBusy] = useState(false),
+    [editing, setEditing] = useState(false);
   const active = app.history.sessions.filter(
     (s) =>
       s.status === "active" &&
@@ -181,36 +183,10 @@ export function TodayPage() {
     }
   };
   return (
-    <>
+    <div className="today-page">
       <PageHeader eyebrow={formatDate(date)} title="Hoje">
-        <p>
-          Um plano possível, com espaço para tentar, corrigir e voltar depois.
-        </p>
+        <p>Seu roteiro de questões e revisões para este dia.</p>
       </PageHeader>
-      <section className="daily-budget">
-        <label className="field">
-          Tempo disponível hoje
-          <select
-            value={app.settings.dailyMinutes}
-            disabled={busy}
-            onChange={(e) =>
-              void changeMinutes(
-                Number(e.target.value) as Settings["dailyMinutes"],
-              )
-            }
-          >
-            {[30, 60, 90, 120].map((n) => (
-              <option key={n} value={n}>
-                {n} minutos
-              </option>
-            ))}
-          </select>
-        </label>
-        <p className="muted">
-          {plan.tasks.length} questões previstas ·{" "}
-          {app.settings.studyWeekdays.length} dias por semana
-        </p>
-      </section>
       {error && <Notice kind="error">{error}</Notice>}
       {active.length > 0 && (
         <section className="resume-section">
@@ -221,181 +197,236 @@ export function TodayPage() {
                 className="button primary"
                 to={`/${s.mode === "assessment" ? "assessment" : "practice"}/${s.id}`}
               >
-                Retomar{" "}
-                {s.mode === "assessment" ? "simulado parcial" : "treino"} ·{" "}
-                {s.questions.length} questões
+                Retomar {s.mode === "assessment" ? "simulado parcial" : "treino"} ·{" "}
+              {s.questions.length} questões
               </Link>
             </p>
           ))}
         </section>
       )}
-      {plan.tasks.length > 0 ? (
-        <section>
-          <div className="list-heading">
-            <h2>Plano do dia</h2>
+      <section className="study-start" aria-label="Estudo de hoje">
+        <div className="study-start-main">
+          <p className="eyebrow">Plano do dia</p>
+          <h2>{plan.tasks.length} questões no seu roteiro</h2>
+          <p className="study-summary">
             <span>{plannedMinutes} minutos previstos</span>
-          </div>
-          <ol className="task-list">
-            {plan.tasks.map((t, i) => {
-              const q = app.findQuestion(t.questionId),
-                done = completedIds.has(t.questionId);
-              return (
-                <li key={t.questionId}>
-                  <div>
-                    <strong>
-                      {q ? subjectLabels[q.subject] : "Questão"} · {q?.edition}{" "}
-                      · {q?.originalNumber}
-                    </strong>
-                    <p className="small">
-                      {done ? "Feita hoje · " : ""}
-                      {reasonLabels[t.reason]} · {t.minutes} min
-                    </p>
-                  </div>
-                  <div className="row-actions">
-                    <button
-                      aria-label={`Subir tarefa ${i + 1}`}
-                      disabled={i === 0}
-                      onClick={() => move(i, -1)}
-                    >
-                      ↑
-                    </button>
-                    <button
-                      aria-label={`Descer tarefa ${i + 1}`}
-                      disabled={i === plan.tasks.length - 1}
-                      onClick={() => move(i, 1)}
-                    >
-                      ↓
-                    </button>
-                    <button
-                      onClick={() =>
-                        void changePlan({
-                          ...plan,
-                          tasks: plan.tasks.filter((_, j) => j !== i),
-                          deferredQuestionIds: [
-                            ...plan.deferredQuestionIds,
-                            t.questionId,
-                          ],
-                        })
-                      }
-                    >
-                      Remover
-                    </button>
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
-          {remainingTasks.length === 0 && (
-            <Notice kind="success">
-              Plano concluído. As tentativas de hoje estão salvas.
-            </Notice>
-          )}
-          {continuing && (
-            <Notice>
-              Uma sessão deste plano está em andamento. Retome para continuar as
-              tarefas restantes.
-            </Notice>
-          )}
-          {planBlocked && (
-            <Notice>
-              Há questões deste plano em um simulado ativo. Retome e encerre o
-              simulado antes de iniciar estas tarefas.
-            </Notice>
-          )}
-          <button
-            className="primary"
-            disabled={
-              busy || planBlocked || continuing || remainingTasks.length === 0
-            }
-            onClick={() => void start()}
-          >
-            {remainingTasks.length === 0
-              ? "Plano concluído"
-              : "Iniciar plano do dia"}
-          </button>
-        </section>
-      ) : (
-        <EmptyState
-          title={
-            ready
-              ? "Sem tarefas previstas para hoje"
-              : "O treino aguarda conteúdo conferido"
-          }
-        >
-          <p>
-            {ready
-              ? "Você pode adicionar uma tarefa dentro do tempo disponível ou escolher uma lista no acervo."
-              : "Os enunciados recebidos ainda precisam de gabaritos, resoluções e conferência dos originais. Consulte o inventário e os motivos de cada bloqueio."}
+            <span>{app.settings.studyWeekdays.length} dias por semana</span>
           </p>
-          <Link className="button primary" to="/questions">
-            Consultar questões e fontes
-          </Link>
-        </EmptyState>
-      )}
+          {plan.tasks.length > 0 && (
+            <button
+              className="primary"
+              disabled={
+                busy || planBlocked || continuing || remainingTasks.length === 0
+              }
+              onClick={() => void start()}
+            >
+              {remainingTasks.length === 0
+                ? "Plano concluído"
+                : "Iniciar plano do dia"}
+              <span aria-hidden="true">→</span>
+            </button>
+          )}
+        </div>
+        <div className="daily-budget">
+          <label className="field">
+            Tempo disponível hoje
+            <select
+              value={app.settings.dailyMinutes}
+              disabled={busy}
+              onChange={(e) =>
+                void changeMinutes(
+                  Number(e.target.value) as Settings["dailyMinutes"],
+                )
+              }
+            >
+              {[30, 60, 90, 120].map((n) => (
+                <option key={n} value={n}>
+                  {n} minutos
+                </option>
+              ))}
+            </select>
+          </label>
+          <p className="small">O plano se ajusta ao tempo escolhido.</p>
+        </div>
+      </section>
       {ready > 0 && (
-        <label className="field">
-          Adicionar tarefa ao plano
-          <select
-            value=""
-            disabled={busy || addable.length === 0}
-            onChange={(e) => {
-              const candidate = addable.find(
-                (item) => item.question.id === e.target.value,
-              );
-              if (candidate)
-                void changePlan({
-                  ...plan,
-                  tasks: [
-                    ...plan.tasks,
-                    {
-                      questionId: candidate.question.id,
-                      minutes: candidate.minutes,
-                      reason: "new",
-                    },
-                  ],
-                  deferredQuestionIds: plan.deferredQuestionIds.filter(
-                    (id) => id !== e.target.value,
-                  ),
-                });
-            }}
+        <div className="list-heading">
+          <h2>Roteiro de hoje</h2>
+          <button
+            className="edit-plan"
+            aria-expanded={editing}
+            aria-controls="plan-tasks"
+            onClick={() => setEditing((value) => !value)}
           >
-            <option value="">Escolher questão pronta</option>
-            {addable.map(({ question: q, minutes }) => (
-              <option key={q.id} value={q.id}>
-                {subjectLabels[q.subject]} · {q.edition} · {q.originalNumber} ·{" "}
-                {minutes} min
-              </option>
-            ))}
-          </select>
-        </label>
+            {editing ? "Concluir edição" : "Editar plano"}
+          </button>
+        </div>
       )}
+      <div id="plan-tasks">
+        {plan.tasks.length > 0 ? (
+          <section>
+            <ol className="task-list">
+              {plan.tasks.map((t, i) => {
+                const q = app.findQuestion(t.questionId),
+                  done = completedIds.has(t.questionId);
+                return (
+                  <li key={t.questionId} className={done ? "task-done" : undefined}>
+                    <span className="task-number" aria-hidden="true">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <div className="task-description">
+                      <strong>
+                        {q ? subjectLabels[q.subject] : "Questão"} · questão{" "}
+                        {q?.originalNumber}
+                      </strong>
+                      <p className="task-topic">{q?.topics.join(" · ")}</p>
+                      <p className="small">
+                        {done ? "Feita hoje · " : ""}
+                        {q?.edition} · {reasonLabels[t.reason]}
+                      </p>
+                    </div>
+                    <span className="task-duration">
+                      {t.minutes}<small> min</small>
+                    </span>
+                    {editing && (
+                      <div className="row-actions">
+                        <button
+                          aria-label={`Subir tarefa ${i + 1}`}
+                          disabled={i === 0}
+                          onClick={() => move(i, -1)}
+                        >
+                          ↑
+                        </button>
+                        <button
+                          aria-label={`Descer tarefa ${i + 1}`}
+                          disabled={i === plan.tasks.length - 1}
+                          onClick={() => move(i, 1)}
+                        >
+                          ↓
+                        </button>
+                        <button
+                          onClick={() =>
+                            void changePlan({
+                              ...plan,
+                              tasks: plan.tasks.filter((_, j) => j !== i),
+                              deferredQuestionIds: [
+                                ...plan.deferredQuestionIds,
+                                t.questionId,
+                              ],
+                            })
+                          }
+                        >
+                          Remover
+                        </button>
+                      </div>
+                    )}
+                  </li>
+                );
+              })}
+            </ol>
+            {remainingTasks.length === 0 && (
+              <Notice kind="success">
+                Plano concluído. As tentativas de hoje estão salvas.
+              </Notice>
+            )}
+            {continuing && (
+              <Notice>
+                Uma sessão deste plano está em andamento. Retome para continuar as
+                tarefas restantes.
+              </Notice>
+            )}
+            {planBlocked && (
+              <Notice>
+                Há questões deste plano em um simulado ativo. Retome e encerre o
+                simulado antes de iniciar estas tarefas.
+              </Notice>
+            )}
+          </section>
+        ) : (
+          <EmptyState
+            title={
+              ready
+                ? "Sem tarefas previstas para hoje"
+                : "O treino aguarda conteúdo conferido"
+            }
+          >
+            <p>
+              {ready
+                ? "Você pode adicionar uma tarefa dentro do tempo disponível ou escolher uma lista no acervo."
+                : "Os enunciados recebidos ainda precisam de gabaritos, resoluções e conferência dos originais. Consulte o inventário e os motivos de cada bloqueio."}
+            </p>
+            <Link className="button primary" to="/questions">
+              Consultar questões e fontes
+            </Link>
+          </EmptyState>
+        )}
+        {ready > 0 && editing && (
+          <label className="field plan-add">
+            Adicionar tarefa ao plano
+            <select
+              value=""
+              disabled={busy || addable.length === 0}
+              onChange={(e) => {
+                const candidate = addable.find(
+                  (item) => item.question.id === e.target.value,
+                );
+                if (candidate)
+                  void changePlan({
+                    ...plan,
+                    tasks: [
+                      ...plan.tasks,
+                      {
+                        questionId: candidate.question.id,
+                        minutes: candidate.minutes,
+                        reason: "new",
+                      },
+                    ],
+                    deferredQuestionIds: plan.deferredQuestionIds.filter(
+                      (id) => id !== e.target.value,
+                    ),
+                  });
+              }}
+            >
+              <option value="">Escolher questão pronta</option>
+              {addable.map(({ question: q, minutes }) => (
+                <option key={q.id} value={q.id}>
+                  {subjectLabels[q.subject]} · {q.edition} · {q.originalNumber} ·{" "}
+                  {minutes} min
+                </option>
+              ))}
+            </select>
+          </label>
+        )}
+      </div>
       {plan.deferredQuestionIds.length > 0 && (
         <p className="small">
           {plan.deferredQuestionIds.length} questões fora da capacidade de hoje.
           O vencimento original das revisões foi preservado.
         </p>
       )}
-      <section className="plain-section">
-        <h2>Retornos no caderno</h2>
-        <p>
-          {app.projection.reviews.filter((r) => r.dueDate <= date).length}{" "}
-          revisões vencidas ·{" "}
-          {app.projection.gaps.filter((g) => g.status !== "recovered").length}{" "}
-          lacunas em acompanhamento
-        </p>
-        <Link to="/notebook">Consultar caderno →</Link>
-      </section>
-      <section className="plain-section">
-        <h2>Preparação para a prova</h2>
-        <p>
-          Data-alvo: {formatDate(app.settings.targetExamDate)}. Confirme o
-          calendário, as regras e as obras exigidas no edital vigente.
-        </p>
-        <Link to="/settings">Ajustar rotina e backup →</Link>
-      </section>
+      <div className="today-notes">
+        <section className="plain-section">
+          <h2>Retornos no caderno</h2>
+          <p>
+            {app.projection.reviews.filter((r) => r.dueDate <= date).length}{" "}
+            revisões vencidas ·{" "}
+            {app.projection.gaps.filter((g) => g.status !== "recovered").length}{" "}
+            lacunas em acompanhamento
+          </p>
+          <Link to="/notebook">Consultar caderno →</Link>
+        </section>
+        <section className="plain-section">
+          <h2>Preparação para a prova</h2>
+          <p>
+            Data-alvo: {formatDate(app.settings.targetExamDate)}. Confirme o
+            calendário, as regras e as obras exigidas no edital vigente.
+          </p>
+          <Link to="/settings">Ajustar rotina e backup →</Link>
+        </section>
+      </div>
       {app.history.attempts.length === 0 && (
         <p className="muted">Você ainda não registrou tentativas.</p>
       )}
-    </>
+    </div>
   );
 }

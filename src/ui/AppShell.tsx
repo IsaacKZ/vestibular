@@ -84,7 +84,7 @@ export function AppShell() {
             Caderno <strong>UDESC</strong>
           </span>
         </NavLink>
-        <p className="sidebar-caption">Estudo, tentativa e retorno.</p>
+        <p className="sidebar-caption">Preparação para o vestibular</p>
         <nav className="main-nav" aria-label="Navegação principal">
           {links.map((link) => (
             <NavLink end={link.to === "/"} key={link.to} to={link.to}>
@@ -133,7 +133,7 @@ export function AppShell() {
           )}
         </main>
         <footer className="app-footer">
-          Caderno pessoal · acervo parcial das cinco matérias
+          Caderno UDESC · questões oficiais e revisões pessoais
         </footer>
       </div>
       {needRefresh && (

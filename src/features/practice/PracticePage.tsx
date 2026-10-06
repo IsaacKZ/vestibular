@@ -393,7 +393,7 @@ export function PracticePage() {
       </>
     );
   return (
-    <>
+    <div className="practice-page">
       <PageHeader
         eyebrow={
           isAssessment
@@ -517,59 +517,62 @@ export function PracticePage() {
                 </label>
               ))}
             </div>
-            <label className="field">
-              Confiança antes da correção
-              <select
-                value={input.confidence}
-                onChange={(e) =>
-                  update({
-                    confidence: e.target.value as AttemptInput["confidence"],
-                  })
-                }
-              >
-                <option value="low">Baixa — ainda tenho dúvida</option>
-                <option value="medium">Média</option>
-                <option value="high">Alta</option>
-              </select>
-            </label>
-            <div className="checks">
-              <label>
-                <input
-                  type="checkbox"
-                  checked={input.guessed}
-                  onChange={(e) => update({ guessed: e.target.checked })}
-                />
-                Marquei por chute
+            <div className="attempt-context">
+              <h2>Registro da tentativa</h2>
+              <label className="field">
+                Confiança antes da correção
+                <select
+                  value={input.confidence}
+                  onChange={(e) =>
+                    update({
+                      confidence: e.target.value as AttemptInput["confidence"],
+                    })
+                  }
+                >
+                  <option value="low">Baixa — ainda tenho dúvida</option>
+                  <option value="medium">Média</option>
+                  <option value="high">Alta</option>
+                </select>
               </label>
-              <label>
-                <input
-                  type="checkbox"
-                  checked={input.doubt}
-                  onChange={(e) => update({ doubt: e.target.checked })}
-                />
-                Tenho dúvida
-              </label>
-              {!isAssessment && (
-                <>
-                  <label>
-                    <input
-                      type="checkbox"
-                      checked={input.usedHint}
-                      onChange={(e) => update({ usedHint: e.target.checked })}
-                    />
-                    Usei uma dica
-                  </label>
-                  <label>
-                    <input
-                      type="checkbox"
-                      checked={input.consulted}
-                      disabled={session.purpose === "guided"}
-                      onChange={(e) => update({ consulted: e.target.checked })}
-                    />
-                    Consultei material
-                  </label>
-                </>
-              )}
+              <div className="checks">
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={input.guessed}
+                    onChange={(e) => update({ guessed: e.target.checked })}
+                  />
+                  Marquei por chute
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={input.doubt}
+                    onChange={(e) => update({ doubt: e.target.checked })}
+                  />
+                  Tenho dúvida
+                </label>
+                {!isAssessment && (
+                  <>
+                    <label>
+                      <input
+                        type="checkbox"
+                        checked={input.usedHint}
+                        onChange={(e) => update({ usedHint: e.target.checked })}
+                      />
+                      Usei uma dica
+                    </label>
+                    <label>
+                      <input
+                        type="checkbox"
+                        checked={input.consulted}
+                        disabled={session.purpose === "guided"}
+                        onChange={(e) => update({ consulted: e.target.checked })}
+                      />
+                      Consultei material
+                    </label>
+                  </>
+                )}
+              </div>
             </div>
           </fieldset>
           {active && (
@@ -668,6 +671,6 @@ export function PracticePage() {
           ))}
         </nav>
       )}
-    </>
+    </div>
   );
 }

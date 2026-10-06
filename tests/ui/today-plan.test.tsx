@@ -76,6 +76,7 @@ test("allows another short task when five tasks leave five actual minutes", asyn
     })),
     [question({ id: "add-short", originalNumber: 50 })],
   );
+  fireEvent.click(screen.getByRole("button", { name: "Editar plano" }));
   const add = screen.getByRole("combobox", {
     name: "Adicionar tarefa ao plano",
   }) as HTMLSelectElement;
@@ -111,6 +112,7 @@ test("excludes reserved and over-budget choices from manual additions", () => {
       <TodayPage />
     </MemoryRouter>,
   );
+  fireEvent.click(screen.getByRole("button", { name: "Editar plano" }));
   const add = screen.getByRole("combobox", {
     name: "Adicionar tarefa ao plano",
   }) as HTMLSelectElement;

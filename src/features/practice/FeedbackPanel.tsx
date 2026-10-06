@@ -22,7 +22,10 @@ export function FeedbackPanel({
           ? "Acerto com dúvida"
           : "Resposta correta";
   return (
-    <section className="feedback" aria-label="Correção">
+    <section
+      className={`feedback feedback--${grade?.exclusionReason === "annulled" || attempt.response === null ? "neutral" : grade?.correct ? "correct" : "incorrect"}`}
+      aria-label="Correção"
+    >
       <h2>
         {grade?.exclusionReason === "annulled"
           ? "Questão anulada"

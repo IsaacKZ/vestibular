@@ -1,14 +1,21 @@
 :root {
-  --paper: #f7f5ef;
+  --paper: #f8f5ee;
   --surface: #fff;
-  --ink: #1f2529;
-  --muted: #5a6266;
-  --accent: #1b6658;
-  --accent-soft: #eaf1ee;
-  --border: #d7dbd5;
-  --error: #8a342a;
-  --error-soft: #fff1ed;
-  --focus: #125eae;
+  --ink: #242a30;
+  --muted: #59636d;
+  --accent: #234b63;
+  --accent-hover: #17394f;
+  --accent-soft: #e7eef2;
+  --border: #d7d2c8;
+  --control-border: #7f898f;
+  --error: #a13e32;
+  --error-soft: #fbf0ec;
+  --success: #2d674d;
+  --success-soft: #edf4ee;
+  --warning: #805c12;
+  --heading-font: Georgia, "Times New Roman", serif;
+  --focus: #0073b1;
+  color-scheme: light;
   font-family:
     system-ui,
     -apple-system,
