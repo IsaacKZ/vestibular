@@ -1,0 +1,364 @@
+[
+  {
+    "id": "udesc-2025-2-matutino-15",
+    "skills": [
+      "Distinguir as trocas de CO₂ e O₂ na fotossíntese e na respiração celular"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Na fotossíntese oxigênica, a energia luminosa permite a produção de matéria orgânica a partir de CO₂; o O₂ liberado provém da oxidação da água. O acúmulo de oxigênio na atmosfera ampliou as condições para respiração aeróbia e possibilitou a formação de ozônio, que absorve radiação ultravioleta. Esses efeitos ocorreram em escala evolutiva, sem uma passagem imediata para organismos aeróbios complexos.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. A questão pede um efeito do surgimento de organismos fotossintetizantes há cerca de 2,5 bilhões de anos. Identifique o produto gasoso da fotossíntese oxigênica: O₂. 2. Relacione seu acúmulo com duas consequências: utilização na respiração aeróbia e formação de O₃ na atmosfera. Essa cadeia sustenta A, a letra oficial. 3. B troca fixação de CO₂ por aumento desse gás; C inverte o efeito sobre O₂. D desloca o evento para o Paleozoico, muito posterior, e E acrescenta uma predominância imediata de organismos complexos que não decorre do processo. O O₂ não é liberado pela quebra do CO₂: sua origem é a água.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 15, página PDF 11: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 15, alternativa A; resolução elaborada conferida vinculada a udesc-2025-2-matutino-15 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-16",
+    "skills": [
+      "Distinguir as trocas de CO₂ e O₂ na fotossíntese e na respiração celular"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Plantas incorporam carbono do CO₂ atmosférico em compostos orgânicos pela fotossíntese. A retenção desse carbono na biomassa e nos solos pode contribuir para mitigar o aquecimento global. Plantas também respiram, e a decomposição libera carbono; portanto, a fixação fotossintética e o armazenamento devem ser distinguidos das emissões. A contribuição depende do balanço entre entrada, retenção e liberação de carbono.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Procure nas alternativas o processo vegetal que retira um gás de efeito estufa da atmosfera. Na fotossíntese, o CO₂ fornece carbono para a matéria orgânica. 2. C expressa essa remoção e é a resposta oficial. A permanência do carbono na vegetação e no solo ajuda a explicar a contribuição climática. 3. B substitui CO₂ por CH₄; D trata o crescimento da biomassa como simples emissão de CO₂. E inverte o sentido habitual da decomposição, que libera carbono por respiração e pode gerar metano em condições anaeróbias. A afirma um aumento global de temperatura pela evapotranspiração, sem sustentar a contribuição pedida. Reconhecer C não significa que uma floresta deixa de respirar.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 16, página PDF 11: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 16, alternativa C; resolução elaborada conferida vinculada a udesc-2025-2-matutino-16 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-17",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Xilema e floema são tecidos vasculares com cargas e funções distintas. O xilema conduz água e sais minerais absorvidos pelas raízes, em fluxo predominantemente ascendente. O floema transporta compostos orgânicos, principalmente sacarose, das regiões fontes para os drenos que os consomem ou armazenam. Um dreno pode estar acima ou abaixo da fonte; o contraste entre os tecidos não se resume à direção do transporte.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Separe as substâncias citadas no item: água e sais minerais formam a seiva bruta; compostos orgânicos produzidos na fotossíntese integram a seiva elaborada. 2. Associe seiva bruta ao xilema e transporte de açúcares ao floema. A reúne corretamente as duas funções e é a letra oficial. 3. B e C trocam as cargas dos tecidos. D atribui distribuição de O₂ ao floema, sem corresponder à sua função vascular. E afirma que os compostos são iguais e só muda a direção, ignorando a diferença decisiva. Nas folhas, a produção de açúcar pode abastecer raízes, frutos ou outros drenos pelo floema.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 17, página PDF 11: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 17, alternativa A; resolução elaborada conferida vinculada a udesc-2025-2-matutino-17 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-18",
+    "skills": [
+      "Distinguir bactérias, protozoários e vírus ao identificar agentes de doenças"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Agentes de gastroenterites pertencem a grupos biológicos diferentes. Bactérias têm DNA sem núcleo delimitado por membrana e possuem ribossomos; protozoários são eucariontes. Giardia é flagelada e contém mitossomos, organelas de origem mitocondrial sem a função respiratória típica. Entamoeba histolytica forma pseudópodes e é ameboide; essa característica não a inclui no grupo tradicional dos esporozoários. Nomear o agente e seu grupo evita confundir doenças e estruturas celulares.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O pedido é a alternativa incorreta. Em E, separe a locomoção por pseudópodes da classificação como esporozoário. 2. Pseudópodes são compatíveis com Entamoeba histolytica, agente da amebíase; o erro é colocá-la entre esporozoários. Por isso a letra oficial é E. 3. A relaciona giardíase à ingestão de cistos, B apresenta a organização procariótica de bactérias e D reconhece Giardia e Trypanosoma como flagelados. C alude à organização reduzida de Giardia: mitossomos não são mitocôndrias respiratórias típicas. A frase sobre ausência de Golgi é uma simplificação do caderno; Giardia possui um sistema secretor reduzido, com estruturas associadas à formação de cistos. Não use essa frase como regra para todos os eucariontes.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 18, página PDF 12: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 18, alternativa E; resolução elaborada conferida vinculada a udesc-2025-2-matutino-18 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-19",
+    "skills": [
+      "Distinguir bactérias, protozoários e vírus ao identificar agentes de doenças",
+      "Relacionar transmissão viral à exposição a secreções, fezes e materiais contaminados"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Na via fecal-oral, agentes eliminados nas fezes chegam à boca por mãos, água, alimentos ou superfícies contaminadas. O rotavírus pode circular por essa via. Coliformes são bactérias usadas como indicadores de contaminação fecal, sem que todos sejam patogênicos. Cólera é causada pela bactéria Vibrio cholerae; esquistossomose envolve caramujos de água doce e penetração cutânea de cercárias, um ciclo diferente da ingestão de cistos.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O texto relaciona os surtos à sobrecarga sanitária e à piora da balneabilidade: 151 dos 238 pontos estavam próprios para banho. Esses dados sustentam uma situação de risco, mas não identificam sozinhos o agente de cada caso. 2. C apresenta uma associação biologicamente correta: rotavírus e transmissão fecal-oral. É a letra oficial. 3. A chama coliformes de protozoários patogênicos, embora sejam bactérias indicadoras. D chama o agente da cólera de protozoário com cistos, mas é Vibrio cholerae. B não basta para explicar os surtos costeiros: esquistossomose requer caramujo de água doce e cercárias. E contradiz a relação com os sistemas sanitários explícita no texto.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 19, página PDF 12: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 19, alternativa C; resolução elaborada conferida vinculada a udesc-2025-2-matutino-19 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-20",
+    "skills": [
+      "Relacionar coração de quatro cavidades à circulação dupla e completa"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Aves são ovíparas: o embrião continua seu desenvolvimento no ovo após a postura e utiliza suas reservas nutritivas. Possuem coração com dois átrios e dois ventrículos, com circulação dupla e completa, separando os circuitos pulmonar e sistêmico. A excreção de ácido úrico pouco solúvel economiza água, e a pneumatização de vários ossos integra suas adaptações anatômicas. Oviposição é a colocação dos ovos, enquanto oviparidade nomeia a modalidade reprodutiva.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Julgue as cinco proposições sobre a araponga como ave. I descreve ossos pneumáticos; II aponta excreção de ácido úrico, pouco solúvel; III descreve a postura dos ovos. São as características aceitas no item. 2. IV descreve desenvolvimento externo com reservas do ovo, mas o chama de viviparidade: essa troca de nome a torna falsa. 3. V é verdadeira: quatro cavidades mantêm sangue dos circuitos pulmonar e sistêmico separado, com circulação dupla, completa e fechada. 4. O conjunto é I, II, III e V, correspondente a E, a letra oficial. A e D incluem IV, enquanto B e C omitem proposições verdadeiras. Pneumatização não significa que cada osso de toda ave seja oco.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 20, página PDF 13: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 20, alternativa E; resolução elaborada conferida vinculada a udesc-2025-2-matutino-20 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-21",
+    "skills": [
+      "Distinguir características de peixes ósseos e cartilaginosos"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Comparações entre grupos animais exigem reconhecer exceções aos termos “todos” e “sempre”. Crocodilianos têm coração de quatro cavidades, e monotremados, como ornitorrincos e equidnas, são mamíferos ovíparos. A bexiga natatória ocorre em muitos peixes ósseos e falta nos cartilaginosos. Anfíbios geralmente dependem de água na reprodução. Isópodes terrestres possuem estruturas respiratórias pleopodais, derivadas das brânquias, que podem apresentar especializações para trocas gasosas no ar.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. I é falsa: crocodilianos impedem afirmar que todos os répteis têm três cavidades cardíacas. V também é falsa: os monotremados impedem afirmar que todos os mamíferos são vivíparos. 2. II expressa o padrão de dependência reprodutiva da água dos anfíbios; III e IV são aceitas na comparação escolar do caderno. Assim, II, III e IV correspondem a C, a letra oficial. 3. Qualifique essas generalizações: os órgãos respiratórios dos tatuzinhos podem apresentar pseudotraqueias em pleópodes, e nem todo peixe ósseo tem bexiga natatória. A diferença ósseo/cartilaginoso envolve o esqueleto, e a bexiga não deve ser tratada como universal. Essas ressalvas ajudam a aprender a comparação sem reproduzir os absolutos do texto como regras sem exceção.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 21, página PDF 13: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 21, alternativa C; resolução elaborada conferida vinculada a udesc-2025-2-matutino-21 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-22",
+    "skills": [
+      "Associar tecidos musculares a sua localização, função e controle da contração",
+      "Identificar os três tipos de tecido muscular e seu controle voluntário ou involuntário"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Órgãos e tecidos devem ser classificados por função e localização. O osso reserva cálcio; músculo estriado esquelético participa do movimento voluntário, enquanto músculo liso e estriado cardíaco têm controle involuntário. A uretra masculina também conduz sêmen, mas a feminina integra apenas a via urinária. A faringe permite passagem de ar e alimento. O baço filtra sangue e remove hemácias envelhecidas, integrando os sistemas linfático e imune, sem ser um órgão do sistema urinário.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. A primeira afirmação é V: o tecido ósseo armazena cálcio. 2. A segunda é F, pois inclui músculo liso entre os voluntários; esquelético é tipicamente voluntário, liso e cardíaco são involuntários. 3. A terceira é F: o compartilhamento urinário/reprodutor da uretra ocorre no homem, não na mulher. 4. A quarta é V: a faringe participa das vias digestória e respiratória. 5. A quinta é F: filtrar o sangue e reciclar células não coloca o baço no sistema excretor urinário. Preserve a ordem, formando V–F–F–V–F, correspondente a D, a letra oficial. Não basta reconhecer uma função verdadeira quando a afirmação também atribui o órgão ao sistema errado.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 22, página PDF 14: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 22, alternativa D; resolução elaborada conferida vinculada a udesc-2025-2-matutino-22 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-23",
+    "skills": [
+      "Associar tecidos musculares a sua localização, função e controle da contração"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. A contração do músculo estriado esquelético envolve ativação por neurônios motores e deslizamento de filamentos de actina e miosina nos sarcômeros. A miosina é uma proteína motora com atividade ATPase; o ciclo de ligação, força e desligamento depende de ATP e da regulação por cálcio. Cãibras são contrações involuntárias dolorosas, associadas a mecanismos como fadiga e alteração do controle neuromuscular. “Desidratação da miosina” não explica esse fenômeno.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O item usa a corrida de 21 km para perguntar pela alternativa incorreta. Identifique o tecido: estriado esquelético, ativado por neurônios motores. A descreve o movimento voluntário da corrida. 2. B e C relacionam a proteína motora miosina às estriações e aos filamentos de actina e miosina. E reconhece a atividade ATPase que sustenta o ciclo das pontes cruzadas. 3. D atribui a cãibra à desidratação da própria proteína: essa causa não corresponde ao mecanismo muscular. Portanto D é a letra oficial. O ATP também permite desligar a miosina da actina; não pense no ciclo apenas como uma ligação permanente. Mesmo em músculo de controle voluntário, uma cãibra pode ser involuntária.",
+      "prerequisites": [
+        {
+          "subject": "biologia",
+          "skill": "Identificar os três tipos de tecido muscular e seu controle voluntário ou involuntário"
+        }
+      ],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 23, página PDF 14: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 23, alternativa D; resolução elaborada conferida vinculada a udesc-2025-2-matutino-23 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-24",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Polialelia significa que há mais de dois alelos de um locus na população, embora um coelho diploide tenha dois deles. A hierarquia C > Cᶜʰ > Cʰ > Cᵃ determina o fenótipo pelo alelo mais dominante presente. Um homozigoto CC só forma gametas C; por isso todos os descendentes recebem um alelo selvagem. O fenótipo albino exige CᵃCᵃ, pois Cᵃ é recessivo em relação aos demais alelos.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Use a dominância dada, sem atribuir quatro alelos a cada coelho. Um progenitor CC fornece C em todos os gametas. Qualquer alelo do outro progenitor forma um descendente com C; todos têm cor selvagem. Isso demonstra B, a letra oficial. 2. A inclui CCᶜʰ como chinchila, mas C prevalece. C inclui CᶜʰCʰ como himalaia, mas Cᶜʰ prevalece. 3. Em D, conte os genótipos selvagens: CC, CCᶜʰ, CCʰ e CCᵃ, quatro, não cinco. 4. Em E, a fêmea albina CᵃCᵃ fornece apenas Cᵃ, e o macho himalaia homozigoto CʰCʰ apenas Cʰ. O cruzamento resulta em 100% CʰCᵃ, himalaias, sem albinos.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 24, página PDF 15: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 24, alternativa B; resolução elaborada conferida vinculada a udesc-2025-2-matutino-24 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-25",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Seleção natural muda a representação de variantes herdáveis por diferenças de sucesso reprodutivo em determinado ambiente; pode atuar com ou sem separação geográfica. Deriva genética é mudança aleatória das frequências alélicas, particularmente relevante em populações pequenas. Fluxo gênico é transferência de alelos entre populações pela reprodução. Na especiação, divergência e isolamento reprodutivo podem surgir em diferentes contextos, incluindo populações simpátricas, alopátricas e parapátricas.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Compare cada alternativa com o mecanismo que nomeia. A afirma que seleção natural pode favorecer adaptações tanto em populações separadas geograficamente quanto sem essa separação: é compatível com os mecanismos evolutivos e é a letra oficial. 2. B chama cruzamento entre populações de deriva; isso é fluxo gênico, enquanto deriva é aleatória. C usa convergência, que produz semelhanças, para explicar genericamente a formação de linhagens distintas. 3. D faz da barreira geográfica uma condição indispensável, excluindo indevidamente especiação simpátrica. E restringe isolamento reprodutivo à parapátrica, embora ele participe de outras modalidades. A não afirma que seleção natural, sozinha, seja necessária ou suficiente para toda especiação.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 25, página PDF 15: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 25, alternativa A; resolução elaborada conferida vinculada a udesc-2025-2-matutino-25 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-26",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Para analisar marcadores de DNA nuclear no sangue humano, os leucócitos fornecem células nucleadas. Hemácias humanas maduras não possuem núcleo, e plaquetas são fragmentos celulares sem núcleo. O DNA nuclear forma cromossomos lineares e é composto de desoxirribonucleotídeos; hemoglobina é uma proteína formada por aminoácidos. A presença de uma molécula relacionada a células não significa que ela constitua o material genético analisado no teste.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O teste descrito requer material genético nuclear. Entre os elementos do sangue apresentados, os leucócitos conservam núcleo e DNA. D associa esses elementos à composição por desoxirribonucleotídeos e é a letra oficial. 2. A menciona glicocálix de plaquetas, sem fornecer DNA nuclear. B atribui núcleo a plaquetas e DNA circular ao núcleo humano; ambos são erros. 3. C mistura plasma, histonas e sequência de aminoácidos: histonas associam-se ao DNA, mas não substituem sua sequência como marcador genético. E escolhe hemácias humanas maduras, anucleadas, e chama hemoglobina de sequência de ribonucleotídeos, embora seja proteína. Aqui o alvo é DNA nuclear celular; isso não afirma inexistência de DNA livre no plasma.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 26, página PDF 15: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 26, alternativa D; resolução elaborada conferida vinculada a udesc-2025-2-matutino-26 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-27",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Na migração vertical noturna típica, muitos organismos do zooplâncton sobem para camadas superficiais ao anoitecer, acessando recursos alimentares como fitoplâncton. Antes do amanhecer, descem para camadas mais profundas, onde diminuem sua exposição à predação visual. É um compromisso entre obtenção de alimento e risco de ser capturado, dependente da iluminação. O padrão não exige procurar substrato de abrigo na superfície e não se aplica da mesma forma a todo organismo planctônico.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Leia os dois momentos pedidos: ao anoitecer e antes da luz diurna. Ao anoitecer, a menor luz permite subir para alimentar-se nas camadas de maior recurso; antes do dia, o retorno à profundidade reduz a detecção por predadores visuais. 2. B preserva finalidade, sequência e tipo de predação, sendo a letra oficial. 3. A troca alimentação por busca de substrato, que não explica o padrão planctônico descrito. C troca o alimento típico por peixes e visão por audição. D e E põem a alimentação noturna na profundidade e o retorno na superfície, invertendo o deslocamento. A razão para descer é reduzir exposição visual, não impedir todo tipo de predação.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2025/2, matutino, questão 27, página PDF 16: content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Biologia, questão 27, alternativa B; resolução elaborada conferida vinculada a udesc-2025-2-matutino-27 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-15",
+    "skills": [
+      "Distinguir mitose e meiose na formação de células reprodutivas"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Na gametogênese de mamíferos, a meiose reduz o número cromossômico e inclui recombinação na prófase I. A fecundação restaura a diploidia e define a combinação de cromossomos sexuais na determinação cromossômica típica. A placenta é um órgão materno-fetal de trocas. Gêmeos monozigóticos derivam do mesmo zigoto; dizigóticos ou bivitelinos derivam de duas fecundações. A gastrulação organiza ectoderma, mesoderma e endoderma.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. I é falsa: chama de mitose a divisão que forma gametas haploides com permutação; nesse contexto, trata-se de meiose, com crossing-over na prófase I. 2. II é verdadeira: a placenta permite transferência de nutrientes e O₂ e remoção de resíduos, normalmente sem mistura direta dos sangues materno e fetal. III é aceita no modelo cromossômico típico dos mamíferos: a combinação sexual é definida na fecundação. 3. IV é falsa: dividir um único zigoto descreve monozigóticos, não bivitelinos. V é verdadeira: os três folhetos se organizam na gastrulação. 4. Reúna II, III e V: alternativa C, a letra oficial. Não confunda as mitoses que multiplicam células germinativas com a meiose que produz células haploides.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 15, página PDF 11: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 15, alternativa C; resolução elaborada conferida vinculada a udesc-2026-1-matutino-15 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-16",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Imunização ativa estimula o sistema imune do receptor por antígenos ou instruções para produzi-los, como nas vacinas, e pode gerar memória imunológica. Imunização passiva transfere anticorpos já produzidos, como nos soros terapêuticos: a proteção é imediata, temporária e não cria memória no receptor. A transferência pelo leite materno é passiva natural, mas leite não é um soro terapêutico. Há soros contra toxinas e agentes infecciosos.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Pergunte quem produz os anticorpos descritos. Em D, foram produzidos por equinos imunizados e são fornecidos prontos ao paciente no soro antirrábico. Isso é imunização passiva, sem formação de memória no receptor, confirmando D, a letra oficial. 2. B atribui aos soros memória e proteção permanente; E atribui anticorpos prontos às vacinas. Ambas confundem ativa e passiva. 3. A reconhece a transferência pelo leite, mas a chama de soro natural: o processo é imunização passiva natural, sem tornar o leite um soro. C nega soros contra vírus ou bactérias, embora o próprio soro antirrábico seja um exemplo contra doença viral. A produção de anticorpos e a memória pertencem ao animal imunizado, não são transferidas como memória ao paciente.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 16, página PDF 11: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 16, alternativa D; resolução elaborada conferida vinculada a udesc-2026-1-matutino-16 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-17",
+    "skills": [
+      "Associar tecidos musculares a sua localização, função e controle da contração",
+      "Relacionar coração de quatro cavidades à circulação dupla e completa"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Artéria é um vaso que leva sangue para fora do coração; veia traz sangue de volta. Essa definição depende do sentido do fluxo, não do teor de O₂. Na circulação pulmonar, o ventrículo direito envia sangue pouco oxigenado pelas artérias pulmonares, e as veias pulmonares retornam sangue oxigenado ao átrio esquerdo. A separação entre dois átrios e dois ventrículos sustenta circulação dupla e completa. Paredes vasculares contêm músculo liso, enquanto o miocárdio é músculo estriado cardíaco.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Siga as setas da figura: o sangue que chega pelas cavas passa pelo átrio direito, indicado por 4, e pelo ventrículo direito, indicado por 5. A numeração deve ser lida na anatomia, não pela posição direita/esquerda na página. 2. Do ventrículo direito, o sangue segue pelas artérias pulmonares até os pulmões; B descreve esse trajeto e é a letra oficial. 3. A atribui músculo estriado cardíaco às artérias, mas a parede vascular tem músculo liso e tecido conjuntivo. C usa 1 e 3, ligados à circulação sistêmica, como pequena circulação. D trata 5 como entrada no átrio direito, quando aponta o ventrículo. E ignora a exceção pulmonar: artéria pode levar sangue venoso e veia pode levar sangue arterial.",
+      "prerequisites": [
+        {
+          "subject": "biologia",
+          "skill": "Identificar os três tipos de tecido muscular e seu controle voluntário ou involuntário"
+        },
+        {
+          "subject": "biologia",
+          "skill": "Relacionar coração de quatro cavidades à circulação dupla e completa"
+        }
+      ],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 17, página PDF 12: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 17, alternativa B; resolução elaborada conferida vinculada a udesc-2026-1-matutino-17 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-18",
+    "skills": [
+      "Distinguir bactérias, protozoários e vírus ao identificar agentes de doenças"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Na febre maculosa brasileira, bactérias do gênero Rickettsia são os agentes; carrapatos infectados atuam como vetores. Capivaras são hospedeiras dos carrapatos e podem amplificar a circulação da bactéria, mas não são o vetor que a transmite pela picada. Carrapatos são aracnídeos, não insetos. Distinguir agente, vetor e hospedeiro permite interpretar o risco sem atribuir contágio ao simples contato com pessoas infectadas ou com capivaras.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O texto liga aumento de capivaras ao aumento dos carrapatos na região do lago. Separe os papéis: Rickettsia causa a doença, carrapatos infectados a transmitem e capivaras são hospedeiras. 2. A descreve a transmissão pela picada e a ausência de transmissão direta entre pessoas; é a letra oficial. O aumento de hospedeiros pode ampliar o risco sem transformá-los em vetores. 3. B confunde capivara com vetor; C acrescenta contágio pelo simples contato com ela. D chama Rickettsia de protozoário eucarionte, embora seja bactéria procarionte. E chama carrapato de inseto e restringe o papel vetorial a uma espécie. A palavra “exclusivamente” no caderno expressa o mecanismo epidemiológico considerado no item; não autoriza tratar contato com carrapatos infectados como inofensivo.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 18, página PDF 13: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 18, alternativa A; resolução elaborada conferida vinculada a udesc-2026-1-matutino-18 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-19",
+    "skills": [
+      "Distinguir mitose e meiose na formação de células reprodutivas"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Esporos são unidades de reprodução e dispersão que podem surgir por mitose ou por meiose conforme o organismo e seu ciclo. Em fungos, a produção mitótica participa de reprodução assexuada, enquanto esporos associados ao ciclo sexuado podem resultar de meiose. Nas briófitas e pteridófitas, o esporófito diploide produz esporos haploides por meiose; eles originam gametófitos. Gametas fundem-se na fecundação, formando o zigoto que inicia outro esporófito.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. A pergunta exige uma afirmação válida sobre esporos em diferentes grupos. E reconhece em bolores tanto esporos assexuados mitóticos quanto esporos do ciclo sexuado meiótico; é a letra oficial. A produção de muitas unidades favorece dispersão e colonização, sem garantir sobrevivência de cada esporo. 2. A e B restringem o processo às plantas, contradizendo a diversidade de grupos; C exclui esporos das algas. 3. Para D, escreva a sequência real: esporófito 2n → meiose → esporos n → gametófito n → gametas n → fecundação → zigoto 2n. A alternativa chama os esporos de diploides e diz que originam diretamente o esporófito, invertendo as fases. Esporo e gameta não são sinônimos.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 19, página PDF 13: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 19, alternativa E; resolução elaborada conferida vinculada a udesc-2026-1-matutino-19 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-20",
+    "skills": [
+      "Relacionar natalidade e mortalidade à manutenção de populações"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. A fecundidade participa da dinâmica populacional e pode compensar perdas por mortalidade. Em coelhos, reprodução rápida pode contribuir para a persistência de populações sujeitas à predação. Isso não garante crescimento ilimitado: alimento, espaço, doenças e predadores influenciam o tamanho populacional. Coelhos são consumidores herbívoros; a cecotrofia recupera nutrientes de material produzido no trato digestório, sem convertê-los em produtores ou decompositores.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. A charge mostra numerosos coelhos e a indicação “Dia 40 na Arca de Noé”, com a fala de que o limite seria apenas dois. O contraste comunica alta capacidade reprodutiva; não fornece uma taxa numérica de crescimento para calcular. 2. D relaciona essa capacidade à compensação de mortalidade por predadores e é a letra oficial. 3. A exclui reprodução da seleção natural; B chama herbívoros de produtores. C afirma que nunca há desequilíbrio sem predadores, ignorando possível pressão sobre recursos e vegetação. E confunde cecotrofia com decomposição. A reprodução dos indivíduos contribui para repor perdas populacionais, mas não garante que qualquer população, em qualquer ambiente, aumente.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 20, página PDF 14: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 20, alternativa D; resolução elaborada conferida vinculada a udesc-2026-1-matutino-20 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-22",
+    "skills": [
+      "Distinguir as trocas de CO₂ e O₂ na fotossíntese e na respiração celular"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Células vegetais respiram continuamente, de dia e de noite, para disponibilizar ATP a partir da oxidação de compostos orgânicos. Na respiração aeróbia, consomem O₂ e liberam CO₂; as principais etapas aeróbias ocorrem nas mitocôndrias. A fotossíntese requer condições luminosas adequadas, fixa CO₂ e libera O₂, mas sua ocorrência não desliga a respiração. A troca gasosa líquida depende do balanço entre os dois processos, sem corresponder à existência de apenas um deles.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O comando pede a alternativa incorreta. A diz que a respiração só ocorre à noite, porque a planta usaria exclusivamente luz durante o dia. As células precisam de ATP continuamente; a fotossíntese não suspende a respiração. Assim, A é a letra oficial. 2. B localiza nas mitocôndrias as principais etapas aeróbias; a glicólise, por sua vez, ocorre no citosol. C afirma continuidade, D permite uso do O₂ fotossintético na respiração e E descreve consumo de O₂ e liberação de CO₂ na respiração aeróbia. 3. Mesmo quando uma folha retira CO₂ líquido durante o dia, ela pode estar simultaneamente liberando CO₂ pela respiração: a fotossíntese apenas supera essa liberação no balanço observado.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 22, página PDF 15: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 22, alternativa A; resolução elaborada conferida vinculada a udesc-2026-1-matutino-22 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-23",
+    "skills": [
+      "Relacionar transmissão viral à exposição a secreções, fezes e materiais contaminados"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Influenza aviária envolve vírus que podem ser mantidos e dispersos por aves silvestres, especialmente aquáticas, e infectar aves domésticas suscetíveis. Aves infectadas eliminam vírus em secreções e fezes; pessoas podem ser expostas pelo contato com animais ou ambientes contaminados. Casos humanos esporádicos de H5N1 não se explicam pela ausência de vacinação em massa da população geral. Vigilância e biossegurança devem atuar sobre as exposições efetivas e o manejo dos animais.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O texto noticia H5N1 em aves de subsistência de Meleiro e pede a alternativa incorreta. Verifique qual afirmação identifica uma causa inadequada para os casos humanos. 2. B os associa à falta de vacinação em massa e a medidas em viagens internacionais, sem apontar a exposição a aves infectadas e ambientes contaminados que caracteriza esses eventos. B é a letra oficial. 3. C explica eliminação do vírus por saliva, secreções e fezes e infecção por contato ou material contaminado. A e D tratam do papel das aves silvestres na dispersão e manutenção do vírus; E enfatiza a suscetibilidade de aves domésticas. Nem toda ave silvestre é um reservatório equivalente, nem o texto demonstra transmissão sustentada entre humanos.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 23, página PDF 16: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 23, alternativa B; resolução elaborada conferida vinculada a udesc-2026-1-matutino-23 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-24",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Espécie exótica foi introduzida fora de sua distribuição natural; invasora é aquela cuja expansão provoca impactos no novo ambiente. Plantas e animais podem competir com espécies nativas, modificar habitats ou predar organismos locais. A introdução pode ser intencional ou acidental. Acrescentar uma espécie ao local não demonstra conservação da biodiversidade: a expansão pode reduzir a regeneração e a presença das nativas, mesmo que o número momentâneo de espécies pareça maior.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Retire do próprio enunciado as evidências: casuarina foi introduzida para controlar erosão, mas altera solo e regeneração nativa; javali causa danos, preda e compete com fauna local. 2. E reúne os efeitos negativos de planta e animal introduzidos e é a letra oficial. 3. B é refutada pela introdução intencional da casuarina; D pela existência de uma planta invasora no texto. C confunde adaptabilidade e presença de espécie nova com aumento benéfico da diversidade nativa. A afirma impossibilidade absoluta de controle, embora técnicas de manejo possam reduzir populações e impactos. O caso exige avaliar os efeitos da expansão; ser exótica, isoladamente, não basta para provar que uma espécie seja invasora.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 24, página PDF 16: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 24, alternativa E; resolução elaborada conferida vinculada a udesc-2026-1-matutino-24 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-25",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Insetos apresentam exoesqueleto quitinoso, três pares de patas no tórax, um par de antenas e corpo organizado em cabeça, tórax e abdome. Moscas são holometábolas: passam por ovo, larva, pupa e adulto. Na hemimetabolia não há pupa. Insetos detritívoros fragmentam e consomem matéria orgânica, favorecendo sua decomposição. Em entomologia forense, desenvolvimento e sucessão de insetos ajudam a estimar intervalos e circunstâncias, com dependência das condições ambientais.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. Julgue as proposições na ordem. A descrição geral da organização dos insetos é V: “duas antenas” significa um par. 2. A segunda é F: metamorfose completa com larva e pupa recebe o nome holometabolia, não hemimetabolia; o ciclo inclui o adulto. 3. A participação de detritívoros na ciclagem é V. O uso de moscas como Drosophila em modelos de genética e doenças é V. 4. A utilização de vestígios entomológicos na perícia é aceita como V: idade e sucessão dos organismos podem ajudar a estimar intervalo pós-morte e circunstâncias, considerando temperatura e colonização. 5. A sequência V–F–V–V–V corresponde a C, a letra oficial. O método fornece estimativas, não uma determinação infalível de hora e local da morte.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 25, página PDF 17: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 25, alternativa C; resolução elaborada conferida vinculada a udesc-2026-1-matutino-25 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-26",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Adaptações à seca reduzem perda de água, aumentam armazenamento ou permitem persistência e rebrota. A queda sazonal de folhas, quando ocorre como resposta ao déficit hídrico, concentra-se na estação seca. Espinhos e caules suculentos podem reduzir superfície transpirante e armazenar água. Em plantas CAM, a abertura noturna dos estômatos permite captar CO₂ com menor perda hídrica; esse carbono é armazenado e utilizado na fotossíntese durante o dia.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O item pede a alternativa incorreta sobre estresse hídrico. C põe a queda total das folhas na estação chuvosa como estratégia geral contra transpiração; a queda sazonal associada à seca ocorre na estação seca e não é universal entre as plantas. C é a letra oficial. 2. A evita calor diurno por atividade noturna; B reúne espinhos e suculência; D relaciona estruturas subterrâneas às reservas e rebrota. E descreve abertura noturna dos estômatos em plantas CAM: isso não significa que a etapa dependente de luz passe a ocorrer à noite. 3. O enunciado lista cinco biomas, mas a classificação usual reconhece seis, incluindo o Pampa. Esse lapso não muda a identificação da alternativa sobre a estação da perda foliar.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 26, página PDF 17: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 26, alternativa C; resolução elaborada conferida vinculada a udesc-2026-1-matutino-26 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-27",
+    "skills": [
+      "Distinguir características de peixes ósseos e cartilaginosos",
+      "Relacionar natalidade e mortalidade à manutenção de populações"
+    ],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. A tainha, Mugil liza, é um peixe ósseo. Linha lateral reúne mecanorreceptores que detectam movimentos e variações de pressão na água; otólitos são estruturas calcárias do ouvido interno ligadas a audição e equilíbrio. Migração reprodutiva desloca indivíduos para locais de desova. Cotas de captura procuram limitar perdas populacionais, mas a estabilidade também depende de recrutamento, migração e condições ambientais, além de natalidade e mortalidade.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O comando pede a alternativa incorreta. B classifica Mugil liza como cartilaginosa; a tainha é peixe ósseo. Essa classificação errada determina B, a letra oficial, sem que os dados de 45% da captura nacional ou 6.795 toneladas sejam necessários a um cálculo. 2. A relaciona controle de capturas à mortalidade: limitar remoções ajuda a evitar declínio, mas natalidade igual à mortalidade só basta para estabilidade se os demais fluxos não alterarem o balanço. 3. C identifica a linha lateral como sistema mecanossensorial; D define deslocamentos associados a recursos e reprodução. E reconhece otólitos e seu uso na identificação de presas nos conteúdos gastrointestinais. Não confunda linha lateral com otólitos: são estruturas sensoriais distintas.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 27, página PDF 18: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 27, alternativa B; resolução elaborada conferida vinculada a udesc-2026-1-matutino-27 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-28",
+    "skills": [],
+    "learning": {
+      "concept": "Apoio elaborado para estudo. Intervenções na faixa de areia alteram habitats da fauna praial. O caranguejo maria-farinha, Ocypode quadrata, é um crustáceo que constrói tocas; compactação e soterramento prejudicam esse modo de vida, e sua ocorrência pode servir como indicador ambiental. Em bivalves, o sifão inalante conduz água para a cavidade do manto, sem atuar como órgão locomotor. Briozoários são predominantemente coloniais; poliquetos são anelídeos segmentados, e larva migrans cutânea é causada por larvas de nematódeos.",
+      "workedExample": "Exemplo comentado da própria questão oficial, elaborado para estudo. 1. O enunciado descreve o alargamento de 25 para 70 metros por deposição de areia. Para um animal que constrói tocas, alteração física, compactação e soterramento afetam o habitat. A apresenta essa relação para a maria-farinha e é a letra oficial. 2. B atribui locomoção e proteção ao sifão inalante, cuja função é a entrada de água. C chama briozoários de solitários, ignorando seu padrão colonial. 3. D usa “corpo chato” como característica geral dos poliquetos: a segmentação e as cerdas não tornam essa descrição geral correta. E chama o agente do bicho geográfico de platelminto, embora sejam larvas de nematódeos, principalmente Ancylostoma. Não é necessário calcular área de praia nem inferir quantos animais morreram a partir das larguras.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex; caderno oficial UDESC 2026/1, matutino, questão 28, página PDF 19: content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Biologia, questão 28, alternativa A; resolução elaborada conferida vinculada a udesc-2026-1-matutino-28 em content/review-batches/biologia.explanations.json e content/explanations.json. Este apoio e a resolução elaborada não são resoluções oficiais.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  }
+]

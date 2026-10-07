@@ -30,6 +30,7 @@ import {
   latestGrades,
 } from "../domain/attempts";
 import { projectLearning } from "../domain/learning";
+import { learningSupport } from "../domain/remediation";
 import type { StudyDb } from "./db";
 export function canonical(value: unknown): string {
   if (Array.isArray(value)) return "[" + value.map(canonical).join(",") + "]";
@@ -597,6 +598,61 @@ export async function revealFeedback(
       attemptId,
       questionId: attempt.questionId,
       questionRevision: correctionRevision,
+      at,
+      studyDate: studyDate(at, settings.timezone),
+    };
+    await db.feedback.add(FeedbackEventSchema.parse(event));
+    await recalculate(db, at);
+    return event;
+  });
+}
+/** Record the current reviewed support while preserving the attempt's correction. */
+export async function revealLearningSupport(
+  db: StudyDb,
+  attemptId: string,
+  currentQuestion: QuestionRevision,
+  now: Instant,
+  exposureId?: string,
+): Promise<FeedbackEvent> {
+  const at = normalizeInstant(now);
+  if (
+    exposureId !== undefined &&
+    (typeof exposureId !== "string" ||
+      !exposureId.trim() ||
+      exposureId.length > 500)
+  )
+    throw new Error("Identificador de exposição inválido");
+  return db.transaction("rw", db.tables, async () => {
+    const attempt = await db.attempts.get(attemptId);
+    if (!attempt) throw new Error("Tentativa não persistida");
+    if (currentQuestion.id !== attempt.questionId)
+      throw new Error("Questão diferente da tentativa");
+    const session = await db.sessions.get(attempt.sessionId);
+    await assertNoActiveAssessment(db, [attempt.questionId]);
+    if (!session || !canRevealFeedback(session))
+      throw new Error("Feedback fechado durante avaliação");
+    if (
+      Date.parse(at) < Date.parse(attempt.at) ||
+      (session.mode === "assessment" &&
+        session.completedAt &&
+        Date.parse(at) < Date.parse(session.completedAt))
+    )
+      throw new Error("Feedback anterior à tentativa");
+    const eventId = `support:${attemptId}:${exposureId ?? at}`;
+    const existing = await db.feedback.get(eventId);
+    // A retry reuses what was actually shown, even after catalogue changes.
+    if (existing) return existing;
+    const question = QuestionRevisionSchema.parse(currentQuestion);
+    if (!learningSupport(question))
+      throw new Error("Não há apoio conferido com procedência para esta questão.");
+    if (!isReady(question)) throw new Error("Questão não pronta");
+    await addSnapshot(db, question);
+    const settings = await getSettings(db);
+    const event: FeedbackEvent = {
+      id: eventId,
+      attemptId,
+      questionId: attempt.questionId,
+      questionRevision: question.revision,
       at,
       studyDate: studyDate(at, settings.timezone),
     };

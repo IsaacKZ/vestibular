@@ -8,7 +8,7 @@ test("Pages carrega o catálogo no subdiretório e mantém a rota após recarreg
   page.on("pageerror", (error) => failures.push(error.message));
   await page.goto("/vestibular/#/questions");
   await expect(page.getByRole("heading", { name: "Questões", exact: true })).toBeVisible();
-  await expect(page.getByText("420 questões encontradas · 78 prontas", { exact: true })).toBeVisible();
+  await expect(page.getByText("420 questões encontradas · 84 prontas", { exact: true })).toBeVisible();
   await page.reload();
   await expect(page.getByRole("heading", { name: "Questões", exact: true })).toBeVisible();
   const location = page.url();
@@ -38,7 +38,7 @@ test("Pages carrega a figura e retoma uma tentativa real salva", async ({ page }
 
 test("Pages mantém catálogo e figuras offline com PWA restrita a /vestibular/", async ({ page, context }) => {
   await page.goto("/vestibular/#/questions");
-  await expect(page.getByText("420 questões encontradas · 78 prontas", { exact: true })).toBeVisible();
+  await expect(page.getByText("420 questões encontradas · 84 prontas", { exact: true })).toBeVisible();
   const registration = await page.evaluate(async () => {
     const registration = await navigator.serviceWorker.ready;
     if (!navigator.serviceWorker.controller)
@@ -57,7 +57,7 @@ test("Pages mantém catálogo e figuras offline com PWA restrita a /vestibular/"
   expect(manifest.icons.every((icon: { src: string }) => icon.src.startsWith("/vestibular/"))).toBe(true);
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByText("420 questões encontradas · 78 prontas", { exact: true })).toBeVisible();
+  await expect(page.getByText("420 questões encontradas · 84 prontas", { exact: true })).toBeVisible();
   await page.goto("/vestibular/#/questions/udesc-2025-2-vespertino-13");
   await page.getByRole("button", { name: "Tentar esta questão", exact: true }).click();
   const image = page.getByRole("img", { name: /Figura 5: raio sai do ar/ });

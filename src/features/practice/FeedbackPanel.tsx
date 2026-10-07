@@ -53,7 +53,8 @@ export function FeedbackPanel({
               <p className="preserve-lines">
                 <MathText text={support.concept} />
               </p>
-              <h3>Exemplo resolvido</h3>
+              <h3>Resolução</h3>
+              <p className="small">Resolução elaborada para estudo · exemplo comentado desta questão.</p>
               <p className="preserve-lines">
                 <MathText text={support.workedExample} />
               </p>

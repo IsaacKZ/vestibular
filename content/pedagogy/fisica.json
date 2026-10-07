@@ -1,0 +1,368 @@
+[
+  {
+    "id": "udesc-2025-2-vespertino-01",
+    "skills": [],
+    "learning": {
+      "concept": "A velocidade escalar média é o comprimento total do percurso dividido pelo tempo total, incluindo intervalos de parada. Na questão do piloto, a parada aumenta o tempo sem acrescentar distância; por isso, as velocidades de 225 km/h e 60 km/h não podem ser simplesmente somadas e divididas por dois.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Na reta, converta 225 km/h para 62,5 m/s e calcule o tempo: 500/62,5 = 8 s.\n\n2. Dos 22 s na pit lane, 2 s são de parada; restam 20 s em movimento. A 60/3,6 = 16,666… m/s, o carro percorre 333,333… m.\n\n3. Some as distâncias: 500 + 333,333… = 833,333… m. Some os tempos completos: 8 + 22 = 30 s.\n\n4. A média é 833,333…/30 = 27,777… m/s; multiplicando por 3,6, obtém-se 100 km/h, alternativa C. Observe que os 2 s de parada entram no denominador.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 3, Física, questão 1; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 1, alternativa C; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-01.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-02",
+    "skills": [
+      "relacionar massa e velocidade à energia cinética de translação",
+      "calcular energia cinética a partir de massa e velocidade"
+    ],
+    "learning": {
+      "concept": "A energia cinética de translação é Ec = mv²/2: depende da massa e do quadrado da velocidade. Como é uma grandeza escalar, as energias das locomotivas se somam mesmo quando suas velocidades têm sentidos opostos. A equivalência com dinamite compara essa energia total com a energia por banana fornecida pelo enunciado.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Use a massa numérica indicada, 40.824 kg por locomotiva, e converta 100 km/h para 100/3,6 m/s.\n\n2. Cada locomotiva tem Ec = (40.824/2) × (100/3,6)² = 1,575 × 10⁷ J. As duas juntas têm 3,15 × 10⁷ J; velocidades opostas não cancelam energia cinética.\n\n3. Divida pela energia de uma banana: (3,15 × 10⁷)/(3,5 × 10⁶) = 9. A resposta oficial é D. O número de bananas é adimensional.\n\n4. O texto aproxima a massa por “40 toneladas”; com 40.000 kg, seriam cerca de 8,82 bananas, também aproximadamente 9. A conta principal preserva o valor 40.824 kg explicitamente fornecido.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 3, Física, questão 2; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 2, alternativa D; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-02.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-03",
+    "skills": [
+      "conservar quantidade de movimento em colisões frontais sem impulso externo"
+    ],
+    "learning": {
+      "concept": "Em uma colisão frontal elástica sem impulso externo horizontal, conservam-se a quantidade de movimento do sistema e sua energia cinética. Para duas bolas de massas iguais, essa combinação leva à troca das velocidades. Conservar apenas o momento permitiria outras respostas que dissipam energia e não atendem à condição de elasticidade.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Escolha como positivo o sentido inicial da bola branca. Como as massas são iguais, a conservação do momento fornece v₁′ + v₂′ = 3.\n\n2. A colisão perfeitamente elástica também conserva a energia: v₁′² + v₂′² = 9. Ao comparar com (v₁′ + v₂′)² = 9, resulta 2v₁′v₂′ = 0.\n\n3. A solução (3, 0) é o estado anterior ao choque. Depois do contato, as bolas devem se separar; portanto, a branca fica parada e a preta sai a 3 m/s: (v₁′, v₂′) = (0, 3 m/s), alternativa A.\n\n4. Se ambas saíssem a 1,5 m/s, o momento seria conservado, mas a energia cinética final seria apenas metade da inicial. Isso excluiria a alternativa C neste choque elástico.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 4, Física, questão 3; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 3, alternativa A; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-03.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-04",
+    "skills": [
+      "relacionar aceleração centrípeta, velocidade e raio em movimento circular"
+    ],
+    "learning": {
+      "concept": "A força centrípeta é a resultante radial necessária para manter uma trajetória circular, com módulo mv²/R. Na curva nivelada do avião, a sustentação inclinada possui uma componente vertical que equilibra o peso e outra horizontal que produz essa resultante. Não se soma uma força centrípeta independente à sustentação e ao peso.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Na Figura 2, a sustentação é perpendicular às asas e faz α = 45° com a vertical. Sem aceleração vertical, F cos α = mg; na horizontal, F sen α = Fc.\n\n2. Divida as duas relações: Fc = mg tan α. Use g = 10 m/s² do formulário do caderno, página 10: Fc = 12.000 × 10 × tan 45° = 1,2 × 10⁵ N.\n\n3. De Fc = mv²/R, obtenha v² = FcR/m = (1,2 × 10⁵ × 1000)/12.000 = 10.000 m²/s². Então v = 100 m/s = 360 km/h.\n\n4. A combinação é a alternativa E. A sustentação total vale mg/cos 45°, maior que Fc; distinguir a força total de sua componente radial evita um fator incorreto.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 4, Física, questão 4; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 4, alternativa E; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-04.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-05",
+    "skills": [
+      "relacionar aceleração centrípeta, velocidade e raio em movimento circular"
+    ],
+    "learning": {
+      "concept": "Uma órbita aproximadamente circular tem aceleração centrípeta mesmo quando o módulo da velocidade é constante, pois a direção muda. Em uma volta, a Lua percorre 2πR no período T; assim, v = 2πR/T e ac = v²/R = 4π²R/T². Raio e período precisam estar em unidades compatíveis.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Converta o raio: 384.400 km = 3,844 × 10⁸ m. Converta o período: 27,3 × 24 × 3600 = 2.358.720 s.\n\n2. A velocidade orbital é v = 2πR/T ≈ 1024 m/s. Substitua em ac = v²/R, ou diretamente em ac = 4π²R/T².\n\n3. Calcule ac = 4π² × 3,844 × 10⁸/(2.358.720)² ≈ 0,00273 m/s². Arredondando como nas opções, 0,0027 m/s² corresponde à alternativa A.\n\n4. Essa aceleração aponta para o centro da órbita; seu valor pequeno não significa ausência de aceleração. O período está ao quadrado, portanto deixar dias no denominador altera fortemente o resultado.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5, Física, questão 5; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 5, alternativa A; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-05.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-06",
+    "skills": [],
+    "learning": {
+      "concept": "Na dilatação linear, ΔL = L₀αΔT. As barras começam com o mesmo comprimento e recebem a mesma variação de temperatura, mas o latão tem coeficiente maior. A diferença de 1 mm entre os comprimentos finais corresponde à diferença entre as duas dilatações, não à dilatação inteira de uma barra.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. As barras passam de 10 °C a 110 °C, então ΔT = 100 °C. A diferença dos coeficientes é (20 − 16) × 10⁻⁶ = 4 × 10⁻⁶ °C⁻¹.\n\n2. Como os comprimentos iniciais são iguais, subtrair os comprimentos finais elimina L₀ e deixa ΔLlatão − ΔLcobre = L₀(αlatão − αcobre)ΔT.\n\n3. Converta 1 mm para 0,001 m: 0,001 = L₀ × 4 × 10⁻⁶ × 100. Logo L₀ = 0,001/0,0004 = 2,5 m, alternativa B.\n\n4. Verifique: cobre dilata 4 mm e latão 5 mm, de modo que a diferença final é exatamente 1 mm.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5, Física, questão 6; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 6, alternativa B; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-06.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-07",
+    "skills": [
+      "determinar temperatura final a partir de calor sensível"
+    ],
+    "learning": {
+      "concept": "O calor sensível eleva a temperatura sem mudar o estado físico: Q = mc(Tf − Ti). A água da questão permanece líquida e o calorímetro é ideal, então todo o calor dado aquece os 500 g. O resultado Q/(mc) é a variação de temperatura, que deve ser somada aos 5 °C iniciais.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Respeite a conversão explícita do enunciado, 1 cal = 4 J: 50 kJ = 50.000 J = 12.500 cal. Assim, Q, m e c ficam em unidades compatíveis.\n\n2. Calcule ΔT = Q/(mc) = 12.500/(500 × 1) = 25 °C.\n\n3. Some a temperatura inicial: Tf = 5 + 25 = 30 °C, alternativa D. A opção 25 °C confunde a variação com a temperatura final.\n\n4. A temperatura obtida é inferior a 100 °C, compatível com água líquida ao nível do mar. Aqui prevalece o fator 4 J/cal dado na questão, mesmo que o formulário geral apresente outro arredondamento.",
+      "prerequisites": [
+        {
+          "subject": "fisica",
+          "skill": "calcular variação de temperatura com calor sensível em unidades compatíveis"
+        }
+      ],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 5, Física, questão 7; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 7, alternativa D; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-07.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-08",
+    "skills": [],
+    "learning": {
+      "concept": "O rendimento de uma máquina de Carnot é η = 1 − Tfria/Tquente e usa temperaturas absolutas em kelvin. A razão mede a parcela do calor recebido que precisa ser rejeitada à fonte fria. Como o zero da escala Celsius é arbitrário, a razão entre temperaturas em °C não representa essa relação física.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Identifique a fonte fria a 18 °C e a quente a 115 °C. Pela conversão aproximada do formulário, Tfria = 291 K e Tquente = 388 K.\n\n2. Substitua na expressão de Carnot: η = 1 − 291/388 = 1 − 0,75 = 0,25.\n\n3. Converta a fração em porcentagem: 0,25 × 100% = 25%, alternativa E. Usar 18/115 daria uma razão sem o significado termodinâmico exigido.\n\n4. Com 273,15 na conversão, o rendimento é cerca de 24,99%, que arredonda à mesma opção. Ele fica entre zero e um, como deve ocorrer para essas fontes.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 6, Física, questão 8; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 8, alternativa E; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-08.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-09",
+    "skills": [],
+    "learning": {
+      "concept": "Na teoria cinética ideal, as moléculas têm movimento aleatório, colisões elásticas e uma distribuição de velocidades. A pressão resulta da transferência de quantidade de movimento às paredes. A temperatura absoluta determina a energia cinética média de translação, ⟨Ec⟩ = 3kT/2, sem impor velocidade igual a todas as moléculas.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. A proposição I é verdadeira: o movimento é aleatório em todas as direções. II é falsa porque o modelo da questão admite colisões perfeitamente elásticas, sem a perda de energia cinética indicada.\n\n2. III é falsa: aquecer altera a distribuição de velocidades e aumenta a energia média; não aumenta igualmente a velocidade de cada molécula.\n\n3. IV é verdadeira: ao rebater, uma molécula muda seu momento e transfere impulso à parede; muitos impactos produzem força por área, isto é, pressão. V é verdadeira porque ⟨Ec⟩ é proporcional a T absoluta.\n\n4. As verdadeiras são I, IV e V, conjunto apresentado na alternativa C. A distinção entre valor médio e comportamento de cada molécula é decisiva.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 6, Física, questão 9; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 9, alternativa C; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-09.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-11",
+    "skills": [
+      "relacionar distância e tempo de propagação sonora em percursos identificados"
+    ],
+    "learning": {
+      "concept": "O tempo de propagação sonora em um percurso de comprimento d é t = d/v. Os sinais da presa chegam ao escorpião por dois meios, percorrendo a mesma distância com velocidades diferentes. A diferença observada é tar − tsolo; ela não é o tempo completo de nenhum dos dois trajetos.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Converta o atraso de 0,2 ms para 0,0002 s. Como 500 m/s no solo é maior que 340 m/s no ar, o sinal pelo solo chega primeiro.\n\n2. Escreva tsolo = d/500 e tar = d/340. O atraso satisfaz 0,0002 = d(1/340 − 1/500).\n\n3. Isole a distância: d = 0,0002/(1/340 − 1/500) = 0,2125 m = 21,25 cm, alternativa E.\n\n4. Confira os tempos: no solo, 0,000425 s; no ar, 0,000625 s. Sua diferença é 0,000200 s, exatamente os 0,2 ms fornecidos. Multiplicar uma velocidade isolada pelo atraso não representa o modelo de dois sinais.",
+      "prerequisites": [
+        {
+          "subject": "fisica",
+          "skill": "converter unidades e relacionar percurso e tempo de um pulso sonoro"
+        }
+      ],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7, Física, questão 11; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 11, alternativa E; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-11.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-12",
+    "skills": [
+      "identificar tensão comum e correntes distintas em ramos em paralelo"
+    ],
+    "learning": {
+      "concept": "Em resistores em paralelo, a tensão é comum e a corrente se divide entre os ramos. Nos trechos em série com o paralelo, circula a soma dessas correntes. Para recuperar a tensão da fonte na Figura 4, aplica-se U = RI a cada parte e somam-se as quedas de tensão ao longo de uma malha completa.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. No resistor de 1 Ω passam 2 A, portanto a tensão no paralelo é 1 × 2 = 2 V. O ramo de 2/3 Ω recebe a mesma tensão: I = 2/(2/3) = 3 A.\n\n2. A corrente se reúne fora dos ramos: 2 + 3 = 5 A. Essa corrente atravessa cada resistor de 1/5 Ω, cuja queda de tensão é (1/5) × 5 = 1 V.\n\n3. Na malha, a fonte compensa as três quedas: ε = 1 + 2 + 1 = 4 V, alternativa C. Não se somam as quedas dos dois resistores em paralelo, pois eles ligam os mesmos nós.\n\n4. Verifique pela resistência equivalente: 1 Ω em paralelo com 2/3 Ω resulta em 2/5 Ω; com os dois resistores em série, Req = 4/5 Ω. Então ε = 5 × 4/5 = 4 V.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 7, Física, questão 12; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 12, alternativa C; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-12.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-13",
+    "skills": [],
+    "learning": {
+      "concept": "A lei de Snell relaciona os índices de refração aos senos dos ângulos medidos a partir da normal à interface: n₁ sen θ₁ = n₂ sen θ₂. Na figura, o raio passa do ar ao líquido e se aproxima da normal, indicando um índice maior no líquido e uma velocidade de propagação menor.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Leia na Figura 5 os ângulos em relação à normal tracejada: incidência 45° no ar e refração 38° no líquido. Não são ângulos medidos pela superfície.\n\n2. Use nar = 1,0 em Snell: 1,0 × sen 45° = nlíquido × sen 38°.\n\n3. Isole nlíquido = sen 45°/sen 38° ≈ 0,707107/0,615661 = 1,1485. A opção fornecida é 1,148, alternativa B; o índice não tem unidade.\n\n4. O valor é maior que 1,0 e concorda com o raio refratado mais próximo da normal. Inverter a razão dos senos daria cerca de 0,870 e contradiz esse comportamento.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, página 8, Física, questão 13; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 13, alternativa B; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-13.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-vespertino-14",
+    "skills": [],
+    "learning": {
+      "concept": "A dualidade descreve manifestações ondulatórias e corpusculares conforme o experimento, tanto para radiação quanto para matéria, inclusive partículas neutras. A relação de de Broglie λ = h/p associa momento e comprimento de onda; interferência também depende da montagem experimental. O princípio da incerteza relaciona as dispersões de posição e momento, sem afirmar que localizar melhor “intensifica” o caráter ondulatório.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. I é verdadeira: elétrons podem gerar interferência na dupla fenda, evidenciando seu comportamento ondulatório. II é verdadeira: a luz transfere energia em quantidades discretas, os fótons.\n\n2. III é falsa porque restringe a dualidade a partículas carregadas; partículas neutras também podem apresentar esse comportamento. A restrição já invalida a proposição.\n\n3. IV é aceita: λ = h/p fornece a escala de comprimento de onda relevante para interferência, junto à geometria do experimento. V é falsa: maior precisão de posição implica maior incerteza do momento, não a intensificação ondulatória afirmada.\n\n4. Restam I, II e IV, exatamente a alternativa B no caderno, página 9, e no gabarito oficial. Esse raciocínio examina cada proposição sem depender dos distratores.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2025-2-vespertino-ce15bd49ae95.pdf, páginas 8 e 9, Física, questão 14; gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Vespertino, Física, questão 14, alternativa B; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2025-2-vespertino-14.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-01",
+    "skills": [],
+    "learning": {
+      "concept": "Na relatividade geral, a gravitação é descrita pela geometria do espaço-tempo. Uma distribuição de massas cujo momento de quadrupolo varia pode emitir ondas gravitacionais, como um sistema binário de buracos negros durante sua fusão. O LIGO mede pequenas variações relativas de distância produzidas por essas ondas, previstas pela teoria.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Identifique o fenômeno descrito: pequenas variações no espaço associadas à colisão de buracos negros são ondas gravitacionais.\n\n2. Relacione esse fenômeno à teoria que descreve a gravitação como geometria do espaço-tempo, a relatividade geral. O sistema binário em evolução pode irradiar essas perturbações.\n\n3. Selecione D, Relatividade Geral. O laser é parte do instrumento de medida, mas isso não torna as ondas detectadas eletromagnéticas.\n\n4. A observação confirma uma previsão específica dessa teoria; a questão não pede atribuir toda a astronomia à mecânica quântica nem às teorias do calor e dos gases.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3, Física, questão 1; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 1, alternativa D; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-01.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-02",
+    "skills": [],
+    "learning": {
+      "concept": "Pela segunda lei de Newton, a resultante horizontal acelera o conjunto das caixas; para achar uma força de contato, é preciso depois isolar uma delas. Como a força de 30 N atua na caixa de 5 kg, a caixa de 10 kg recebe horizontalmente apenas a força transmitida pelo contato, compartilhando a aceleração do conjunto.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Trate inicialmente as duas caixas como um sistema de massa 5 + 10 = 15 kg. Sem atrito, a resultante externa é 30 N e a = 30/15 = 2 m/s².\n\n2. Isole a caixa de 10 kg. Sua única força horizontal é a força de contato, de modo que Fc = 10 × 2 = 20 N, alternativa C.\n\n3. Confira na caixa de 5 kg: a força aplicada é 30 N e a reação do contato é 20 N em sentido contrário; a resultante é 10 N = 5 × 2.\n\n4. As forças de contato formam um par de ação e reação e atuam em caixas distintas. Elas se cancelam na análise do conjunto, mas precisam ser incluídas ao isolar cada caixa.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3, Física, questão 2; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 2, alternativa C; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-02.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-03",
+    "skills": [],
+    "learning": {
+      "concept": "Adiabático significa ausência de troca de calor, Q = 0, sem exigir temperatura constante. Na compressão, o meio realiza trabalho sobre o gás. Com a convenção em que W é o trabalho realizado pelo gás, W < 0 e a primeira lei ΔU = Q − W indica aumento da energia interna; num gás ideal, isso corresponde ao aumento da temperatura.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Traduza “compressão adiabática”: o volume diminui e não há entrada nem saída de calor, então Q = 0.\n\n2. Fixe a convenção da primeira lei, ΔU = Q − W, com W positivo quando o gás realiza trabalho sobre o meio. Ao comprimir, o gás recebe trabalho, logo W < 0.\n\n3. Assim ΔU = −W > 0. A energia interna aumenta porque há trabalho recebido, justificativa da alternativa E.\n\n4. A opção D acerta o aumento, mas atribui entrada de calor, incompatível com a transformação. A opção C confunde adiabática com isotérmica.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 3, Física, questão 3; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 3, alternativa E; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-03.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-04",
+    "skills": [
+      "conservar quantidade de movimento em colisões frontais sem impulso externo"
+    ],
+    "learning": {
+      "concept": "A quantidade de movimento total conserva-se quando não há impulso externo horizontal relevante. Se as caixas ficam aderidas, a colisão é perfeitamente inelástica e ambas saem com uma única velocidade. A energia cinética diminui nesse choque; não se deve conservá-la para calcular a velocidade conjunta.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Escolha o sentido inicial da caixa de 2 kg como positivo. O momento inicial é 2 × 15 + 3 × 0 = 30 kg·m/s.\n\n2. As caixas ficam aderidas e passam a ter massa total de 5 kg e velocidade Vf. Igualando os momentos: 30 = 5Vf.\n\n3. Obtenha Vf = 6,0 m/s no sentido inicial, alternativa A. A massa maior e a caixa inicialmente parada reduzem a velocidade do conjunto.\n\n4. Confira a energia: antes, Ec = 2 × 15²/2 = 225 J; depois, Ec = 5 × 6²/2 = 90 J. Os 135 J de diferença são convertidos em outras formas de energia, enquanto o momento permanece 30 kg·m/s.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4, Física, questão 4; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 4, alternativa A; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-04.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-05",
+    "skills": [
+      "relacionar massa e velocidade à energia cinética de translação"
+    ],
+    "learning": {
+      "concept": "No plano inclinado liso, sem atrito, a energia potencial gravitacional perdida se converte em energia cinética. O peso realiza trabalho e a força normal é perpendicular ao movimento, sem trabalho. Como o objeto parte do repouso, mgh = mv²/2; a massa se cancela e a velocidade final depende da altura vertical.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Tome a base como nível de energia potencial nula. No topo, o objeto de 2 kg tem Ep = mgh = 2 × 10 × 20 = 400 J e Ec = 0.\n\n2. Sem atrito, a energia mecânica se conserva: na base, os 400 J são energia cinética, então 400 = 2v²/2.\n\n3. Assim v² = 400 m²/s² e v = 20 m/s, alternativa B. Também se obtém diretamente v = √(2gh).\n\n4. Substituindo 20 m/s em mv²/2, retorna-se aos 400 J iniciais. A altura de 20 m é vertical; o comprimento do plano não entra nessa conta.",
+      "prerequisites": [
+        {
+          "subject": "fisica",
+          "skill": "calcular energia cinética a partir de massa e velocidade"
+        }
+      ],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4, Física, questão 5; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 5, alternativa B; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-05.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-06",
+    "skills": [],
+    "learning": {
+      "concept": "O James Webb foi desenvolvido principalmente para observar radiação infravermelha. Objetos frios irradiam em comprimentos de onda maiores que os de objetos mais quentes, e a expansão do Universo desloca a luz de galáxias distantes para comprimentos de onda maiores. Esses dois efeitos tornam o infravermelho relevante para os alvos indicados na questão.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. A questão pede a faixa de observação que caracteriza o JWST; identifique sua atuação principal no infravermelho.\n\n2. Para objetos frios, o pico da emissão térmica ocorre em comprimentos de onda maiores; observar essa faixa fornece informação que uma observação apenas visível pode perder.\n\n3. Para galáxias muito distantes, a expansão cósmica alonga os comprimentos de onda da luz recebida. Parte da radiação originalmente emitida em faixas mais curtas chega no infravermelho.\n\n4. Essas razões sustentam E: radiação infravermelha para estudar objetos distantes e frios. Neutrinos, raios X e rádio correspondem a outros detectores ou faixas; maior nitidez no visível não é a inovação pedida.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 4, Física, questão 6; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 6, alternativa E; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-06.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-07",
+    "skills": [],
+    "learning": {
+      "concept": "O campo gravitacional de uma Terra aproximadamente esférica, fora dela, tem módulo GM/r². A distância r é medida desde o centro terrestre, não desde a superfície. Portanto, uma órbita de raio 2R está a uma altitude R e sofre aceleração igual a um quarto do valor superficial.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Na superfície, escreva g = GM/R², em que R é o raio terrestre.\n\n2. O enunciado dá raio orbital 2R. Substitua: górbita = GM/(2R)² = GM/(4R²).\n\n3. Compare com a expressão superficial: górbita/g = R²/(2R)² = 1/4. Logo górbita = g/4, alternativa A.\n\n4. O satélite não está sem gravidade; essa aceleração pode fornecer sua aceleração centrípeta. Usar g/2 esqueceria o quadrado da distância, e usar 3R confundiria raio orbital com altitude.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5, Física, questão 7; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 7, alternativa A; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-07.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-08",
+    "skills": [],
+    "learning": {
+      "concept": "No tubo ideal com uma extremidade fechada e outra aberta, a onda estacionária fundamental tem nó de deslocamento na ponta fechada e ventre na aberta. A menor separação entre esse nó e esse ventre é λ/4, logo L = λ/4. Usando v = λf, encontra-se a menor frequência de ressonância.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Considere as condições de deslocamento do ar: a parede fechada impede a oscilação local e forma um nó; na abertura, forma-se um ventre. Para pressão, as posições de nó e ventre se invertem.\n\n2. No modo fundamental, o tubo acomoda um quarto de onda: L = λ/4, portanto λ = 4L.\n\n3. Substitua em f = v/λ: f₁ = v/(4L), alternativa C. A unidade é (m/s)/m = s⁻¹, ou hertz.\n\n4. A expressão v/(2L) valeria para as condições ideais de um tubo aberto nas duas pontas, não para a extremidade fechada desta questão.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5, Física, questão 8; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 8, alternativa C; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-08.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-09",
+    "skills": [],
+    "learning": {
+      "concept": "Um corpo de carga positiva em campo elétrico vertical para cima recebe força elétrica qE para cima, oposta ao peso mg. Em equilíbrio, a resultante é nula e qE = mg. O cálculo deve usar massa em quilogramas e carga em coulombs para obter E em N/C.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Converta m = 20 g = 0,020 kg e q = 4,0 μC = 4,0 × 10⁻⁶ C. A carga é positiva, então a força elétrica acompanha o campo para cima.\n\n2. Com g = 10 m/s² do formulário, o peso é 0,020 × 10 = 0,20 N. O equilíbrio exige força elétrica de mesmo módulo e sentido oposto.\n\n3. Isole E = mg/q = 0,20/(4,0 × 10⁻⁶) = 5,0 × 10⁴ N/C, alternativa B.\n\n4. Confira: qE = 4,0 × 10⁻⁶ × 5,0 × 10⁴ = 0,20 N. O campo não tem unidade de força; multiplicá-lo pela carga é que produz a força elétrica.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5, Física, questão 9; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 9, alternativa B; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-09.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-10",
+    "skills": [],
+    "learning": {
+      "concept": "Pelo princípio de Arquimedes, o empuxo é o peso do líquido deslocado: E = ρlíquido g Vsub. Um objeto em flutuação está em equilíbrio, E = mg. O volume deslocado é o volume submerso, que pode ser menor que o volume total; a densidade média do objeto permite verificar se essa flutuação é possível.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Calcule a densidade do objeto: 480/600 = 0,8 g/cm³. Como ela é menor que a densidade do líquido, 1,6 g/cm³, o objeto pode flutuar parcialmente submerso.\n\n2. No equilíbrio, ρlíquido g Vsub = mg. Cancele g e isole Vsub = m/ρlíquido.\n\n3. As unidades g e g/cm³ já são compatíveis: Vsub = 480/1,6 = 300 cm³, alternativa D.\n\n4. A fração submersa é 300/600 = 1/2, igual à razão ρobjeto/ρlíquido = 0,8/1,6. Usar os 600 cm³ no empuxo suporia submersão completa e produziria força maior que o peso.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 5, Física, questão 10; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 10, alternativa D; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-10.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-11",
+    "skills": [
+      "identificar tensão comum e correntes distintas em ramos em paralelo"
+    ],
+    "learning": {
+      "concept": "Na figura, as duas lâmpadas estão em paralelo, ligadas aos mesmos terminais da fonte. Por isso, cada uma recebe 120 V, embora suas correntes possam ser diferentes. Nas condições de potência fornecidas, P = UI permite calcular a corrente de cada ramo; a corrente total seria a soma das correntes das lâmpadas.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Acompanhe as ligações da Figura 3: cada lâmpada liga os mesmos dois nós. Com o interruptor fechado, a tensão em cada uma é 120 V.\n\n2. Use I = P/U na lâmpada de 60 W: I₆₀ = 60/120 = 0,50 A.\n\n3. Para 100 W, I₁₀₀ = 100/120 = 0,8333… A, aproximadamente 0,83 A. O par na ordem pedida corresponde à alternativa B.\n\n4. A corrente total da fonte é 0,50 + 0,8333… = 1,3333… A; ela não é a corrente de cada lâmpada. Resistências equivalentes de 240 Ω e 144 Ω explicam as correntes distintas sob a mesma tensão.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 6, Física, questão 11; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 11, alternativa B; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-11.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-12",
+    "skills": [
+      "determinar temperatura final a partir de calor sensível",
+      "calcular variação de temperatura com calor sensível em unidades compatíveis"
+    ],
+    "learning": {
+      "concept": "O calor específico do alumínio informa o calor necessário por grama para elevar a temperatura em 1 °C. Sem mudança de estado, Q = mcΔT. A capacidade térmica do bloco é mc = 180 cal/°C, e dividir o calor recebido por essa capacidade dá o aumento de temperatura, não a temperatura final.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Mantenha as unidades fornecidas: Q = 1800 cal, m = 200 g e c = 0,90 cal/(g·°C). Não é necessária uma conversão para joules.\n\n2. Calcule a capacidade térmica: mc = 200 × 0,90 = 180 cal/°C. A variação é ΔT = 1800/180 = 10 °C.\n\n3. Some os 20 °C iniciais: Tf = 20 + 10 = 30 °C, alternativa D. Como o bloco recebe calor, a temperatura deve aumentar.\n\n4. Verifique substituindo: Q = 200 × 0,90 × (30 − 20) = 1800 cal, exatamente a quantidade indicada.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 6, Física, questão 12; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 12, alternativa D; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-12.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-13",
+    "skills": [],
+    "learning": {
+      "concept": "No lançamento oblíquo sem resistência do ar, a componente horizontal da velocidade permanece constante e a vertical varia sob aceleração −g. Como a bola parte e retorna ao mesmo nível, o tempo total é 2v₀ sen θ/g e o alcance é v₀² sen(2θ)/g. Para essa mesma velocidade inicial, o alcance é máximo em 45°.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Decomponha 20 m/s em 45°: vx = 20 cos 45° = 10√2 m/s e vy₀ = 20 sen 45° = 10√2 m/s.\n\n2. A bola volta ao nível inicial após t = 2vy₀/g = 2√2 s, pois g = 10 m/s².\n\n3. Multiplique pela velocidade horizontal constante: R = vx t = (10√2)(2√2) = 40 m, alternativa A. Equivalentemente, R = 20² sen 90°/10.\n\n4. Como sen(2θ) não pode exceder 1, 45° também produz o máximo alcance para os 20 m/s, sob as condições de lançamento e queda no mesmo nível.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 7, Física, questão 13; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 13, alternativa A; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-13.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-vespertino-14",
+    "skills": [
+      "relacionar distância e tempo de propagação sonora em percursos identificados",
+      "converter unidades e relacionar percurso e tempo de um pulso sonoro"
+    ],
+    "learning": {
+      "concept": "O eco é o retorno de um pulso após reflexão. O tempo medido pela beluga inclui a ida até a parede e a volta, portanto o percurso total é 2d. Para velocidade aproximadamente constante no meio, vt = 2d; a distância ao obstáculo é metade do percurso do pulso.",
+      "workedExample": "Apoio elaborado para estudo — exemplo da própria questão oficial.\n\n1. Converta a velocidade indicada: 5400 km/h ÷ 3,6 = 1500 m/s. Use esse valor fornecido para a água do mar, sem substituí-lo pela velocidade do som no ar.\n\n2. Em 0,40 s, o pulso percorre vt = 1500 × 0,40 = 600 m. Esse valor corresponde à ida somada à volta.\n\n3. Divida por dois para obter a distância da beluga à parede: d = 600/2 = 300 m, alternativa C.\n\n4. Confira: cada trecho leva 300/1500 = 0,20 s; os dois trechos somam 0,40 s. A opção 600 m ignora que o sinal precisou retornar para ser percebido.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado para estudo por Codex. Caderno original: content/documents/cadernos/UDESC-2026-1-vespertino-cbcb4b34fa96.pdf, página 7, Física, questão 14; gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Vespertino, Física, questão 14, alternativa C; resolução elaborada conferida: content/review-batches/fisica.explanations.json, registro udesc-2026-1-vespertino-14.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  }
+]

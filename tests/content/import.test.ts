@@ -117,6 +117,44 @@ describe("faithful corpus import", () => {
       isReady(applyContentRecords([q], { reviews: [review] }, "public")[0]),
     ).toBe(false);
   });
+  it("adds reviewed pedagogy without replacing the question or its original skills, and versions its support", () => {
+    const q = readyQuestion();
+    const learning = {
+      concept: "Conceito conferido para interpretar esta questão.",
+      workedExample: "Resolução comentada da mesma questão oficial.",
+      prerequisites: [], reviewed: true,
+      source: "caderno-original.pdf, p. 1", reviewer: "Revisor",
+    };
+    const records = { pedagogy: [{ id: q.id, skills: [q.skills[0], "Habilidade compartilhada"], learning }] };
+    const before = structuredClone(q);
+    const enriched = applyContentRecords([q], records)[0];
+    expect(enriched.skills).toEqual([...q.skills, "Habilidade compartilhada"]);
+    expect(enriched.learning).toEqual(learning);
+    expect(enriched.stem).toBe(q.stem);
+    expect(enriched.key).toEqual(q.key);
+    expect(enriched.explanation).toEqual(q.explanation);
+    expect(enriched.rawText).toBe(q.rawText);
+    expect(enriched.revision).not.toBe(q.revision);
+    expect(applyContentRecords([q], records)[0]).toEqual(enriched);
+    const updated = { pedagogy: [{ ...records.pedagogy[0], learning: { ...learning, concept: "Um conceito revisado com uma explicação mais precisa." } }] };
+    expect(applyContentRecords([q], updated)[0].revision).not.toBe(enriched.revision);
+    expect(q).toEqual(before);
+  });
+  it("rejects duplicate, unknown or unreviewed pedagogy instead of unblocking uncertain text", () => {
+    const q = readyQuestion();
+    const record = {
+      id: q.id, skills: ["Habilidade compartilhada"],
+      learning: { concept: "Conceito conferido.", workedExample: "Exemplo conferido.", prerequisites: [], reviewed: true, source: "original.pdf p1", reviewer: "Revisor" },
+    };
+    const duplicate = { pedagogy: [record, record] };
+    const unknown = { pedagogy: [{ ...record, id: "absent" }] };
+    const valid = { pedagogy: [record] };
+    expect(() => applyContentRecords([q], duplicate)).toThrow(/duplic/i);
+    expect(() => applyContentRecords([q], unknown)).toThrow(/desconhecido/i);
+    expect(() => applyContentRecords([{ ...q, quality: { ...q.quality, taxonomyReviewed: false } }], valid)).toThrow(/confer/i);
+    const unreviewed = { pedagogy: [{ ...record, learning: { ...record.learning, reviewed: false } }] };
+    expect(() => applyContentRecords([q], unreviewed)).toThrow(/apoio|confer/i);
+  });
   it("publishes a new snapshot identity when an official key changes, preserving earlier attempts", async () => {
     const review = readyQuestion({ revision: "checked-v1" });
     const initial = { ...review, revision: "import-v1" };

@@ -88,6 +88,7 @@ export function selectRemediationQuestions(
   catalogue: readonly QuestionRevision[],
   kind: "followup" | "prerequisite",
   excludedIds: readonly string[] = [],
+  exposedIds: readonly string[] = [],
 ): QuestionRevision[] {
   const support = learningSupport(question);
   const targets =
@@ -101,18 +102,21 @@ export function selectRemediationQuestions(
             .map((skill) => ({ subject: question.subject, skill }))
         : [];
   const excluded = new Set([question.id, ...excludedIds]);
-  return catalogue.filter((candidate) => {
-    if (
-      excluded.has(candidate.id) ||
-      !canPractice(candidate) ||
-      !targets.some(
-        (target) =>
-          target.subject === candidate.subject &&
-          candidate.skills.includes(target.skill),
+  const exposed = new Set(exposedIds);
+  return catalogue
+    .filter((candidate) => {
+      if (
+        excluded.has(candidate.id) ||
+        !canPractice(candidate) ||
+        !targets.some(
+          (target) =>
+            target.subject === candidate.subject &&
+            candidate.skills.includes(target.skill),
+        )
       )
-    )
-      return false;
-    excluded.add(candidate.id);
-    return true;
-  });
+        return false;
+      excluded.add(candidate.id);
+      return true;
+    })
+    .sort((a, b) => Number(exposed.has(a.id)) - Number(exposed.has(b.id)));
 }

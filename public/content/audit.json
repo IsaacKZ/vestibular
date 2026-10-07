@@ -64,10 +64,10 @@
     "blocked": 215,
     "candidates": 205
   },
-  "ready": 78,
-  "practiceReady": 78,
+  "ready": 84,
+  "practiceReady": 84,
   "reservedReady": 0,
-  "blockedForTraining": 342,
+  "blockedForTraining": 336,
   "historicalFrequency": {
     "label": "Contagens provisórias do mapa histórico",
     "sampleSize": 420,

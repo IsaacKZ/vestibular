@@ -1,5 +1,155 @@
 [
   {
+    "id": "udesc-2024-1-matutino-01",
+    "revision": "review-2026-10-07-matematica-2024-1-1",
+    "subject": "matematica",
+    "edition": "2024/1",
+    "period": "matutino",
+    "originalNumber": 1,
+    "subjectNumber": 1,
+    "topics": [
+      "análise combinatória"
+    ],
+    "skills": [
+      "Contar senhas com prefixo conhecido e algarismos distintos em posições ordenadas"
+    ],
+    "rawText": "\n\n> 🔧 **Vinda de OCR — notação matemática não confiável.** Símbolos, frações e alternativas com fórmula podem estar corrompidos. Não passe esta questão para ele sem conferir no PDF original.\n\nQuestão 01\nUm aluno, ingressante da Udesc, ao fazer a matrícula recebeu uma senha para acessar o\nsistema acadêmico. Informaram-lhe que, depois do primeiro acesso, poderia trocar a senha por\noutra que fosse lembrar com mais facilidade. Assim, ele anotou a senha em um papel, mas\nacabou derrubando água e os últimos 3 dígitos borraram, de modo que não conseguiu mais\nenxergá-los. Ele sabe que a senha é composta por 2 letras seguidas de 4 números distintos.\nSabendo que a parte legível da senha é JF3, o número máximo de tentativas que o aluno terá\nque fazer para acertar a senha completa e entrar no sistema é:\nA. () 1000\nB()6!\nCc. ( ) 504\nD.()729\nE. ()3.6!\n\n\n",
+    "stem": "Um aluno, ingressante da Udesc, ao fazer a matrícula recebeu uma senha para acessar o sistema acadêmico. Informaram-lhe que, depois do primeiro acesso, poderia trocar a senha por outra que fosse lembrar com mais facilidade. Assim, ele anotou a senha em um papel, mas acabou derrubando água e os últimos 3 dígitos borraram, de modo que não conseguiu mais enxergá-los. Ele sabe que a senha é composta por 2 letras seguidas de 4 números distintos. Sabendo que a parte legível da senha é JF3, o número máximo de tentativas que o aluno terá que fazer para acertar a senha completa e entrar no sistema é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1000"
+      },
+      {
+        "letter": "B",
+        "text": "6!"
+      },
+      {
+        "letter": "C",
+        "text": "504"
+      },
+      {
+        "letter": "D",
+        "text": "729"
+      },
+      {
+        "letter": "E",
+        "text": "3 · 6!"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-matematica.md",
+      "section": "## [2024/1] questão 1 (nº 1 no caderno)",
+      "sha256": "9fd3dc0c97b1349dc730c549a1db194420ca9663cfc8b2f55ca59c7e2ba2480c",
+      "originalPdf": "content/documents/cadernos/UDESC-2024-1-matutino-d9660a44f4d9.pdf",
+      "page": 3
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026",
+      "reviewedAt": "2026-10-07T12:00:00-03:00"
+    },
+    "key": {
+      "letter": "C",
+      "revision": "udesc-2024-1-49f4395f74439b04-matutino-1",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 1",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Alternativa C. A parte JF3 está legível, e os quatro algarismos da senha são distintos. Excluído o 3 conhecido, há 9 escolhas para o primeiro algarismo borrado, 8 para o seguinte e 7 para o último. A ordem importa, e zero pode ocupar qualquer uma dessas posições. O máximo de tentativas é o número de sequências: 9×8×7=504. A contagem 1000 admitiria repetições, e 729=9³ também repetiria algarismos.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2024/1, matutino, questão 1; content/documents/cadernos/UDESC-2024-1-matutino-d9660a44f4d9.pdf, página(s) PDF 3. Gabarito oficial: content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf, página 1, Período Matutino, Matemática, questão 1, alternativa C.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-1-matutino-10",
+    "revision": "review-2026-10-07-matematica-2025-1-10",
+    "subject": "matematica",
+    "edition": "2025/1",
+    "period": "matutino",
+    "originalNumber": 10,
+    "subjectNumber": 10,
+    "topics": [
+      "análise combinatória"
+    ],
+    "skills": [
+      "Contar números com restrições de múltiplos em cada posição decimal"
+    ],
+    "rawText": "\n\n> 🔧 **Vinda de OCR — notação matemática não confiável.** Símbolos, frações e alternativas com fórmula podem estar corrompidos. Não passe esta questão para ele sem conferir no PDF original.\n\nQuestão 10\nDetermine quantos números de 4 algarismos podem ser escritos, respeitando as seguintes\nrestrições: o algarismo dos milhares deve ser maior ou igual a 6; o das centenas deve ser múltiplo\nde 2; o das dezenas deve ser múltiplo de 3 e o das unidades deve ser múltiplo de 5.\nA ()60\nB. ( ) 96\nCc. ( ) 120\nD.( ) 160\nE. ( ) 100\n\n\n",
+    "stem": "Determine quantos números de 4 algarismos podem ser escritos, respeitando as seguintes restrições: o algarismo dos milhares deve ser maior ou igual a 6; o das centenas deve ser múltiplo de 2; o das dezenas deve ser múltiplo de 3 e o das unidades deve ser múltiplo de 5.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "60"
+      },
+      {
+        "letter": "B",
+        "text": "96"
+      },
+      {
+        "letter": "C",
+        "text": "120"
+      },
+      {
+        "letter": "D",
+        "text": "160"
+      },
+      {
+        "letter": "E",
+        "text": "100"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-matematica.md",
+      "section": "## [2025/1] questão 10 (nº 10 no caderno)",
+      "sha256": "f6b0d8556a74e0786c82dbe05ba6fda70d7568c06f991d5702684f93251f5bba",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-1-matutino-07ac7f0e82d1.pdf",
+      "page": 7
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026",
+      "reviewedAt": "2026-10-07T12:00:00-03:00"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-1-4d1ea5b16b767c66-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Alternativa D. As casas admitem, respectivamente, {6,7,8,9}, {0,2,4,6,8}, {0,3,6,9} e {0,5}. O zero é múltiplo dos divisores indicados e não está na casa do milhar. Não há exigência de algarismos distintos. Pelo princípio multiplicativo, 4×5×4×2=160 números de quatro algarismos.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2025/1, matutino, questão 10; content/documents/cadernos/UDESC-2025-1-matutino-07ac7f0e82d1.pdf, página(s) PDF 7. Gabarito oficial: content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf, página 1, Período Matutino, Matemática, questão 10, alternativa D.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
     "id": "udesc-2025-2-matutino-15",
     "revision": "review-2026-10-05-biologia-2025-2-15",
     "subject": "biologia",
@@ -804,6 +954,156 @@
     "annulment": null,
     "explanation": null,
     "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2025-2-matutino-38",
+    "revision": "review-2026-10-07-portugues-literatura-2025-2-38",
+    "subject": "portugues-literatura",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 38,
+    "subjectNumber": 2,
+    "topics": [
+      "ortografia e acentuação"
+    ],
+    "skills": [
+      "Identificar tempo verbal, tonicidade e hiato na forma intuí"
+    ],
+    "rawText": "\n\nQuestão 38\nLeia o Texto 1, que é um trecho da obra Dois Irmãos, de Milton Hatoum, analise as proposições, e assinale\na alternativa correta.\nA. ( ) No período “Não pôde abraçá-lo no Tribunal” (linha 07), o uso do acento em pôde é para indicar o\ntempo passado do verbo. Com a nova ortografia, vários acentos foram suprimidos, entretanto,\noutros permaneceram para diferenciar o sentido das palavras, como ocorre ainda com: pára, pêlo,\ncrêem.\nB. ( ) A palavra intuí (linha 04), pode ser escrita também sem acento, ou seja, intui, nesse caso, o verbo\nestá no tempo verbal presente, sendo uma proparoxítona e se mantendo como um hiato, mesmo\nsem o acento.\nC. ( ) A prisão onde Omar estava apresentava condições desumanas, conforme é relatado, entre as linhas\n09 a 11, mesmo nessas condições ele não se sentia desconfortável, tamanha era sua ira contra o\nirmão Yaqub, pois somente pensava em sair do presídio para espancá-lo novamente.\nD. ( ) Na linha 04 há o verbo intuí, que se encontra no pretérito perfeito. Devido à acentuação, esse verbo\né classificado como uma oxítona e forma um hiato, quando duas vogais se separam, sendo assim,\na palavra em destaque possui três sílabas.\nE. ( ) Os romances costumam se caracterizar pelos seus enredos narrativos, marcados pelo tempo e o\nespaço. No Texto 1, entretanto, apesar de haver marcas de narração, o predomínio é da descrição,\nhaja vista a quantidade de detalhes apresentada sobre a prisão onde Omar se encontrava.\n\n\n",
+    "stem": "TEXTO 1 — Dois Irmãos\n01. No presídio, ele passou algumas semanas incomunicável. Ela e um advogado tentaram\n02. falar com Omar, mas a violência foi implacável. Enviava sacolas de presentes aos\n03. carcereiros, pedia notícias do irmão e suplicava que não o torturassem. Então, ela soube\n04. que o irmão passara uns dias encarcerado no Comando Militar, e eu intuí que a sua\n05. amizade com Laval era uma forma de condenação política.\n06. Na manhã em que ele saiu para o Tribunal, escoltado por policiais à paisana,\n07. Rânia percebeu que estava sozinha. Não pôde abraçá-lo no Tribunal, mas o ouviu\n08. relatar uma brusca descida ao inferno. Os dias eram como as noites, cada dia era a\n09. extensão mais sombria da noite. Quando chovia muito, as celas inundavam, Omar\n10. cochilava de pé, a água suja cobria-lhe os joelhos, e os muçus, ao lhe roçarem as\n11. pernas, davam-lhe mais asco do que medo. Sentia repugnância da pele viscosa dessas\n12. enguias-d’água-doce, pardas, cobertas de lodo, que serpenteavam no piso da cela\n13. quando a água escoava. Ainda bem que não enxergava nada nos dias escuros. Às\n14. vezes, na janelinha que rasga a parede, a palma de um açaizeiro balançava e ele\n15. imaginava o céu e suas cores, o rio Negro, a vastidão do horizonte, a liberdade, a vida.\n16. Tapava os ouvidos, era insuportável ouvir o zumbido dos insetos, os gritos dos detentos,\n17. tudo não parecia ter fim nem começo.\n\nHATOUM, M. Dois Irmãos. São Paulo: Companhia das Letras, 2006, p. 194.\n\nLeia o Texto 1, que é um trecho da obra Dois Irmãos, de Milton Hatoum, analise as proposições, e assinale a alternativa correta.\n\nPalavras sublinhadas nas alternativas do original: A — pôde; B e D — intuí.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No período “Não pôde abraçá-lo no Tribunal” (linha 07), o uso do acento em pôde é para indicar o tempo passado do verbo. Com a nova ortografia, vários acentos foram suprimidos, entretanto, outros permaneceram para diferenciar o sentido das palavras, como ocorre ainda com: pára, pêlo, crêem."
+      },
+      {
+        "letter": "B",
+        "text": "A palavra intuí (linha 04), pode ser escrita também sem acento, ou seja, intui, nesse caso, o verbo está no tempo verbal presente, sendo uma proparoxítona e se mantendo como um hiato, mesmo sem o acento."
+      },
+      {
+        "letter": "C",
+        "text": "A prisão onde Omar estava apresentava condições desumanas, conforme é relatado, entre as linhas 09 a 11, mesmo nessas condições ele não se sentia desconfortável, tamanha era sua ira contra o irmão Yaqub, pois somente pensava em sair do presídio para espancá-lo novamente."
+      },
+      {
+        "letter": "D",
+        "text": "Na linha 04 há o verbo intuí, que se encontra no pretérito perfeito. Devido à acentuação, esse verbo é classificado como uma oxítona e forma um hiato, quando duas vogais se separam, sendo assim, a palavra em destaque possui três sílabas."
+      },
+      {
+        "letter": "E",
+        "text": "Os romances costumam se caracterizar pelos seus enredos narrativos, marcados pelo tempo e o espaço. No Texto 1, entretanto, apesar de haver marcas de narração, o predomínio é da descrição, haja vista a quantidade de detalhes apresentada sobre a prisão onde Omar se encontrava."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-portugues-literatura.md",
+      "section": "## [2025/2] questão 2 (nº 38 no caderno)",
+      "sha256": "db0a3fe91be6136eb041b3fb57f586e21521db8e53c179113b6ada6fc4ddb33b",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 26
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026",
+      "reviewedAt": "2026-10-07T12:00:00-03:00"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-38",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 38",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Alternativa D. “Eu intuí”, na linha 04, é a primeira pessoa do singular do pretérito perfeito do indicativo de intuir. A separação in-tu-í tem três sílabas; í é a última sílaba tônica, e u-í forma hiato. O acento é justificado pelo i tônico sozinho na sílaba do hiato, e não por acento diferencial. A alternativa A mistura a distinção válida pôde/pode com grafias hoje sem esses acentos (para, pelo, creem). B erra ao classificar intui como proparoxítona. O gabarito oficial confirma D.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2025/2, matutino, questão 38; content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf, página(s) PDF 25–26. Gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Português/Literatura, questão 38, alternativa D.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-41",
+    "revision": "review-2026-10-07-portugues-literatura-2025-2-41",
+    "subject": "portugues-literatura",
+    "edition": "2025/2",
+    "period": "matutino",
+    "originalNumber": 41,
+    "subjectNumber": 5,
+    "topics": [
+      "ortografia e acentuação"
+    ],
+    "skills": [
+      "Distinguir veem, deem e creem sem acento de têm e vêm no plural"
+    ],
+    "rawText": "\n\nQuestão 41\nLeia o Texto 2, que é um poema da obra Nunca mais... e Poema dos poemas, de Cecília Meireles. Analise\nas proposições, e assinale a alternativa correta.\nA. ( ) Os versos “Sou triste porque sonhei” e “coisas inalcançáveis” estabelecem uma relação de causa e\nconsequência, o conector porque tem esse papel de estabelecer o sentido. Caso seja substituído\npelo elemento de coesão conquanto, o sentido permaneceria o mesmo neste contexto.\nB. ( ) As palavras destacadas nos versos “coisas inalcançáveis”, “para lá dos céus que se veem” e “esse\npobre, esse mísero canto” estão acentuadas. A primeira porque é uma paroxítona, a segunda\ntambém é uma paroxítona e a terceira é uma proparoxítona, seguindo a regra de que todas são\nacentuadas dentro dessa última classificação.\nC. ( ) O verso “Foram punidas as minhas mãos” não segue a ordem direta da Língua Portuguesa, ou seja,\nprimeiramente vem o sujeito e depois o predicado. Caso houvesse a ordem direta, o sentido do\nperíodo também seria alterado.\nD. ( ) No verso “Para lá dos céus que se veem”, a palavra veem está no plural e sem acento, como ocorre\nem deem, creem, isso passou a ser válido por meio do último acordo ortográfico. No entanto, em\ntêm e vêm, quando indicam plural, os acentos circunflexos ainda permanecem.\nE. ( ) O verso “para lá dos céus que se veem” e depois, o verso “aquelas flores maravilhosas” são\nexemplos de que a poesia de Cecília Meireles aborda uma linguagem com aspectos mais rurais\ntambém, ou seja, existem características regionalistas em sua obra.\nTEXTO 3\nPoema da Esperança\nLá, onde Tu moras,\ndeve ser um país tão luminoso\nque, de olhos extintos,\nse possa ver...\nDeve ser um país sem dias e sem noites...\nSem ontens e sem amanhãs...\nPaís maravilhoso da Beleza perfeita,\nque só habitam\n\n\falmas extraordinárias\nde seres e de coisas...\nLá, onde Tu moras,\nnão há mais nada do que se sabe,\nnem do que se é...\nLá, onde Tu moras,\ndize que um dia me acolherás\ncomo um Bem-Amado à sua Bem-Amada...\nDize que chegarei, um dia,\nao teu Reino...\n- Porque eu estou mortalmente enferma\nda tristeza e da penumbra\ndaqui...\nEleito, ó Eleito,\ndize que me deixarás ficar\nlá, onde Tu moras,\nnesse país tão luminoso\nque, de olhos extintos,\nse pode ver...\nMEIRELES, C. Nunca mais…e Poema dos poemas, Editora Global, 2024, p. 57.\n\n\n---\n\n",
+    "stem": "TEXTO 2\nPoema da Tristeza\n\nSou triste porque sonhei\ncoisas inalcançáveis,\nque se não devem sonhar...\nChoram os meus olhos,\ncastigados por se terem erguido\npara lá dos céus que se veem...\nForam punidas as minhas mãos,\ne sangram,\npelo pecado de quererem tocar\naquelas flores maravilhosas\ndos teus vergéis...\nMorre-me a voz,\nde cantar-te,\nó Eleito,\ne que eternidades não tem de sofrer\nesse pobre, esse mísero canto,\npara chegar\ndo meu coração ao teu!...\nSou triste porque a minha alma\nnão quer mais nada do que tem...\nPorque a minha alma\nnão pode ter\nnada mais...\nSou triste,\nsou triste,\nsou triste porque sonhei\ncoisas inalcançáveis,\nque se não devem sonhar!...\"\n\nMEIRELES, C. Nunca mais…e Poema dos poemas, Editora Global, 2024, p. 62.\n\nLeia o Texto 2, que é um poema da obra Nunca mais... e Poema dos poemas, de Cecília Meireles. Analise as proposições, e assinale a alternativa correta.\n\nPalavras sublinhadas na alternativa B do original: inalcançáveis, céus, mísero.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Os versos “Sou triste porque sonhei” e “coisas inalcançáveis” estabelecem uma relação de causa e consequência, o conector porque tem esse papel de estabelecer o sentido. Caso seja substituído pelo elemento de coesão conquanto, o sentido permaneceria o mesmo neste contexto."
+      },
+      {
+        "letter": "B",
+        "text": "As palavras destacadas nos versos “coisas inalcançáveis”, “para lá dos céus que se veem” e “esse pobre, esse mísero canto” estão acentuadas. A primeira porque é uma paroxítona, a segunda também é uma paroxítona e a terceira é uma proparoxítona, seguindo a regra de que todas são acentuadas dentro dessa última classificação."
+      },
+      {
+        "letter": "C",
+        "text": "O verso “Foram punidas as minhas mãos” não segue a ordem direta da Língua Portuguesa, ou seja, primeiramente vem o sujeito e depois o predicado. Caso houvesse a ordem direta, o sentido do período também seria alterado."
+      },
+      {
+        "letter": "D",
+        "text": "No verso “Para lá dos céus que se veem”, a palavra veem está no plural e sem acento, como ocorre em deem, creem, isso passou a ser válido por meio do último acordo ortográfico. No entanto, em têm e vêm, quando indicam plural, os acentos circunflexos ainda permanecem."
+      },
+      {
+        "letter": "E",
+        "text": "O verso “para lá dos céus que se veem” e depois, o verso “aquelas flores maravilhosas” são exemplos de que a poesia de Cecília Meireles aborda uma linguagem com aspectos mais rurais também, ou seja, existem características regionalistas em sua obra."
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-portugues-literatura.md",
+      "section": "## [2025/2] questão 5 (nº 41 no caderno)",
+      "sha256": "e845ad6864eacf2432602afab93adafcdf0dd0d79fcb8cff289651ba2c5502b0",
+      "originalPdf": "content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf",
+      "page": 28
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026",
+      "reviewedAt": "2026-10-07T12:00:00-03:00"
+    },
+    "key": {
+      "letter": "D",
+      "revision": "udesc-2025-2-a313df2141524b2c-matutino-41",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf",
+      "location": "página 1, Período Matutino, Português/Literatura, questão 41",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Alternativa D. Veem, deem e creem perderam o circunflexo sobre ee pelo acordo ortográfico. Têm e vêm continuam acentuados no plural, em contraste com tem e vem no singular. Em A, conquanto indica concessão e não preserva o sentido causal de porque. Em B, céus é monossílabo tônico, não paroxítona. Em C, a inversão de sujeito e predicado em “Foram punidas as minhas mãos” não implica mudança do sentido ao se usar a ordem direta. E não encontra fundamento suficiente de regionalismo apenas nos versos citados.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2025/2, matutino, questão 41; content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf, página(s) PDF 27–28. Gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Português/Literatura, questão 41, alternativa D.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
   },
   {
     "id": "udesc-2025-2-vespertino-01",
@@ -1852,7 +2152,7 @@
   },
   {
     "id": "udesc-2025-2-vespertino-14",
-    "revision": "review-2026-10-05-fisica-2025-2-14",
+    "revision": "review-2026-10-07-fisica-2025-2-q14-options",
     "subject": "fisica",
     "edition": "2025/2",
     "period": "vespertino",
@@ -1877,15 +2177,15 @@
       },
       {
         "letter": "C",
-        "text": "Somente as proposições I, IV e V são verdadeiras."
+        "text": "Somente as proposições I, II e V são verdadeiras."
       },
       {
         "letter": "D",
-        "text": "Somente as proposições II, III e V são verdadeiras."
+        "text": "Somente as proposições I, III e V são verdadeiras."
       },
       {
         "letter": "E",
-        "text": "Somente as proposições III e IV são verdadeiras."
+        "text": "Somente as proposições II, III e IV são verdadeiras."
       }
     ],
     "assets": [],
@@ -1904,8 +2204,8 @@
       "assetsComplete": true,
       "taxonomyReviewed": true,
       "annulled": false,
-      "reviewer": "Codex — conferência Física",
-      "reviewedAt": "2026-10-05T22:00:00Z"
+      "reviewer": "Codex — conferência do PDF original, 07/10/2026",
+      "reviewedAt": "2026-10-07T12:00:00-03:00"
     },
     "key": {
       "letter": "B",
@@ -2890,6 +3190,81 @@
     "annulment": null,
     "explanation": null,
     "difficulty": "easy"
+  },
+  {
+    "id": "udesc-2026-1-matutino-11",
+    "revision": "review-2026-10-07-matematica-2026-1-11",
+    "subject": "matematica",
+    "edition": "2026/1",
+    "period": "matutino",
+    "originalNumber": 11,
+    "subjectNumber": 11,
+    "topics": [
+      "análise combinatória"
+    ],
+    "skills": [
+      "Contar painéis com um juiz por região e presença obrigatória do Sudeste"
+    ],
+    "rawText": "\n\nQuestão 11\n\nEm um campeonato de surfe, os organizadores precisam formar painéis de juízes para avaliar as manobras\ndos surfistas. Para garantir a imparcialidade, cada painel deve ser composto por exatamente 3 juízes de\ndiferentes regiões do país. O campeonato conta com os seguintes juízes disponíveis:\n• 3 juízes da região Norte\n• 5 juízes da região Nordeste\n• 6 juízes da região Sudeste\n• 4 juízes da região Sul\n• 2 juízes da região Centro-Oeste\nO número de painéis formados que contém um juiz da região Sudeste é igual a:\nA. (\nB. (\nC. (\nD. (\nE. (\n\n)\n)\n)\n)\n)\n\n\n",
+    "stem": "Em um campeonato de surfe, os organizadores precisam formar painéis de juízes para avaliar as manobras dos surfistas. Para garantir a imparcialidade, cada painel deve ser composto por exatamente 3 juízes de diferentes regiões do país. O campeonato conta com os seguintes juízes disponíveis:\n• 3 juízes da região Norte\n• 5 juízes da região Nordeste\n• 6 juízes da região Sudeste\n• 4 juízes da região Sul\n• 2 juízes da região Centro-Oeste\n\nO número de painéis formados que contém um juiz da região Sudeste é igual a:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "580"
+      },
+      {
+        "letter": "B",
+        "text": "426"
+      },
+      {
+        "letter": "C",
+        "text": "294"
+      },
+      {
+        "letter": "D",
+        "text": "258"
+      },
+      {
+        "letter": "E",
+        "text": "720"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-matematica.md",
+      "section": "## [2026/1] questão 11 (nº 11 no caderno)",
+      "sha256": "e220c04d0fe75182ac2171b555ad7c024fee9dd3b9ee1c7ea93d6d416aac1032",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf",
+      "page": 7
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026",
+      "reviewedAt": "2026-10-07T12:00:00-03:00"
+    },
+    "key": {
+      "letter": "B",
+      "revision": "udesc-2026-1-26e69110d8cf229f-matutino-11",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 11",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Alternativa B. Há 6 escolhas para o juiz do Sudeste. As outras duas pessoas devem pertencer a duas regiões diferentes dentre Norte, Nordeste, Sul e Centro-Oeste. Enumerando pares de regiões sem ordenar o painel, obtém-se 3×5+3×4+3×2+5×4+5×2+4×2=71 escolhas. Cada uma combina com os 6 juízes do Sudeste: 6×71=426 painéis.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2026/1, matutino, questão 11; content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf, página(s) PDF 7. Gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Matemática, questão 11, alternativa B.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
   },
   {
     "id": "udesc-2026-1-matutino-15",
@@ -5842,5 +6217,80 @@
     "annulment": null,
     "explanation": null,
     "difficulty": "medium"
+  },
+  {
+    "id": "udesc-2026-2-matutino-10",
+    "revision": "review-2026-10-07-matematica-2026-2-10",
+    "subject": "matematica",
+    "edition": "2026/2",
+    "period": "matutino",
+    "originalNumber": 10,
+    "subjectNumber": 10,
+    "topics": [
+      "análise combinatória"
+    ],
+    "skills": [
+      "Combinar escolhas de profissionais por função sem ordenar os integrantes"
+    ],
+    "rawText": "\n\n> 🔧 **Vinda de OCR — notação matemática não confiável.** Símbolos, frações e alternativas com fórmula podem estar corrompidos. Não passe esta questão para ele sem conferir no PDF original.\n\nQuestão 10\nPara montar uma equipe de vistoria em uma fábrica, estão disponíveis:\ne 2 supervisores\ne 4 operadores de máquina\ne 4iinspetores de qualidade\ne 4técnicos de manutenção\nAssinale a alternativa correta que apresenta o número de possibilidades diferentes de se formar uma equipe\ncom 1 supervisor, 2 operadores de máquina, 2 inspetores de qualidade e 1 técnico de manutenção.\nA. () 144\nB.() 192\nCc. () 216\nD.() 240\nE. () 288\n\nLe UDESC\nUNIVERSIDADE\nqm DO ESTADO DE Vestibular 2026.2\nSANTA CATARINA\n\n\n---\n\n",
+    "stem": "Para montar uma equipe de vistoria em uma fábrica, estão disponíveis:\n• 2 supervisores\n• 4 operadores de máquina\n• 4 inspetores de qualidade\n• 4 técnicos de manutenção\n\nAssinale a alternativa correta que apresenta o número de possibilidades diferentes de se formar uma equipe com 1 supervisor, 2 operadores de máquina, 2 inspetores de qualidade e 1 técnico de manutenção.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "144"
+      },
+      {
+        "letter": "B",
+        "text": "192"
+      },
+      {
+        "letter": "C",
+        "text": "216"
+      },
+      {
+        "letter": "D",
+        "text": "240"
+      },
+      {
+        "letter": "E",
+        "text": "288"
+      }
+    ],
+    "assets": [],
+    "source": {
+      "file": "content/source/questoes-matematica.md",
+      "section": "## [2026/2] questão 10 (nº 10 no caderno)",
+      "sha256": "e377141d129621767807847cf7d6db5054a5e0290bd1b6435d56394892354869",
+      "originalPdf": "content/documents/cadernos/UDESC-2026-2-matutino-cc94b6f29ad1.pdf",
+      "page": 7
+    },
+    "quality": {
+      "reviewed": true,
+      "ocr": false,
+      "uncertain": false,
+      "textComplete": true,
+      "assetsComplete": true,
+      "taxonomyReviewed": true,
+      "annulled": false,
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026",
+      "reviewedAt": "2026-10-07T12:00:00-03:00"
+    },
+    "key": {
+      "letter": "E",
+      "revision": "udesc-2026-2-779e3f653454eeb0-matutino-10",
+      "verified": true,
+      "source": "content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf",
+      "location": "página 1, Período Matutino, Matemática, questão 10",
+      "reviewer": "Codex — leitura do gabarito oficial enviado e comparação visual"
+    },
+    "annulment": null,
+    "explanation": {
+      "text": "Alternativa E. Escolhem-se 1 de 2 supervisores, 2 de 4 operadores, 2 de 4 inspetores e 1 de 4 técnicos. Dentro de cada par, a ordem não distingue equipes; portanto, cada escolha de dois profissionais tem C(4,2)=6 possibilidades. Multiplicando as escolhas por função: 2×6×6×4=288.",
+      "reviewed": true,
+      "authorKind": "prepared",
+      "author": "Codex",
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2026/2, matutino, questão 10; content/documents/cadernos/UDESC-2026-2-matutino-cc94b6f29ad1.pdf, página(s) PDF 7. Gabarito oficial: content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf, página 1, Período Matutino, Matemática, questão 10, alternativa E.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
   }
 ]

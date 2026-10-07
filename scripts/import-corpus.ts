@@ -12,6 +12,7 @@ import { resolve, relative, sep } from "node:path";
 import { pathToFileURL } from "node:url";
 import type { Letter, QuestionRevision, Subject } from "../src/content/types";
 import { subjects } from "../src/content/constants";
+import { QuestionRevisionSchema } from "../src/content/schema";
 import {
   contentAvailability,
   isReady,
@@ -39,6 +40,11 @@ export interface CorpusAudit {
     candidates: number;
   };
 }
+export interface PedagogyRecord {
+  id: string;
+  skills: string[];
+  learning: NonNullable<QuestionRevision["learning"]>;
+}
 export interface ContentRecords {
   reviews?: QuestionRevision[];
   answerKeys?: {
@@ -47,6 +53,7 @@ export interface ContentRecords {
     annulment?: QuestionRevision["annulment"];
   }[];
   explanations?: { id: string; explanation: QuestionRevision["explanation"] }[];
+  pedagogy?: PedagogyRecord[];
 }
 
 export function parseCorpus(
@@ -293,6 +300,33 @@ export function applyContentRecords(
     explanationIds.add(record.id);
     q.explanation = structuredClone(record.explanation);
   }
+  const pedagogyIds = new Set<string>();
+  for (const record of records.pedagogy ?? []) {
+    const q = result.get(record.id);
+    if (!q) throw new Error(`Apoio de ID desconhecido: ${record.id}`);
+    if (pedagogyIds.has(record.id))
+      throw new Error(`Apoio duplicado: ${record.id}`);
+    pedagogyIds.add(record.id);
+    // This overlay cannot serve as a transcription or taxonomy review.
+    if (!isReady(q))
+      throw new Error(`Apoio exige questão conferida e pronta: ${record.id}`);
+    const candidate = {
+      ...q,
+      skills: [...new Set([...q.skills, ...record.skills])],
+      learning: structuredClone(record.learning),
+    };
+    if (
+      !QuestionRevisionSchema.safeParse(candidate).success ||
+      record.skills.some((skill) => !skill.trim()) ||
+      !record.learning.reviewed ||
+      !record.learning.concept.trim() ||
+      !record.learning.workedExample.trim() ||
+      !record.learning.source.trim() ||
+      !record.learning.reviewer.trim()
+    )
+      throw new Error(`Apoio exige conteúdo e fonte conferidos: ${record.id}`);
+    result.set(record.id, candidate);
+  }
   for (const q of result.values())
     for (const asset of q.assets) {
       if (!localAssetExists(publicRoot, asset.path)) {
@@ -303,7 +337,7 @@ export function applyContentRecords(
   // A published snapshot includes its attached decisions and explanation. Its
   // identity must change when those records change, even with the same review.
   for (const q of result.values())
-    if (reviewed.has(q.id) || keyIds.has(q.id) || explanationIds.has(q.id)) {
+    if (reviewed.has(q.id) || keyIds.has(q.id) || explanationIds.has(q.id) || pedagogyIds.has(q.id)) {
       q.revision = `content-${createHash("sha256").update(stableJson(q)).digest("hex")}`;
     }
   return [...result.values()].sort((a, b) => a.id.localeCompare(b.id));
@@ -376,6 +410,13 @@ function recordsFile<T>(path: string): T[] {
   if (!Array.isArray(value)) throw new Error(`Esperado array em ${path}`);
   return value as T[];
 }
+export function readPedagogyRecords(root = "content/pedagogy"): PedagogyRecord[] {
+  if (!existsSync(root)) return [];
+  return readdirSync(root)
+    .filter((name) => name.endsWith(".json"))
+    .sort()
+    .flatMap((name) => recordsFile<PedagogyRecord>(`${root}/${name}`));
+}
 export function generateContent() {
   const originals = parseCorpus(readSourceFiles());
   const items = applyContentRecords(originals, {
@@ -386,6 +427,7 @@ export function generateContent() {
     explanations: recordsFile<
       NonNullable<ContentRecords["explanations"]>[number]
     >("content/explanations.json"),
+    pedagogy: readPedagogyRecords(),
   });
   const ready = items.filter(isReady);
   const audit = {

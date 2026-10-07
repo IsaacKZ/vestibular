@@ -4,7 +4,7 @@ Execute `npm run content:import` para gerar `public/content/catalog.json`,
 `questions.json` e `audit.json`, e `npm run content:audit` para verificar a
 consistência. O catálogo contém todo o inventário; `questions.json` contém
 somente questões conferidas, incluindo as reservadas para avaliação.
-O lote publicado em 2026-10-06 tem 420 itens no catálogo, 78 prontos para
+O lote de 2026-10-07 tem 420 itens no catálogo, 84 prontos para
 treino e nenhum reservado para avaliação inédita. Os demais continuam
 bloqueados até concluir as conferências necessárias.
 
@@ -25,7 +25,8 @@ uma anulação confirmada permanece fora do treino. O arquivo registra
 
 `explanations.json` recebe `{ "id": "...", "explanation": { ... } }`,
 com texto, autoria oficial/elaborada, fonte e revisor. Há 78 resoluções
-elaboradas conferidas no primeiro lote. Não adicione respostas presumidas
+no arquivo e seis adicionais nas novas revisões de Matemática/Português.
+Não adicione respostas presumidas
 ou questões de fixture.
 
 `booklet-sources.json` identifica os 12 cadernos oficiais, seus URLs, hashes
@@ -36,7 +37,7 @@ estão em `review-batches/`; registros com `quality.reviewed: false` nesses
 lotes representam trabalho pendente e não entram em `reviews.json`.
 
 O importador calcula uma revisão publicada `content-<SHA-256>` para o objeto
-final conferido, incluindo gabarito, resolução, anulação e metadados dos ativos.
+final conferido, incluindo gabarito, resolução, anulação, pedagogia e metadados dos ativos.
 Alterar qualquer um desses registros produz outro snapshot sem reescrever o
 histórico. Gerar novamente os mesmos registros mantém a mesma identidade;
 o SHA-256 do texto bruto continua sendo o da importação original.
@@ -75,6 +76,19 @@ devem ser conferidos por quem revisa o apoio. Na ausência de apoio próprio,
 o app pode usar a resolução revisada existente, sem inventar uma aula ou
 prometer uma alternativa pronta. Uma prática feita após esse apoio registra
 consulta; evidência posterior exige outra tentativa independente e espaçada.
+
+`pedagogy/*.json` contém arrays de `{id, skills, learning}` para apoio elaborado
+e habilidades adicionais. O importador conserva as habilidades da conferência
+original e aplica esse apoio somente a questões já prontas. Metadados não
+liberam texto incompleto ou anulado. IDs desconhecidos/duplicados, apoio sem
+conferência e fontes vazias interrompem a importação. Os 84 itens prontos têm
+apoio específico; habilidades comuns só vinculam problemas comparáveis e
+pré-requisitos só apontam a habilidades anteriores com questão pronta.
+
+No caderno, a consulta ao apoio atualizado guarda seu snapshot e um evento
+próprio. A tentativa e sua correção histórica permanecem iguais. Ao repetir
+uma exposição com o mesmo identificador, retorna a revisão originalmente
+consultada mesmo que o catálogo tenha mudado. Backups preservam ambos.
 
 Backups antigos preservam campos ausentes e tentativas já feitas. Snapshots
 históricos sem habilidades podem ser restaurados, mas não iniciam novos

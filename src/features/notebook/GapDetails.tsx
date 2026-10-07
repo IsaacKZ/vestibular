@@ -10,7 +10,7 @@ import {
 } from "../../domain/remediation";
 import { db } from "../../storage/db";
 import {
-  revealFeedback,
+  revealLearningSupport,
   startSession,
   updateGapNote,
 } from "../../storage/study-service";
@@ -103,15 +103,18 @@ export function GapDetails({ gap }: { gap: Gap }) {
     setBusy(true);
     setError("");
     try {
-      const event = await revealFeedback(
+      const event = await revealLearningSupport(
         db,
         attempt.id,
+        q,
         now(),
         crypto.randomUUID(),
       );
+      if (!event.questionRevision)
+        throw new Error("A revisão do apoio consultado não está disponível.");
       const snapshot = await db.questionSnapshots.get([
         event.questionId,
-        event.questionRevision ?? attempt.questionRevision,
+        event.questionRevision,
       ]);
       if (!snapshot)
         throw new Error(
@@ -131,6 +134,14 @@ export function GapDetails({ gap }: { gap: Gap }) {
   const protectedIds = app.history.sessions
     .filter((s) => s.mode === "assessment" && s.status === "active")
     .flatMap((s) => s.questions.map((item) => item.id));
+  const exposedIds = [
+    ...app.history.sessions.flatMap((s) => s.questions.map((item) => item.id)),
+    ...app.history.attempts.map((a) => a.questionId),
+    ...app.history.feedback.map((event) => event.questionId),
+  ];
+  const exposed = new Set(exposedIds);
+  const candidateLabel = (candidate: QuestionRevision) =>
+    `${subjectLabels[candidate.subject]} · ${candidate.edition} · questão ${candidate.originalNumber}`;
   const followup =
     supportOpen && supportQuestion
       ? selectRemediationQuestions(
@@ -138,6 +149,7 @@ export function GapDetails({ gap }: { gap: Gap }) {
           app.catalogue,
           "followup",
           protectedIds,
+          exposedIds,
         )[0]
       : undefined;
   const prerequisite =
@@ -147,6 +159,7 @@ export function GapDetails({ gap }: { gap: Gap }) {
           app.catalogue,
           "prerequisite",
           protectedIds,
+          exposedIds,
         )[0]
       : undefined;
   if (blocked)
@@ -278,12 +291,20 @@ export function GapDetails({ gap }: { gap: Gap }) {
           </p>
           <div className="actions">
             {followup ? (
-              <button
-                disabled={busy}
-                onClick={() => void begin(followup, true)}
-              >
-                Praticar outra questão da mesma habilidade
-              </button>
+              <div>
+                <p>{candidateLabel(followup)}</p>
+                {exposed.has(followup.id) && (
+                  <p className="small">
+                    Questão já estudada: alternativa para prática guiada.
+                  </p>
+                )}
+                <button
+                  disabled={busy}
+                  onClick={() => void begin(followup, true)}
+                >
+                  Praticar outra questão da mesma habilidade
+                </button>
+              </div>
             ) : (
               <Notice>
                 Não há outra questão pronta da mesma habilidade disponível para
@@ -292,12 +313,20 @@ export function GapDetails({ gap }: { gap: Gap }) {
             )}
             {cause === "prerequisite" &&
               (prerequisite ? (
-                <button
-                  disabled={busy}
-                  onClick={() => void begin(prerequisite, true)}
-                >
-                  Praticar pré-requisito conferido
-                </button>
+                <div>
+                  <p>{candidateLabel(prerequisite)}</p>
+                  {exposed.has(prerequisite.id) && (
+                    <p className="small">
+                      Questão já estudada: alternativa para prática guiada.
+                    </p>
+                  )}
+                  <button
+                    disabled={busy}
+                    onClick={() => void begin(prerequisite, true)}
+                  >
+                    Praticar pré-requisito conferido
+                  </button>
+                </div>
               ) : (
                 <Notice>
                   Não há questão pronta de pré-requisito conferido disponível.

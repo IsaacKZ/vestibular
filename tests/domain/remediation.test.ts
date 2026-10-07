@@ -130,3 +130,16 @@ test("missing ready alternatives remains explicit instead of reusing the current
   const q = question();
   expect(selectRemediationQuestions(q, [q], "followup")).toEqual([]);
 });
+
+
+test("unstarted items come first stably and exposed alternatives remain available", () => {
+  const current = question({ learning });
+  const items = ["seen-a", "new-a", "seen-b", "new-b"].map((id) => question({ id }));
+  expect(selectRemediationQuestions(current, items, "followup", [], ["seen-a", "seen-b"]).map((q) => q.id))
+    .toEqual(["new-a", "new-b", "seen-a", "seen-b"]);
+  expect(selectRemediationQuestions(current, items, "followup", ["new-a", "new-b"], ["seen-a", "seen-b"]).map((q) => q.id))
+    .toEqual(["seen-a", "seen-b"]);
+  const links = items.map((q) => ({ ...q, subject: "fisica" as const, skills: ["units"] }));
+  expect(selectRemediationQuestions(current, links, "prerequisite", [], ["seen-a", "seen-b"]).map((q) => q.id))
+    .toEqual(["new-a", "new-b", "seen-a", "seen-b"]);
+});

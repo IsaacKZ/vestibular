@@ -62,27 +62,34 @@ O catálogo tem **420 questões**, de cinco disciplinas e seis edições de
 original. Os 12 cadernos oficiais estão preservados em PDF, com procedência
 e SHA-256 registrados.
 
-O primeiro lote libera **78 questões para treino corrigido**: 26 de Biologia,
-27 de Física e 25 de Química, das edições 2025/2 e 2026/1. Enunciados,
+O lote atual libera **84 questões para treino corrigido**: 26 de Biologia,
+27 de Física, 25 de Química, quatro de Matemática e duas de Português/Literatura. Enunciados,
 alternativas, figuras e resoluções elaboradas foram conferidos contra os
-originais. As outras **342 questões permanecem bloqueadas**, incluindo
+originais. As outras **336 questões permanecem bloqueadas**, incluindo
 as anuladas. Ter gabarito confirmado não basta para liberar uma transcrição
 incompleta ou uma resolução pendente.
 
-Matemática e Português/Literatura ainda aguardam a conferência necessária
-para treino. Ainda não há itens reservados para avaliações inéditas.
+Todas as questões prontas têm conceito e exemplo comentado da própria questão,
+com fonte e conferência identificadas. Habilidades compartilhadas permitem
+sugerir outro problema comparável nas cinco disciplinas. Ainda não há itens
+reservados para avaliações inéditas.
 O processo e as pendências estão em [content/README.md](content/README.md)
 e [docs/publicacao-2026-10-06.md](docs/publicacao-2026-10-06.md).
 
 Os exemplos sintéticos usados para testar o estudo estão somente em
 `tests/`; eles não fazem parte do app publicado.
 
-Validação em 06/10/2026: 263 testes de módulos, 31 testes de navegador na
+Validação em 07/10/2026: 283 testes de módulos, 33 testes de navegador na
 raiz e três testes específicos de Pages passaram, além da auditoria de
 conteúdo e dos dois builds com verificação de tipos.
 Os comandos de validação acima verificam também celular, offline, retomada de rascunhos,
 encerramento por prazo, transferência de backup e bloqueio da correção
 durante simulados.
+
+Os conceitos, agrupamentos e novos itens estão em
+[docs/conteudo-pedagogico-2026-10-07.md](docs/conteudo-pedagogico-2026-10-07.md).
+O ciclo de estudo e sua validação estão em
+[docs/ciclo-estudo-2026-10-07.md](docs/ciclo-estudo-2026-10-07.md).
 
 A revisão e as correções estão registradas em
 [docs/revisao-2026-10-02.md](docs/revisao-2026-10-02.md). As correções pedagógicas
@@ -113,7 +120,7 @@ revisões atrasadas.
 
 O simulado permite selecionar as disciplinas com questões conferidas e
 apresenta a correção depois do encerramento. Neste lote, o simulado parcial
-usa Biologia, Física e Química. Não representa a prova completa de 100
+permite as cinco disciplinas disponíveis. Não representa a prova completa de 100
 questões. A retomada mantém o prazo original e os rascunhos salvos.
 
 As contagens de progresso distinguem primeira tentativa, repetição e uso
@@ -144,7 +151,10 @@ prova limita os próximos retornos, sem contar revisões antecipadas como reten�
 No caderno, a causa do erro orienta uma ação e uma pergunta de autoexplicação.
 O apoio precisa de revisão e procedência. Depois dele, o app sugere outra
 questão da habilidade ou um pré-requisito conferido, quando houver; a prática
-guiada registra consulta. A recuperação do mesmo item e a aplicação posterior
+guiada registra consulta. A sugestão prioriza questões ainda não iniciadas e
+identifica quando uma alternativa já foi estudada. O apoio atualizado pode ser
+aberto após tentativas antigas: sua consulta guarda a revisão exibida sem mudar
+a tentativa ou a correção histórica. A recuperação do mesmo item e a aplicação posterior
 em itens diferentes aparecem separadas no progresso, com acertos, oportunidades,
 datas e dificuldade declarada. Histórico antigo sem baseline não ganha
 evidências por inferência.

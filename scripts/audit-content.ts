@@ -12,6 +12,7 @@ import {
   historicalFrequency,
   parseCorpus,
   readSourceFiles,
+  readPedagogyRecords,
 } from "./import-corpus";
 import type { ContentRecords } from "./import-corpus";
 
@@ -73,6 +74,7 @@ export function auditGeneratedContent() {
     explanations: readJson(
       "content/explanations.json",
     ) as ContentRecords["explanations"],
+    pedagogy: readPedagogyRecords(),
   });
   if (!isDeepStrictEqual(catalogue, expected))
     throw new Error(

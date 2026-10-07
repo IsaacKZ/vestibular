@@ -42,6 +42,8 @@ test("reviewed learning displays its concept, example and prerequisite with prov
   });
   render(<FeedbackPanel attempt={a} grade={grade(a, false)} question={q} />);
   expect(screen.getByText("Reviewed concept")).toBeTruthy();
+  expect(screen.getByRole("heading", { name: /^Resolução$/ })).toBeTruthy();
+  expect(screen.getByText(/Resolução elaborada para estudo/)).toBeTruthy();
   expect(screen.getByText("Reviewed worked example")).toBeTruthy();
   expect(screen.getByText(/Física · units/)).toBeTruthy();
   expect(

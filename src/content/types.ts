@@ -148,7 +148,7 @@ export interface FeedbackEvent {
   id: string;
   attemptId: string;
   questionId: string;
-  /** Snapshot of the correction shown; absent in legacy events. */
+  /** Snapshot of the support or correction shown; absent in legacy events. */
   questionRevision?: string;
   at: Instant;
   studyDate: StudyDate;

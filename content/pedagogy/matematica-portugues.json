@@ -1,0 +1,86 @@
+[
+  {
+    "id": "udesc-2024-1-matutino-01",
+    "skills": [
+      "Aplicar o princípio multiplicativo a sequências de algarismos, identificando restrições por posição e possibilidade de repetição"
+    ],
+    "learning": {
+      "concept": "Em uma senha, a ordem dos algarismos altera a sequência. Quando eles precisam ser distintos, cada escolha elimina uma possibilidade para as posições seguintes. O algarismo já conhecido também deve ser excluído. Pelo princípio multiplicativo, multiplique as quantidades disponíveis em cada posição; não divida por fatoriais, pois as posições têm significado.",
+      "workedExample": "Apoio elaborado pelo Codex para a questão oficial 1 de 2024/1. O prefixo JF3 já fixa as duas letras e o primeiro algarismo. Para os três algarismos borrados, restam 9 escolhas na primeira posição (incluindo zero e excluindo 3), 8 na segunda e 7 na terceira, sem repetição. Logo, 9×8×7=504 senhas possíveis; no pior caso, a correta é a última testada. Alternativa C.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2024/1, matutino, questão 1; content/documents/cadernos/UDESC-2024-1-matutino-d9660a44f4d9.pdf, página(s) PDF 3. Gabarito oficial: content/documents/gabaritos/gabarito-2024-1-49f4395f7443.pdf, página 1, Período Matutino, Matemática, questão 1, alternativa C.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-1-matutino-10",
+    "skills": [
+      "Aplicar o princípio multiplicativo a sequências de algarismos, identificando restrições por posição e possibilidade de repetição"
+    ],
+    "learning": {
+      "concept": "O princípio multiplicativo conta números cujas posições têm restrições próprias. Liste os algarismos admissíveis para cada casa decimal antes de multiplicar. Zero é múltiplo de 2, de 3 e de 5 e pode ocupar centena, dezena ou unidade; não pode iniciar um número de quatro algarismos. Sem proibição de repetição, as escolhas nas casas são independentes.",
+      "workedExample": "Apoio elaborado pelo Codex para a questão oficial 10 de 2025/1. Milhar: {6,7,8,9}, com 4 escolhas. Centena: {0,2,4,6,8}, com 5. Dezena: {0,3,6,9}, com 4. Unidade: {0,5}, com 2. O enunciado não exige algarismos distintos, portanto a repetição é permitida. Multiplicando, 4×5×4×2=160 números. Alternativa D.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2025/1, matutino, questão 10; content/documents/cadernos/UDESC-2025-1-matutino-07ac7f0e82d1.pdf, página(s) PDF 7. Gabarito oficial: content/documents/gabaritos/gabarito-2025-1-4d1ea5b16b76.pdf, página 1, Período Matutino, Matemática, questão 10, alternativa D.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-1-matutino-11",
+    "skills": [
+      "Contar grupos de pessoas por categorias, sem distinguir a ordem dos integrantes e evitando duplicações"
+    ],
+    "learning": {
+      "concept": "Um painel é um conjunto de pessoas: trocar a ordem dos mesmos juízes não produz outro painel. A presença obrigatória de uma região e a exigência de regiões distintas permitem separar casos por pares de regiões restantes. Multiplique as escolhas de pessoas dentro de cada caso e some os casos disjuntos, enumerando cada par de regiões uma única vez.",
+      "workedExample": "Apoio elaborado pelo Codex para a questão oficial 11 de 2026/1. Escolha um dos 6 juízes do Sudeste. Para as outras duas vagas, use regiões diferentes entre Norte (3), Nordeste (5), Sul (4) e Centro-Oeste (2). Os seis pares não ordenados dão 3×5+3×4+3×2+5×4+5×2+4×2=71 escolhas. Assim, 6×71=426 painéis. Contar Norte/Nordeste e Nordeste/Norte separadamente duplicaria o mesmo painel. Alternativa B.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2026/1, matutino, questão 11; content/documents/cadernos/UDESC-2026-1-matutino-9005018b5b35.pdf, página(s) PDF 7. Gabarito oficial: content/documents/gabaritos/gabarito-2026-1-26e69110d8cf.pdf, página 1, Período Matutino, Matemática, questão 11, alternativa B.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2026-2-matutino-10",
+    "skills": [
+      "Contar grupos de pessoas por categorias, sem distinguir a ordem dos integrantes e evitando duplicações"
+    ],
+    "learning": {
+      "concept": "Para formar uma equipe, selecione pessoas dentro de cada categoria e multiplique as quantidades de escolhas entre categorias. Escolher dois profissionais dentre quatro, sem cargos distintos para os dois, é uma combinação: C(4,2)=4×3/2=6. Ordenar os mesmos integrantes contaria a equipe novamente. A mesma pessoa não pode ser escolhida duas vezes na própria categoria.",
+      "workedExample": "Apoio elaborado pelo Codex para a questão oficial 10 de 2026/2. Há 2 escolhas de supervisor; C(4,2)=6 pares de operadores; C(4,2)=6 pares de inspetores; e 4 escolhas de técnico. As categorias são independentes: 2×6×6×4=288 equipes. Os pares são combinações porque não há diferença de função entre os dois operadores nem entre os dois inspetores selecionados. Alternativa E.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2026/2, matutino, questão 10; content/documents/cadernos/UDESC-2026-2-matutino-cc94b6f29ad1.pdf, página(s) PDF 7. Gabarito oficial: content/documents/gabaritos/gabarito-2026-2-779e3f653454.pdf, página 1, Período Matutino, Matemática, questão 10, alternativa E.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-38",
+    "skills": [
+      "Reconhecer regras de acentuação de formas verbais no contexto, distinguindo hiato tônico, acento diferencial e supressões do acordo ortográfico"
+    ],
+    "learning": {
+      "concept": "A acentuação de formas verbais exige reconhecer a pronúncia, a sílaba tônica e a regra específica. Em intuí, in-tu-í, o i tônico fica sozinho na sílaba após outra vogal, formando hiato; o acento obedece à regra do hiato. Isso não é acento diferencial. Já pôde conserva acento diferencial em relação a pode, e as antigas grafias pára, pêlo e crêem foram substituídas por para, pelo e creem.",
+      "workedExample": "Apoio elaborado pelo Codex para a questão oficial 38 de 2025/2. Na linha 04, o narrador diz “eu intuí”, relatando uma ação concluída no passado: primeira pessoa do singular do pretérito perfeito de intuir. A separação in-tu-í mostra três sílabas, tonicidade na última e hiato u-í. O acento marca o i tônico do hiato; não transforma a palavra em proparoxítona nem é um acento diferencial. Essa análise corresponde à alternativa D.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2025/2, matutino, questão 38; content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf, página(s) PDF 25–26. Gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Português/Literatura, questão 38, alternativa D.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  },
+  {
+    "id": "udesc-2025-2-matutino-41",
+    "skills": [
+      "Reconhecer regras de acentuação de formas verbais no contexto, distinguindo hiato tônico, acento diferencial e supressões do acordo ortográfico"
+    ],
+    "learning": {
+      "concept": "O acordo ortográfico retirou o circunflexo das formas com ee, como veem, deem e creem. Não se aplica essa supressão a têm e vêm: o circunflexo diferencia essas formas plurais de tem e vem, singulares. Antes de justificar um acento, identifique qual regra está em jogo, em vez de inferir que todas as formas verbais plurais precisam do mesmo sinal.",
+      "workedExample": "Apoio elaborado pelo Codex para a questão oficial 41 de 2025/2. No verso “para lá dos céus que se veem...”, veem é uma forma plural de ver e se escreve sem circunflexo sobre ee, assim como deem e creem. A alternativa D também preserva têm e vêm para o plural, distinguindo-os de tem e vem. A regra que suprimiu o acento de veem não suprimiu essa distinção de número. Alternativa D.",
+      "prerequisites": [],
+      "reviewed": true,
+      "source": "Apoio elaborado pelo Codex, não oficial. Caderno oficial UDESC 2025/2, matutino, questão 41; content/documents/cadernos/UDESC-2025-2-matutino-78e3baf2a717.pdf, página(s) PDF 27–28. Gabarito oficial: content/documents/gabaritos/gabarito-2025-2-a313df214152.pdf, página 1, Período Matutino, Português/Literatura, questão 41, alternativa D.",
+      "reviewer": "Codex — conferência pedagógica, 07/10/2026"
+    }
+  }
+]
